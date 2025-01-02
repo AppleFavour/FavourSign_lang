@@ -1,9 +1,47 @@
 strings = {
     "en-US": {
-
+        "download_pending": "**Download pending**",
+        "nothing_to_download": "Please send a direct link or file",
+        "download_failed_message": "❌ {file_name} can't be downloaded!",
+        "download_attempt_failed_message": "An error occurred while downloading {file_name}, retrying... ({attempt + 1}/{max_attempts})",
+        "download_successful_message": "✅ {file_name} downloaded successfully!",
+        "download_error_detected": "Detected an error during download",
+        "httpnot200": "There is nothing to see here.",
+        "httpnotfile": "There is nothing to download.",
+        "connection_error": "Unable to establish connection.",
+        "unexpected_response_error": "Unexpected response from server.",
+        "invalid_url_error": "Invalid URL provided.",
+        "too_many_redirects_error": "Too many redirects encountered.",
+        "ssl_error": "SSL connection error.",
+        "payload_error": "Invalid or incomplete data received.",
+        "server_disconnected_error": "Server connection was interrupted.",
+        "general_download_error": "An error occurred during file download.",
+        "file_not_found_error": "File not found.",
+        "file_corrupted_error": "Corrupted file detected.",
+        "unknown_exception_error": "An unexpected error occurred.",
+        "retrying_message": "Retrying download... ({attempt + 1}/{max_attempts})"
     },
     "tr-TR": {
-
+        "download_pending": "**İndirme bekleniyor**",
+        "nothing_to_download": "Lütfen bir dosya veya doğrudan indirme URL gönderin",
+        "download_failed_message": "❌ {file_name} indirilemedi!",
+        "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, tekrar deneniyor... ({attempt + 1}/{max_attempts})",
+        "download_successful_message": "✅ {file_name} başarıyla indirildi!",
+        "download_error_detected": "İndirme sırasında bir hata algılandı",
+        "httpnot200": "Burada görmeye değer bir şey yok.",
+        "httpnotfile": "İndirilecek bir şey yok.",
+        "connection_error": "Bağlantı kurulamadı.",
+        "unexpected_response_error": "Sunucudan beklenmeyen yanıt alındı.",
+        "invalid_url_error": "Geçersiz URL sağlandı.",
+        "too_many_redirects_error": "Çok fazla yönlendirme yapıldı.",
+        "ssl_error": "SSL bağlantı hatası.",
+        "payload_error": "Eksik veya hatalı veri alındı.",
+        "server_disconnected_error": "Sunucu bağlantısı kesildi.",
+        "general_download_error": "Dosya indirilirken bir hata oluştu.",
+        "file_not_found_error": "Dosya bulunamadı.",
+        "file_corrupted_error": "Bozuk dosya tespit edildi.",
+        "unknown_exception_error": "Beklenmeyen bir hata oluştu.",
+        "retrying_message": "İndirme tekrar deneniyor... ({attempt + 1}/{max_attempts})"
     },
     "ru-RU": {
 
