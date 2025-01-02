@@ -44,6 +44,25 @@ strings = {
         "retrying_message": "İndirme tekrar deneniyor... ({attempt + 1}/{max_attempts})"
     },
     "ru-RU": {
-
+        "download_pending": "**Ожидание загрузки**",
+        "nothing_to_download": "Пожалуйста, отправьте файл или прямую ссылку для скачивания",
+        "download_failed_message": "❌ {file_name} не может быть скачан!",
+        "download_attempt_failed_message": "Ошибка при скачивании {file_name}, повторная попытка... ({attempt + 1}/{max_attempts})",
+        "download_successful_message": "✅ {file_name} скачан успешно!",
+        "download_error_detected": "Обнаружена ошибка при скачивании",
+        "httpnot200": "Здесь нет ничего интересного.",
+        "httpnotfile": "Нет файла для скачивания.",
+        "connection_error": "Невозможно установить соединение.",
+        "unexpected_response_error": "Получен неожиданный ответ от сервера.",
+        "invalid_url_error": "Неверный URL.",
+        "too_many_redirects_error": "Слишком много перенаправлений.",
+        "ssl_error": "Ошибка SSL-соединения.",
+        "payload_error": "Получены неполные или повреждённые данные.",
+        "server_disconnected_error": "Соединение с сервером было прервано.",
+        "general_download_error": "Произошла ошибка при скачивании файла.",
+        "file_not_found_error": "Файл не найден.",
+        "file_corrupted_error": "Обнаружен повреждённый файл.",
+        "unknown_exception_error": "Произошла неизвестная ошибка.",
+        "retrying_message": "Повторная попытка загрузки... ({attempt + 1}/{max_attempts})"
     },
 }
