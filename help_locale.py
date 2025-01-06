@@ -3,6 +3,7 @@ strings = {
         "user_not_registered": "You are not registered.",
         "available_cmds": "Available Commands:",
         "user_cmds": "User Commands:",
+        "cmd_prefixes": "Available command prefixes {prefixes}",
         "admin_cmds": "Admin Commands:",
         "help_cmd": "Shows this help message.",
         "speedtest_cmd": "Tests connection speed.",
