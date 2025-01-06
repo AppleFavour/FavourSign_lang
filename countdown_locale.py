@@ -22,8 +22,8 @@ strings = {
         "app_name": "Название приложения",
         "bundle_id": "ID приложения",
         "certificate": "Сертификат",
-        "install_button": "   Установить",
-        "explore_button": "   Daha fazla iPA",
+        "install_button": "📲 Установить",
+        "explore_button": "🔎 Daha fazla iPA",
         "mnm_notify": "Ошибка при редактировании сообщения"
     },
 }
