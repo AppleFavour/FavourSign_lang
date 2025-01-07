@@ -19,39 +19,6 @@ certificate_handler_strings = {
         "unexpected_error": "Неожиданная ошибка: {error}",
     },
 }
-# utils/helpers.py
-helpers_strings = {
-    "EN": {
-        "units": ["hours", "minutes", "seconds"],
-        "error_while_preparing_file": "Something went wrong while preparing the file :(",
-        "time_remaining_units": ["h", "m", "s"],
-        "eta_label": "ETA",
-        "file_not_found": "File not found.",
-        "download_error": "Expected: {expected}, Downloaded: {actual}",
-        "file_format_error": "File format is incorrect.",
-        "error_label": "ERROR",
-    },
-    "TR": {
-        "units": ["saat", "dakika", "saniye"],
-        "error_while_preparing_file": "Dosya hazırlanırken bir şeyler ters gitti :(",
-        "time_remaining_units": ["s", "d", "s"],
-        "eta_label": "Kalan zaman",
-        "file_not_found": "Dosya bulunamadı.",
-        "download_error": "Beklenen: {expected}, İndirilen: {actual}",
-        "file_format_error": "Dosya formatı hatalı.",
-        "error_label": "HATA",
-    },
-    "RU": {
-        "units": ["часов", "минут", "секунд"],
-        "error_while_preparing_file": "Что-то пошло не так при подготовке файла :(",
-        "time_remaining_units": ["ч", "м", "с"],
-        "eta_label": "Оставшееся время",
-        "file_not_found": "Файл не найден.",
-        "download_error": "Ожидается: {expected}, Загрузка: {actual}",
-        "file_format_error": "Неверный формат файла.",
-        "error_label": "ОШИБКА",
-    },
-}
 # utils/main_helper.py
 main_helper_strings = {
     "EN": {
