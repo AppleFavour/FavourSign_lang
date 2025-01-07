@@ -1,8 +1,23 @@
 # Plugins/announcements.py
 announcements_strings = {
-    "EN": {},
-    "TR": {},
-    "RU": {},
+    "EN": {
+        "no_reply": "🔍 Announcement message not found. Please reply to a message and try again.",
+        "no_content": "🔍 Announcement content not found. Please reply to a message with text or a file.",
+        "permission_denied": "🚫 You do not have permission to perform this action.",
+        "announcement_complete": "✅ Announcement completed.\n\nTotal users: {total}\nSent: {sent}\nFailed: {failed}",
+    },
+    "TR": {
+        "no_reply": "🔍 Duyuru mesajı bulunamadı. Lütfen bir mesajı yanıtlayıp tekrar deneyiniz.",
+        "no_content": "🔍 Duyuru içeriği bulunamadı. Lütfen metin veya dosya içeren bir mesajı yanıtlayınız.",
+        "permission_denied": "🚫 Bunu yapmaya yetkin yok.",
+        "announcement_complete": "✅ Duyuru tamamlandı.\n\nToplam kullanıcı: {total}\nİletilen: {sent}\nİletilemeyen: {failed}",
+    },
+    "RU": {
+        "no_reply": "🔍 Сообщение для объявления не найдено. Пожалуйста, ответьте на сообщение и попробуйте снова.",
+        "no_content": "🔍 Контент объявления не найден. Пожалуйста, ответьте на сообщение с текстом или файлом.",
+        "permission_denied": "🚫 У вас нет прав для выполнения этого действия.",
+        "announcement_complete": "✅ Объявление завершено.\n\nВсего пользователей: {total}\nОтправлено: {sent}\nНе отправлено: {failed}",
+    },
 }
 # Plugins/certificate_select.py
 certificate_select_strings = {
