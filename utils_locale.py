@@ -1,20 +1,101 @@
 # utils/certificate_handler.py
 certificate_handler_strings = {
-    "EN": {},
-    "TR": {},
-    "RU": {},
+    "EN": {
+        "permission_denied": "You cannot add a new certificate. (Permission denied)",
+        "certificate_updated": "Certificate updated: {file_name}",
+        "unexpected_git_error": "Unexpected git error: {error}",
+        "unexpected_error": "Unexpected error: {error}",
+    },
+    "TR": {
+        "permission_denied": "Yeni sertifika ekleyemezsin. (İzin verilmedi)",
+        "certificate_updated": "Sertifika güncellendi: {file_name}",
+        "unexpected_git_error": "Beklenmeyen git hatası: {error}",
+        "unexpected_error": "Beklenmeyen hata: {error}",
+    },
+    "RU": {
+        "permission_denied": "Вы не можете добавить новый сертификат. (Доступ запрещен)",
+        "certificate_updated": "Сертификат обновлен: {file_name}",
+        "unexpected_git_error": "Неожиданная ошибка git: {error}",
+        "unexpected_error": "Неожиданная ошибка: {error}",
+    },
 }
 # utils/helpers.py
 helpers_strings = {
-    "EN": {},
-    "TR": {},
-    "RU": {},
+    "EN": {
+        "units": ["hours", "minutes", "seconds"],
+        "error_while_preparing_file": "Something went wrong while preparing the file :(",
+        "time_remaining_units": ["h", "m", "s"],
+        "eta_label": "ETA",
+        "file_not_found": "File not found.",
+        "download_error": "Expected: {expected}, Downloaded: {actual}",
+        "file_format_error": "File format is incorrect.",
+        "error_label": "ERROR",
+    },
+    "TR": {
+        "units": ["saat", "dakika", "saniye"],
+        "error_while_preparing_file": "Dosya hazırlanırken bir şeyler ters gitti :(",
+        "time_remaining_units": ["s", "d", "s"],
+        "eta_label": "Kalan zaman",
+        "file_not_found": "Dosya bulunamadı.",
+        "download_error": "Beklenen: {expected}, İndirilen: {actual}",
+        "file_format_error": "Dosya formatı hatalı.",
+        "error_label": "HATA",
+    },
+    "RU": {
+        "units": ["часов", "минут", "секунд"],
+        "error_while_preparing_file": "Что-то пошло не так при подготовке файла :(",
+        "time_remaining_units": ["ч", "м", "с"],
+        "eta_label": "Оставшееся время",
+        "file_not_found": "Файл не найден.",
+        "download_error": "Ожидается: {expected}, Загрузка: {actual}",
+        "file_format_error": "Неверный формат файла.",
+        "error_label": "ОШИБКА",
+    },
 }
 # utils/main_helper.py
 main_helper_strings = {
-    "EN": {},
-    "TR": {},
-    "RU": {},
+    "EN": {
+        "unregistered_user": "Hello, please contact an administrator. (Unregistered user)",
+        "archive_file_response": "I honestly don't know what to do with this {file_ext} :(",
+        "specific_file_responses": {
+            ".tipa": "You can only install this with TrollStore; {0} is useless here!",
+            ".apk": "Seriously?! {0} = 'Android Package Kit (APK)' is useless here!",
+        },
+        "unsupported_text_file": "What is this, GTA cheat codes?",
+        "unsupported_audio_file": "I forgot my headphones, can't listen to this :(",
+        "unsupported_video_file": "I forgot my glasses, can't watch this :(",
+        "cooldown_wait": "Hey! {user}, please wait {wait_time:.0f} seconds before uploading another file...",
+        "cooldown_update": "Please wait {wait_time:.0f} seconds before uploading another file...",
+        "high_demand": "Request on hold due to high demand: ({active}/{limit})",
+    },
+    "TR": {
+        "unregistered_user": "Merhaba, bir yönetici ile iletişime geçin. (Kayıtsız kullanıcı)",
+        "archive_file_response": "Cidden bu {file_ext} ile ne yapacağımı bilmiyorum :(",
+        "specific_file_responses": {
+            ".tipa": "Bunu yalnızca TrollStore ile kurabilirsiniz; {0} burada işe yaramaz!",
+            ".apk": "Cidden mi?! {0} = 'Android Package Kit (APK)' burada işe yaramaz!",
+        },
+        "unsupported_text_file": "Bu ne böyle GTA hile kodu mu?",
+        "unsupported_audio_file": "Kulaklıklarımı unuttum, bunu dinleyemem :(",
+        "unsupported_video_file": "Gözlüklerimi unuttum, buna bakamam :(",
+        "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {wait_time:.0f} saniye bekleyiniz...",
+        "cooldown_update": "Lütfen başka bir dosya yüklemeden önce {wait_time:.0f} saniye bekleyiniz...",
+        "high_demand": "Yoğun talepten dolayı istek bekletiliyor: ({active}/{limit})",
+    },
+    "RU": {
+        "unregistered_user": "Здравствуйте, свяжитесь с администратором. (Незарегистрированный пользователь)",
+        "archive_file_response": "Честно говоря, я не знаю, что делать с этим {file_ext} :(",
+        "specific_file_responses": {
+            ".tipa": "Вы можете установить это только через TrollStore; {0} здесь бесполезен!",
+            ".apk": "Серьезно?! {0} = 'Android Package Kit (APK)' здесь бесполезен!",
+        },
+        "unsupported_text_file": "Что это, коды читов для GTA?",
+        "unsupported_audio_file": "Я забыл наушники, не могу это послушать :(",
+        "unsupported_video_file": "Я забыл очки, не могу это посмотреть :(",
+        "cooldown_wait": "Эй! {user}, подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
+        "cooldown_update": "Подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
+        "high_demand": "Запрос отложен из-за высокой нагрузки: ({active}/{limit})",
+    },
 }
 # utils/restart.py
 restart_strings = {
