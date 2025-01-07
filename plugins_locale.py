@@ -1,6 +1,12 @@
+# Plugins/announcements.py
+announcements_strings = {
+    "EN": {},
+    "TR": {},
+    "RU": {},
+}
 # Plugins/certificate_select.py
 certificate_select_strings = {
-    "en-US": {
+    "EN": {
         "cert_loading_error": "⚠️ An error occurred while loading certificate information.",
         "select_certificate_prompt": "📃 Please select a certificate.\nSelected: {selected}",
         "cert_saved": "📌 Certificate selected: {cert_name}",
@@ -9,7 +15,7 @@ certificate_select_strings = {
         "saving_error": "A database error occurred. Please try again later.",
         "callback_error": "⚠️ An error occurred.",
     },
-    "tr-TR": {
+    "TR": {
         "cert_loading_error": "⚠️ Sertifika bilgileri yüklenirken bir hata oldu.",
         "select_certificate_prompt": "📃 Sertifika seçiminizi yapınız.\nSeçilen: {selected}",
         "cert_saved": "📌 Sertifika seçildi: {cert_name}",
@@ -18,12 +24,12 @@ certificate_select_strings = {
         "saving_error": "Bir veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyiniz.",
         "callback_error": "⚠️ Bir hata oldu.",
     },
-    "ru-RU": {
+    "RU": {
     }
 }
 # Plugins/compression_level.py
 compression_level_strings = {
-    "en-US": {
+    "EN": {
         "compression_prompt": (
             "📚 Select the compression level\n"
             "Selected: {selected}\n"
@@ -42,7 +48,7 @@ compression_level_strings = {
         "selected_notification": "📌 Selected: {selected}",
         "generic_error": "⚠️ An error occurred.",
     },
-    "tr-TR": {
+    "TR": {
         "compression_prompt": (
             "📚 Sıkıştırma oranı seçiniz\n"
             "Seçilen: {selected}\n"
@@ -61,12 +67,12 @@ compression_level_strings = {
         "selected_notification": "📌 Seçilen: {selected}",
         "generic_error": "⚠️ Bir hata oldu.",
     },
-    "ru-RU": {
+    "RU": {
     }
 }
 # Plugins/countdown.py
 countdown_strings = {
-    "en-US": {
+    "EN": {
         "signed": "Signed",
         "app_name": "App Name",
         "bundle_id": "Bundle ID",
@@ -75,7 +81,7 @@ countdown_strings = {
         "explore_button": "🔎 Discover more",
         "mnm_notify": "Do you see this because message.edit_text is failed"
     },
-    "tr-TR": {
+    "TR": {
         "signed": "İmzalandı",
         "app_name": "Uygulama adı",
         "bundle_id": "Uygulama ID",
@@ -84,7 +90,7 @@ countdown_strings = {
         "explore_button": "🔎 Daha fazla iPA",
         "mnm_notify": "Mesaj duzenlenirken bir hata olustu"
     },
-    "ru-RU": {
+    "RU": {
         "signed": "Подписан",
         "app_name": "Название приложения",
         "bundle_id": "ID приложения",
@@ -96,7 +102,7 @@ countdown_strings = {
 }
 # Plugins/download.py
 download_strings = {
-    "en-US": {
+    "EN": {
         "download_pending": "**Download pending**",
         "nothing_to_download": "Please send a direct link or file",
         "download_failed_message": "❌ {file_name} can't be downloaded!",
@@ -118,7 +124,7 @@ download_strings = {
         "unknown_exception_error": "An unexpected error occurred.",
         "retrying_message": "Retrying download... ({attempt + 1}/{max_attempts})"
     },
-    "tr-TR": {
+    "TR": {
         "download_pending": "**İndirme bekleniyor**",
         "nothing_to_download": "Lütfen bir dosya veya doğrudan indirme URL gönderin",
         "download_failed_message": "❌ {file_name} indirilemedi!",
@@ -140,7 +146,7 @@ download_strings = {
         "unknown_exception_error": "Beklenmeyen bir hata oluştu.",
         "retrying_message": "İndirme tekrar deneniyor... ({attempt + 1}/{max_attempts})"
     },
-    "ru-RU": {
+    "RU": {
         "download_pending": "**Ожидание загрузки**",
         "nothing_to_download": "Пожалуйста, отправьте файл или прямую ссылку для скачивания",
         "download_failed_message": "❌ {file_name} не может быть скачан!",
@@ -165,7 +171,7 @@ download_strings = {
 }
 # Plugins/help.py
 help_strings = {
-    "en-US": {
+    "EN": {
         "user_not_registered": "You are not registered.",
         "available_cmds": "Available Commands:",
         "user_cmds": "User Commands:",
@@ -196,7 +202,7 @@ help_strings = {
         "premium_cmd": "*obsolute* mark user as premium in feature they can access exclusive stuff.",
         "unknown_exception": "An error occurred while processing help request from @{username} ({userID}): {error}"
     },
-    "tr-TR": {
+    "TR": {
         "user_not_registered": "Kayıtlı değilsiniz.",
         "available_cmds": "Mevcut Komutlar:",
         "user_cmds": "Kullanıcı Komutları:",
@@ -227,7 +233,7 @@ help_strings = {
         "premium_cmd": "*Eski* Kullanıcıyı premium olarak işaretler, gelecekte özel içeriklere erişebilirler (eğer böyle bir içerik oluşturursam).",
         "unknown_exception": "@{username} ({userID}) kullanıcısından gelen yardım isteği işlenirken bir hata oluştu: {error}"
     },
-    "ru-RU": {
+    "RU": {
         "user_not_registered": "Вы не зарегистрированы.",
         "available_cmds": "Доступные команды:",
         "user_cmds": "Команды пользователей:",
@@ -261,7 +267,7 @@ help_strings = {
 }
 # Plugins/info.py
 info_strings = {
-    "en-US": {
+    "EN": {
         "greeting": "Hello! {name}",
         "system_info": "\nSystem Information:\n",
         "bot_info": "\nBot Information:\n",
@@ -269,7 +275,7 @@ info_strings = {
         "total_users": "Users: {count}",
         "active_users": "Active users: {count}",
     },
-    "tr-TR": {
+    "TR": {
         "greeting": "Merhaba! {name}",
         "system_info": "\nSistem özellikleri:\n",
         "bot_info": "\nBot hakkında:\n",
@@ -277,12 +283,12 @@ info_strings = {
         "total_users": "Kullanıcılar: {count}",
         "active_users": "Aktif kullanıcılar: {count}",
     },
-    "ru-RU": {
+    "RU": {
     },
 }
 # Plugins/language_select.py
 language_select_strings = {
-    "en-US": {
+    "EN": {
         "select_language": "Select a language",
         "selected": "Selected",
         "already_selected": "You have already selected the current language.",
@@ -294,9 +300,9 @@ language_select_strings = {
         "language_saved_successfully": "Language {lang} saved successfully for user {userID}",
         "database_error": "A database error occurred. Please try again later.",
         "no_language_found": "No language preference found for the user",
-        "using_default_language": "Default language (en-US) will be used"
+        "using_default_language": "Default language (EN) will be used"
     },
-    "tr-TR": {
+    "TR": {
         "select_language": "Dil seçiniz",
         "selected": "Seçilen",
         "already_selected": "Zaten seçili dili seçtiniz.",
@@ -308,9 +314,9 @@ language_select_strings = {
         "language_saved_successfully": "Dil başarıyla kaydedildi",
         "database_error": "Veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyin.",
         "no_language_found": "Kullanıcı için dil tercihi bulunamadı",
-        "using_default_language": "Varsayılan dil (tr-TR) kullanılacak"
+        "using_default_language": "Varsayılan dil (TR) kullanılacak"
     },
-    "ru-RU": {
+    "RU": {
         "select_language": "Выберите язык",
         "selected": "Выбранный",
         "already_selected": "Вы уже выбрали текущий язык.",
@@ -322,18 +328,18 @@ language_select_strings = {
         "language_saved_successfully": "Язык {lang} успешно сохранен для пользователя {userID}",
         "database_error": "Произошла ошибка базы данных. Пожалуйста, попробуйте позже.",
         "no_language_found": "Предпочтение языка не найдено для пользователя",
-        "using_default_language": "Будет использован язык по умолчанию (ru-RU)"
+        "using_default_language": "Будет использован язык по умолчанию (RU)"
     }
 }
 # Plugins/modifier.py
 modifier_strings = {
-    "en-US": {},
-    "tr-TR": {},
-    "ru-RU": {},
+    "EN": {},
+    "TR": {},
+    "RU": {},
 }
 # Plugins/sign.py
 sign_strings = {
-    "en-US": {
+    "EN": {
         "greeting": "Hello, {message.from_user.first_name}! 😊\nIt seems like you forgot something. Please make your choice and resend the IPA! 🚀",
         "retry_signing": "An error occurred during signing, retrying... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "Failed to sign.\nThis issue is often caused by the ipa file or Telegram.",
@@ -348,7 +354,7 @@ sign_strings = {
         "select_certificate_button": "Select Certificate 📝️️️️️️",
         "executing_command": "Executing: {command}"
     },
-    "tr-TR": {
+    "TR": {
         "greeting": "Merhaba, {message.from_user.first_name}! 😊\nSanırım bir şey unuttunuz. Lütfen seçiminizi yapın ve IPA'yı tekrar göndermeyi unutmayın! 🚀",
         "retry_signing": "İmzalama sırasında hata oluştu, tekrar deneniyor... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "İmzalanamadı.\nBu sorun genellikle ipa'dan veya telegram'dan kaynaklanabilir.",
@@ -363,7 +369,7 @@ sign_strings = {
         "select_certificate_button": "Sertifika seç 📝️️️️️️",
         "executing_command": "Executing: {command}"
     },
-    "ru-RU": {
+    "RU": {
         "greeting": "Привет, {message.from_user.first_name}! 😊\nПохоже, вы что-то забыли. Пожалуйста, сделайте свой выбор и отправьте IPA снова! 🚀",
         "retry_signing": "Произошла ошибка при подписании, повторная попытка... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "Не удалось подписать.\nВозникла проблема, как правило, связанная с ipa-файлом или Telegram.",
@@ -381,24 +387,24 @@ sign_strings = {
 }
 # Plugins/speedtest.py
 speedtest_strings = {
-    "en-US": {
+    "EN": {
         "speedtest_start": "🚀 Testing internet speed...",
         "network_error": "Network Error: Please check your internet connection and try again.",
         "timeout_error": "Error: Request timed out.",
         "unknown_error": "Error: An unexpected error occurred.",
     },
-    "tr-TR": {
+    "TR": {
         "speedtest_start": "🚀 Internet hızı test ediliyor.",
         "network_error": "Ağ Hatası: Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
         "timeout_error": "Hata: İstek zaman aşımına uğradı.",
         "unknown_error": "Hata: Beklenmeyen bir hata oluştu.",
     },
-    "ru-RU": {
+    "RU": {
     },
 }
 # Plugins/start.py
 start_strings = {
-    "en-US": {
+    "EN": {
         "welcome_registered": "Hello! {name}\nPlease select a certificate to begin.",
         "welcome_unregistered": "Hello, {name}!\nSorry, you need admin approval to use the bot.\n\n▸ If you have a certificate, contact us using the button below for approval, or to purchase one if you don't have it.",
         "select_certificate": "Select certificate 📝️",
@@ -406,7 +412,7 @@ start_strings = {
         "select_language": "Select Language 🌐",
         "approval_purchase": "Get Approval / Purchase"
     },
-    "tr-TR": {
+    "TR": {
         "welcome_registered": "Merhaba! {name}\nBaşlamak için sertifika seçimi yapınız.",
         "welcome_unregistered": "Merhaba, {name}!\nÜzgünüm, botu kullanabilmeniz için bir yetkilinin onay vermesi gerekiyor.\n\n▸ Sertifikanız varsa onay için, yoksa da satın almak için aşağıdaki butondan bize ulaşabilirsiniz.",
         "select_certificate": "Sertifika seç 📝️",
@@ -414,7 +420,7 @@ start_strings = {
         "select_language": "Dil Seçimi 🌐",
         "approval_purchase": "Onay / Satın Almak İstiyorum"
     },
-    "ru-RU": {
+    "RU": {
         "welcome_registered": "Привет! {name}\nПожалуйста, выберите сертификат, чтобы начать.",
         "welcome_unregistered": "Привет, {name}!\nИзвините, для использования бота требуется одобрение администратора.\n\n▸ Если у вас есть сертификат, свяжитесь с нами через кнопку ниже для получения одобрения, или для покупки, если у вас его нет.",
         "select_certificate": "Выбрать сертификат 📝️",
@@ -425,7 +431,7 @@ start_strings = {
 }
 # Plugins/user_management.py
 user_management_strings = {
-    "en-US": {
+    "EN": {
         "admin_only": "Sorry, only administrators can perform database operations. (Permission denied)",
         "invalid_command": "Invalid command usage.\n(/,!)premium and (/,!)pre 1071675334\nOR\n(/,!)user and (/,!)k 1071675334",
         "user_not_found": "User `{user_id}` not found.",
@@ -436,7 +442,7 @@ user_management_strings = {
         "premium_reg_error": "Error occurred during premium registration. Please try again.",
         "premium_unreg_error": "Error occurred during premium removal. Please try again."
     },
-    "tr-TR": {
+    "TR": {
         "admin_only": "Üzgünüm, Botun veri tabanidaki islemleri, sadece yöneticiler gerceklestirilebilir. (Permission denied)",
         "invalid_command": "Hatalı komut kullanımı.\n(/,!)premium and (/,!)pre 1071675334\nOR\n(/,!)user and (/,!)k 1071675334",
         "user_not_found": "Kullanıcı `{user_id}` bulunamadı.",
@@ -447,6 +453,6 @@ user_management_strings = {
         "premium_reg_error": "Premium üyelik kaydında bir hata oluştu. Lütfen tekrar deneyin.",
         "premium_unreg_error": "Premium üyelik iptali sırasında bir hata oluştu. Lütfen tekrar deneyin."
     },
-    "ru-RU": {
+    "RU": {
     },
 }
