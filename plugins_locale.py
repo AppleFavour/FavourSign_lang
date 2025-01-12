@@ -379,7 +379,7 @@ language_select_strings = {
         "back_button": "Назад 🔙",
     }
 }
-# Plugins/modifier.py
+# Plugins/modifier.py **to-do**
 modifier_strings = {
     "EN": {},
     "TR": {},
