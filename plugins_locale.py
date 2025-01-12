@@ -69,6 +69,7 @@ compression_level_strings = {
         ),
         "selected_notification": "📌 Selected: {selected}",
         "generic_error": "⚠️ An error occurred.",
+        "back_button": "Go Back 🔙",
     },
     "TR": {
         "compression_prompt": (
@@ -88,6 +89,7 @@ compression_level_strings = {
         ),
         "selected_notification": "📌 Seçilen: {selected}",
         "generic_error": "⚠️ Bir hata oldu.",
+        "back_button": "Geri Dön 🔙",
     },
     "RU": {
         "compression_prompt": (
@@ -107,6 +109,7 @@ compression_level_strings = {
         ),
         "selected_notification": "📌 Выбрано: {selected}",
         "generic_error": "⚠️ Произошла ошибка.",
+        "back_button": "Назад 🔙"
     }
 }
 # Plugins/countdown.py
@@ -342,7 +345,8 @@ language_select_strings = {
         "language_saved_successfully": "Language {lang} saved successfully for user {userID}",
         "database_error": "A database error occurred. Please try again later.",
         "no_language_found": "No language preference found for the user",
-        "using_default_language": "Default language (EN) will be used"
+        "using_default_language": "Default language (EN) will be used",
+        "back_button": "Go Back 🔙",
     },
     "TR": {
         "select_language": "Dil seçiniz",
@@ -356,7 +360,8 @@ language_select_strings = {
         "language_saved_successfully": "Dil başarıyla kaydedildi",
         "database_error": "Veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyin.",
         "no_language_found": "Kullanıcı için dil tercihi bulunamadı",
-        "using_default_language": "Varsayılan dil (TR) kullanılacak"
+        "using_default_language": "Varsayılan dil (TR) kullanılacak",
+        "back_button": "Geri Dön 🔙",
     },
     "RU": {
         "select_language": "Выберите язык",
@@ -370,7 +375,8 @@ language_select_strings = {
         "language_saved_successfully": "Язык {lang} успешно сохранен для пользователя {userID}",
         "database_error": "Произошла ошибка базы данных. Пожалуйста, попробуйте позже.",
         "no_language_found": "Предпочтение языка не найдено для пользователя",
-        "using_default_language": "Будет использован язык по умолчанию (RU)"
+        "using_default_language": "Будет использован язык по умолчанию (RU)",
+        "back_button": "Назад 🔙",
     }
 }
 # Plugins/modifier.py
