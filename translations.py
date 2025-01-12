@@ -644,7 +644,8 @@ user_management_strings = {
         "premium_added": "User `{user_id}` upgraded to premium, expires on {expiry_date}.",
         "premium_removed": "User `{user_id}` removed from premium plan.",
         "premium_reg_error": "Error occurred during premium registration. Please try again.",
-        "premium_unreg_error": "Error occurred during premium removal. Please try again."
+        "premium_unreg_error": "Error occurred during premium removal. Please try again.",
+        "not_enough_arguments": "Not enough arguments, You need to provide a user ID(s). /user user1.ID ..."
     },
     "TR": {
         "admin_only": "Üzgünüm, Botun veri tabanidaki islemleri, sadece yöneticiler gerceklestirilebilir. (Permission denied)",
@@ -655,7 +656,8 @@ user_management_strings = {
         "premium_added": "Kullanıcı `{user_id}` premium'a yukseltildi, {expiry_date} tarihinde sona erecek.",
         "premium_removed": "Kullanıcı `{user_id}` premium planindan cikartildi.",
         "premium_reg_error": "Premium üyelik kaydında bir hata oluştu. Lütfen tekrar deneyin.",
-        "premium_unreg_error": "Premium üyelik iptali sırasında bir hata oluştu. Lütfen tekrar deneyin."
+        "premium_unreg_error": "Premium üyelik iptali sırasında bir hata oluştu. Lütfen tekrar deneyin.",
+        "not_enough_arguments": ""
     },
     "RU": {
         "admin_only": "Извините, только администраторы могут выполнять операции с базой данных. (Permission denied)",
@@ -666,7 +668,8 @@ user_management_strings = {
         "premium_added": "Пользователь `{user_id}` был переведен в премиум, срок действия истекает {expiry_date}.",
         "premium_removed": "Пользователь `{user_id}` удален из премиум-плана.",
         "premium_reg_error": "Произошла ошибка при регистрации премиум. Пожалуйста, попробуйте снова.",
-        "premium_unreg_error": "Произошла ошибка при удалении премиум. Пожалуйста, попробуйте снова."
+        "premium_unreg_error": "Произошла ошибка при удалении премиум. Пожалуйста, попробуйте снова.",
+        "not_enough_arguments": ""
     },
     "DE": {
         "admin_only": "Entschuldigung, nur Administratoren können Datenbankoperationen durchführen. (Zugriff verweigert)",
@@ -677,7 +680,8 @@ user_management_strings = {
         "premium_added": "Benutzer `{user_id}` auf Premium hochgestuft, läuft am {expiry_date} ab.",
         "premium_removed": "Benutzer `{user_id}` aus dem Premium-Plan entfernt.",
         "premium_reg_error": "Fehler bei der Premium-Registrierung. Bitte versuchen Sie es erneut.",
-        "premium_unreg_error": "Fehler bei der Premium-Entfernung. Bitte versuchen Sie es erneut."
+        "premium_unreg_error": "Fehler bei der Premium-Entfernung. Bitte versuchen Sie es erneut.",
+        "not_enough_arguments": ""
     }
 }
 # utils/certificate_handler.py
