@@ -18,6 +18,12 @@ announcements_strings = {
         "permission_denied": "🚫 У вас нет прав для выполнения этого действия.",
         "announcement_complete": "✅ Объявление завершено.\n\nВсего пользователей: {total}\nОтправлено: {sent}\nНе отправлено: {failed}",
     },
+    "DE": {
+        "no_reply": "🔍 Ankündigungsnachricht nicht gefunden. Bitte antworte auf eine Nachricht und versuche es erneut.",
+        "no_content": "🔍 Ankündigungsinhalt nicht gefunden. Bitte antworte auf eine Nachricht mit Text oder einer Datei.",
+        "permission_denied": "🚫 Du hast keine Berechtigung für diese Aktion.",
+        "announcement_complete": "✅ Ankündigung abgeschlossen.\n\nGesamtnutzer: {total}\nGesendet: {sent}\nFehlgeschlagen: {failed}",
+    }
 }
 # Plugins/certificate_select.py
 certificate_select_strings = {
@@ -47,6 +53,15 @@ certificate_select_strings = {
         "back_button": "Назад 🔙",
         "saving_error": "Произошла ошибка с базой данных. Пожалуйста, попробуйте снова позже.",
         "callback_error": "⚠️ Произошла ошибка.",
+    },
+    "DE": {
+        "cert_loading_error": "⚠️ Beim Laden der Zertifikatsinformationen ist ein Fehler aufgetreten.",
+        "select_certificate_prompt": "📃 Bitte wähle ein Zertifikat aus.\nAusgewählt: {selected}",
+        "cert_saved": "📌 Zertifikat ausgewählt: {cert_name}",
+        "already_selected": "⚠️ Bereits ausgewählt",
+        "back_button": "Zurück 🔙",
+        "saving_error": "Ein Datenbankfehler ist aufgetreten. Bitte versuche es später erneut.",
+        "callback_error": "⚠️ Ein Fehler ist aufgetreten.",
     }
 }
 # Plugins/compression_level.py
@@ -110,6 +125,26 @@ compression_level_strings = {
         "selected_notification": "📌 Выбрано: {selected}",
         "generic_error": "⚠️ Произошла ошибка.",
         "back_button": "Назад 🔙"
+    },
+    "DE": {
+        "compression_prompt": (
+            "📚 Wähle die Komprimierungsstufe\n"
+            "Ausgewählt: {selected}\n"
+            "Diese Einstellung bestimmt die Geschwindigkeit des Bots und die Größe der signierten Datei.\n\n"
+            "⬢ **0** — **Schnellste Signierung**, **Minimale Komprimierung (Größere Dateigröße)**\n"
+            "⬢ **9** — **Langsamste Signierung**, **Maximale Komprimierung (Kleinere Dateigröße)**"
+        ),
+        "already_selected": "⚠️ Bereits ausgewählt.",
+        "save_error": "Komprimierungsstufe konnte nicht gespeichert werden.",
+        "compression_selected": (
+            "📌 Komprimierungsstufe ausgewählt: {selected}\n\n"
+            "Diese Einstellung bestimmt die Geschwindigkeit des Bots und die Größe der signierten Datei.\n\n"
+            "⬢ **0** — **Schnellste Signierung**, **Minimale Komprimierung (Größere Dateigröße)**\n"
+            "⬢ **9** — **Langsamste Signierung**, **Maximale Komprimierung (Kleinere Dateigröße)**"
+        ),
+        "selected_notification": "📌 Ausgewählt: {selected}",
+        "generic_error": "⚠️ Ein Fehler ist aufgetreten.",
+        "back_button": "Zurück 🔙",
     }
 }
 # Plugins/countdown.py
@@ -141,6 +176,15 @@ countdown_strings = {
         "explore_button": "🔎 Daha fazla iPA",
         "mnm_notify": "Ошибка при редактировании сообщения"
     },
+    "DE": {
+        "signed": "Signiert",
+        "app_name": "App-Name",
+        "bundle_id": "Bundle-ID",
+        "certificate": "Zertifikat",
+        "install_button": "📲 Installieren",
+        "explore_button": "🔎 Mehr entdecken",
+        "mnm_notify": "Sie sehen dies, weil message.edit_text fehlgeschlagen ist"
+    }
 }
 # Plugins/download.py
 download_strings = {
@@ -210,6 +254,28 @@ download_strings = {
         "unknown_exception_error": "Произошла неизвестная ошибка.",
         "retrying_message": "Повторная попытка загрузки... ({attempt + 1}/{max_attempts})"
     },
+    "DE": {
+        "download_pending": "**Download ausstehend**",
+        "nothing_to_download": "Bitte sende einen direkten Link oder eine Datei",
+        "download_failed_message": "❌ {file_name} kann nicht heruntergeladen werden!",
+        "download_attempt_failed_message": "Ein Fehler ist beim Herunterladen von {file_name} aufgetreten, neuer Versuch... ({attempt + 1}/{max_attempts})",
+        "download_successful_message": "✅ {file_name} erfolgreich heruntergeladen!",
+        "download_error_detected": "Fehler beim Download erkannt",
+        "httpnot200": "Hier gibt es nichts zu sehen.",
+        "httpnotfile": "Hier gibt es nichts zum Herunterladen.",
+        "connection_error": "Verbindung konnte nicht hergestellt werden.",
+        "unexpected_response_error": "Unerwartete Antwort vom Server.",
+        "invalid_url_error": "Ungültige URL angegeben.",
+        "too_many_redirects_error": "Zu viele Weiterleitungen.",
+        "ssl_error": "SSL-Verbindungsfehler.",
+        "payload_error": "Ungültige oder unvollständige Daten empfangen.",
+        "server_disconnected_error": "Serververbindung wurde unterbrochen.",
+        "general_download_error": "Ein Fehler ist beim Herunterladen der Datei aufgetreten.",
+        "file_not_found_error": "Datei nicht gefunden.",
+        "file_corrupted_error": "Beschädigte Datei erkannt.",
+        "unknown_exception_error": "Ein unerwarteter Fehler ist aufgetreten.",
+        "retrying_message": "Download wird wiederholt... ({attempt + 1}/{max_attempts})"
+    }
 }
 # Plugins/help.py
 help_strings = {
@@ -303,6 +369,36 @@ help_strings = {
         "premium_cmd": "*Устарело* Отмечает пользователя как премиум, чтобы он мог получить доступ к эксклюзивному контенту (если я когда-нибудь создам его).",
         "unknown_exception": "Произошла неизвестная ошибка при обработке запроса помощи от @{username} ({userID}): {error}"
     },
+    "DE": {
+        "user_not_registered": "Du bist nicht registriert.",
+        "available_cmds": "Verfügbare Befehle:",
+        "user_cmds": "Benutzer-Befehle:",
+        "cmd_prefixes": "Aktive Befehlspräfixe: {prefixes}",
+        "admin_cmds": "Admin-Befehle:",
+        "help_cmd": "Zeigt diese Hilfemeldung an.",
+        "speedtest_cmd": "Testet die Verbindungsgeschwindigkeit.",
+        "info_cmd": "Zeigt Informationen über den Bot.",
+        "sign_cmd": "Sende oder antworte auf eine IPA.",
+        "clear_cmd": "Deaktiviert Änderungsoptionen",
+        "profile_cmd": "Entfernt eingebettete mobile Provision-Datei aus der IPA",
+        "stripencslices_cmd": "Entfernt verschlüsselte Slices aus der IPA-Datei.",
+        "stripslices_cmd": "Entfernt nicht-arm64 Slices aus der IPA-Datei.",
+        "filesupport_cmd": "Versucht, die 'Files App'-Unterstützung zu reparieren, falls die App diese hat.",
+        "watch_cmd": "Entfernt Watch-App aus der IPA",
+        "rmdevicelimit_cmd": "Entfernt gerätespezifische Installationsbeschränkung.",
+        "setlimit_cmd": "Setzt das erforderliche Mindest-OS, um Installationsbeschränkungen zu umgehen. - Keine Garantie",
+        "id_cmd": "Ändert die App-Paket/Bundle-ID",
+        "version_cmd": "Ändert die App-Paket/Bundle-Version",
+        "name_cmd": "Ändert den App-Paket/Bundle-Namen",
+        "update_cmd": "Aktualisiert den Bot (Pull vom Repository)",
+        "duyur_cmd": "Macht eine Ankündigung für alle registrierten Benutzer.",
+        "exec_cmd": "Führt Shell-Befehle aus",
+        "restart_cmd": "Startet den Bot neu",
+        "shutdown_cmd": "Fährt den Bot herunter",
+        "user_cmd": "Registriert/Deregistriert Benutzer in der Datenbank.",
+        "premium_cmd": "*veraltet* markiert Benutzer als Premium für zukünftige exklusive Inhalte.",
+        "unknown_exception": "Ein Fehler ist bei der Verarbeitung der Hilfeanfrage von @{username} ({userID}) aufgetreten: {error}"
+    }
 }
 # Plugins/info.py
 info_strings = {
@@ -330,6 +426,14 @@ info_strings = {
         "total_users": "Пользователи: {count}",
         "active_users": "Активные пользователи: {count}",
     },
+    "DE": {
+        "greeting": "Hallo! {name}",
+        "system_info": "\nSysteminformationen:\n",
+        "bot_info": "\nBot-Informationen:\n",
+        "bot_stats": "{uptime} - {usage}",
+        "total_users": "Registrierte Benutzer: {count}",
+        "active_users": "Aktive Benutzer: {count}",
+    }
 }
 # Plugins/language_select.py
 language_select_strings = {
@@ -377,6 +481,21 @@ language_select_strings = {
         "no_language_found": "Предпочтение языка не найдено для пользователя",
         "using_default_language": "Будет использован язык по умолчанию (RU)",
         "back_button": "Назад 🔙",
+    },
+    "DE": {
+        "select_language": "Wähle eine Sprache",
+        "selected": "Ausgewählt",
+        "already_selected": "Du hast bereits die aktuelle Sprache ausgewählt.",
+        "save_failed": "Sprache konnte nicht gespeichert werden.",
+        "new_language_selected": "Neue Sprache ausgewählt",
+        "error_in_language_selection": "Bei der Sprachauswahl ist ein Fehler aufgetreten.",
+        "saving_language_pref": "Spracheinstellung wird gespeichert...",
+        "language_already_saved": "Sprache {lang} bereits für Benutzer {userID} gespeichert",
+        "language_saved_successfully": "Sprache {lang} erfolgreich für Benutzer {userID} gespeichert",
+        "database_error": "Ein Datenbankfehler ist aufgetreten. Bitte versuche es später erneut.",
+        "no_language_found": "Keine Spracheinstellung für den Benutzer gefunden",
+        "using_default_language": "Standardsprache (DE) wird verwendet",
+        "back_button": "Zurück 🔙",
     }
 }
 # Plugins/modifier.py **to-do**
@@ -384,6 +503,7 @@ modifier_strings = {
     "EN": {},
     "TR": {},
     "RU": {},
+    "DE": {},
 }
 # Plugins/sign.py
 sign_strings = {
@@ -449,6 +569,22 @@ sign_strings = {
         "pe_err": "Произошла ошибка доступа во время операции подписания.",
         "sign_err": "Операция подписания не удалась.",
         "unknown_sign_err": "Произошла неизвестная ошибка во время операции подписания."
+    },
+    "DE": {
+        "greeting": "Hallo, {message.from_user.first_name}! 😊\nAnscheinend hast du etwas vergessen. Bitte triff deine Wahl und sende die IPA erneut! 🚀",
+        "sign_error_retry": "Beim Signieren ist ein Fehler aufgetreten, neuer Versuch... ({failed_sign_attempt}/{max_sign_attempt})",
+        "signing_failed": "Signierung fehlgeschlagen.\nDieses Problem wird oft durch die IPA-Datei oder Telegram verursacht.",
+        "unexpected_error": "Ein unerwarteter Fehler ist aufgetreten.\nWenn dieses Problem weiterhin besteht, kontaktiere mich bitte.",
+        "ipa_ready": "Hey! Die IPA wurde signiert und ist bereit zum Upload.",
+        "forgot_choice": "Anscheinend hast du etwas vergessen. Bitte triff deine Wahl und sende die IPA erneut!",
+        "file_lost": "Die Datei ging während des Signierungsvorgangs verloren.",
+        "value_error": "Ein Wertfehler ist während des Signierungsvorgangs aufgetreten.",
+        "permission_error": "Ein Berechtigungsfehler ist während des Signierungsvorgangs aufgetreten.",
+        "signing_error": "Der Signierungsvorgang ist fehlgeschlagen.",
+        "unknown_error": "Ein unerwarteter Fehler ist während des Signierungsvorgangs aufgetreten.",
+        "select_certificate_button": "Zertifikat auswählen 📝️️️️️️",
+        "executing_command": "Ausführung: {command}",
+        "modify_retry_error": "Beim Modifizieren ist ein Fehler aufgetreten, neuer Versuch... ({failed_modify_attempt}/{max_modify_attempt})"
     }
 }
 # Plugins/speedtest.py
@@ -471,6 +607,12 @@ speedtest_strings = {
         "timeout_error": "Ошибка: Время ожидания запроса истекло.",
         "unknown_error": "Ошибка: Произошла непредвиденная ошибка.",
     },
+    "DE": {
+        "speedtest_start": "🚀 Teste Internetgeschwindigkeit...",
+        "network_error": "Netzwerkfehler: Bitte überprüfe deine Internetverbindung und versuche es erneut.",
+        "timeout_error": "Fehler: Zeitüberschreitung der Anfrage.",
+        "unknown_error": "Fehler: Ein unerwarteter Fehler ist aufgetreten.",
+    }
 }
 # Plugins/start.py
 start_strings = {
@@ -497,6 +639,14 @@ start_strings = {
         "select_compression": "Выбрать степень сжатия 📚",
         "select_language": "Выбрать язык 🌐",
         "approval_purchase": "Получить одобрение / Купить"
+    },
+    "DE": {
+        "welcome_registered": "Hallo! {name}\nBitte wähle ein Zertifikat aus, um zu beginnen.",
+        "welcome_unregistered": "Hallo, {name}!\nEntschuldigung, du benötigst die Genehmigung eines Administrators, um den Bot zu nutzen.\n\n▸ Wenn du ein Zertifikat hast, kontaktiere uns über den Button unten für die Genehmigung, oder um eines zu kaufen, falls du keines hast.",
+        "select_certificate": "Zertifikat auswählen 📝️",
+        "select_compression": "Komprimierungsgrad auswählen 📚",
+        "select_language": "Sprache auswählen 🌐",
+        "approval_purchase": "Genehmigung / Kauf"
     }
 }
 # Plugins/user_management.py
@@ -534,6 +684,17 @@ user_management_strings = {
         "premium_reg_error": "Произошла ошибка при регистрации премиум. Пожалуйста, попробуйте снова.",
         "premium_unreg_error": "Произошла ошибка при удалении премиум. Пожалуйста, попробуйте снова."
     },
+    "DE": {
+        "admin_only": "Entschuldigung, nur Administratoren können Datenbankoperationen durchführen. (Zugriff verweigert)",
+        "invalid_command": "Ungültige Befehlsverwendung.\n(/,!)premium und (/,!)pre 1071675334\nODER\n(/,!)user und (/,!)k 1071675334",
+        "user_not_found": "Benutzer `{user_id}` nicht gefunden.",
+        "user_added": "Benutzer `{user_id}` hinzugefügt.",
+        "user_removed": "Benutzer `{user_id}` entfernt.",
+        "premium_added": "Benutzer `{user_id}` auf Premium hochgestuft, läuft am {expiry_date} ab.",
+        "premium_removed": "Benutzer `{user_id}` aus dem Premium-Plan entfernt.",
+        "premium_reg_error": "Fehler bei der Premium-Registrierung. Bitte versuchen Sie es erneut.",
+        "premium_unreg_error": "Fehler bei der Premium-Entfernung. Bitte versuchen Sie es erneut."
+    }
 }
 # utils/certificate_handler.py
 certificate_handler_strings = {
@@ -555,6 +716,12 @@ certificate_handler_strings = {
         "unexpected_git_error": "Неожиданная ошибка git: {error}",
         "unexpected_error": "Неожиданная ошибка: {error}",
     },
+    "DE": {
+        "permission_denied": "Sie können kein neues Zertifikat hinzufügen. (Zugriff verweigert)",
+        "certificate_updated": "Zertifikat aktualisiert: {file_name}",
+        "unexpected_git_error": "Unerwarteter Git-Fehler: {error}",
+        "unexpected_error": "Unerwarteter Fehler: {error}"
+    }
 }
 # utils/main_helper.py
 main_helper_strings = {
@@ -600,6 +767,20 @@ main_helper_strings = {
         "cooldown_update": "Подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
         "high_demand": "Запрос отложен из-за высокой нагрузки: ({active}/{limit})",
     },
+    "DE": {
+        "unregistered_user": "Hallo, bitte kontaktieren Sie einen Administrator. (Nicht registrierter Benutzer)",
+        "archive_file_response": "Ich weiß ehrlich gesagt nicht, was ich mit dieser {file_ext} anfangen soll :(",
+        "specific_file_responses": {
+            ".tipa": "Sie können dies nur mit TrollStore installieren; {0} ist hier nutzlos!",
+            ".apk": "Ernsthaft?! {0} = 'Android Package Kit (APK)' ist hier nutzlos!"
+        },
+        "unsupported_text_file": "Was ist das, GTA Cheat-Codes?",
+        "unsupported_audio_file": "Ich habe meine Kopfhörer vergessen, kann das nicht hören :(",
+        "unsupported_video_file": "Ich habe meine Brille vergessen, kann das nicht ansehen :(",
+        "cooldown_wait": "Hey! {user}, bitte warten Sie {wait_time:.0f} Sekunden, bevor Sie eine weitere Datei hochladen...",
+        "cooldown_update": "Bitte warten Sie {wait_time:.0f} Sekunden, bevor Sie eine weitere Datei hochladen...",
+        "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife: ({active}/{limit})"
+    }
 }
 # utils/restart.py
 restart_strings = {
@@ -626,6 +807,14 @@ restart_strings = {
         "shutdown_requested": "Отключение запрошено - @{username}",
         "restart_awaiting": "⚠️ {web_path} папка осталась.\nОжидание завершения очистки...\n⌛️ Прошло времени: {calculate_process_time((time.time() - start_time))}.",
         "restart_in_progress": "🔁 Бот перезапускается...\n⌛️ Прошло времени: {calculate_process_time((time.time() - start_time))}."
+    },
+    "DE": {
+        "restart_declined": "Entschuldigung, nur Administratoren können den Bot neustarten. (Zugriff verweigert)",
+        "restart_requested": "Neustart angefordert von {userID} - @{username}",
+        "shutdown_declined": "Entschuldigung, nur Administratoren können den Bot herunterfahren. (Zugriff verweigert)",
+        "shutdown_requested": "Herunterfahren angefordert von {userID} - @{username}",
+        "restart_awaiting": "⚠️ Einige Verzeichnisse bleiben noch in {web_path}.\nWarte auf Abschluss der Bereinigung...\n⌛️ Vergangen: {calculate_process_time((time.time() - start_time))}.",
+        "restart_in_progress": "🔁 Bot wird neugestartet...\n⌛️ Gesamtzeit vergangen: {calculate_process_time((time.time() - start_time))}."
     }
 }
 # utils/run_cmd.py
@@ -650,5 +839,12 @@ run_cmd_strings = {
         "exec_cmd_exception": "{userID} {username} - : {user_error_message}",
         "command_out": ":\n{stdout}\n",
         "command_err": ":\n{stderr}\n"
+    },
+    "DE": {
+        "correct_usage": "Verwendung: /exec <Befehl>",
+        "admin_only_msg": "Entschuldigung, nur Administratoren können Befehle ausführen. (Zugriff verweigert)",
+        "exec_cmd_exception": "{userID} {username} - Fehler bei der Ausführung des Befehls: {user_error_message}",
+        "command_out": "Befehlsausgabe:\n{stdout}\n",
+        "command_err": "Befehlsfehler:\n{stderr}\n"
     }
 }
