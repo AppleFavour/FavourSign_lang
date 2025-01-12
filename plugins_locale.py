@@ -389,7 +389,7 @@ modifier_strings = {
 sign_strings = {
     "EN": {
         "greeting": "Hello, {message.from_user.first_name}! 😊\nIt seems like you forgot something. Please make your choice and resend the IPA! 🚀",
-        "retry_signing": "An error occurred during signing, retrying... ({failed_sign_attempt}/{max_sign_attempt})",
+        "sign_error_retry": "An error occurred during signing, retrying... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "Failed to sign.\nThis issue is often caused by the ipa file or Telegram.",
         "unexpected_error": "An unexpected error occurred.\nIf this issue persists, please reach out to me.",
         "ipa_ready": "Hey! The IPA has been signed and is ready for upload.",
@@ -400,11 +400,12 @@ sign_strings = {
         "signing_error": "Signing operation failed.",
         "unknown_error": "Unexpected error during signing operation.",
         "select_certificate_button": "Select Certificate 📝️️️️️️",
-        "executing_command": "Executing: {command}"
+        "executing_command": "Executing: {command}",
+        "modify_retry_error": "... ({failed_sign_attempt}/{max_sign_attempt})"
     },
     "TR": {
         "greeting": "Merhaba, {message.from_user.first_name}! 😊\nSanırım bir şey unuttunuz. Lütfen seçiminizi yapın ve IPA'yı tekrar göndermeyi unutmayın! 🚀",
-        "retry_signing": "İmzalama sırasında hata oluştu, tekrar deneniyor... ({failed_sign_attempt}/{max_sign_attempt})",
+        "sign_error_retry": "İmzalama sırasında hata oluştu, tekrar deneniyor... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "İmzalanamadı.\nBu sorun genellikle ipa'dan veya telegram'dan kaynaklanabilir.",
         "unexpected_error": "Beklenmedik bir hata oluştu.\nBu sorun sonraki denemenizde düzelmezse lütfen bana yazın.",
         "ipa_ready": "Hey! iPA imzalandı ve yüklenmeye hazır.",
@@ -415,11 +416,12 @@ sign_strings = {
         "signing_error": "Signing operation failed.",
         "unknown_error": "Unexpected error during signing operation.",
         "select_certificate_button": "Sertifika seç 📝️️️️️️",
-        "executing_command": "Executing: {command}"
+        "executing_command": "Executing: {command}",
+        "modify_retry_error": "... ({failed_sign_attempt}/{max_sign_attempt})"
     },
     "RU": {
         "greeting": "Привет, {message.from_user.first_name}! 😊\nПохоже, вы что-то забыли. Пожалуйста, сделайте свой выбор и отправьте IPA снова! 🚀",
-        "retry_signing": "Произошла ошибка при подписании, повторная попытка... ({failed_sign_attempt}/{max_sign_attempt})",
+        "sign_error_retry": "Произошла ошибка при подписании, повторная попытка... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "Не удалось подписать.\nВозникла проблема, как правило, связанная с ipa-файлом или Telegram.",
         "unexpected_error": "Произошла неожиданная ошибка.\nЕсли проблема не будет решена в следующей попытке, пожалуйста, напишите мне.",
         "ipa_ready": "Готово! iPA подписан и готов к загрузке.",
@@ -430,7 +432,8 @@ sign_strings = {
         "signing_error": "Операция подписания не удалась.",
         "unknown_error": "Неизвестная ошибка, во время операции подписания.",
         "select_certificate_button": "Выбрать сертификат 📝️️️️️️",
-        "executing_command": "Выполняется: {command}"
+        "executing_command": "Выполняется: {command}",
+        "modify_retry_error": "... ({failed_sign_attempt}/{max_sign_attempt})"
     },
 }
 # Plugins/speedtest.py
