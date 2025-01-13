@@ -836,3 +836,18 @@ run_cmd_strings = {
         "command_err": "Befehlsfehler:\n{stderr}\n"
     }
 }
+# main.py
+main_strings = {
+    "EN": {
+        "reply_or_send_ipa_prompt": "Please reply to a message or send an IPA file or a URL containing an IPA."
+    },
+    "TR": {
+        "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
+    },
+    "RU": {
+        "reply_or_send_ipa_prompt": "Ответьте на сообщение или отправьте файл IPA или URL, содержащий IPA."
+    },
+    "DE": {
+        "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
+    }
+}
