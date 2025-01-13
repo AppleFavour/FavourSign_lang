@@ -4,7 +4,7 @@ announcements_strings = {
         "no_reply": "🔍 Announcement message not found. Please reply to a message and try again.",
         "no_content": "🔍 Announcement content not found. Please reply to a message with text or a file.",
         "permission_denied": "🚫 You do not have permission to perform this action.",
-        "announcement_complete": "✅ Announcement completed.\n\nTotal users: {total}\nSent: {sent}\nFailed: {failed}",
+        "announcement_complete": "✅ Announcement completed.\n\nTotal users: {total}\nSent: {sent}\nNot sent: {failed}",
     },
     "TR": {
         "no_reply": "🔍 Duyuru mesajı bulunamadı. Lütfen bir mesajı yanıtlayıp tekrar deneyiniz.",
