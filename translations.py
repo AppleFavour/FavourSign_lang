@@ -446,7 +446,10 @@ language_select_strings = {
         "error_in_language_selection": "An error occurred during language selection.",
         "language_saved_successfully": "Language {lang} saved successfully for user {userID}",
         "database_error": "A database error occurred. Please try again later.",
+        "language_clear_success": "Now following telegram client language choice",
+        "language_clear_failed": "Nothing to remove?",
         "back_button": "Go Back 🔙",
+        "clear_button": "Clear Language 🧹"
     },
     "TR": {
         "select_language": "Dil seçiniz",
@@ -457,7 +460,10 @@ language_select_strings = {
         "error_in_language_selection": "Dil seçiminde bir hata oluştu.",
         "language_saved_successfully": "Dil başarıyla kaydedildi",
         "database_error": "Veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyin.",
+        "language_clear_success": "",
+        "language_clear_failed": "",
         "back_button": "Geri Dön 🔙",
+        "clear_button": "🧹"
     },
     "RU": {
         "select_language": "Выберите язык",
@@ -468,7 +474,10 @@ language_select_strings = {
         "error_in_language_selection": "Произошла ошибка при выборе языка.",
         "language_saved_successfully": "Язык {lang} успешно сохранен для пользователя {userID}",
         "database_error": "Произошла ошибка базы данных. Пожалуйста, попробуйте позже.",
+        "language_clear_success": "",
+        "language_clear_failed": "",
         "back_button": "Назад 🔙",
+        "clear_button": "🧹"
     },
     "DE": {
         "select_language": "Wähle eine Sprache",
@@ -479,7 +488,10 @@ language_select_strings = {
         "error_in_language_selection": "Bei der Sprachauswahl ist ein Fehler aufgetreten.",
         "language_saved_successfully": "Sprache {lang} erfolgreich für Benutzer {userID} gespeichert",
         "database_error": "Ein Datenbankfehler ist aufgetreten. Bitte versuche es später erneut.",
+        "language_clear_success": "",
+        "language_clear_failed": "",
         "back_button": "Zurück 🔙",
+        "clear_button": "🧹"
     }
 }
 # Plugins/modifier.py **to-do**
