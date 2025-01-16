@@ -189,7 +189,7 @@ countdown_strings = {
 # Plugins/download.py
 download_strings = {
     "EN": {
-        "download_pending": "**Download pending**",
+        "download_pending": "⏳ **Download pending**",
         "nothing_to_download": "Please send a direct link or file",
         "download_failed_message": "❌ {file_name} can't be downloaded!",
         "download_attempt_failed_message": "An error occurred while downloading {file_name}, retrying... ({attempt + 1}/{max_attempts})",
@@ -211,7 +211,7 @@ download_strings = {
         "retrying_message": "Retrying download... ({attempt + 1}/{max_attempts})"
     },
     "TR": {
-        "download_pending": "**İndirme bekleniyor**",
+        "download_pending": "⏳ **İndirme bekleniyor**",
         "nothing_to_download": "Lütfen bir dosya veya doğrudan indirme URL gönderin",
         "download_failed_message": "❌ {file_name} indirilemedi!",
         "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, tekrar deneniyor... ({attempt + 1}/{max_attempts})",
@@ -233,7 +233,7 @@ download_strings = {
         "retrying_message": "İndirme tekrar deneniyor... ({attempt + 1}/{max_attempts})"
     },
     "RU": {
-        "download_pending": "**Ожидание загрузки**",
+        "download_pending": "⏳ **Ожидание загрузки**",
         "nothing_to_download": "Пожалуйста, отправьте файл или прямую ссылку для скачивания",
         "download_failed_message": "❌ {file_name} не может быть скачан!",
         "download_attempt_failed_message": "Ошибка при скачивании {file_name}, повторная попытка... ({attempt + 1}/{max_attempts})",
@@ -255,7 +255,7 @@ download_strings = {
         "retrying_message": "Повторная попытка загрузки... ({attempt + 1}/{max_attempts})"
     },
     "DE": {
-        "download_pending": "**Download ausstehend**",
+        "download_pending": "⏳ **Download ausstehend**",
         "nothing_to_download": "Bitte sende einen direkten Link oder eine Datei",
         "download_failed_message": "❌ {file_name} kann nicht heruntergeladen werden!",
         "download_attempt_failed_message": "Ein Fehler ist beim Herunterladen von {file_name} aufgetreten, neuer Versuch... ({attempt + 1}/{max_attempts})",
@@ -438,13 +438,12 @@ info_strings = {
 # Plugins/language_select.py
 language_select_strings = {
     "EN": {
-        "select_language": "Select a language",
-        "selected": "Selected",
-        "already_selected": "You have already selected the current language.",
-        "save_failed": "Failed to save the language.",
-        "new_language_selected": "New language selected",
-        "error_in_language_selection": "An error occurred during language selection.",
-        "language_saved_successfully": "Language {lang} saved successfully for user {userID}",
+        "select_language": "🌐 Select a language",
+        "selected": "Selected:",
+        "already_selected": "⚠️ You have already selected the current language.",
+        "save_failed": "⚠️ Failed to save the language.",
+        "new_language_selected": "🌐 New language selected",
+        "error_in_language_selection": "⚠️ An error occurred during language selection.",
         "database_error": "A database error occurred. Please try again later.",
         "language_clear_success": "Now following telegram client language choice",
         "language_clear_failed": "Nothing to remove?",
@@ -452,13 +451,12 @@ language_select_strings = {
         "clear_button": "Clear Language 🧹"
     },
     "TR": {
-        "select_language": "Dil seçiniz",
-        "selected": "Seçilen",
+        "select_language": "🌐 Dil seçiniz",
+        "selected": "Seçilen:",
         "already_selected": "Zaten seçili dili seçtiniz.",
         "save_failed": "Dil kaydedilemedi.",
-        "new_language_selected": "Yeni dil seçildi",
+        "new_language_selected": "🌐 Yeni dil seçildi",
         "error_in_language_selection": "Dil seçiminde bir hata oluştu.",
-        "language_saved_successfully": "Dil başarıyla kaydedildi",
         "database_error": "Veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyin.",
         "language_clear_success": "",
         "language_clear_failed": "",
@@ -466,13 +464,12 @@ language_select_strings = {
         "clear_button": "🧹"
     },
     "RU": {
-        "select_language": "Выберите язык",
-        "selected": "Выбранный",
+        "select_language": "🌐 Выберите язык",
+        "selected": "Выбранный:",
         "already_selected": "Вы уже выбрали текущий язык.",
         "save_failed": "Не удалось сохранить язык.",
-        "new_language_selected": "Новый язык выбран",
+        "new_language_selected": "🌐 Новый язык выбран",
         "error_in_language_selection": "Произошла ошибка при выборе языка.",
-        "language_saved_successfully": "Язык {lang} успешно сохранен для пользователя {userID}",
         "database_error": "Произошла ошибка базы данных. Пожалуйста, попробуйте позже.",
         "language_clear_success": "",
         "language_clear_failed": "",
@@ -480,11 +477,11 @@ language_select_strings = {
         "clear_button": "🧹"
     },
     "DE": {
-        "select_language": "Wähle eine Sprache",
-        "selected": "Ausgewählt",
+        "select_language": "🌐 Wähle eine Sprache",
+        "selected": "Ausgewählt:",
         "already_selected": "Du hast bereits die aktuelle Sprache ausgewählt.",
         "save_failed": "Sprache konnte nicht gespeichert werden.",
-        "new_language_selected": "Neue Sprache ausgewählt",
+        "new_language_selected": "🌐 Neue Sprache ausgewählt",
         "error_in_language_selection": "Bei der Sprachauswahl ist ein Fehler aufgetreten.",
         "language_saved_successfully": "Sprache {lang} erfolgreich für Benutzer {userID} gespeichert",
         "database_error": "Ein Datenbankfehler ist aufgetreten. Bitte versuche es später erneut.",
@@ -738,6 +735,7 @@ main_helper_strings = {
         "cooldown_wait": "Hey! {user}, please wait {wait_time:.0f} seconds before uploading another file...",
         "cooldown_update": "Please wait {wait_time:.0f} seconds before uploading another file...",
         "high_demand": "Request on hold due to high demand: ({active}/{limit})",
+        "reply_or_send_ipa_prompt": "Please reply to a message or send an IPA file or a URL containing an IPA."
     },
     "TR": {
         "unregistered_user": "Merhaba, bir yönetici ile iletişime geçin. (Kayıtsız kullanıcı)",
@@ -752,6 +750,7 @@ main_helper_strings = {
         "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {wait_time:.0f} saniye bekleyiniz...",
         "cooldown_update": "Lütfen başka bir dosya yüklemeden önce {wait_time:.0f} saniye bekleyiniz...",
         "high_demand": "Yoğun talepten dolayı istek bekletiliyor: ({active}/{limit})",
+        "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
     },
     "RU": {
         "unregistered_user": "Здравствуйте, свяжитесь с администратором. (Незарегистрированный пользователь)",
@@ -766,6 +765,7 @@ main_helper_strings = {
         "cooldown_wait": "Эй! {user}, подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
         "cooldown_update": "Подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
         "high_demand": "Запрос отложен из-за высокой нагрузки: ({active}/{limit})",
+        "reply_or_send_ipa_prompt": "Ответьте на сообщение или отправьте файл IPA или URL, содержащий IPA."
     },
     "DE": {
         "unregistered_user": "Hallo, bitte kontaktieren Sie einen Administrator. (Nicht registrierter Benutzer)",
@@ -779,7 +779,9 @@ main_helper_strings = {
         "unsupported_video_file": "Ich habe meine Brille vergessen, kann das nicht ansehen :(",
         "cooldown_wait": "Hey! {user}, bitte warten Sie {wait_time:.0f} Sekunden, bevor Sie eine weitere Datei hochladen...",
         "cooldown_update": "Bitte warten Sie {wait_time:.0f} Sekunden, bevor Sie eine weitere Datei hochladen...",
-        "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife: ({active}/{limit})"
+        "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife: ({active}/{limit})",
+        "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
+
     }
 }
 # utils/restart.py
@@ -846,20 +848,5 @@ run_cmd_strings = {
         "exec_cmd_exception": "{userID} {username} - Fehler bei der Ausführung des Befehls: {user_error_message}",
         "command_out": "Befehlsausgabe:\n{stdout}\n",
         "command_err": "Befehlsfehler:\n{stderr}\n"
-    }
-}
-# main.py
-main_strings = {
-    "EN": {
-        "reply_or_send_ipa_prompt": "Please reply to a message or send an IPA file or a URL containing an IPA."
-    },
-    "TR": {
-        "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
-    },
-    "RU": {
-        "reply_or_send_ipa_prompt": "Ответьте на сообщение или отправьте файл IPA или URL, содержащий IPA."
-    },
-    "DE": {
-        "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
     }
 }
