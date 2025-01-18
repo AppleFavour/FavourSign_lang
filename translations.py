@@ -850,3 +850,70 @@ run_cmd_strings = {
         "command_err": "Befehlsfehler:\n{stderr}\n"
     }
 }
+# utils/helpers.py
+helpers_strings = {
+    "EN": {
+        "create_folder_error": "Error while creating folder: {error}",
+        "bps": "B/s",
+        "kbps": "KB/s",
+        "mbps": "MB/s",
+        "hour": "Hour",
+        "minute": "Minute",
+        "second": "Second",
+        "hour_short": "H",
+        "minute_short": "M",
+        "second_short": "S",
+        "ETA": "ETA",
+        "file_is_lost": "",
+        "file_format_error": "",  # ipa file is not a zip.
+        "error": ""
+    },
+    "TR": {
+        "create_folder_error": "Hata: {error}",
+        "bps": "B/s",
+        "kbps": "KB/s",
+        "mbps": "MB/s",
+        "hour": "Saat",
+        "minute": "Dakika",
+        "second": "Saniye",
+        "hour_short": "S",
+        "minute_short": "Dk",
+        "second_short": "Sn",
+        "ETA": "Kalan",
+        "file_is_lost": "",
+        "file_format_error": "",
+        "error": ""
+    },
+    "RU": {
+        "create_folder_error": ": {error}",
+        "bps": "B/s",
+        "kbps": "KB/s",
+        "mbps": "MB/s",
+        "hour": "",
+        "minute": "",
+        "second": "",
+        "hour_short": "",
+        "minute_short": "",
+        "second_short": "",
+        "ETA": "",
+        "file_is_lost": "",
+        "file_format_error": "",
+        "error": ""
+    },
+    "DE": {
+        "create_folder_error": ": {error}",
+        "bps": "B/s",
+        "kbps": "KB/s",
+        "mbps": "MB/s",
+        "hour": "",
+        "minute": "",
+        "second": "",
+        "hour_short": "",
+        "minute_short": "",
+        "second_short": "",
+        "ETA": "",
+        "file_is_lost": "",
+        "file_format_error": "",
+        "error": ""
+    }
+}
