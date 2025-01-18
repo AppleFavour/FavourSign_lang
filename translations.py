@@ -192,7 +192,7 @@ download_strings = {
         "download_pending": "⏳ **Download pending**",
         "nothing_to_download": "Please send a direct link or file",
         "download_failed_message": "❌ {file_name} can't be downloaded!",
-        "download_attempt_failed_message": "An error occurred while downloading {file_name}, retrying... ({attempt + 1}/{max_attempts})",
+        "download_attempt_failed_message": "An error occurred while downloading {file_name}, retrying... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} downloaded successfully!",
         "download_error_detected": "Detected an error during download",
         "httpnot200": "There is nothing to see here.",
@@ -208,13 +208,13 @@ download_strings = {
         "file_not_found_error": "File not found.",
         "file_corrupted_error": "Corrupted file detected.",
         "unknown_exception_error": "An unexpected error occurred.",
-        "retrying_message": "Retrying download... ({attempt + 1}/{max_attempts})"
+        "retrying_message": "Retrying download... ({current}/{limit})"
     },
     "TR": {
         "download_pending": "⏳ **İndirme bekleniyor**",
         "nothing_to_download": "Lütfen bir dosya veya doğrudan indirme URL gönderin",
         "download_failed_message": "❌ {file_name} indirilemedi!",
-        "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, tekrar deneniyor... ({attempt + 1}/{max_attempts})",
+        "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, tekrar deneniyor... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} başarıyla indirildi!",
         "download_error_detected": "İndirme sırasında bir hata algılandı",
         "httpnot200": "Burada görmeye değer bir şey yok.",
@@ -230,13 +230,13 @@ download_strings = {
         "file_not_found_error": "Dosya bulunamadı.",
         "file_corrupted_error": "Bozuk dosya tespit edildi.",
         "unknown_exception_error": "Beklenmeyen bir hata oluştu.",
-        "retrying_message": "İndirme tekrar deneniyor... ({attempt + 1}/{max_attempts})"
+        "retrying_message": "İndirme tekrar deneniyor... ({current}/{limit})"
     },
     "RU": {
         "download_pending": "⏳ **Ожидание загрузки**",
         "nothing_to_download": "Пожалуйста, отправьте файл или прямую ссылку для скачивания",
         "download_failed_message": "❌ {file_name} не может быть скачан!",
-        "download_attempt_failed_message": "Ошибка при скачивании {file_name}, повторная попытка... ({attempt + 1}/{max_attempts})",
+        "download_attempt_failed_message": "Ошибка при скачивании {file_name}, повторная попытка... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} скачан успешно!",
         "download_error_detected": "Обнаружена ошибка при скачивании",
         "httpnot200": "Здесь нет ничего интересного.",
@@ -252,13 +252,13 @@ download_strings = {
         "file_not_found_error": "Файл не найден.",
         "file_corrupted_error": "Обнаружен повреждённый файл.",
         "unknown_exception_error": "Произошла неизвестная ошибка.",
-        "retrying_message": "Повторная попытка загрузки... ({attempt + 1}/{max_attempts})"
+        "retrying_message": "Повторная попытка загрузки... ({current}/{limit})"
     },
     "DE": {
         "download_pending": "⏳ **Download ausstehend**",
         "nothing_to_download": "Bitte sende einen direkten Link oder eine Datei",
         "download_failed_message": "❌ {file_name} kann nicht heruntergeladen werden!",
-        "download_attempt_failed_message": "Ein Fehler ist beim Herunterladen von {file_name} aufgetreten, neuer Versuch... ({attempt + 1}/{max_attempts})",
+        "download_attempt_failed_message": "Ein Fehler ist beim Herunterladen von {file_name} aufgetreten, neuer Versuch... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} erfolgreich heruntergeladen!",
         "download_error_detected": "Fehler beim Download erkannt",
         "httpnot200": "Hier gibt es nichts zu sehen.",
@@ -274,7 +274,7 @@ download_strings = {
         "file_not_found_error": "Datei nicht gefunden.",
         "file_corrupted_error": "Beschädigte Datei erkannt.",
         "unknown_exception_error": "Ein unerwarteter Fehler ist aufgetreten.",
-        "retrying_message": "Download wird wiederholt... ({attempt + 1}/{max_attempts})"
+        "retrying_message": "Download wird wiederholt... ({current}/{limit})"
     }
 }
 # Plugins/help.py
