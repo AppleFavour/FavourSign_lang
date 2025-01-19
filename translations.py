@@ -165,7 +165,7 @@ countdown_strings = {
         "certificate": "Sertifika",
         "install_button": "📲 Yükle",
         "explore_button": "🔎 Daha fazla iPA keşfedin",
-        "mnm_notify": "Mesaj düzenlenmesi başarısız oldu.”
+        "mnm_notify": "Mesaj düzenlenmesi başarısız oldu."
     },
     "RU": {
         "signed": "Подписан",
@@ -211,8 +211,6 @@ download_strings = {
         "retrying_message": "Retrying download... ({current}/{limit})"
     },
     "TR": {
-        json
-{
         "download_pending": "⏳ **İndirme bekleniyor**",
         "nothing_to_download": "Lütfen doğrudan bir dosya veya bağlantı gönderin",
         "download_failed_message": "❌ {file_name} indirilemedi",
@@ -755,15 +753,14 @@ start_strings = {
         "select_language": "Select Language 🌐",
         "approval_purchase": "Get Approval / Purchase"
     },
-    "TR": json
-{
-    "welcome_registered": "Merhaba! {name}\nBaşlamak için lütfen bir sertifika seçin.",
-    "welcome_unregistered": "Merhaba, {name}!\nÜzgünüm, botu kullanabilmek için yetkiniz bulunmamaktadır.\n\n▸ Eğer AppleFavour’dan alınmış bir sertifikanız varsa, yetkilendirme için aşağıdaki butonu kullanarak bizimle iletişime geçin. Sertifikanız yoksa satın almak için iletişime geçebilirsiniz.",
-    "select_certificate": "Sertifika Seçin 📝️",
-    "select_compression": "Sıkıştırma Oranını Seçin 📁",
-    "select_language": "Dil Seçin 🌐",
-    "approval_purchase": "Onay / Satın Al"
-},
+    "TR": {
+        "welcome_registered": "Merhaba! {name}\nBaşlamak için lütfen bir sertifika seçin.",
+        "welcome_unregistered": "Merhaba, {name}!\nÜzgünüm, botu kullanabilmek için yetkiniz bulunmamaktadır.\n\n▸ Eğer AppleFavour’dan alınmış bir sertifikanız varsa, yetkilendirme için aşağıdaki butonu kullanarak bizimle iletişime geçin. Sertifikanız yoksa satın almak için iletişime geçebilirsiniz.",
+        "select_certificate": "Sertifika Seçin 📝️",
+        "select_compression": "Sıkıştırma Oranını Seçin 📁",
+        "select_language": "Dil Seçin 🌐",
+        "approval_purchase": "Onay / Satın Al"
+    },
     "RU": {
         "welcome_registered": "Привет! {name}\nПожалуйста, выберите сертификат, чтобы начать.",
         "welcome_unregistered": "Привет, {name}!\nИзвините, для использования бота требуется одобрение администратора.\n\n▸ Если у вас есть сертификат, свяжитесь с нами через кнопку ниже для получения одобрения, или для покупки, если у вас его нет.",
