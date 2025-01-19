@@ -7,10 +7,10 @@ announcements_strings = {
         "announcement_complete": "✅ Announcement completed.\n\nTotal users: {total}\nSent: {sent}\nNot sent: {failed}",
     },
     "TR": {
-        "no_reply": "🔍 Duyuru mesajı bulunamadı. Lütfen bir mesajı yanıtlayıp tekrar deneyiniz.",
-        "no_content": "🔍 Duyuru içeriği bulunamadı. Lütfen metin veya dosya içeren bir mesajı yanıtlayınız.",
-        "permission_denied": "🚫 Bunu yapmaya yetkin yok.",
-        "announcement_complete": "✅ Duyuru tamamlandı.\n\nToplam kullanıcı: {total}\nİletilen: {sent}\nİletilemeyen: {failed}",
+        "no_reply": "🔍 Duyuru mesajı bulunamadı. Lütfen bir mesaja yanıt verin ve tekrar deneyin.",
+        "no_content": "🔍 Duyuru içeriği bulunamadı. Lütfen bir metin veya dosya ile bir mesaja yanıt verin.",
+        "permission_denied": "🚫 Bu işlemi gerçekleştirmek için izniniz yok.",
+        "announcement_complete": "✅ Duyuru tamamlandı.\n\nToplam kullanıcı: {total}\nGönderilen: {sent}\nGönderilemeyen: {failed}",
     },
     "RU": {
         "no_reply": "🔍 Сообщение для объявления не найдено. Пожалуйста, ответьте на сообщение и попробуйте снова.",
@@ -37,13 +37,13 @@ certificate_select_strings = {
         "callback_error": "⚠️ An error occurred.",
     },
     "TR": {
-        "cert_loading_error": "⚠️ Sertifika bilgileri yüklenirken bir hata oldu.",
-        "select_certificate_prompt": "📃 Sertifika seçiminizi yapınız.\nSeçilen: {selected}",
-        "cert_saved": "📌 Sertifika seçildi: {cert_name}",
-        "already_selected": "⚠️ Zaten seçilmiş",
+        "cert_loading_error": "⚠️ Sertifika bilgilerini yüklerken bir hata oluştu.",
+        "select_certificate_prompt": "📃 Lütfen bir sertifika seçin.\nSeçilen: {selected}",
+        "cert_saved": "📌 Seçilen sertifika: {cert_name}",
+        "already_selected": "⚠️ Sertifika zaten seçilmiş.",
         "back_button": "Geri Dön 🔙",
-        "saving_error": "Bir veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyiniz.",
-        "callback_error": "⚠️ Bir hata oldu.",
+        "saving_error": "Bir veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyin.",
+        "callback_error": "⚠️ Bir hata oluştu.",
     },
     "RU": {
         "cert_loading_error": "⚠️ Произошла ошибка при загрузке информации о сертификате.",
@@ -68,19 +68,19 @@ certificate_select_strings = {
 compression_level_strings = {
     "EN": {
         "compression_prompt": (
-            "📚 Select the compression level\n"
+            "📁 Select the compression level\n"
             "Selected: {selected}\n"
             "This setting determines the bot's speed and the size of the signed file.\n\n"
-            "⬢ **0** — **Fastest Signing**, **Minimum Compression (Larger File Size)**\n"
-            "⬢ **9** — **Slowest Signing**, **Maximum Compression (Smaller File Size)**"
+            "**0** — **Fastest Signing**, **Minimum Compression (Larger File Size)**\n"
+            "**9** — **Slowest Signing**, **Maximum Compression (Smaller File Size)**"
         ),
         "already_selected": "⚠️ Already selected.",
         "save_error": "Compression level could not be saved.",
         "compression_selected": (
             "📌 Compression level selected: {selected}\n\n"
             "This setting determines the bot's speed and the size of the signed file.\n\n"
-            "⬢ **0** — **Fastest Signing**, **Minimum Compression (Larger File Size)**\n"
-            "⬢ **9** — **Slowest Signing**, **Maximum Compression (Smaller File Size)**"
+            "**0** — **Fastest Signing**, **Minimum Compression (Larger File Size)**\n"
+            "**9** — **Slowest Signing**, **Maximum Compression (Smaller File Size)**"
         ),
         "selected_notification": "📌 Selected: {selected}",
         "generic_error": "⚠️ An error occurred.",
@@ -88,39 +88,39 @@ compression_level_strings = {
     },
     "TR": {
         "compression_prompt": (
-            "📚 Sıkıştırma oranı seçiniz\n"
+            "📁 Sıkıştırma seviyesini seçin\n"
             "Seçilen: {selected}\n"
-            "Bu ayar, botun hızı ve imzalanan dosyasının boyutunu belirleyen seçenektir.\n\n"
-            "⬢ **0** — **En Hızlı İmzalama**, **Minimum Sıkıştırma (Dosya boyutu daha büyük)**\n"
-            "⬢ **9** — **En Yavaş İmzalama**, **Maksimum Sıkıştırma (Dosya boyutu daha küçük)**"
+            "Bu ayar, botun hızını ve imzalanmış dosyanın boyutunu belirler.\n\n"
+            "**0** — **En Hızlı İmzalama**, **Minimum Sıkıştırma (Daha Büyük Dosya Boyutu)**\n"
+            "**9** — **En Yavaş İmzalama**, **Maksimum Sıkıştırma (Daha Küçük Dosya Boyutu)**"
         ),
-        "already_selected": "⚠️ Zaten seçtiniz.",
-        "save_error": "Sıkıştırma oranı kaydedilemedi.",
+        "already_selected": "⚠️ Zaten seçilmiş.",
+        "save_error": "Sıkıştırma seviyesi kaydedilemedi.",
         "compression_selected": (
-            "📌 Sıkıştırma oranı seçildi: {selected}\n\n"
-            "Bu ayar, botun hızı ve imzalanan dosyasının boyutunu belirleyen seçenektir.\n\n"
-            "⬢ **0** — **En Hızlı İmzalama**, **Minimum Sıkıştırma (Dosya boyutu daha büyük)**\n"
-            "⬢ **9** — **En Yavaş İmzalama**, **Maksimum Sıkıştırma (Dosya boyutu daha küçük)**"
+            "📌 Seçilen sıkıştırma seviyesi: {selected}\n\n"
+            "Bu ayar, botun hızını ve imzalanmış dosyanın boyutunu belirler.\n\n"
+            "**0** — **En Hızlı İmzalama**, **Minimum Sıkıştırma (Daha Büyük Dosya Boyutu)**\n"
+            "**9** — **En Yavaş İmzalama**, **Maksimum Sıkıştırma (Daha Küçük Dosya Boyutu)**"
         ),
         "selected_notification": "📌 Seçilen: {selected}",
-        "generic_error": "⚠️ Bir hata oldu.",
+        "generic_error": "⚠️ Bir hata oluştu.",
         "back_button": "Geri Dön 🔙",
     },
     "RU": {
         "compression_prompt": (
-            "📚 Выберите уровень сжатия\n"
+            "📁 Выберите уровень сжатия\n"
             "Выбран: {selected}\n"
             "Эта настройка определяет скорость бота и размер подписанного файла.\n\n"
-            "⬢ **0** — **Самая Быстрая Подпись**, **Минимальное Сжатие (Больший Размер Файла)**\n"
-            "⬢ **9** — **Самая Медленная Подпись**, **Максимальное Сжатие (Меньший Размер Файла)**"
+            "**0** — **Самая Быстрая Подпись**, **Минимальное Сжатие (Больший Размер Файла)**\n"
+            "**9** — **Самая Медленная Подпись**, **Максимальное Сжатие (Меньший Размер Файла)**"
         ),
         "already_selected": "⚠️ Уже выбрано.",
         "save_error": "Не удалось сохранить уровень сжатия.",
         "compression_selected": (
             "📌 Выбран уровень сжатия: {selected}\n\n"
             "Эта настройка определяет скорость бота и размер подписанного файла.\n\n"
-            "⬢ **0** — **Самая Быстрая Подпись**, **Минимальное Сжатие (Больший Размер Файла)**\n"
-            "⬢ **9** — **Самая Медленная Подпись**, **Максимальное Сжатие (Меньший Размер Файла)**"
+            "**0** — **Самая Быстрая Подпись**, **Минимальное Сжатие (Больший Размер Файла)**\n"
+            "**9** — **Самая Медленная Подпись**, **Максимальное Сжатие (Меньший Размер Файла)**"
         ),
         "selected_notification": "📌 Выбрано: {selected}",
         "generic_error": "⚠️ Произошла ошибка.",
@@ -128,7 +128,7 @@ compression_level_strings = {
     },
     "DE": {
         "compression_prompt": (
-            "📚 Wähle die Komprimierungsstufe\n"
+            "📁 Wähle die Komprimierungsstufe\n"
             "Ausgewählt: {selected}\n"
             "Diese Einstellung bestimmt die Geschwindigkeit des Bots und die Größe der signierten Datei.\n\n"
             "⬢ **0** — **Schnellste Signierung**, **Minimale Komprimierung (Größere Dateigröße)**\n"
@@ -139,8 +139,8 @@ compression_level_strings = {
         "compression_selected": (
             "📌 Komprimierungsstufe ausgewählt: {selected}\n\n"
             "Diese Einstellung bestimmt die Geschwindigkeit des Bots und die Größe der signierten Datei.\n\n"
-            "⬢ **0** — **Schnellste Signierung**, **Minimale Komprimierung (Größere Dateigröße)**\n"
-            "⬢ **9** — **Langsamste Signierung**, **Maximale Komprimierung (Kleinere Dateigröße)**"
+            "**0** — **Schnellste Signierung**, **Minimale Komprimierung (Größere Dateigröße)**\n"
+            "**9** — **Langsamste Signierung**, **Maximale Komprimierung (Kleinere Dateigröße)**"
         ),
         "selected_notification": "📌 Ausgewählt: {selected}",
         "generic_error": "⚠️ Ein Fehler ist aufgetreten.",
@@ -155,17 +155,17 @@ countdown_strings = {
         "bundle_id": "Bundle ID",
         "certificate": "Certificate",
         "install_button": "📲 Install",
-        "explore_button": "🔎 Discover more",
+        "explore_button": "🔎 Discover more iPA",
         "mnm_notify": "Do you see this because message.edit_text is failed"
     },
     "TR": {
         "signed": "İmzalandı",
-        "app_name": "Uygulama adı",
+        "app_name": "Uygulama Adı",
         "bundle_id": "Uygulama ID",
         "certificate": "Sertifika",
         "install_button": "📲 Yükle",
-        "explore_button": "🔎 Daha fazla iPA",
-        "mnm_notify": "Mesaj duzenlenirken bir hata olustu"
+        "explore_button": "🔎 Daha fazla iPA keşfedin",
+        "mnm_notify": "Mesaj düzenlenmesi başarısız oldu.”
     },
     "RU": {
         "signed": "Подписан",
@@ -211,26 +211,28 @@ download_strings = {
         "retrying_message": "Retrying download... ({current}/{limit})"
     },
     "TR": {
+        json
+{
         "download_pending": "⏳ **İndirme bekleniyor**",
-        "nothing_to_download": "Lütfen bir dosya veya doğrudan indirme URL gönderin",
-        "download_failed_message": "❌ {file_name} indirilemedi!",
-        "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, tekrar deneniyor... ({current}/{limit})",
-        "download_successful_message": "✅ {file_name} başarıyla indirildi!",
-        "download_error_detected": "İndirme sırasında bir hata algılandı",
-        "httpnot200": "Burada görmeye değer bir şey yok.",
+        "nothing_to_download": "Lütfen doğrudan bir dosya veya bağlantı gönderin",
+        "download_failed_message": "❌ {file_name} indirilemedi",
+        "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, yeniden deneniyor... ({current}/{limit})",
+        "download_successful_message": "✅ {file_name} başarıyla indirildi",
+        "download_error_detected": "İndirme sırasında bir hata tespit edildi",
+        "httpnot200": "Burada görülecek bir şey yok.",
         "httpnotfile": "İndirilecek bir şey yok.",
         "connection_error": "Bağlantı kurulamadı.",
-        "unexpected_response_error": "Sunucudan beklenmeyen yanıt alındı.",
+        "unexpected_response_error": "Sunucudan beklenmeyen yanıt.",
         "invalid_url_error": "Geçersiz URL sağlandı.",
-        "too_many_redirects_error": "Çok fazla yönlendirme yapıldı.",
+        "too_many_redirects_error": "Çok fazla yönlendirme ile karşılaşıldı.",
         "ssl_error": "SSL bağlantı hatası.",
-        "payload_error": "Eksik veya hatalı veri alındı.",
+        "payload_error": "Geçersiz veya eksik veri alındı.",
         "server_disconnected_error": "Sunucu bağlantısı kesildi.",
         "general_download_error": "Dosya indirilirken bir hata oluştu.",
         "file_not_found_error": "Dosya bulunamadı.",
         "file_corrupted_error": "Bozuk dosya tespit edildi.",
-        "unknown_exception_error": "Beklenmeyen bir hata oluştu.",
-        "retrying_message": "İndirme tekrar deneniyor... ({current}/{limit})"
+        "unknown_exception_error": "Beklenmedik bir hata oluştu.",
+        "retrying_message": "İndirme yeniden deneniyor... ({current}/{limit})"
     },
     "RU": {
         "download_pending": "⏳ **Ожидание загрузки**",
@@ -317,27 +319,27 @@ help_strings = {
         "admin_cmds": "Yönetici Komutları:",
         "help_cmd": "Bu yardım mesajını gösterir.",
         "speedtest_cmd": "Bağlantı hızını test eder.",
-        "info_cmd": "Bot bilgilerini görüntüler.",
-        "sign_cmd": "Herhangi bir ipa dosyasını gönderir veya yanıtlar.",
+        "info_cmd": "Bot hakkında bilgi gösterir.",
+        "sign_cmd": "iPA’ya gönder veya yanıtla.",
         "clear_cmd": "Düzenleme seçeneklerini devre dışı bırakır.",
-        "profile_cmd": "iPA dosyasından gömülü mobil provizyon dosyasını kaldırır.",
-        "stripencslices_cmd": "iPA dosyasından şifrelenmiş dilimleri kaldırır.",
-        "stripslices_cmd": "iPA dosyasından arm64 olmayan dilimleri kaldırır.",
-        "filesupport_cmd": "Eğer uygulama destekliyorsa 'Dosyalar Uygulaması' desteğini düzeltmeye çalışır.",
-        "watch_cmd": "iPA dosyasından saat uygulamasını kaldırır.",
-        "rmdevicelimit_cmd": "Cihaza özel kurulum kısıtlamasını kaldırır.",
-        "setlimit_cmd": "Minimum gerekli işletim sistemini belirler, kurulum kısıtlamasını aşmak için. - Garantisi yoktur.",
+        "profile_cmd": "iPA’dan mobileprovision dosyasını kaldırır.",
+        "stripencslices_cmd": "iPA dosyasından şifrelenmiş kısımları kaldırır.",
+        "stripslices_cmd": "iPA dosyasından arm64 olmayan kısımları kaldırır.",
+        "filesupport_cmd": "Eğer destekleniyorsa 'Dosyalar Uygulaması' desteğini düzeltmeye çalışır.",
+        "watch_cmd": "iPA dosyasından Apple Watch uygulamasını kaldırır.",
+        "rmdevicelimit_cmd": "Cihaza özgü yükleme kısıtlamasını kaldırır.",
+        "setlimit_cmd": "Yükleme kısıtlamasını aşabilmek için gerekli minimum OS’u ayarlar. (Çalışmayabilir)",
         "id_cmd": "Uygulamanın paket/bundle kimliğini değiştirir.",
         "version_cmd": "Uygulamanın paket/bundle sürümünü değiştirir.",
         "name_cmd": "Uygulamanın paket/bundle adını değiştirir.",
-        "update_cmd": "Botu günceller (Depodan çekme işlemi yapar).",
-        "duyur_cmd": "Tüm kayıtlı kullanıcılara duyuru yapar.",
-        "exec_cmd": "Kabuk komutları çalıştırır.",
+        "update_cmd": "Botu günceller (Repo’dan çeker).",
+        "duyur_cmd": "Tüm kayıtlı kullanıcılar için bir duyuru yapar.",
+        "exec_cmd": "Shell komutları çalıştırır.",
         "restart_cmd": "Botu yeniden başlatır.",
         "shutdown_cmd": "Botu kapatır.",
         "user_cmd": "Kullanıcıları veritabanına kaydeder/kaldırır.",
         "premium_cmd": "*Eski* Kullanıcıyı premium olarak işaretler, gelecekte özel içeriklere erişebilirler (eğer böyle bir içerik oluşturursam).",
-        "unknown_exception": "@{username} ({userID}) kullanıcısından gelen yardım isteği işlenirken bir hata oluştu: {error}"
+        "unknown_exception": "@{username} ({userID}) kullanıcısından yardım isteği işlenirken bir hata oluştu: {error}"
     },
     "RU": {
         "user_not_registered": "Вы не зарегистрированы.",
@@ -403,7 +405,7 @@ help_strings = {
 # Plugins/info.py
 info_strings = {
     "EN": {
-        "greeting": "Hello! {name}",
+        "greeting": "👋 Hello! {name}",
         "system_info": "\nSystem Information:\n",
         "bot_info": "\nBot Information:\n",
         "bot_stats": "{uptime} - {usage}",
@@ -411,15 +413,15 @@ info_strings = {
         "active_users": "Active users: {count}",
     },
     "TR": {
-        "greeting": "Merhaba! {name}",
-        "system_info": "\nSistem özellikleri:\n",
-        "bot_info": "\nBot hakkında:\n",
+        "greeting": "👋 Merhaba! {name}",
+        "system_info": "\nSistem Bilgileri:\n",
+        "bot_info": "\nBot Bilgileri:\n",
         "bot_stats": "{uptime} - {usage}",
-        "total_users": "Kullanıcılar: {count}",
-        "active_users": "Aktif kullanıcılar: {count}",
+        "total_users": "Kayıtlı Kullanıcı Sayısı: {count}",
+        "active_users": "Aktif Kullanıcı Sayısı: {count}",
     },
     "RU": {
-        "greeting": "Привет! {name}",
+        "greeting": "👋 Привет! {name}",
         "system_info": "\nСистемная информация:\n",
         "bot_info": "\nИнформация о боте:\n",
         "bot_stats": "{uptime} - {usage}",
@@ -427,7 +429,7 @@ info_strings = {
         "active_users": "Активные пользователи: {count}",
     },
     "DE": {
-        "greeting": "Hallo! {name}",
+        "greeting": "👋 Hallo! {name}",
         "system_info": "\nSysteminformationen:\n",
         "bot_info": "\nBot-Informationen:\n",
         "bot_stats": "{uptime} - {usage}",
@@ -451,17 +453,17 @@ language_select_strings = {
         "clear_button": "Clear Language 🧹"
     },
     "TR": {
-        "select_language": "🌐 Dil seçiniz",
+        "select_language": "🌐 Bir dil seçin",
         "selected": "Seçilen:",
-        "already_selected": "Zaten seçili dili seçtiniz.",
+        "already_selected": "Mevcut dili zaten seçtiniz.",
         "save_failed": "Dil kaydedilemedi.",
         "new_language_selected": "🌐 Yeni dil seçildi",
-        "error_in_language_selection": "Dil seçiminde bir hata oluştu.",
+        "error_in_language_selection": "Dil seçimi sırasında bir hata oluştu.",
         "database_error": "Veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyin.",
-        "language_clear_success": "",
-        "language_clear_failed": "",
+        "language_clear_success": "Artık Telegram istemcisindeki dil seçimini takip ediyorsunuz.",
+        "language_clear_failed": "Silinecek bir şey yok.",
         "back_button": "Geri Dön 🔙",
-        "clear_button": "🧹"
+        "clear_button": "Dili Temizle 🧹"
     },
     "RU": {
         "select_language": "🌐 Выберите язык",
@@ -528,38 +530,38 @@ modifier_strings = {
         "error_while_resetting": "An error occurred while resetting variables. Try using the /c command. Error: {error}."
     },
     "TR": {
-        "save_error": "Failed to save {options}. Error: {error}.",
-        "read_decode_error": "Failed to read {options}. Error: {error}.",
-        "read_runtime_error": "An error occurred while reading: {error}.",
-        "update_error": "Failed to update {options}. Error: {error}.",
-        "app_name_usage": "",
-        "set_app_name": "The app name has been set to **{name}**.",
-        "unset_app_name": "",
-        "app_version_usage": "",
-        "set_app_version": "The app version has been set to **{version}**.",
-        "unset_app_version": "",
-        "invalid_app_version": "",
-        "app_id_usage": "",
-        "set_app_id": "The app bundle ID has been set to **{id}**.",
-        "unset_app_id": "",
-        "min_os_usage": "",
-        "set_min_os": "The minimum OS version has been set to **{os_version}**.",
-        "unset_min_os": "",
-        "invalid_min_os": "",
-        "set_install_restriction": "",
-        "unset_install_restriction": "",
-        "set_remove_watchapp": "",
-        "unset_remove_watchapp": "",
-        "set_file_support": "",
-        "unset_file_support": "",
+        "save_error": "{options} kaydedilemedi. Hata: {error}.",
+        "read_decode_error": "{options} okunamadı. Hata: {error}.",
+        "read_runtime_error": "Okuma sırasında bir hata oluştu: {error}.",
+        "update_error": "{options} güncellenemedi. Hata: {error}.",
+        "app_name_usage": "Örnek Kullanım: /name (veya /n) <uygulama_adi> ",
+        "set_app_name": "Uygulama adı **{name}** olarak ayarlandı.",
+        "unset_app_name": "Uygulama adı değiştirilemedi.",
+        "app_version_usage": "Örnek Kullanım: /version (veya /v) <uygulama_versiyonu> ",
+        "set_app_version": "Uygulama sürümü **{version}** olarak ayarlandı.",
+        "unset_app_version": "Uygulama sürümü değiştirilemedi.",
+        "invalid_app_version": "Geçersiz format. Sadece rakam, nokta ve kısa çizgi kullanılabilir.",
+        "app_id_usage": "Örnek Kullanım: /id (veya /b) <bundle_id>. Bundle ID aralığına keyfi bir metin girebilirsiniz.",
+        "set_app_id": "Bundle ID **{id}** olaral ayarlandı.",
+        "unset_app_id": "Uygulamanın Bundle ID’si değiştirilemedi.",
+        "min_os_usage": "Örnek Kullanım: /setlimit (veya /nl) <minimum_os_versiyonu>",
+        "set_min_os": "Minimum OS sürümü **{os_version}** olarak ayarlandı.",
+        "unset_min_os": "Mininum OS sürümü değiştirilemedi.",
+        "invalid_min_os": "Geçersiz OS sürümü formatı. Lütfen geçerli bir sürüm dizesi kullanın. Örnek Kullanım: 14.0",
+        "set_install_restriction": "Kurulum kısıtlamaları uygulanmıştır.",
+        "unset_install_restriction": "Kurulum kısıtlamaları kaldırılmıştır.",
+        "set_remove_watchapp": "Apple Watch uygulaması kaldırma işlemi etkinleştirildi.",
+        "unset_remove_watchapp": "Apple Watch uygulaması kaldırma işlemi devre dışı bırakıldı.",
+        "set_file_support": "Dosya desteği etkinleştirildi. (Çalışmayabilir)",
+        "unset_file_support": "Dosya desteği devre dışı bırakıldı.",
         "set_remove_architectures": "",
         "unset_remove_architectures": "",
-        "set_remove_encrypted_binaries": "",
-        "unset_remove_encrypted_binaries": "",
+        "set_remove_encrypted_binaries": "Şifrelenmiş dosyalar kaldırılacaktır.",
+        "unset_remove_encrypted_binaries": "Şifrelenmiş dosyalar kaldırılmayacaktır.",
         "set_profile_removal": "",
         "unset_profile_removal": "",
-        "tweak_added_expecting_ipa": "Added: {file_name}. Waiting for ipa...",
-        "error_while_resetting": "An error occurred while resetting variables. Try using the /c command. Error: {error}."
+        "tweak_added_expecting_ipa": "Eklendi: {file_name}. iPA bekleniyor...",
+        "error_while_resetting": "Değişkenler sıfırlanırken bir hata oluştu. /c komutunu kullanmayı deneyin: {error}."
     },
     "RU": {
         "save_error": "Failed to save {options}. Error: {error}.",
@@ -655,22 +657,22 @@ sign_strings = {
         "unknown_sign_err": "An unknown error occurred during the signing operation."
     },
     "TR": {
-        "no_cert_selected": "Merhaba, {user_first_name}! 😊\nSanırım bir şey unuttunuz. Lütfen seçiminizi yapın ve IPA'yı tekrar göndermeyi unutmayın! 🚀",
-        "sign_error_retry": "İmzalama sırasında hata oluştu, tekrar deneniyor... ({failed_sign_attempt}/{max_sign_attempt})",
-        "signing_failed": "İmzalanamadı.\nBu sorun genellikle IPA dosyasından veya Telegram'dan kaynaklanabilir.",
-        "unexpected_error": "Beklenmedik bir hata oluştu.\nEğer sorun devam ederse lütfen bana yazın.",
-        "ipa_ready": "Hey! IPA imzalandı ve yüklenmeye hazır.",
-        "forgot_choice": "Sanırım bir şey unuttunuz. Lütfen seçiminizi yapın ve IPA'yı tekrar göndermeyi unutmayın!",
-        "file_lost": "Dosya imzalama işlemi sırasında kayboldu.",
+        "no_cert_selected": "Merhaba, {user_first_name}! 😊\nGörünüşe göre bir şeyi unuttunuz. Lütfen seçiminizi yapın ve iPA'yı yeniden gönderin! 🚀",
+        "sign_error_retry": "İmzalama sırasında bir hata oluştu, yeniden deniyorum... ({failed_sign_attempt}/{max_sign_attempt})",
+        "signing_failed": "İmzalama işlemi başarısız oldu.\nBu sorun genellikle iPA dosyasından veya Telegram'dan kaynaklanmaktadır.",
+        "unexpected_error": "Beklenmedik bir hata oluştu.\nBu sorun devam ederse, lütfen benimle iletişime geçin.",
+        "ipa_ready": "Merhaba! iPA imzalandı ve yükleme için hazır.",
+        "forgot_choice": "Görünüşe göre bir şeyi unuttunuz. Lütfen seçiminizi yapın ve iPA’yı yeniden gönderin!",
+        "file_lost": "İmzalama işlemi sırasında dosya kayboldu.",
         "value_error": "İmzalama işlemi sırasında bir değer hatası oluştu.",
         "permission_error": "İmzalama işlemi sırasında bir izin hatası oluştu.",
         "signing_error": "İmzalama işlemi başarısız oldu.",
         "unknown_error": "İmzalama işlemi sırasında beklenmedik bir hata oluştu.",
-        "select_certificate_button": "Sertifika Seç 📝️️️️️️",
+        "select_certificate_button": "Sertifika Seçin 📝️️️️️️",
         "signing_in_progress": "📝",
         "executing_command": "Çalıştırılıyor: {command}",
-        "modify_retry_error": "Düzenleme sırasında hata oluştu, tekrar deneniyor... ({failed_modify_attempt}/{max_modify_attempt})",
-        "fnfe_err": "Dosya imzalama işlemi sırasında bulunamadı.",
+        "modify_retry_error": "Düzenleme sırasında bir hata oluştu, yeniden deniyorum... ({failed_modify_attempt}/{max_modify_attempt})",
+        "fnfe_err": "İmzalama sürecinde dosya bulunamadı.",
         "ve_err": "İmzalama işlemi sırasında bir değer hatası oluştu.",
         "pe_err": "İmzalama işlemi sırasında bir izin hatası oluştu.",
         "sign_err": "İmzalama işlemi başarısız oldu.",
@@ -747,20 +749,21 @@ speedtest_strings = {
 start_strings = {
     "EN": {
         "welcome_registered": "Hello! {name}\nPlease select a certificate to begin.",
-        "welcome_unregistered": "Hello, {name}!\nSorry, you need admin approval to use the bot.\n\n▸ If you have a certificate, contact us using the button below for approval, or to purchase one if you don't have it.",
+        "welcome_unregistered": "Hello, {name}!\n Sorry, you are not authorized to use the bot.\n\n▸ If you have a certificate from AppleFavour, please contact us for authorization using the button below. If you do not have a certificate, you can contact us to purchase one.",
         "select_certificate": "Select certificate 📝️",
         "select_compression": "Select compression ratio 📚",
         "select_language": "Select Language 🌐",
         "approval_purchase": "Get Approval / Purchase"
     },
-    "TR": {
-        "welcome_registered": "Merhaba! {name}\nBaşlamak için sertifika seçimi yapınız.",
-        "welcome_unregistered": "Merhaba, {name}!\nÜzgünüm, botu kullanabilmeniz için bir yetkilinin onay vermesi gerekiyor.\n\n▸ Sertifikanız varsa onay için, yoksa da satın almak için aşağıdaki butondan bize ulaşabilirsiniz.",
-        "select_certificate": "Sertifika seç 📝️",
-        "select_compression": "Sıkıştırma oranını seç 📚",
-        "select_language": "Dil Seçimi 🌐",
-        "approval_purchase": "Onay / Satın Almak İstiyorum"
-    },
+    "TR": json
+{
+    "welcome_registered": "Merhaba! {name}\nBaşlamak için lütfen bir sertifika seçin.",
+    "welcome_unregistered": "Merhaba, {name}!\nÜzgünüm, botu kullanabilmek için yetkiniz bulunmamaktadır.\n\n▸ Eğer AppleFavour’dan alınmış bir sertifikanız varsa, yetkilendirme için aşağıdaki butonu kullanarak bizimle iletişime geçin. Sertifikanız yoksa satın almak için iletişime geçebilirsiniz.",
+    "select_certificate": "Sertifika Seçin 📝️",
+    "select_compression": "Sıkıştırma Oranını Seçin 📁",
+    "select_language": "Dil Seçin 🌐",
+    "approval_purchase": "Onay / Satın Al"
+},
     "RU": {
         "welcome_registered": "Привет! {name}\nПожалуйста, выберите сертификат, чтобы начать.",
         "welcome_unregistered": "Привет, {name}!\nИзвините, для использования бота требуется одобрение администратора.\n\n▸ Если у вас есть сертификат, свяжитесь с нами через кнопку ниже для получения одобрения, или для покупки, если у вас его нет.",
