@@ -495,7 +495,7 @@ language_select_strings = {
 modifier_strings = {
     "EN": {
         "save_error": "Failed to save {options}. Error: {error}.",
-        "read_decode_error": "Failed to read {options}. Error: {error}.",
+        "json_decode_error": "Failed to read {options}. Error: {error}.",
         "read_runtime_error": "An error occurred while reading: {error}.",
         "update_error": "Failed to update {options}. Error: {error}.",
         "app_name_usage": "Usage: /name <app_name> or /n <app_name>.",
