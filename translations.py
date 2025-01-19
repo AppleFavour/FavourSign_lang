@@ -645,6 +645,7 @@ sign_strings = {
         "signing_error": "The signing operation failed.",
         "unknown_error": "An unexpected error occurred during the signing operation.",
         "select_certificate_button": "Select Certificate 📝️️️️️️",
+        "signing_in_progress": "📝",
         "executing_command": "Executing: {command}",
         "modify_retry_error": "An error occurred while modifying, retrying... ({failed_modify_attempt}/{max_modify_attempt})",
         "fnfe_err": "The file could not be found during the signing process.",
@@ -666,6 +667,7 @@ sign_strings = {
         "signing_error": "İmzalama işlemi başarısız oldu.",
         "unknown_error": "İmzalama işlemi sırasında beklenmedik bir hata oluştu.",
         "select_certificate_button": "Sertifika Seç 📝️️️️️️",
+        "signing_in_progress": "📝",
         "executing_command": "Çalıştırılıyor: {command}",
         "modify_retry_error": "Düzenleme sırasında hata oluştu, tekrar deneniyor... ({failed_modify_attempt}/{max_modify_attempt})",
         "fnfe_err": "Dosya imzalama işlemi sırasında bulunamadı.",
@@ -687,6 +689,7 @@ sign_strings = {
         "signing_error": "Операция подписания не удалась.",
         "unknown_error": "Произошла неизвестная ошибка во время операции подписания.",
         "select_certificate_button": "Выбрать сертификат 📝️️️️️️",
+        "signing_in_progress": "📝",
         "executing_command": "Выполняется: {command}",
         "modify_retry_error": "Произошла ошибка при модификации, повторная попытка... ({failed_modify_attempt}/{max_modify_attempt})",
         "fnfe_err": "Файл не найден во время операции подписания.",
@@ -708,6 +711,7 @@ sign_strings = {
         "signing_error": "Der Signierungsvorgang ist fehlgeschlagen.",
         "unknown_error": "Ein unerwarteter Fehler ist während des Signierungsvorgangs aufgetreten.",
         "select_certificate_button": "Zertifikat auswählen 📝️️️️️️",
+        "signing_in_progress": "📝",
         "executing_command": "Ausführung: {command}",
         "modify_retry_error": "Beim Modifizieren ist ein Fehler aufgetreten, neuer Versuch... ({failed_modify_attempt}/{max_modify_attempt})"
     }
