@@ -860,8 +860,8 @@ main_helper_strings = {
         "unsupported_text_file": "What is this, GTA cheat codes?",
         "unsupported_audio_file": "I forgot my headphones, can't listen to this :(",
         "unsupported_video_file": "I forgot my glasses, can't watch this :(",
-        "cooldown_wait": "Hey! {user}, please wait {wait_time:.0f} seconds before uploading another file...",
-        "cooldown_update": "Please wait {wait_time:.0f} seconds before uploading another file...",
+        "cooldown_wait": "Hey! {user}, please wait {time_to_wait} seconds before uploading another file...",
+        "cooldown_update": "Please wait {time_to_wait} seconds before uploading another file...",
         "download_pending": "⏳ **Download pending**",
         "high_demand": "Request on hold due to high demand: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Please reply to a message or send an IPA file or a URL containing an IPA."
@@ -876,8 +876,8 @@ main_helper_strings = {
         "unsupported_text_file": "Bu ne böyle GTA hile kodu mu?",
         "unsupported_audio_file": "Kulaklıklarımı unuttum, bunu dinleyemem :(",
         "unsupported_video_file": "Gözlüklerimi unuttum, buna bakamam :(",
-        "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {wait_time:.0f} saniye bekleyiniz...",
-        "cooldown_update": "Lütfen başka bir dosya yüklemeden önce {wait_time:.0f} saniye bekleyiniz...",
+        "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
+        "cooldown_update": "Lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
         "download_pending": "⏳ **İndirme bekleniyor**",
         "high_demand": "Yoğun talepten dolayı istek bekletiliyor: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
@@ -892,8 +892,8 @@ main_helper_strings = {
         "unsupported_text_file": "Что это, коды читов для GTA?",
         "unsupported_audio_file": "Я забыл наушники, не могу это послушать :(",
         "unsupported_video_file": "Я забыл очки, не могу это посмотреть :(",
-        "cooldown_wait": "Эй! {user}, подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
-        "cooldown_update": "Подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
+        "cooldown_wait": "Эй! {user}, подождите {time_to_wait} секунд перед загрузкой другого файла...",
+        "cooldown_update": "Подождите {time_to_wait} секунд перед загрузкой другого файла...",
         "download_pending": "⏳ **Ожидание загрузки**",
         "high_demand": "Запрос отложен из-за высокой нагрузки: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Ответьте на сообщение или отправьте файл IPA или URL, содержащий IPA."
@@ -908,8 +908,8 @@ main_helper_strings = {
         "unsupported_text_file": "Was ist das, GTA Cheat-Codes?",
         "unsupported_audio_file": "Ich habe meine Kopfhörer vergessen, kann das nicht hören :(",
         "unsupported_video_file": "Ich habe meine Brille vergessen, kann das nicht ansehen :(",
-        "cooldown_wait": "Hey! {user}, bitte warten Sie {wait_time:.0f} Sekunden, bevor Sie eine weitere Datei hochladen...",
-        "cooldown_update": "Bitte warten Sie {wait_time:.0f} Sekunden, bevor Sie eine weitere Datei hochladen...",
+        "cooldown_wait": "Hey! {user}, bitte warten Sie {time_to_wait} Sekunden, bevor Sie eine weitere Datei hochladen...",
+        "cooldown_update": "Bitte warten Sie {time_to_wait} Sekunden, bevor Sie eine weitere Datei hochladen...",
         "download_pending": "⏳ **Download ausstehend**",
         "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
