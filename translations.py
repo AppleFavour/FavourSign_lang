@@ -190,7 +190,6 @@ countdown_strings = {
 download_strings = {
     "EN": {
         "download_pending": "⏳ **Download pending**",
-        "nothing_to_download": "Please send a direct link or file",
         "download_failed_message": "❌ {file_name} can't be downloaded!",
         "download_attempt_failed_message": "An error occurred while downloading {file_name}, retrying... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} downloaded successfully!",
@@ -212,7 +211,6 @@ download_strings = {
     },
     "TR": {
         "download_pending": "⏳ **İndirme bekleniyor**",
-        "nothing_to_download": "Lütfen doğrudan bir dosya veya bağlantı gönderin",
         "download_failed_message": "❌ {file_name} indirilemedi",
         "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, yeniden deneniyor... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} başarıyla indirildi",
@@ -234,7 +232,6 @@ download_strings = {
     },
     "RU": {
         "download_pending": "⏳ **Ожидание загрузки**",
-        "nothing_to_download": "Пожалуйста, отправьте файл или прямую ссылку для скачивания",
         "download_failed_message": "❌ {file_name} не может быть скачан!",
         "download_attempt_failed_message": "Ошибка при скачивании {file_name}, повторная попытка... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} скачан успешно!",
@@ -256,7 +253,6 @@ download_strings = {
     },
     "DE": {
         "download_pending": "⏳ **Download ausstehend**",
-        "nothing_to_download": "Bitte sende einen direkten Link oder eine Datei",
         "download_failed_message": "❌ {file_name} kann nicht heruntergeladen werden!",
         "download_attempt_failed_message": "Ein Fehler ist beim Herunterladen von {file_name} aufgetreten, neuer Versuch... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} erfolgreich heruntergeladen!",
