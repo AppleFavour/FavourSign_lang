@@ -852,65 +852,37 @@ certificate_handler_strings = {
 main_helper_strings = {
     "EN": {
         "unregistered_user": "Hello, please contact an administrator. (Unregistered user)",
-        "archive_file_response": "I honestly don't know what to do with this {file_ext} :(",
-        "specific_file_responses": {
-            ".tipa": "You can only install this with TrollStore; {0} is useless here!",
-            ".apk": "Seriously?! {0} = 'Android Package Kit (APK)' is useless here!",
-        },
-        "unsupported_text_file": "What is this, GTA cheat codes?",
-        "unsupported_audio_file": "I forgot my headphones, can't listen to this :(",
-        "unsupported_video_file": "I forgot my glasses, can't watch this :(",
+        "unsupported_file_type": "I honestly don't know what to do with this {file_extension} :(",
         "cooldown_wait": "Hey! {user}, please wait {time_to_wait} seconds before uploading another file...",
         "cooldown_update": "Please wait {time_to_wait} seconds before uploading another file...",
-        "download_pending": "⏳ **Download pending**",
+        "download_starting": "⏳ **Download pending**",  # !!
         "high_demand": "Request on hold due to high demand: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Please reply to a message or send an IPA file or a URL containing an IPA."
     },
     "TR": {
         "unregistered_user": "Merhaba, bir yönetici ile iletişime geçin. (Kayıtsız kullanıcı)",
-        "archive_file_response": "Cidden bu {file_ext} ile ne yapacağımı bilmiyorum :(",
-        "specific_file_responses": {
-            ".tipa": "Bunu yalnızca TrollStore ile kurabilirsiniz; {0} burada işe yaramaz!",
-            ".apk": "Cidden mi?! {0} = 'Android Package Kit (APK)' burada işe yaramaz!",
-        },
-        "unsupported_text_file": "Bu ne böyle GTA hile kodu mu?",
-        "unsupported_audio_file": "Kulaklıklarımı unuttum, bunu dinleyemem :(",
-        "unsupported_video_file": "Gözlüklerimi unuttum, buna bakamam :(",
+        "unsupported_file_type": "Cidden bu {file_extension} ile ne yapacağımı bilmiyorum :(",
         "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
         "cooldown_update": "Lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
-        "download_pending": "⏳ **İndirme bekleniyor**",
+        "download_starting": "⏳ **İndirme bekleniyor**",  # !!
         "high_demand": "Yoğun talepten dolayı istek bekletiliyor: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
     },
     "RU": {
         "unregistered_user": "Здравствуйте, свяжитесь с администратором. (Незарегистрированный пользователь)",
-        "archive_file_response": "Честно говоря, я не знаю, что делать с этим {file_ext} :(",
-        "specific_file_responses": {
-            ".tipa": "Вы можете установить это только через TrollStore; {0} здесь бесполезен!",
-            ".apk": "Серьезно?! {0} = 'Android Package Kit (APK)' здесь бесполезен!",
-        },
-        "unsupported_text_file": "Что это, коды читов для GTA?",
-        "unsupported_audio_file": "Я забыл наушники, не могу это послушать :(",
-        "unsupported_video_file": "Я забыл очки, не могу это посмотреть :(",
+        "unsupported_file_type": "Честно говоря, я не знаю, что делать с этим {file_extension} :(",
         "cooldown_wait": "Эй! {user}, подождите {time_to_wait} секунд перед загрузкой другого файла...",
         "cooldown_update": "Подождите {time_to_wait} секунд перед загрузкой другого файла...",
-        "download_pending": "⏳ **Ожидание загрузки**",
+        "download_starting": "⏳ **Ожидание загрузки**",  # !!
         "high_demand": "Запрос отложен из-за высокой нагрузки: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Ответьте на сообщение или отправьте файл IPA или URL, содержащий IPA."
     },
     "DE": {
         "unregistered_user": "Hallo, bitte kontaktieren Sie einen Administrator. (Nicht registrierter Benutzer)",
-        "archive_file_response": "Ich weiß ehrlich gesagt nicht, was ich mit dieser {file_ext} anfangen soll :(",
-        "specific_file_responses": {
-            ".tipa": "Sie können dies nur mit TrollStore installieren; {0} ist hier nutzlos!",
-            ".apk": "Ernsthaft?! {0} = 'Android Package Kit (APK)' ist hier nutzlos!"
-        },
-        "unsupported_text_file": "Was ist das, GTA Cheat-Codes?",
-        "unsupported_audio_file": "Ich habe meine Kopfhörer vergessen, kann das nicht hören :(",
-        "unsupported_video_file": "Ich habe meine Brille vergessen, kann das nicht ansehen :(",
+        "unsupported_file_type": "Ich weiß ehrlich gesagt nicht, was ich mit dieser {file_extension} anfangen soll :(",
         "cooldown_wait": "Hey! {user}, bitte warten Sie {time_to_wait} Sekunden, bevor Sie eine weitere Datei hochladen...",
         "cooldown_update": "Bitte warten Sie {time_to_wait} Sekunden, bevor Sie eine weitere Datei hochladen...",
-        "download_pending": "⏳ **Download ausstehend**",
+        "download_starting": "⏳ **Download ausstehend**",  # !!
         "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
 
