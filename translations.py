@@ -189,7 +189,6 @@ countdown_strings = {
 # Plugins/download.py
 download_strings = {
     "EN": {
-        "download_pending": "⏳ **Download pending**",
         "download_failed_message": "❌ {file_name} can't be downloaded!",
         "download_attempt_failed_message": "An error occurred while downloading {file_name}, retrying... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} downloaded successfully!",
@@ -210,7 +209,6 @@ download_strings = {
         "retrying_message": "Retrying download... ({current}/{limit})"
     },
     "TR": {
-        "download_pending": "⏳ **İndirme bekleniyor**",
         "download_failed_message": "❌ {file_name} indirilemedi",
         "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, yeniden deneniyor... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} başarıyla indirildi",
@@ -231,7 +229,6 @@ download_strings = {
         "retrying_message": "İndirme yeniden deneniyor... ({current}/{limit})"
     },
     "RU": {
-        "download_pending": "⏳ **Ожидание загрузки**",
         "download_failed_message": "❌ {file_name} не может быть скачан!",
         "download_attempt_failed_message": "Ошибка при скачивании {file_name}, повторная попытка... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} скачан успешно!",
@@ -252,7 +249,6 @@ download_strings = {
         "retrying_message": "Повторная попытка загрузки... ({current}/{limit})"
     },
     "DE": {
-        "download_pending": "⏳ **Download ausstehend**",
         "download_failed_message": "❌ {file_name} kann nicht heruntergeladen werden!",
         "download_attempt_failed_message": "Ein Fehler ist beim Herunterladen von {file_name} aufgetreten, neuer Versuch... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} erfolgreich heruntergeladen!",
@@ -866,6 +862,7 @@ main_helper_strings = {
         "unsupported_video_file": "I forgot my glasses, can't watch this :(",
         "cooldown_wait": "Hey! {user}, please wait {wait_time:.0f} seconds before uploading another file...",
         "cooldown_update": "Please wait {wait_time:.0f} seconds before uploading another file...",
+        "download_pending": "⏳ **Download pending**",
         "high_demand": "Request on hold due to high demand: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Please reply to a message or send an IPA file or a URL containing an IPA."
     },
@@ -881,6 +878,7 @@ main_helper_strings = {
         "unsupported_video_file": "Gözlüklerimi unuttum, buna bakamam :(",
         "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {wait_time:.0f} saniye bekleyiniz...",
         "cooldown_update": "Lütfen başka bir dosya yüklemeden önce {wait_time:.0f} saniye bekleyiniz...",
+        "download_pending": "⏳ **İndirme bekleniyor**",
         "high_demand": "Yoğun talepten dolayı istek bekletiliyor: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
     },
@@ -896,6 +894,7 @@ main_helper_strings = {
         "unsupported_video_file": "Я забыл очки, не могу это посмотреть :(",
         "cooldown_wait": "Эй! {user}, подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
         "cooldown_update": "Подождите {wait_time:.0f} секунд перед загрузкой другого файла...",
+        "download_pending": "⏳ **Ожидание загрузки**",
         "high_demand": "Запрос отложен из-за высокой нагрузки: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Ответьте на сообщение или отправьте файл IPA или URL, содержащий IPA."
     },
@@ -911,6 +910,7 @@ main_helper_strings = {
         "unsupported_video_file": "Ich habe meine Brille vergessen, kann das nicht ansehen :(",
         "cooldown_wait": "Hey! {user}, bitte warten Sie {wait_time:.0f} Sekunden, bevor Sie eine weitere Datei hochladen...",
         "cooldown_update": "Bitte warten Sie {wait_time:.0f} Sekunden, bevor Sie eine weitere Datei hochladen...",
+        "download_pending": "⏳ **Download ausstehend**",
         "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife: ({active}/{limit})",
         "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
 
