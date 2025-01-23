@@ -856,7 +856,7 @@ main_helper_strings = {
         "cooldown_wait": "Hey! {user}, please wait {time_to_wait} seconds before uploading another file...",
         "cooldown_update": "Please wait {time_to_wait} seconds before uploading another file...",
         "download_starting": "⏳ **Download pending**",  # !!
-        "high_demand": "Request on hold due to high demand: {active}",
+        "high_demand": "Request on hold due to high demand.",
         "reply_or_send_ipa_prompt": "Please reply to a message or send an IPA file or a URL containing an IPA."
     },
     "TR": {
@@ -865,7 +865,7 @@ main_helper_strings = {
         "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
         "cooldown_update": "Lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
         "download_starting": "⏳ **İndirme bekleniyor**",  # !!
-        "high_demand": "Yoğun talepten dolayı istek bekletiliyor: {active}",
+        "high_demand": "Yoğun talepten dolayı istek bekletiliyor.",
         "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
     },
     "RU": {
@@ -874,7 +874,7 @@ main_helper_strings = {
         "cooldown_wait": "Эй! {user}, подождите {time_to_wait} секунд перед загрузкой другого файла...",
         "cooldown_update": "Подождите {time_to_wait} секунд перед загрузкой другого файла...",
         "download_starting": "⏳ **Ожидание загрузки**",  # !!
-        "high_demand": "Запрос отложен из-за высокой нагрузки: {active}",
+        "high_demand": "Запрос отложен из-за высокой нагрузки.",
         "reply_or_send_ipa_prompt": "Ответьте на сообщение или отправьте файл IPA или URL, содержащий IPA."
     },
     "DE": {
@@ -883,7 +883,7 @@ main_helper_strings = {
         "cooldown_wait": "Hey! {user}, bitte warten Sie {time_to_wait} Sekunden, bevor Sie eine weitere Datei hochladen...",
         "cooldown_update": "Bitte warten Sie {time_to_wait} Sekunden, bevor Sie eine weitere Datei hochladen...",
         "download_starting": "⏳ **Download ausstehend**",  # !!
-        "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife: {active}",
+        "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife.",
         "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
 
     }
