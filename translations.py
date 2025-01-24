@@ -965,9 +965,10 @@ helpers_strings = {
         "minute_ETA": "{remaining_time} M",
         "second_ETA": "{remaining_time} S",
         "ETA": "ETA: {estimated_remaining_download_time}",
-        "file_is_lost": "",
-        "file_format_error": "",  # ipa file is not a zip.
-        "error": ""
+        "file_is_lost": "I managed to lose file, i saw it moments ago, where did it go?",
+        "file_format_error": "ipa file format is broken.",  # ipa file is not a zip.
+        "file_size_unexpected": "Download interrupted unexpectedly. Downloaded: {downloaded}, Expected: {expected}",
+        "error": "ERROR: {error}"
     },
     "TR": {
         "create_folder_error": "Hata: {error}",
@@ -980,7 +981,8 @@ helpers_strings = {
         "ETA": "Kalan: {estimated_remaining_download_time}",
         "file_is_lost": "",
         "file_format_error": "",
-        "error": ""
+        "file_size_unexpected": "{downloaded}, {expected}",
+        "error": "{error}"
     },
     "RU": {
         "create_folder_error": ": {error}",
@@ -993,7 +995,8 @@ helpers_strings = {
         "ETA": ": {estimated_remaining_download_time}",
         "file_is_lost": "",
         "file_format_error": "",
-        "error": ""
+        "file_size_unexpected": "{downloaded}, {expected}",
+        "error": "{error}"
     },
     "DE": {
         "create_folder_error": ": {error}",
@@ -1006,6 +1009,7 @@ helpers_strings = {
         "ETA": ": {estimated_remaining_download_time}",
         "file_is_lost": "",
         "file_format_error": "",
-        "error": ""
+        "file_size_unexpected": "{downloaded}, {expected}",
+        "error": "{error}"
     }
 }
