@@ -620,8 +620,7 @@ modifier_strings = {
         "set_profile_removal": "Profilentfernungs-Einstellungen angewendet.",
         "tweak_added_expecting_ipa": "Hinzugefügt: {file_name}. Warte auf ipa...",
         "error_while_resetting": "Fehler beim Zurücksetzen. Versuchen Sie /c. Fehler: {error}."
-    },
-
+    }
 }
 # Plugins/sign.py
 sign_strings = {
@@ -711,7 +710,6 @@ sign_strings = {
         "ve_err": "Wertfehler während des Signiervorgangs.",
         "sign_err": "Signiervorgang fehlgeschlagen.",
         "unknown_sign_err": "Unbekannter Fehler während des Signiervorgangs."
-
     }
 }
 # Plugins/speedtest.py
@@ -891,7 +889,6 @@ main_helper_strings = {
         "download_starting": "⏳ **Download ausstehend**",  # !!
         "high_demand": "Anfrage aufgrund hoher Nachfrage in Warteschleife.",
         "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
-
     }
 }
 # utils/restart.py
@@ -963,9 +960,6 @@ run_cmd_strings = {
 helpers_strings = {
     "EN": {
         "create_folder_error": "Error while creating folder: {error}",
-        "hour": "Hour",
-        "minute": "Minute",
-        "second": "Second",
         "hour_ETA": "{remaining_time} H",
         "minute_ETA": "{remaining_time} M",
         "second_ETA": "{remaining_time} S",
@@ -977,9 +971,6 @@ helpers_strings = {
     },
     "TR": {
         "create_folder_error": "Hata: {error}",
-        "hour": "Saat",
-        "minute": "Dakika",
-        "second": "Saniye",
         "hour_ETA": "{remaining_time} S",
         "minute_ETA": "{remaining_time} Dk",
         "second_ETA": "{remaining_time} Sn",
@@ -991,12 +982,9 @@ helpers_strings = {
     },
     "RU": {
         "create_folder_error": ": {error}",
-        "hour": "Час",
-        "minute": "Минута",
-        "second": "Секунда",
-        "hour_ETA": "{remaining_time}",
-        "minute_ETA": "{remaining_time}",
-        "second_ETA": "{remaining_time}",
+        "hour_ETA": "{remaining_time} Ч",
+        "minute_ETA": "{remaining_time} М",
+        "second_ETA": "{remaining_time} C",
         "ETA": ": {estimated_remaining_download_time}",
         "file_is_lost": "Файл потерялся, я только что его видел, куда он делся?",
         "file_format_error": "Формат ipa-файла поврежден.",
@@ -1004,12 +992,9 @@ helpers_strings = {
     },
     "DE": {
         "create_folder_error": ": {error}",
-        "hour": "Stunde",
-        "minute": "Minute",
-        "second": "Sekunde",
-        "hour_ETA": "{remaining_time}",
-        "minute_ETA": "{remaining_time}",
-        "second_ETA": "{remaining_time}",
+        "hour_ETA": "{remaining_time} S",
+        "minute_ETA": "{remaining_time} M",
+        "second_ETA": "{remaining_time} S",
         "ETA": ": {estimated_remaining_download_time}",
         "file_is_lost": "Ich habe die Datei verloren, eben war sie noch da, wo ist sie hin?",
         "file_format_error": "IPA-Dateiformat ist beschädigt.",
