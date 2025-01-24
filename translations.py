@@ -463,8 +463,8 @@ language_select_strings = {
         "new_language_selected": "🌐 Новый язык выбран",
         "error_in_language_selection": "Произошла ошибка при выборе языка.",
         "database_error": "Произошла ошибка базы данных. Пожалуйста, попробуйте позже.",
-        "language_clear_success": "",
-        "language_clear_failed": "",
+        "language_clear_success": "Теперь используется язык Telegram-клиента",
+        "language_clear_failed": "Нечего удалять",
         "back_button": "Назад 🔙",
         "clear_button": "🧹"
     },
@@ -477,8 +477,8 @@ language_select_strings = {
         "error_in_language_selection": "Bei der Sprachauswahl ist ein Fehler aufgetreten.",
         "language_saved_successfully": "Sprache {lang} erfolgreich für Benutzer {userID} gespeichert",
         "database_error": "Ein Datenbankfehler ist aufgetreten. Bitte versuche es später erneut.",
-        "language_clear_success": "",
-        "language_clear_failed": "",
+        "language_clear_success": "Folgt nun der Telegram-Client-Sprache",
+        "language_clear_failed": "Nichts zu entfernen",
         "back_button": "Zurück 🔙",
         "clear_button": "🧹"
     }
@@ -706,7 +706,12 @@ sign_strings = {
         "select_certificate_button": "Zertifikat auswählen 📝️️️️️️",
         "signing_in_progress": "📝",
         "executing_command": "Ausführung: {command}",
-        "modify_retry_error": "Beim Modifizieren ist ein Fehler aufgetreten, neuer Versuch... ({failed_modify_attempt}/{max_modify_attempt})"
+        "modify_retry_error": "Beim Modifizieren ist ein Fehler aufgetreten, neuer Versuch... ({failed_modify_attempt}/{max_modify_attempt})",
+        "fnfe_err": "Datei während des Signiervorgangs nicht gefunden.",
+        "ve_err": "Wertfehler während des Signiervorgangs.",
+        "sign_err": "Signiervorgang fehlgeschlagen.",
+        "unknown_sign_err": "Unbekannter Fehler während des Signiervorgangs."
+
     }
 }
 # Plugins/speedtest.py
@@ -795,7 +800,7 @@ user_management_strings = {
         "premium_removed": "Kullanıcı `{user_id}` premium planindan cikartildi.",
         "premium_reg_error": "Premium üyelik kaydında bir hata oluştu. Lütfen tekrar deneyin.",
         "premium_unreg_error": "Premium üyelik iptali sırasında bir hata oluştu. Lütfen tekrar deneyin.",
-        "not_enough_arguments": ""
+        "not_enough_arguments": "Yetersiz argüman, Kullanıcı ID(leri) sağlamalısınız. /user user1.ID ..."
     },
     "RU": {
         "admin_only": "Извините, только администраторы могут выполнять операции с базой данных. (Permission denied)",
@@ -807,7 +812,7 @@ user_management_strings = {
         "premium_removed": "Пользователь `{user_id}` удален из премиум-плана.",
         "premium_reg_error": "Произошла ошибка при регистрации премиум. Пожалуйста, попробуйте снова.",
         "premium_unreg_error": "Произошла ошибка при удалении премиум. Пожалуйста, попробуйте снова.",
-        "not_enough_arguments": ""
+        "not_enough_arguments": "Недостаточно аргументов. Нужно указать ID пользователя(ей). /user user1.ID ..."
     },
     "DE": {
         "admin_only": "Entschuldigung, nur Administratoren können Datenbankoperationen durchführen. (Zugriff verweigert)",
@@ -819,7 +824,7 @@ user_management_strings = {
         "premium_removed": "Benutzer `{user_id}` aus dem Premium-Plan entfernt.",
         "premium_reg_error": "Fehler bei der Premium-Registrierung. Bitte versuchen Sie es erneut.",
         "premium_unreg_error": "Fehler bei der Premium-Entfernung. Bitte versuchen Sie es erneut.",
-        "not_enough_arguments": ""
+        "not_enough_arguments": "Nicht genügend Argumente. Sie müssen Benutzer-ID(s) angeben. /user user1.ID ..."
     }
 }
 # utils/certificate_handler.py
@@ -941,11 +946,10 @@ run_cmd_strings = {
         "command_err": ":\n{stderr}\n"
     },
     "RU": {
-        "correct_usage": "",
-        "admin_only_msg": "",
-        "exec_cmd_exception": "{userID} {username} - : {user_error_message}",
-        "command_out": ":\n{stdout}\n",
-        "command_err": ":\n{stderr}\n"
+        "correct_usage": "Использование: /exec <команда>",
+        "admin_only_msg": "Извините, только администраторы могут выполнять команды. (Доступ запрещен)",
+        "command_out": "Вывод команды:\n{stdout}\n",
+        "command_err": "Ошибка команды:\n{stderr}\n"
     },
     "DE": {
         "correct_usage": "Verwendung: /exec <Befehl>",
@@ -980,37 +984,36 @@ helpers_strings = {
         "minute_ETA": "{remaining_time} Dk",
         "second_ETA": "{remaining_time} Sn",
         "ETA": "Kalan: {estimated_remaining_download_time}",
-        "file_is_lost": "",
-        "file_format_error": "",
-        "file_size_unexpected": "{downloaded}, {expected}",
+        "file_is_lost": "Dosyayı kaybettim, bir an önce buradaydı, nereye gitti?",
+        "file_format_error": "ipa dosya formatı bozuk.",
+        "file_size_unexpected": "indirilen: {downloaded}, Beklenen: {expected}",
         "exception_context": "{exception}"
     },
     "RU": {
         "create_folder_error": ": {error}",
-        "hour": "",
-        "minute": "",
-        "second": "",
+        "hour": "Час",
+        "minute": "Минута",
+        "second": "Секунда",
         "hour_ETA": "{remaining_time}",
         "minute_ETA": "{remaining_time}",
         "second_ETA": "{remaining_time}",
         "ETA": ": {estimated_remaining_download_time}",
-        "file_is_lost": "",
-        "file_format_error": "",
-        "file_size_unexpected": "{downloaded}, {expected}",
-        "exception_context": "{exception}"
+        "file_is_lost": "Файл потерялся, я только что его видел, куда он делся?",
+        "file_format_error": "Формат ipa-файла поврежден.",
+        "file_size_unexpected": "Загружено: {downloaded}, Ожидаемое: {expected}",
     },
     "DE": {
         "create_folder_error": ": {error}",
-        "hour": "",
-        "minute": "",
-        "second": "",
+        "hour": "Stunde",
+        "minute": "Minute",
+        "second": "Sekunde",
         "hour_ETA": "{remaining_time}",
         "minute_ETA": "{remaining_time}",
         "second_ETA": "{remaining_time}",
         "ETA": ": {estimated_remaining_download_time}",
-        "file_is_lost": "",
-        "file_format_error": "",
-        "file_size_unexpected": "{downloaded}, {expected}",
+        "file_is_lost": "Ich habe die Datei verloren, eben war sie noch da, wo ist sie hin?",
+        "file_format_error": "IPA-Dateiformat ist beschädigt.",
+        "file_size_unexpected": ": {downloaded}, erwartet: {expected}",
         "exception_context": "{exception}"
     }
 }
