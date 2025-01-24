@@ -173,7 +173,7 @@ countdown_strings = {
         "bundle_id": "ID приложения",
         "certificate": "Сертификат",
         "install_button": "📲 Установить",
-        "explore_button": "🔎 Daha fazla iPA",
+        "explore_button": "🔎 Посмотреть больше iPA",
         "mnm_notify": "Ошибка при редактировании сообщения"
     },
     "DE": {
@@ -305,7 +305,7 @@ help_strings = {
         "user_not_registered": "Kayıtlı değilsiniz.",
         "available_cmds": "Mevcut Komutlar:",
         "user_cmds": "Kullanıcı Komutları:",
-        "cmd_prefixes": "**to_do** {prefixes}",
+        "cmd_prefixes": "Komutların aktif prefixleri: {prefixes}",
         "admin_cmds": "Yönetici Komutları:",
         "help_cmd": "Bu yardım mesajını gösterir.",
         "speedtest_cmd": "Bağlantı hızını test eder.",
@@ -335,7 +335,7 @@ help_strings = {
         "user_not_registered": "Вы не зарегистрированы.",
         "available_cmds": "Доступные команды:",
         "user_cmds": "Команды пользователей:",
-        "cmd_prefixes": "**todo** {prefixes}",
+        "cmd_prefixes": "Активные префиксы команд: {prefixes}",
         "admin_cmds": "Команды администраторов:",
         "help_cmd": "Показывает это сообщение помощи.",
         "speedtest_cmd": "Тестирует скорость соединения.",
@@ -466,7 +466,7 @@ language_select_strings = {
         "language_clear_success": "Теперь используется язык Telegram-клиента",
         "language_clear_failed": "Нечего удалять",
         "back_button": "Назад 🔙",
-        "clear_button": "🧹"
+        "clear_button": "Очистить язык 🧹",
     },
     "DE": {
         "select_language": "🌐 Wähle eine Sprache",
@@ -480,7 +480,7 @@ language_select_strings = {
         "language_clear_success": "Folgt nun der Telegram-Client-Sprache",
         "language_clear_failed": "Nichts zu entfernen",
         "back_button": "Zurück 🔙",
-        "clear_button": "🧹"
+        "clear_button": "Sprache löschen 🧹",
     }
 }
 # Plugins/modifier.py
@@ -939,8 +939,8 @@ run_cmd_strings = {
         "correct_usage": "Kullanim: /exec <komut>",
         "admin_only_msg": "Sorry, only admins can execute commands. (Permission denied)",
         "exec_cmd_exception": "{userID} {username} - Komut calistirirken hata olustu: {user_error_message}",
-        "command_out": ":\n{stdout}\n",
-        "command_err": ":\n{stderr}\n"
+        "command_out": "Komut çıktısı:\n{stdout}\n",
+        "command_err": "Komut hatası:\n{stderr}\n"
     },
     "RU": {
         "correct_usage": "Использование: /exec <команда>",
@@ -964,41 +964,42 @@ helpers_strings = {
         "minute_ETA": "{remaining_time} M",
         "second_ETA": "{remaining_time} S",
         "ETA": "ETA: {estimated_remaining_download_time}",
-        "file_is_lost": "I managed to lose file, i saw it moments ago, where did it go?",
-        "file_format_error": "ipa file format is broken.",  # ipa file is not a zip.
-        "file_size_unexpected": "Download interrupted unexpectedly. Downloaded: {downloaded}, Expected: {expected}",
+        "file_is_lost": "I managed to lose the file, I saw it moments ago. Where did it go?",
+        "file_format_error": "IPA file format is corrupted or invalid.",
+        "file_size_unexpected": "Unexpected file size: Downloaded {downloaded}, Expected {expected}",
         "exception_context": "ERROR: {exception}"
     },
     "TR": {
-        "create_folder_error": "Hata: {error}",
-        "hour_ETA": "{remaining_time} S",
+        "create_folder_error": "Klasör oluşturulurken hata: {error}",
+        "hour_ETA": "{remaining_time} Sa",
         "minute_ETA": "{remaining_time} Dk",
         "second_ETA": "{remaining_time} Sn",
-        "ETA": "Kalan: {estimated_remaining_download_time}",
-        "file_is_lost": "Dosyayı kaybettim, bir an önce buradaydı, nereye gitti?",
-        "file_format_error": "ipa dosya formatı bozuk.",
-        "file_size_unexpected": "indirilen: {downloaded}, Beklenen: {expected}",
-        "exception_context": "{exception}"
+        "ETA": "Tahmini Süre: {estimated_remaining_download_time}",
+        "file_is_lost": "Dosyayı kaybettim, daha demin buradaydı. Nereye gitti?",
+        "file_format_error": "IPA dosya formatı bozuk veya geçersiz.",
+        "file_size_unexpected": "Beklenmeyen dosya boyutu: İndirilen {downloaded}, Beklenen {expected}",
+        "exception_context": "HATA: {exception}"
     },
     "RU": {
-        "create_folder_error": ": {error}",
+        "create_folder_error": "Ошибка при создании папки: {error}",
         "hour_ETA": "{remaining_time} Ч",
         "minute_ETA": "{remaining_time} М",
-        "second_ETA": "{remaining_time} C",
-        "ETA": ": {estimated_remaining_download_time}",
-        "file_is_lost": "Файл потерялся, я только что его видел, куда он делся?",
-        "file_format_error": "Формат ipa-файла поврежден.",
-        "file_size_unexpected": "Загружено: {downloaded}, Ожидаемое: {expected}",
+        "second_ETA": "{remaining_time} С",
+        "ETA": "Примерное время завершения: {estimated_remaining_download_time}",
+        "file_is_lost": "Файл пропал, я только что его видел. Куда он делся?",
+        "file_format_error": "Формат IPA-файла повреждён или недействителен.",
+        "file_size_unexpected": "Непредвиденный размер файла: Загружено {downloaded}, Ожидалось {expected}",
+        "exception_context": "ОШИБКА: {exception}"
     },
     "DE": {
-        "create_folder_error": ": {error}",
-        "hour_ETA": "{remaining_time} S",
-        "minute_ETA": "{remaining_time} M",
-        "second_ETA": "{remaining_time} S",
-        "ETA": ": {estimated_remaining_download_time}",
-        "file_is_lost": "Ich habe die Datei verloren, eben war sie noch da, wo ist sie hin?",
-        "file_format_error": "IPA-Dateiformat ist beschädigt.",
-        "file_size_unexpected": ": {downloaded}, erwartet: {expected}",
-        "exception_context": "{exception}"
+        "create_folder_error": "Fehler beim Erstellen des Ordners: {error}",
+        "hour_ETA": "{remaining_time} Std",
+        "minute_ETA": "{remaining_time} Min",
+        "second_ETA": "{remaining_time} Sek",
+        "ETA": "Voraussichtliche Dauer: {estimated_remaining_download_time}",
+        "file_is_lost": "Ich habe die Datei verloren, sie war gerade noch da. Wo ist sie hin?",
+        "file_format_error": "IPA-Dateiformat ist beschädigt oder ungültig.",
+        "file_size_unexpected": "Unerwartete Dateigröße: Heruntergeladen {downloaded}, Erwartet {expected}",
+        "exception_context": "FEHLER: {exception}"
     }
 }
