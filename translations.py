@@ -968,7 +968,7 @@ helpers_strings = {
         "file_is_lost": "I managed to lose file, i saw it moments ago, where did it go?",
         "file_format_error": "ipa file format is broken.",  # ipa file is not a zip.
         "file_size_unexpected": "Download interrupted unexpectedly. Downloaded: {downloaded}, Expected: {expected}",
-        "error": "ERROR: {error}"
+        "exception_context": "ERROR: {exception}"
     },
     "TR": {
         "create_folder_error": "Hata: {error}",
@@ -982,7 +982,7 @@ helpers_strings = {
         "file_is_lost": "",
         "file_format_error": "",
         "file_size_unexpected": "{downloaded}, {expected}",
-        "error": "{error}"
+        "exception_context": "{exception}"
     },
     "RU": {
         "create_folder_error": ": {error}",
@@ -996,7 +996,7 @@ helpers_strings = {
         "file_is_lost": "",
         "file_format_error": "",
         "file_size_unexpected": "{downloaded}, {expected}",
-        "error": "{error}"
+        "exception_context": "{exception}"
     },
     "DE": {
         "create_folder_error": ": {error}",
@@ -1010,6 +1010,6 @@ helpers_strings = {
         "file_is_lost": "",
         "file_format_error": "",
         "file_size_unexpected": "{downloaded}, {expected}",
-        "error": "{error}"
+        "exception_context": "{exception}"
     }
 }
