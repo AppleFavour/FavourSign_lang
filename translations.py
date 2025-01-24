@@ -532,7 +532,7 @@ modifier_strings = {
         "unset_app_version": "Uygulama sürümü değiştirilemedi.",
         "invalid_app_version": "Geçersiz format. Sadece rakam, nokta ve kısa çizgi kullanılabilir.",
         "app_id_usage": "Örnek Kullanım: /id (veya /b) <bundle_id>. Bundle ID aralığına keyfi bir metin girebilirsiniz.",
-        "set_app_id": "Bundle ID **{id}** olaral ayarlandı.",
+        "set_app_id": "Bundle ID **{id}** olarak ayarlandı.",
         "unset_app_id": "Uygulamanın Bundle ID’si değiştirilemedi.",
         "min_os_usage": "Örnek Kullanım: /setlimit (veya /nl) <minimum_os_versiyonu>",
         "set_min_os": "Minimum OS sürümü **{os_version}** olarak ayarlandı.",
