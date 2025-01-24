@@ -282,7 +282,7 @@ help_strings = {
         "info_cmd": "Shows information about bot.",
         "sign_cmd": "Send or reply to ipa.",
         "clear_cmd": "Disables modify options",
-        "profile_cmd": "Removes embeddedmmobile provision file from iPA",
+        "profile_cmd": "Removes embedded mobile provision file...",
         "stripencslices_cmd": "Removes encrypted slices from the iPA file.",
         "stripslices_cmd": "Remove non arm64 slices from iPA file.",
         "filesupport_cmd": "Tries to fix 'Files App' support if app has.",
@@ -328,7 +328,7 @@ help_strings = {
         "restart_cmd": "Botu yeniden başlatır.",
         "shutdown_cmd": "Botu kapatır.",
         "user_cmd": "Kullanıcıları veritabanına kaydeder/kaldırır.",
-        "premium_cmd": "*Eski* Kullanıcıyı premium olarak işaretler, gelecekte özel içeriklere erişebilirler (eğer böyle bir içerik oluşturursam).",
+        "premium_cmd": "**Kullanıma kapalı** Kullanıcıyı premium olarak işaretler, gelecekte özel içeriklere erişebilirler (eğer böyle bir içerik oluşturursam).",
         "unknown_exception": "@{username} ({userID}) kullanıcısından yardım isteği işlenirken bir hata oluştu: {error}"
     },
     "RU": {
@@ -453,7 +453,7 @@ language_select_strings = {
         "language_clear_success": "Artık Telegram istemcisindeki dil seçimini takip ediyorsunuz.",
         "language_clear_failed": "Silinecek bir şey yok.",
         "back_button": "Geri Dön 🔙",
-        "clear_button": "Dil secimini kaldir 🧹"
+        "clear_button": "Dil seçimini kaldır 🧹"
     },
     "RU": {
         "select_language": "🌐 Выберите язык",
@@ -794,7 +794,7 @@ user_management_strings = {
         "user_not_found": "Kullanıcı `{user_id}` bulunamadı.",
         "user_added": "Kullanıcı `{user_id}` eklendi.",
         "user_removed": "Kullanıcı `{user_id}` silindi.",
-        "premium_added": "Kullanıcı `{user_id}` premium'a yukseltildi, {expiry_date} tarihinde sona erecek.",
+        "premium_added": "Kullanıcı `{user_id}` premium'a yükseltildi, {expiry_date} tarihinde sona erecek.",
         "premium_removed": "Kullanıcı `{user_id}` premium planindan cikartildi.",
         "premium_reg_error": "Premium üyelik kaydında bir hata oluştu. Lütfen tekrar deneyin.",
         "premium_unreg_error": "Premium üyelik iptali sırasında bir hata oluştu. Lütfen tekrar deneyin.",
@@ -903,7 +903,7 @@ restart_strings = {
     },
     "TR": {
         "restart_declined": "Uzgunum, sadece adminler botu yeniden baslatabilir. (İzin reddedildi)",
-        "restart_requested": "Yeniden baslatma talebi {user_first_name} - @{username} {process_id}",
+        "restart_requested": "Yeniden başlatma talebi {user_first_name} - @{username} {process_id}",
         "shutdown_declined": "Uzgunum, sadece adminler botu kapatabilir. (İzin reddedildi)",
         "shutdown_requested": "Kapatma talebi {user_first_name} - @{username} {process_id}",
         "restart_awaiting": "⚠️ {web_path} Temizlenme tamamlanana kadar bekleniyor...\n⌛️ Gecen sure: {time_elapsed}.",
@@ -938,7 +938,7 @@ run_cmd_strings = {
     "TR": {
         "correct_usage": "Kullanim: /exec 'komut'",
         "admin_only_msg": "Sorry, only admins can execute commands. (Permission denied)",
-        "exec_cmd_exception": "{userID} {username} - Komut calistirirken hata olustu: {user_error_message}",
+        "exec_cmd_exception": "{userID} {username} - Komut çalıştırılırken hata oluştu: {user_error_message}",
         "command_out": "Komut çıktısı:\n{stdout}\n",
         "command_err": "Komut hatası:\n{stderr}\n"
     },
