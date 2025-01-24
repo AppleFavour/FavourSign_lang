@@ -305,7 +305,7 @@ help_strings = {
         "user_not_registered": "Kayıtlı değilsiniz.",
         "available_cmds": "Mevcut Komutlar:",
         "user_cmds": "Kullanıcı Komutları:",
-        "cmd_prefixes": "Komutların aktif prefixleri: {prefixes}",
+        "cmd_prefixes": "Aktif komut ?: {prefixes}",
         "admin_cmds": "Yönetici Komutları:",
         "help_cmd": "Bu yardım mesajını gösterir.",
         "speedtest_cmd": "Bağlantı hızını test eder.",
@@ -453,7 +453,7 @@ language_select_strings = {
         "language_clear_success": "Artık Telegram istemcisindeki dil seçimini takip ediyorsunuz.",
         "language_clear_failed": "Silinecek bir şey yok.",
         "back_button": "Geri Dön 🔙",
-        "clear_button": "Dili Temizle 🧹"
+        "clear_button": "Dil secimini kaldir 🧹"
     },
     "RU": {
         "select_language": "🌐 Выберите язык",
@@ -480,7 +480,7 @@ language_select_strings = {
         "language_clear_success": "Folgt nun der Telegram-Client-Sprache",
         "language_clear_failed": "Nichts zu entfernen",
         "back_button": "Zurück 🔙",
-        "clear_button": "Sprache löschen 🧹",
+        "clear_button": "Sprache zurücksetzen 🧹",
     }
 }
 # Plugins/modifier.py
@@ -554,8 +554,8 @@ modifier_strings = {
         "error_while_resetting": "Değişkenler sıfırlanırken bir hata oluştu. /c komutunu kullanmayı deneyin: {error}."
     },
     "RU": {
-        "save_error": "Ошибка сохранения {options}. Ошибка: {error}.",
-        "json_decode_error": "Ошибка чтения {options}. Ошибка: {error}.",
+        "save_error": "Ошибка сохранения настроек: {options}. Ошибка: {error}.",
+        "json_decode_error": "Ошибка чтения настроек: {options}. Ошибка: {error}.",
         "read_runtime_error": "Ошибка при чтении: {error}.",
         "update_error": "Ошибка обновления {options}. Ошибка: {error}.",
         "app_name_usage": "Использование: /name <название_приложения> или /n <название_приложения>.",
@@ -709,7 +709,7 @@ sign_strings = {
         "fnfe_err": "Datei während des Signiervorgangs nicht gefunden.",
         "ve_err": "Wertfehler während des Signiervorgangs.",
         "sign_err": "Signiervorgang fehlgeschlagen.",
-        "unknown_sign_err": "Unbekannter Fehler während des Signiervorgangs."
+        "unknown_sign_err": "Unbekannter Fehler während des Signiervorgangs: {error}",
     }
 }
 # Plugins/speedtest.py
@@ -868,7 +868,7 @@ main_helper_strings = {
         "unsupported_file_type": "Cidden bu {file_extension} ile ne yapacağımı bilmiyorum :(",
         "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
         "cooldown_update": "Lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
-        "download_starting": "⏳ **İndirme bekleniyor**",  # !!
+        "download_starting": "⏳ **İndirme başlatılıyor**",
         "high_demand": "Yoğun talepten dolayı istek bekletiliyor.",
         "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
     },
@@ -914,8 +914,8 @@ restart_strings = {
         "restart_requested": "Перезапуск запрошен {user_first_name} - @{username} {process_id}",
         "shutdown_declined": "Извините, только администраторы могут отключить бота. (Отказано в доступе)",
         "shutdown_requested": "Отключение запрошено {user_first_name} - @{username} {process_id}",
-        "restart_awaiting": "⚠️ {web_path} папка осталась.\nОжидание завершения очистки...\n⌛️ Прошло времени: {time_elapsed}.",
-        "restart_in_progress": "🔁 Бот перезапускается...\n⌛️ Прошло времени: {time_elapsed}."
+        "restart_awaiting": "⚠️ Некоторые директории остаются в {web_path}.\nОжидание завершения очистки...\n⌛️ Прошло времени: {time_elapsed}.",
+        "restart_in_progress": "🔁 Бот перезапускается...\n⌛️ Общее время: {time_elapsed}."
     },
     "DE": {
         "restart_declined": "Entschuldigung, nur Administratoren können den Bot neustarten. (Zugriff verweigert)",
@@ -951,7 +951,7 @@ run_cmd_strings = {
     "DE": {
         "correct_usage": "Verwendung: /exec <Befehl>",
         "admin_only_msg": "Entschuldigung, nur Administratoren können Befehle ausführen. (Zugriff verweigert)",
-        "exec_cmd_exception": "{userID} {username} - Fehler bei der Ausführung des Befehls: {user_error_message}",
+        "exec_cmd_exception": "{userID} {username} - Fehler bei Befehlausführung: {user_error_message}",
         "command_out": "Befehlsausgabe:\n{stdout}\n",
         "command_err": "Befehlsfehler:\n{stderr}\n"
     }
@@ -978,7 +978,7 @@ helpers_strings = {
         "file_is_lost": "Dosyayı kaybettim, daha demin buradaydı. Nereye gitti?",
         "file_format_error": "IPA dosya formatı bozuk veya geçersiz.",
         "file_size_unexpected": "Beklenmeyen dosya boyutu: İndirilen {downloaded}, Beklenen {expected}",
-        "exception_context": "HATA: {exception}"
+        "exception_context": "HATA: {exception}",
     },
     "RU": {
         "create_folder_error": "Ошибка при создании папки: {error}",
@@ -1000,6 +1000,6 @@ helpers_strings = {
         "file_is_lost": "Ich habe die Datei verloren, sie war gerade noch da. Wo ist sie hin?",
         "file_format_error": "IPA-Dateiformat ist beschädigt oder ungültig.",
         "file_size_unexpected": "Unerwartete Dateigröße: Heruntergeladen {downloaded}, Erwartet {expected}",
-        "exception_context": "FEHLER: {exception}"
+        "exception_context": "FEHLERAUFTRITT: {exception}"
     }
 }
