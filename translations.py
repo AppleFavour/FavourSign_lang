@@ -852,6 +852,13 @@ certificate_handler_strings = {
         "unexpected_error": "Unerwarteter Fehler: {error}"
     }
 }
+# utils/gen_html.py
+generate_html_strings = {
+    "EN": {},
+    "TR": {},
+    "RU": {},
+    "DE": {},
+}
 # utils/main_helper.py
 main_helper_strings = {
     "EN": {
