@@ -859,6 +859,53 @@ generate_html_strings = {
     "RU": {},
     "DE": {},
 }
+# utils/helpers.py
+helpers_strings = {
+    "EN": {
+        "create_folder_error": "Error while creating folder: {error}",
+        "hour_ETA": "{remaining_time} H",
+        "minute_ETA": "{remaining_time} M",
+        "second_ETA": "{remaining_time} S",
+        "ETA": "ETA: {estimated_remaining_download_time}",
+        "file_is_lost": "I managed to lose the file, I saw it moments ago. Where did it go?",
+        "file_format_error": "IPA file format is corrupted or invalid.",
+        "file_size_unexpected": "Unexpected file size: Downloaded {downloaded}, Expected {expected}",
+        "exception_context": "ERROR: {exception}"
+    },
+    "TR": {
+        "create_folder_error": "Klasör oluşturulurken hata: {error}",
+        "hour_ETA": "{remaining_time} Sa",
+        "minute_ETA": "{remaining_time} Dk",
+        "second_ETA": "{remaining_time} Sn",
+        "ETA": "Tahmini Süre: {estimated_remaining_download_time}",
+        "file_is_lost": "Dosyayı kaybettim, daha demin buradaydı. Nereye gitti?",
+        "file_format_error": "IPA dosya formatı bozuk veya geçersiz.",
+        "file_size_unexpected": "Beklenmeyen dosya boyutu: İndirilen {downloaded}, Beklenen {expected}",
+        "exception_context": "HATA: {exception}",
+    },
+    "RU": {
+        "create_folder_error": "Ошибка при создании папки: {error}",
+        "hour_ETA": "{remaining_time} Ч",
+        "minute_ETA": "{remaining_time} М",
+        "second_ETA": "{remaining_time} С",
+        "ETA": "Примерное время завершения: {estimated_remaining_download_time}",
+        "file_is_lost": "Файл пропал, я только что его видел. Куда он делся?",
+        "file_format_error": "Формат IPA-файла повреждён или недействителен.",
+        "file_size_unexpected": "Непредвиденный размер файла: Загружено {downloaded}, Ожидалось {expected}",
+        "exception_context": "ОШИБКА: {exception}"
+    },
+    "DE": {
+        "create_folder_error": "Fehler beim Erstellen des Ordners: {error}",
+        "hour_ETA": "{remaining_time} Std",
+        "minute_ETA": "{remaining_time} Min",
+        "second_ETA": "{remaining_time} Sek",
+        "ETA": "Voraussichtliche Dauer: {estimated_remaining_download_time}",
+        "file_is_lost": "Ich habe die Datei verloren, sie war gerade noch da. Wo ist sie hin?",
+        "file_format_error": "IPA-Dateiformat ist beschädigt oder ungültig.",
+        "file_size_unexpected": "Unerwartete Dateigröße: Heruntergeladen {downloaded}, Erwartet {expected}",
+        "exception_context": "FEHLERAUFTRITT: {exception}"
+    }
+}
 # utils/main_helper.py
 main_helper_strings = {
     "EN": {
@@ -961,52 +1008,5 @@ run_cmd_strings = {
         "exec_cmd_exception": "{userID} {username} - Fehler bei Befehlausführung: {user_error_message}",
         "command_out": "Befehlsausgabe:\n{stdout}\n",
         "command_err": "Befehlsfehler:\n{stderr}\n"
-    }
-}
-# utils/helpers.py
-helpers_strings = {
-    "EN": {
-        "create_folder_error": "Error while creating folder: {error}",
-        "hour_ETA": "{remaining_time} H",
-        "minute_ETA": "{remaining_time} M",
-        "second_ETA": "{remaining_time} S",
-        "ETA": "ETA: {estimated_remaining_download_time}",
-        "file_is_lost": "I managed to lose the file, I saw it moments ago. Where did it go?",
-        "file_format_error": "IPA file format is corrupted or invalid.",
-        "file_size_unexpected": "Unexpected file size: Downloaded {downloaded}, Expected {expected}",
-        "exception_context": "ERROR: {exception}"
-    },
-    "TR": {
-        "create_folder_error": "Klasör oluşturulurken hata: {error}",
-        "hour_ETA": "{remaining_time} Sa",
-        "minute_ETA": "{remaining_time} Dk",
-        "second_ETA": "{remaining_time} Sn",
-        "ETA": "Tahmini Süre: {estimated_remaining_download_time}",
-        "file_is_lost": "Dosyayı kaybettim, daha demin buradaydı. Nereye gitti?",
-        "file_format_error": "IPA dosya formatı bozuk veya geçersiz.",
-        "file_size_unexpected": "Beklenmeyen dosya boyutu: İndirilen {downloaded}, Beklenen {expected}",
-        "exception_context": "HATA: {exception}",
-    },
-    "RU": {
-        "create_folder_error": "Ошибка при создании папки: {error}",
-        "hour_ETA": "{remaining_time} Ч",
-        "minute_ETA": "{remaining_time} М",
-        "second_ETA": "{remaining_time} С",
-        "ETA": "Примерное время завершения: {estimated_remaining_download_time}",
-        "file_is_lost": "Файл пропал, я только что его видел. Куда он делся?",
-        "file_format_error": "Формат IPA-файла повреждён или недействителен.",
-        "file_size_unexpected": "Непредвиденный размер файла: Загружено {downloaded}, Ожидалось {expected}",
-        "exception_context": "ОШИБКА: {exception}"
-    },
-    "DE": {
-        "create_folder_error": "Fehler beim Erstellen des Ordners: {error}",
-        "hour_ETA": "{remaining_time} Std",
-        "minute_ETA": "{remaining_time} Min",
-        "second_ETA": "{remaining_time} Sek",
-        "ETA": "Voraussichtliche Dauer: {estimated_remaining_download_time}",
-        "file_is_lost": "Ich habe die Datei verloren, sie war gerade noch da. Wo ist sie hin?",
-        "file_format_error": "IPA-Dateiformat ist beschädigt oder ungültig.",
-        "file_size_unexpected": "Unerwartete Dateigröße: Heruntergeladen {downloaded}, Erwartet {expected}",
-        "exception_context": "FEHLERAUFTRITT: {exception}"
     }
 }
