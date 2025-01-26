@@ -854,10 +854,38 @@ certificate_handler_strings = {
 }
 # utils/gen_html.py
 generate_html_strings = {
-    "EN": {},
-    "TR": {},
-    "RU": {},
-    "DE": {},
+    "EN": {
+        "install_button": "",
+        "installing_text": "",
+        "download_button": "",
+        "selected_certificate_text": "",
+        "credits": "",
+        "requires_newer_OS": "",
+    },
+    "TR": {
+        "install_button": "",
+        "installing_text": "",
+        "download_button": "",
+        "selected_certificate_text": "",
+        "credits": "",
+        "requires_newer_OS": "",
+    },
+    "RU": {
+        "install_button": "",
+        "installing_text": "",
+        "download_button": "",
+        "selected_certificate_text": "",
+        "credits": "",
+        "requires_newer_OS": "",
+    },
+    "DE": {
+        "install_button": "",
+        "installing_text": "",
+        "download_button": "",
+        "selected_certificate_text": "",
+        "credits": "",
+        "requires_newer_OS": "",
+    },
 }
 # utils/helpers.py
 helpers_strings = {
