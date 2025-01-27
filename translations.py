@@ -883,7 +883,7 @@ generate_html_strings = {
         "unsupported_system": "Не поддерживается",
         "credits": """Сделано AppleFavour с <i class="fa-solid fa-heart fa-beat"></i>.""",
         "system_info": "Информация о системе: ",
-        "requires_newer_OS": "Требуется iOS requiredOSVersion или новее.",
+        "requires_newer_OS": "Требуется iOS ${requiredOSVersion} или новее.",
     },
     "DE": {
         "install_button": "Installieren",
@@ -893,7 +893,7 @@ generate_html_strings = {
         "unsupported_system": "Nicht unterstutzt",
         "credits": """Erstellt von AppleFavour mit <i class="fa-solid fa-heart fa-beat"></i>.""",
         "system_info": "Systeminformationen: ",
-        "requires_newer_OS": "Erfordert iOS requiredOSVersion oder neuer.",
+        "requires_newer_OS": "Erfordert iOS ${requiredOSVersion} oder neuer.",
     },
 }
 # utils/helpers.py
