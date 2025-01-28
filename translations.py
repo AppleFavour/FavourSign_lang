@@ -1,24 +1,24 @@
 # Plugins/announcements.py
 announcements_strings = {
-    "EN": {
+    "en": {
         "no_reply": "🔍 Announcement message not found. Please reply to a message and try again.",
         "no_content": "🔍 Announcement content not found. Please reply to a message with text or a file.",
         "permission_denied": "🚫 You do not have permission to perform this action.",
         "announcement_complete": "✅ Announcement completed.\n\nTotal users: {total}\nSent: {sent}\nNot sent: {failed}",
     },
-    "TR": {
+    "tr": {
         "no_reply": "🔍 Duyuru mesajı bulunamadı. Lütfen bir mesaja yanıt verin ve tekrar deneyin.",
         "no_content": "🔍 Duyuru içeriği bulunamadı. Lütfen bir metin veya dosya ile bir mesaja yanıt verin.",
         "permission_denied": "🚫 Bu işlemi gerçekleştirmek için izniniz yok.",
         "announcement_complete": "✅ Duyuru tamamlandı.\n\nToplam kullanıcı: {total}\nGönderilen: {sent}\nGönderilemeyen: {failed}",
     },
-    "RU": {
+    "ru": {
         "no_reply": "🔍 Сообщение для объявления не найдено. Пожалуйста, ответьте на сообщение и попробуйте снова.",
         "no_content": "🔍 Контент объявления не найден. Пожалуйста, ответьте на сообщение с текстом или файлом.",
         "permission_denied": "🚫 У вас нет прав для выполнения этого действия.",
         "announcement_complete": "✅ Объявление завершено.\n\nВсего пользователей: {total}\nОтправлено: {sent}\nНе отправлено: {failed}",
     },
-    "DE": {
+    "de": {
         "no_reply": "🔍 Ankündigungsnachricht nicht gefunden. Bitte antworte auf eine Nachricht und versuche es erneut.",
         "no_content": "🔍 Ankündigungsinhalt nicht gefunden. Bitte antworte auf eine Nachricht mit Text oder einer Datei.",
         "permission_denied": "🚫 Du hast keine Berechtigung für diese Aktion.",
@@ -27,7 +27,7 @@ announcements_strings = {
 }
 # Plugins/certificate_select.py
 certificate_select_strings = {
-    "EN": {
+    "en": {
         "cert_loading_error": "⚠️ An error occurred while loading certificate information.",
         "select_certificate_prompt": "📃 Please select a certificate.\nSelected: {selected}",
         "cert_saved": "📌 Certificate selected: {cert_name}",
@@ -36,7 +36,7 @@ certificate_select_strings = {
         "saving_error": "A database error occurred. Please try again later.",
         "callback_error": "⚠️ An error occurred.",
     },
-    "TR": {
+    "tr": {
         "cert_loading_error": "⚠️ Sertifika bilgilerini yüklerken bir hata oluştu.",
         "select_certificate_prompt": "📃 Lütfen bir sertifika seçin.\nSeçilen: {selected}",
         "cert_saved": "📌 Seçilen sertifika: {cert_name}",
@@ -45,7 +45,7 @@ certificate_select_strings = {
         "saving_error": "Bir veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyin.",
         "callback_error": "⚠️ Bir hata oluştu.",
     },
-    "RU": {
+    "ru": {
         "cert_loading_error": "⚠️ Произошла ошибка при загрузке информации о сертификате.",
         "select_certificate_prompt": "📃 Пожалуйста, выберите сертификат.\nВыбран: {selected}",
         "cert_saved": "📌 Сертификат выбран: {cert_name}",
@@ -54,7 +54,7 @@ certificate_select_strings = {
         "saving_error": "Произошла ошибка с базой данных. Пожалуйста, попробуйте снова позже.",
         "callback_error": "⚠️ Произошла ошибка.",
     },
-    "DE": {
+    "de": {
         "cert_loading_error": "⚠️ Beim Laden der Zertifikatsinformationen ist ein Fehler aufgetreten.",
         "select_certificate_prompt": "📃 Bitte wähle ein Zertifikat aus.\nAusgewählt: {selected}",
         "cert_saved": "📌 Zertifikat ausgewählt: {cert_name}",
@@ -66,7 +66,7 @@ certificate_select_strings = {
 }
 # Plugins/compression_level.py
 compression_level_strings = {
-    "EN": {
+    "en": {
         "compression_prompt": (
             "📁 Select the compression level\n"
             "Selected: {selected}\n"
@@ -86,27 +86,27 @@ compression_level_strings = {
         "generic_error": "⚠️ An error occurred.",
         "back_button": "Go Back 🔙",
     },
-    "TR": {
+    "tr": {
         "compression_prompt": (
             "📁 Sıkıştırma seviyesini seçin\n"
             "Seçilen: {selected}\n"
             "Bu ayar, botun hızını ve imzalanmış dosyanın boyutunu belirler.\n\n"
-            "**0** — **En Hızlı İmzalama**, **Minimum Sıkıştırma (Daha Büyük Dosya Boyutu)**\n"
-            "**9** — **En Yavaş İmzalama**, **Maksimum Sıkıştırma (Daha Küçük Dosya Boyutu)**"
+            "**0** — **en Hızlı İmzalama**, **Minimum Sıkıştırma (Daha Büyük Dosya Boyutu)**\n"
+            "**9** — **en Yavaş İmzalama**, **Maksimum Sıkıştırma (Daha Küçük Dosya Boyutu)**"
         ),
         "already_selected": "⚠️ Zaten seçilmiş.",
         "save_error": "Sıkıştırma seviyesi kaydedilemedi.",
         "compression_selected": (
             "📌 Seçilen sıkıştırma seviyesi: {selected}\n\n"
             "Bu ayar, botun hızını ve imzalanmış dosyanın boyutunu belirler.\n\n"
-            "**0** — **En Hızlı İmzalama**, **Minimum Sıkıştırma (Daha Büyük Dosya Boyutu)**\n"
-            "**9** — **En Yavaş İmzalama**, **Maksimum Sıkıştırma (Daha Küçük Dosya Boyutu)**"
+            "**0** — **en Hızlı İmzalama**, **Minimum Sıkıştırma (Daha Büyük Dosya Boyutu)**\n"
+            "**9** — **en Yavaş İmzalama**, **Maksimum Sıkıştırma (Daha Küçük Dosya Boyutu)**"
         ),
         "selected_notification": "📌 Seçilen: {selected}",
         "generic_error": "⚠️ Bir hata oluştu.",
         "back_button": "Geri Dön 🔙",
     },
-    "RU": {
+    "ru": {
         "compression_prompt": (
             "📁 Выберите уровень сжатия\n"
             "Выбран: {selected}\n"
@@ -126,7 +126,7 @@ compression_level_strings = {
         "generic_error": "⚠️ Произошла ошибка.",
         "back_button": "Назад 🔙"
     },
-    "DE": {
+    "de": {
         "compression_prompt": (
             "📁 Wähle die Komprimierungsstufe\n"
             "Ausgewählt: {selected}\n"
@@ -149,7 +149,7 @@ compression_level_strings = {
 }
 # Plugins/countdown.py
 countdown_strings = {
-    "EN": {
+    "en": {
         "signed": "Signed",
         "app_name": "App Name",
         "bundle_id": "Bundle ID",
@@ -158,7 +158,7 @@ countdown_strings = {
         "explore_button": "🔎 Discover more iPA",
         "mnm_notify": "Do you see this because message.edit_text is failed"
     },
-    "TR": {
+    "tr": {
         "signed": "İmzalandı",
         "app_name": "Uygulama Adı",
         "bundle_id": "Uygulama ID",
@@ -167,7 +167,7 @@ countdown_strings = {
         "explore_button": "🔎 Daha fazla iPA keşfedin",
         "mnm_notify": "Mesaj düzenlenmesi başarısız oldu."
     },
-    "RU": {
+    "ru": {
         "signed": "Подписан",
         "app_name": "Название приложения",
         "bundle_id": "ID приложения",
@@ -176,7 +176,7 @@ countdown_strings = {
         "explore_button": "🔎 Посмотреть больше iPA",
         "mnm_notify": "Ошибка при редактировании сообщения"
     },
-    "DE": {
+    "de": {
         "signed": "Signiert",
         "app_name": "App-Name",
         "bundle_id": "Bundle-ID",
@@ -188,7 +188,7 @@ countdown_strings = {
 }
 # Plugins/download.py
 download_strings = {
-    "EN": {
+    "en": {
         "download_failed_message": "❌ {file_name} can't be downloaded!",
         "download_attempt_failed_message": "An error occurred while downloading {file_name}, retrying... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} downloaded successfully!",
@@ -208,7 +208,7 @@ download_strings = {
         "unknown_exception_error": "An unexpected error occurred.",
         "retrying_message": "Retrying download... ({current}/{limit})"
     },
-    "TR": {
+    "tr": {
         "download_failed_message": "❌ {file_name} indirilemedi",
         "download_attempt_failed_message": "{file_name} indirilirken bir hata oluştu, yeniden deneniyor... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} başarıyla indirildi",
@@ -228,7 +228,7 @@ download_strings = {
         "unknown_exception_error": "Beklenmedik bir hata oluştu.",
         "retrying_message": "İndirme yeniden deneniyor... ({current}/{limit})"
     },
-    "RU": {
+    "ru": {
         "download_failed_message": "❌ {file_name} не может быть скачан!",
         "download_attempt_failed_message": "Ошибка при скачивании {file_name}, повторная попытка... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} скачан успешно!",
@@ -248,7 +248,7 @@ download_strings = {
         "unknown_exception_error": "Произошла неизвестная ошибка.",
         "retrying_message": "Повторная попытка загрузки... ({current}/{limit})"
     },
-    "DE": {
+    "de": {
         "download_failed_message": "❌ {file_name} kann nicht heruntergeladen werden!",
         "download_attempt_failed_message": "Ein Fehler ist beim Herunterladen von {file_name} aufgetreten, neuer Versuch... ({current}/{limit})",
         "download_successful_message": "✅ {file_name} erfolgreich heruntergeladen!",
@@ -271,7 +271,7 @@ download_strings = {
 }
 # Plugins/help.py
 help_strings = {
-    "EN": {
+    "en": {
         "user_not_registered": "You are not registered.",
         "available_cmds": "Available Commands:",
         "user_cmds": "User Commands:",
@@ -301,7 +301,7 @@ help_strings = {
         "premium_cmd": "*obsolute* mark user as premium in feature they can access exclusive stuff.",
         "unknown_exception": "An error occurred while processing help request from @{username} ({userID}): {error}"
     },
-    "TR": {
+    "tr": {
         "user_not_registered": "Kayıtlı değilsiniz.",
         "available_cmds": "Mevcut Komutlar:",
         "user_cmds": "Kullanıcı Komutları:",
@@ -331,7 +331,7 @@ help_strings = {
         "premium_cmd": "**Kullanıma kapalı** Kullanıcıyı premium olarak işaretler, gelecekte özel içeriklere erişebilirler (eğer böyle bir içerik oluşturursam).",
         "unknown_exception": "@{username} ({userID}) kullanıcısından yardım isteği işlenirken bir hata oluştu: {error}"
     },
-    "RU": {
+    "ru": {
         "user_not_registered": "Вы не зарегистрированы.",
         "available_cmds": "Доступные команды:",
         "user_cmds": "Команды пользователей:",
@@ -361,7 +361,7 @@ help_strings = {
         "premium_cmd": "*Устарело* Отмечает пользователя как премиум, чтобы он мог получить доступ к эксклюзивному контенту (если я когда-нибудь создам его).",
         "unknown_exception": "Произошла неизвестная ошибка при обработке запроса помощи от @{username} ({userID}): {error}"
     },
-    "DE": {
+    "de": {
         "user_not_registered": "Du bist nicht registriert.",
         "available_cmds": "Verfügbare Befehle:",
         "user_cmds": "Benutzer-Befehle:",
@@ -394,7 +394,7 @@ help_strings = {
 }
 # Plugins/info.py
 info_strings = {
-    "EN": {
+    "en": {
         "greeting": "👋 Hello! {name}",
         "system_info": "\nSystem Information:\n",
         "bot_info": "\nBot Information:\n",
@@ -402,7 +402,7 @@ info_strings = {
         "total_users": "Registered Users: {count}",
         "active_users": "Active users: {count}",
     },
-    "TR": {
+    "tr": {
         "greeting": "👋 Merhaba! {name}",
         "system_info": "\nSistem Bilgileri:\n",
         "bot_info": "\nBot Bilgileri:\n",
@@ -410,7 +410,7 @@ info_strings = {
         "total_users": "Kayıtlı Kullanıcı Sayısı: {count}",
         "active_users": "Aktif Kullanıcı Sayısı: {count}",
     },
-    "RU": {
+    "ru": {
         "greeting": "👋 Привет! {name}",
         "system_info": "\nСистемная информация:\n",
         "bot_info": "\nИнформация о боте:\n",
@@ -418,7 +418,7 @@ info_strings = {
         "total_users": "Пользователи: {count}",
         "active_users": "Активные пользователи: {count}",
     },
-    "DE": {
+    "de": {
         "greeting": "👋 Hallo! {name}",
         "system_info": "\nSysteminformationen:\n",
         "bot_info": "\nBot-Informationen:\n",
@@ -429,7 +429,7 @@ info_strings = {
 }
 # Plugins/language_select.py
 language_select_strings = {
-    "EN": {
+    "en": {
         "select_language": "🌐 Select a language",
         "selected": "Selected:",
         "already_selected": "⚠️ You have already selected the current language.",
@@ -442,7 +442,7 @@ language_select_strings = {
         "back_button": "Go Back 🔙",
         "clear_button": "Clear Language 🧹"
     },
-    "TR": {
+    "tr": {
         "select_language": "🌐 Bir dil seçin",
         "selected": "Seçilen:",
         "already_selected": "Mevcut dili zaten seçtiniz.",
@@ -455,7 +455,7 @@ language_select_strings = {
         "back_button": "Geri Dön 🔙",
         "clear_button": "Dil seçimini kaldır 🧹"
     },
-    "RU": {
+    "ru": {
         "select_language": "🌐 Выберите язык",
         "selected": "Выбранный:",
         "already_selected": "Вы уже выбрали текущий язык.",
@@ -468,7 +468,7 @@ language_select_strings = {
         "back_button": "Назад 🔙",
         "clear_button": "Очистить язык 🧹",
     },
-    "DE": {
+    "de": {
         "select_language": "🌐 Wähle eine Sprache",
         "selected": "Ausgewählt:",
         "already_selected": "Du hast bereits die aktuelle Sprache ausgewählt.",
@@ -485,7 +485,7 @@ language_select_strings = {
 }
 # Plugins/modifier.py
 modifier_strings = {
-    "EN": {
+    "en": {
         "save_error": "Failed to save {options}. Error: {error}.",
         "json_decode_error": "Failed to read {options}. Error: {error}.",
         "read_runtime_error": "An error occurred while reading: {error}.",
@@ -519,7 +519,7 @@ modifier_strings = {
         "tweak_added_expecting_ipa": "Added: {file_name}. Waiting for ipa...",
         "error_while_resetting": "An error occurred while resetting variables. Try using the /c command. Error: {error}."
     },
-    "TR": {
+    "tr": {
         "save_error": "{options} kaydedilemedi. Hata: {error}.",
         "json_decode_error": "{options} okunamadı. Hata: {error}.",
         "read_runtime_error": "Okuma sırasında bir hata oluştu: {error}.",
@@ -553,7 +553,7 @@ modifier_strings = {
         "tweak_added_expecting_ipa": "Eklendi: {file_name}. iPA bekleniyor...",
         "error_while_resetting": "Değişkenler sıfırlanırken bir hata oluştu. /c komutunu kullanmayı deneyin: {error}."
     },
-    "RU": {
+    "ru": {
         "save_error": "Ошибка сохранения настроек: {options}. Ошибка: {error}.",
         "json_decode_error": "Ошибка чтения настроек: {options}. Ошибка: {error}.",
         "read_runtime_error": "Ошибка при чтении: {error}.",
@@ -587,7 +587,7 @@ modifier_strings = {
         "tweak_added_expecting_ipa": "Добавлено: {file_name}. Ожидается ipa...",
         "error_while_resetting": "Ошибка сброса настроек. Попробуйте команду /c. Ошибка: {error}."
     },
-    "DE": {
+    "de": {
         "save_error": "Fehler beim Speichern von {options}. Fehler: {error}.",
         "json_decode_error": "Fehler beim Lesen von {options}. Fehler: {error}.",
         "read_runtime_error": "Fehler beim Lesen: {error}.",
@@ -624,7 +624,7 @@ modifier_strings = {
 }
 # Plugins/sign.py
 sign_strings = {
-    "EN": {
+    "en": {
         "no_cert_selected": "Hello, {user_first_name}! 😊\nIt seems like you forgot something. Please make your choice and resend the IPA! 🚀",
         "sign_error_retry": "An error occurred during signing, retrying... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "Failed to sign.\nThis issue is often caused by the IPA file or Telegram.",
@@ -646,7 +646,7 @@ sign_strings = {
         "sign_err": "The signing operation failed.",
         "unknown_sign_err": "An unknown error occurred during the signing operation."
     },
-    "TR": {
+    "tr": {
         "no_cert_selected": "Merhaba, {user_first_name}! 😊\nGörünüşe göre bir şeyi unuttunuz. Lütfen seçiminizi yapın ve iPA'yı yeniden gönderin! 🚀",
         "sign_error_retry": "İmzalama sırasında bir hata oluştu, yeniden deniyorum... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "İmzalama işlemi başarısız oldu.\nBu sorun genellikle iPA dosyasından veya Telegram'dan kaynaklanmaktadır.",
@@ -668,7 +668,7 @@ sign_strings = {
         "sign_err": "İmzalama işlemi başarısız oldu.",
         "unknown_sign_err": "İmzalama işlemi sırasında bilinmeyen bir hata oluştu."
     },
-    "RU": {
+    "ru": {
         "no_cert_selected": "Привет, {user_first_name}! 😊\nПохоже, вы что-то забыли. Пожалуйста, сделайте выбор и отправьте IPA снова! 🚀",
         "sign_error_retry": "Произошла ошибка при подписании, повторная попытка... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "Не удалось подписать.\nПроблема, скорее всего, связана с IPA-файлом или Telegram.",
@@ -690,7 +690,7 @@ sign_strings = {
         "sign_err": "Операция подписания не удалась.",
         "unknown_sign_err": "Произошла неизвестная ошибка во время операции подписания."
     },
-    "DE": {
+    "de": {
         "no_cert_selected": "Hallo, {user_first_name}! 😊\nAnscheinend hast du etwas vergessen. Bitte triff deine Wahl und sende die IPA erneut! 🚀",
         "sign_error_retry": "Beim Signieren ist ein Fehler aufgetreten, neuer Versuch... ({failed_sign_attempt}/{max_sign_attempt})",
         "signing_failed": "Signierung fehlgeschlagen.\nDieses Problem wird oft durch die IPA-Datei oder Telegram verursacht.",
@@ -714,25 +714,25 @@ sign_strings = {
 }
 # Plugins/speedtest.py
 speedtest_strings = {
-    "EN": {
+    "en": {
         "speedtest_start": "🚀 Testing internet speed...",
         "network_error": "Network Error: Please check your internet connection and try again.",
         "timeout_error": "Error: Request timed out.",
         "unknown_error": "Error: An unexpected error occurred.",
     },
-    "TR": {
+    "tr": {
         "speedtest_start": "🚀 Internet hızı test ediliyor.",
         "network_error": "Ağ Hatası: Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
         "timeout_error": "Hata: İstek zaman aşımına uğradı.",
         "unknown_error": "Hata: Beklenmeyen bir hata oluştu.",
     },
-    "RU": {
+    "ru": {
         "speedtest_start": "🚀 Тестирование скорости интернета...",
         "network_error": "Ошибка сети: Пожалуйста, проверьте ваше интернет-соединение и попробуйте снова.",
         "timeout_error": "Ошибка: Время ожидания запроса истекло.",
         "unknown_error": "Ошибка: Произошла непредвиденная ошибка.",
     },
-    "DE": {
+    "de": {
         "speedtest_start": "🚀 Teste Internetgeschwindigkeit...",
         "network_error": "Netzwerkfehler: Bitte überprüfe deine Internetverbindung und versuche es erneut.",
         "timeout_error": "Fehler: Zeitüberschreitung der Anfrage.",
@@ -741,7 +741,7 @@ speedtest_strings = {
 }
 # Plugins/start.py
 start_strings = {
-    "EN": {
+    "en": {
         "welcome_registered": "Hello! {name}\nPlease select a certificate to begin.",
         "welcome_unregistered": "Hello, {name}!\n Sorry, you are not authorized to use the bot.\n\n▸ If you have a certificate from AppleFavour, please contact us for authorization using the button below. If you do not have a certificate, you can contact us to purchase one.",
         "select_certificate": "Select certificate 📝️",
@@ -749,7 +749,7 @@ start_strings = {
         "select_language": "Select Language 🌐",
         "approval_purchase": "Get Approval / Purchase"
     },
-    "TR": {
+    "tr": {
         "welcome_registered": "Merhaba! {name}\nBaşlamak için lütfen bir sertifika seçin.",
         "welcome_unregistered": "Merhaba, {name}!\nÜzgünüm, botu kullanabilmek için yetkiniz bulunmamaktadır.\n\n▸ Eğer AppleFavour’dan alınmış bir sertifikanız varsa, yetkilendirme için aşağıdaki butonu kullanarak bizimle iletişime geçin. Sertifikanız yoksa satın almak için iletişime geçebilirsiniz.",
         "select_certificate": "Sertifika Seçin 📝️",
@@ -757,7 +757,7 @@ start_strings = {
         "select_language": "Dil Seçin 🌐",
         "approval_purchase": "Onay / Satın Al"
     },
-    "RU": {
+    "ru": {
         "welcome_registered": "Привет! {name}\nПожалуйста, выберите сертификат, чтобы начать.",
         "welcome_unregistered": "Привет, {name}!\nИзвините, для использования бота требуется одобрение администратора.\n\n▸ Если у вас есть сертификат, свяжитесь с нами через кнопку ниже для получения одобрения, или для покупки, если у вас его нет.",
         "select_certificate": "Выбрать сертификат 📝️",
@@ -765,7 +765,7 @@ start_strings = {
         "select_language": "Выбрать язык 🌐",
         "approval_purchase": "Получить одобрение / Купить"
     },
-    "DE": {
+    "de": {
         "welcome_registered": "Hallo! {name}\nBitte wähle ein Zertifikat aus, um zu beginnen.",
         "welcome_unregistered": "Hallo, {name}!\nEntschuldigung, du benötigst die Genehmigung eines Administrators, um den Bot zu nutzen.\n\n▸ Wenn du ein Zertifikat hast, kontaktiere uns über den Button unten für die Genehmigung, oder um eines zu kaufen, falls du keines hast.",
         "select_certificate": "Zertifikat auswählen 📝️",
@@ -776,7 +776,7 @@ start_strings = {
 }
 # Plugins/user_management.py
 user_management_strings = {
-    "EN": {
+    "en": {
         "admin_only": "Sorry, only administrators can perform database operations. (Permission denied)",
         "invalid_command": "Invalid command usage.\n(/,!)premium and (/,!)pre 1071675334\nOR\n(/,!)user and (/,!)k 1071675334",
         "user_not_found": "User `{user_id}` not found.",
@@ -788,7 +788,7 @@ user_management_strings = {
         "premium_unreg_error": "Error occurred during premium removal. Please try again.",
         "not_enough_arguments": "Not enough arguments, You need to provide a user ID(s). /user user1.ID ..."
     },
-    "TR": {
+    "tr": {
         "admin_only": "Üzgünüm, Botun veri tabanidaki islemleri, sadece yöneticiler gerceklestirilebilir. (Permission denied)",
         "invalid_command": "Hatalı komut kullanımı.\n(/,!)premium and (/,!)pre 1071675334\nOR\n(/,!)user and (/,!)k 1071675334",
         "user_not_found": "Kullanıcı `{user_id}` bulunamadı.",
@@ -800,7 +800,7 @@ user_management_strings = {
         "premium_unreg_error": "Premium üyelik iptali sırasında bir hata oluştu. Lütfen tekrar deneyin.",
         "not_enough_arguments": "Yetersiz argüman, Kullanıcı ID(leri) sağlamalısınız. /user user1.ID ..."
     },
-    "RU": {
+    "ru": {
         "admin_only": "Извините, только администраторы могут выполнять операции с базой данных. (Permission denied)",
         "invalid_command": "Неверное использование команды.\n(/,!)premium и (/,!)pre 1071675334\nИли\n(/,!)user и (/,!)k 1071675334",
         "user_not_found": "Пользователь `{user_id}` не найден.",
@@ -812,7 +812,7 @@ user_management_strings = {
         "premium_unreg_error": "Произошла ошибка при удалении премиум. Пожалуйста, попробуйте снова.",
         "not_enough_arguments": "Недостаточно аргументов. Нужно указать ID пользователя(ей). /user user1.ID ..."
     },
-    "DE": {
+    "de": {
         "admin_only": "Entschuldigung, nur Administratoren können Datenbankoperationen durchführen. (Zugriff verweigert)",
         "invalid_command": "Ungültige Befehlsverwendung.\n(/,!)premium und (/,!)pre 1071675334\nODER\n(/,!)user und (/,!)k 1071675334",
         "user_not_found": "Benutzer `{user_id}` nicht gefunden.",
@@ -827,25 +827,25 @@ user_management_strings = {
 }
 # utils/certificate_handler.py
 certificate_handler_strings = {
-    "EN": {
+    "en": {
         "permission_denied": "You cannot add a new certificate. (Permission denied)",
         "certificate_updated": "Certificate updated: {file_name}",
         "unexpected_git_error": "Unexpected git error: {error}",
         "unexpected_error": "Unexpected error: {error}",
     },
-    "TR": {
+    "tr": {
         "permission_denied": "Yeni sertifika ekleyemezsin. (İzin verilmedi)",
         "certificate_updated": "Sertifika güncellendi: {file_name}",
         "unexpected_git_error": "Beklenmeyen git hatası: {error}",
         "unexpected_error": "Beklenmeyen hata: {error}",
     },
-    "RU": {
+    "ru": {
         "permission_denied": "Вы не можете добавить новый сертификат. (Доступ запрещен)",
         "certificate_updated": "Сертификат обновлен: {file_name}",
         "unexpected_git_error": "Неожиданная ошибка git: {error}",
         "unexpected_error": "Неожиданная ошибка: {error}",
     },
-    "DE": {
+    "de": {
         "permission_denied": "Sie können kein neues Zertifikat hinzufügen. (Zugriff verweigert)",
         "certificate_updated": "Zertifikat aktualisiert: {file_name}",
         "unexpected_git_error": "Unerwarteter Git-Fehler: {error}",
@@ -854,7 +854,7 @@ certificate_handler_strings = {
 }
 # utils/gen_html.py
 generate_html_strings = {
-    "EN": {
+    "en": {
         "install_button": "Install",
         "installing": "Installing...",
         "download_button": "Download",
@@ -864,7 +864,7 @@ generate_html_strings = {
         "system_info": "System Information: ",
         "requires_newer_OS": "Requires iOS ${requiredOSVersion} or newer.",
     },
-    "TR": {
+    "tr": {
         "title": "Favour Sign",
         "install_button": "Yükle",
         "installing": "Yükleniyor...",
@@ -875,7 +875,7 @@ generate_html_strings = {
         "system_info": "Sistem Bilgisi: ",
         "requires_newer_OS": "iOS requiredOSVersion veya daha yenisini gerektirir.",
     },
-    "RU": {
+    "ru": {
         "install_button": "Установить",
         "installing": "Установка...",
         "download_button": "Скачать",
@@ -885,7 +885,7 @@ generate_html_strings = {
         "system_info": "Информация о системе: ",
         "requires_newer_OS": "Требуется iOS ${requiredOSVersion} или новее.",
     },
-    "DE": {
+    "de": {
         "install_button": "Installieren",
         "installing": "Installiere...",
         "download_button": "Herunterladen",
@@ -898,7 +898,7 @@ generate_html_strings = {
 }
 # utils/helpers.py
 helpers_strings = {
-    "EN": {
+    "en": {
         "create_folder_error": "Error while creating folder: {error}",
         "hour_ETA": "{remaining_time} H",
         "minute_ETA": "{remaining_time} M",
@@ -909,7 +909,7 @@ helpers_strings = {
         "file_size_unexpected": "Unexpected file size: Downloaded {downloaded}, Expected {expected}",
         "exception_context": "ERROR: {exception}"
     },
-    "TR": {
+    "tr": {
         "create_folder_error": "Klasör oluşturulurken hata: {error}",
         "hour_ETA": "{remaining_time} Sa",
         "minute_ETA": "{remaining_time} Dk",
@@ -920,7 +920,7 @@ helpers_strings = {
         "file_size_unexpected": "Beklenmeyen dosya boyutu: İndirilen {downloaded}, Beklenen {expected}",
         "exception_context": "HATA: {exception}",
     },
-    "RU": {
+    "ru": {
         "create_folder_error": "Ошибка при создании папки: {error}",
         "hour_ETA": "{remaining_time} Ч",
         "minute_ETA": "{remaining_time} М",
@@ -931,7 +931,7 @@ helpers_strings = {
         "file_size_unexpected": "Непредвиденный размер файла: Загружено {downloaded}, Ожидалось {expected}",
         "exception_context": "ОШИБКА: {exception}"
     },
-    "DE": {
+    "de": {
         "create_folder_error": "Fehler beim Erstellen des Ordners: {error}",
         "hour_ETA": "{remaining_time} Std",
         "minute_ETA": "{remaining_time} Min",
@@ -945,7 +945,7 @@ helpers_strings = {
 }
 # utils/main_helper.py
 main_helper_strings = {
-    "EN": {
+    "en": {
         "unregistered_user": "Hello, please contact an administrator. (Unregistered user)",
         "unsupported_file_type": "I honestly don't know what to do with this {file_extension} :(",
         "cooldown_wait": "Hey! {user}, please wait {time_to_wait} seconds before uploading another file...",
@@ -954,7 +954,7 @@ main_helper_strings = {
         "high_demand": "Request on hold due to high demand.",
         "reply_or_send_ipa_prompt": "Please reply to a message or send an IPA file or a URL containing an IPA."
     },
-    "TR": {
+    "tr": {
         "unregistered_user": "Merhaba, bir yönetici ile iletişime geçin. (Kayıtsız kullanıcı)",
         "unsupported_file_type": "Cidden bu {file_extension} ile ne yapacağımı bilmiyorum :(",
         "cooldown_wait": "Hop! {user}, lütfen başka bir dosya yüklemeden önce {time_to_wait} saniye bekleyiniz...",
@@ -963,7 +963,7 @@ main_helper_strings = {
         "high_demand": "Yoğun talepten dolayı istek bekletiliyor.",
         "reply_or_send_ipa_prompt": "Bir mesaja yanıt verin veya bir IPA dosyası ya da IPA içeren bir URL gönderin."
     },
-    "RU": {
+    "ru": {
         "unregistered_user": "Здравствуйте, свяжитесь с администратором. (Незарегистрированный пользователь)",
         "unsupported_file_type": "Честно говоря, я не знаю, что делать с этим {file_extension} :(",
         "cooldown_wait": "Эй! {user}, подождите {time_to_wait} секунд перед загрузкой другого файла...",
@@ -972,7 +972,7 @@ main_helper_strings = {
         "high_demand": "Запрос отложен из-за высокой нагрузки.",
         "reply_or_send_ipa_prompt": "Ответьте на сообщение или отправьте файл IPA или URL, содержащий IPA."
     },
-    "DE": {
+    "de": {
         "unregistered_user": "Hallo, bitte kontaktieren Sie einen Administrator. (Nicht registrierter Benutzer)",
         "unsupported_file_type": "Ich weiß ehrlich gesagt nicht, was ich mit dieser {file_extension} anfangen soll :(",
         "cooldown_wait": "Hey! {user}, bitte warten Sie {time_to_wait} Sekunden, bevor Sie eine weitere Datei hochladen...",
@@ -984,7 +984,7 @@ main_helper_strings = {
 }
 # utils/restart.py
 restart_strings = {
-    "EN": {
+    "en": {
         "restart_declined": "Sorry, only admins can restart bot. (Permission denied)",
         "restart_requested": "Restart requested by {user_first_name} - @{username} {process_id}",
         "shutdown_declined": "Sorry, only admins can shutdown bot. (Permission denied)",
@@ -992,7 +992,7 @@ restart_strings = {
         "restart_awaiting": "⚠️ Some directories still remain in {web_path}.\nWaiting for cleanup to complete...\n⌛️ Elapsed: {time_elapsed}.",
         "restart_in_progress": "🔁 Bot is restarting...\n⌛️ Total elapsed: {time_elapsed}."
     },
-    "TR": {
+    "tr": {
         "restart_declined": "Uzgunum, sadece adminler botu yeniden baslatabilir. (İzin reddedildi)",
         "restart_requested": "Yeniden başlatma talebi {user_first_name} - @{username} {process_id}",
         "shutdown_declined": "Uzgunum, sadece adminler botu kapatabilir. (İzin reddedildi)",
@@ -1000,7 +1000,7 @@ restart_strings = {
         "restart_awaiting": "⚠️ {web_path} Temizlenme tamamlanana kadar bekleniyor...\n⌛️ Gecen sure: {time_elapsed}.",
         "restart_in_progress": "🔁 Bot Yeniden başlatiliyor...\n⌛️ Toplam süre: {time_elapsed}."
     },
-    "RU": {
+    "ru": {
         "restart_declined": "Извините, только администраторы могут перезапустить бота. (Отказано в доступе)",
         "restart_requested": "Перезапуск запрошен {user_first_name} - @{username} {process_id}",
         "shutdown_declined": "Извините, только администраторы могут отключить бота. (Отказано в доступе)",
@@ -1008,7 +1008,7 @@ restart_strings = {
         "restart_awaiting": "⚠️ Некоторые директории остаются в {web_path}.\nОжидание завершения очистки...\n⌛️ Прошло времени: {time_elapsed}.",
         "restart_in_progress": "🔁 Бот перезапускается...\n⌛️ Общее время: {time_elapsed}."
     },
-    "DE": {
+    "de": {
         "restart_declined": "Entschuldigung, nur Administratoren können den Bot neustarten. (Zugriff verweigert)",
         "restart_requested": "Neustart angefordert von {user_first_name} - @{username} {process_id}",
         "shutdown_declined": "Entschuldigung, nur Administratoren können den Bot herunterfahren. (Zugriff verweigert)",
@@ -1019,27 +1019,27 @@ restart_strings = {
 }
 # utils/run_cmd.py
 run_cmd_strings = {
-    "EN": {
+    "en": {
         "correct_usage": "Usage: /exec 'command'",
         "admin_only_msg": "Sorry, only admins can execute commands. (Permission denied)",
         "exec_cmd_exception": "{userID} {username} - Error while executing command: {user_error_message}",
         "command_out": "Command output:\n{stdout}\n",
         "command_err": "Command error:\n{stderr}\n"
     },
-    "TR": {
+    "tr": {
         "correct_usage": "Kullanim: /exec 'komut'",
         "admin_only_msg": "Sorry, only admins can execute commands. (Permission denied)",
         "exec_cmd_exception": "{userID} {username} - Komut çalıştırılırken hata oluştu: {user_error_message}",
         "command_out": "Komut çıktısı:\n{stdout}\n",
         "command_err": "Komut hatası:\n{stderr}\n"
     },
-    "RU": {
+    "ru": {
         "correct_usage": "Использование: /exec 'команда'",
         "admin_only_msg": "Извините, только администраторы могут выполнять команды. (Доступ запрещен)",
         "command_out": "Вывод команды:\n{stdout}\n",
         "command_err": "Ошибка команды:\n{stderr}\n"
     },
-    "DE": {
+    "de": {
         "correct_usage": "Verwendung: /exec 'Befehl'",
         "admin_only_msg": "Entschuldigung, nur Administratoren können Befehle ausführen. (Zugriff verweigert)",
         "exec_cmd_exception": "{userID} {username} - Fehler bei Befehlausführung: {user_error_message}",
