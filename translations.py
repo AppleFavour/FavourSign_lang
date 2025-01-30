@@ -29,7 +29,8 @@ announcements_strings = {
 certificate_select_strings = {
     "en": {
         "cert_loading_error": "⚠️ An error occurred while loading certificate information.",
-        "select_certificate_prompt": "📃 Please select a certificate.\nSelected: {selected}",
+        "certificate_prompt": "📃 Please select a certificate.\nSelected: {selected}",
+        "certificate_selected": "📌 Selected certificate: {selected}",
         "cert_saved": "📌 Certificate selected: {cert_name}",
         "already_selected": "⚠️ Already selected",
         "back_button": "Go Back 🔙",
@@ -38,7 +39,8 @@ certificate_select_strings = {
     },
     "tr": {
         "cert_loading_error": "⚠️ Sertifika bilgilerini yüklerken bir hata oluştu.",
-        "select_certificate_prompt": "📃 Lütfen bir sertifika seçin.\nSeçilen: {selected}",
+        "certificate_prompt": "📃 Lütfen bir sertifika seçin.\nSeçilen: {selected}",
+        "certificate_selected": "📌 Seçilen: {selected}",
         "cert_saved": "📌 Seçilen sertifika: {cert_name}",
         "already_selected": "⚠️ Sertifika zaten seçilmiş.",
         "back_button": "Geri Dön 🔙",
@@ -47,7 +49,8 @@ certificate_select_strings = {
     },
     "ru": {
         "cert_loading_error": "⚠️ Произошла ошибка при загрузке информации о сертификате.",
-        "select_certificate_prompt": "📃 Пожалуйста, выберите сертификат.\nВыбран: {selected}",
+        "certificate_prompt": "📃 Пожалуйста, выберите сертификат.\nВыбран: {selected}",
+        "certificate_selected": "📌 Выбран: {selected}",
         "cert_saved": "📌 Сертификат выбран: {cert_name}",
         "already_selected": "⚠️ Уже выбрано",
         "back_button": "Назад 🔙",
@@ -56,7 +59,8 @@ certificate_select_strings = {
     },
     "de": {
         "cert_loading_error": "⚠️ Beim Laden der Zertifikatsinformationen ist ein Fehler aufgetreten.",
-        "select_certificate_prompt": "📃 Bitte wähle ein Zertifikat aus.\nAusgewählt: {selected}",
+        "certificate_prompt": "📃 Bitte wähle ein Zertifikat aus.\nAusgewählt: {selected}",
+        "certificate_selected": "📌 Ausgewählt: {selected}",
         "cert_saved": "📌 Zertifikat ausgewählt: {cert_name}",
         "already_selected": "⚠️ Bereits ausgewählt",
         "back_button": "Zurück 🔙",
