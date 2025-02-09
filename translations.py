@@ -491,8 +491,6 @@ language_select_strings = {
 modifier_strings = {
     "en": {
         "save_error": "Failed to save {options}. Error: {error}.",
-        "json_decode_error": "Failed to read {options}. Error: {error}.",
-        "read_runtime_error": "An error occurred while reading: {error}.",
         "update_error": "Failed to update {options}. Error: {error}.",
         "app_name_usage": "Usage: /name 'app_name' or /n 'app_name'.",
         "unset_app_name": "The app name has not been changed.",
@@ -525,8 +523,6 @@ modifier_strings = {
     },
     "tr": {
         "save_error": "{options} kaydedilemedi. Hata: {error}.",
-        "json_decode_error": "{options} okunamadı. Hata: {error}.",
-        "read_runtime_error": "Okuma sırasında bir hata oluştu: {error}.",
         "update_error": "{options} güncellenemedi. Hata: {error}.",
         "app_name_usage": "Örnek Kullanım: /name (veya /n) 'uygulama_adi'",
         "unset_app_name": "Uygulama adı değiştirilemedi.",
@@ -559,8 +555,6 @@ modifier_strings = {
     },
     "ru": {
         "save_error": "Ошибка сохранения настроек: {options}. Ошибка: {error}.",
-        "json_decode_error": "Ошибка чтения настроек: {options}. Ошибка: {error}.",
-        "read_runtime_error": "Ошибка при чтении: {error}.",
         "update_error": "Ошибка обновления {options}. Ошибка: {error}.",
         "app_name_usage": "Использование: /name 'название_приложения' или /n 'название_приложения'.",
         "unset_app_name": "Название приложения не изменено.",
@@ -593,8 +587,6 @@ modifier_strings = {
     },
     "de": {
         "save_error": "Fehler beim Speichern von {options}. Fehler: {error}.",
-        "json_decode_error": "Fehler beim Lesen von {options}. Fehler: {error}.",
-        "read_runtime_error": "Fehler beim Lesen: {error}.",
         "update_error": "Fehler beim Aktualisieren von {options}. Fehler: {error}.",
         "app_name_usage": "Verwendung: /name 'App-Name' oder /n 'App-Name'.",
         "unset_app_name": "App-Name wurde nicht geändert.",
