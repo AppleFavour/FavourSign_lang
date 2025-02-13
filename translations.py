@@ -640,7 +640,6 @@ sign_strings = {
         "fnfe_err": "The file could not be found during the signing process.",
         "ve_err": "A value error occurred during the signing operation.",
         "pe_err": "A permission error occurred during the signing operation.",
-        "sign_err": "The signing operation failed.",
         "unknown_sign_err": "An unknown error occurred during the signing operation."
     },
     "tr": {
@@ -663,7 +662,6 @@ sign_strings = {
         "fnfe_err": "İmzalama sürecinde dosya bulunamadı.",
         "ve_err": "İmzalama işlemi sırasında bir değer hatası oluştu.",
         "pe_err": "İmzalama işlemi sırasında bir izin hatası oluştu.",
-        "sign_err": "İmzalama işlemi başarısız oldu.",
         "unknown_sign_err": "İmzalama işlemi sırasında bilinmeyen bir hata oluştu."
     },
     "ru": {
@@ -686,7 +684,6 @@ sign_strings = {
         "fnfe_err": "Файл не найден во время операции подписания.",
         "ve_err": "Произошла ошибка значения во время операции подписания.",
         "pe_err": "Произошла ошибка доступа во время операции подписания.",
-        "sign_err": "Операция подписания не удалась.",
         "unknown_sign_err": "Произошла неизвестная ошибка во время операции подписания."
     },
     "de": {
@@ -708,7 +705,6 @@ sign_strings = {
         "modify_retry_error": "Beim Modifizieren ist ein Fehler aufgetreten, neuer Versuch... ({failed_modify_attempt}/{max_modify_attempt})",
         "fnfe_err": "Datei während des Signiervorgangs nicht gefunden.",
         "ve_err": "Wertfehler während des Signiervorgangs.",
-        "sign_err": "Signiervorgang fehlgeschlagen.",
         "unknown_sign_err": "Unbekannter Fehler während des Signiervorgangs: {error}",
     }
 }
