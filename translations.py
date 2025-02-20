@@ -743,7 +743,10 @@ start_strings = {
         "select_certificate": "Select certificate 📝️",
         "select_compression": "Select compression ratio 📚",
         "select_language": "Select Language 🌐",
-        "approval_purchase": "Get Approval / Purchase"
+        "approval_purchase": "Get Approval / Purchase",
+        "settings_button": "Settings ⚙️",
+        "back_button": "Go Back 🔙",
+
     },
     "tr": {
         "welcome_registered": "Merhaba! {name}\nBaşlamak için lütfen bir sertifika seçin.",
@@ -751,7 +754,9 @@ start_strings = {
         "select_certificate": "Sertifika Seçin 📝️",
         "select_compression": "Sıkıştırma Oranını Seçin 📁",
         "select_language": "Dil Seçin 🌐",
-        "approval_purchase": "Onay / Satın Al"
+        "approval_purchase": "Onay / Satın Al",
+        "settings_button": "Ayarlar ⚙️",
+        "back_button": "Geri Dön 🔙",
     },
     "ru": {
         "welcome_registered": "Привет! {name}\nПожалуйста, выберите сертификат, чтобы начать.",
@@ -759,7 +764,9 @@ start_strings = {
         "select_certificate": "Выбрать сертификат 📝️",
         "select_compression": "Выбрать степень сжатия 📚",
         "select_language": "Выбрать язык 🌐",
-        "approval_purchase": "Получить одобрение / Купить"
+        "approval_purchase": "Получить одобрение / Купить",
+        "settings_button": "Настройки ⚙️",
+        "back_button": "Назад 🔙",
     },
     "de": {
         "welcome_registered": "Hallo! {name}\nBitte wähle ein Zertifikat aus, um zu beginnen.",
@@ -767,7 +774,9 @@ start_strings = {
         "select_certificate": "Zertifikat auswählen 📝️",
         "select_compression": "Komprimierungsgrad auswählen 📚",
         "select_language": "Sprache auswählen 🌐",
-        "approval_purchase": "Genehmigung / Kauf"
+        "approval_purchase": "Genehmigung / Kauf",
+        "settings_button": "Einstellungen ⚙️",
+        "back_button": "Zurück 🔙",
     }
 }
 # Plugins/user_management.py
