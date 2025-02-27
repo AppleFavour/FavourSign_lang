@@ -905,9 +905,9 @@ generate_html_strings = {
 helpers_strings = {
     "en": {
         "create_folder_error": "Error while creating folder: {error}",
-        "hour_ETA": "{remaining_time} H",
-        "minute_ETA": "{remaining_time} M",
-        "second_ETA": "{remaining_time} S",
+        "hour_ETA": "{remaining_time} h",
+        "minute_ETA": "{remaining_time} m",
+        "second_ETA": "{remaining_time} s",
         "ETA": "ETA: {estimated_remaining_download_time}",
         "file_is_lost": "I managed to lose the file, I saw it moments ago. Where did it go?",
         "file_format_error": "IPA file format is corrupted or invalid.",
@@ -916,9 +916,9 @@ helpers_strings = {
     },
     "tr": {
         "create_folder_error": "Klasör oluşturulurken hata: {error}",
-        "hour_ETA": "{remaining_time} Sa",
-        "minute_ETA": "{remaining_time} Dk",
-        "second_ETA": "{remaining_time} Sn",
+        "hour_ETA": "{remaining_time} s",
+        "minute_ETA": "{remaining_time} dk",
+        "second_ETA": "{remaining_time} sn",
         "ETA": "Tahmini Süre: {estimated_remaining_download_time}",
         "file_is_lost": "Dosyayı kaybettim, daha demin buradaydı. Nereye gitti?",
         "file_format_error": "IPA dosya formatı bozuk veya geçersiz.",
@@ -927,9 +927,9 @@ helpers_strings = {
     },
     "ru": {
         "create_folder_error": "Ошибка при создании папки: {error}",
-        "hour_ETA": "{remaining_time} Ч",
-        "minute_ETA": "{remaining_time} М",
-        "second_ETA": "{remaining_time} С",
+        "hour_ETA": "{remaining_time} ч",
+        "minute_ETA": "{remaining_time} мин",
+        "second_ETA": "{remaining_time} с",
         "ETA": "Примерное время завершения: {estimated_remaining_download_time}",
         "file_is_lost": "Файл пропал, я только что его видел. Куда он делся?",
         "file_format_error": "Формат IPA-файла повреждён или недействителен.",
@@ -991,33 +991,33 @@ main_helper_strings = {
 restart_strings = {
     "en": {
         "restart_declined": "Sorry, only admins can restart bot. (Permission denied)",
-        "restart_requested": "Restart requested by {user_first_name} - @{username} {process_id}",
+        "restart_requested": "Restart requested by {user_full_name} - @{username} {process_id}",
         "shutdown_declined": "Sorry, only admins can shutdown bot. (Permission denied)",
-        "shutdown_requested": "Shutdown requested by {user_first_name} - @{username} {process_id}",
+        "shutdown_requested": "Shutdown requested by {user_full_name} - @{username} {process_id}",
         "restart_awaiting": "⚠️ Some directories still remain in {web_path}.\nWaiting for cleanup to complete...\n⌛️ Elapsed: {time_elapsed}.",
         "restart_in_progress": "🔁 Bot is restarting...\n⌛️ Total elapsed: {time_elapsed}."
     },
     "tr": {
         "restart_declined": "Uzgunum, sadece adminler botu yeniden baslatabilir. (İzin reddedildi)",
-        "restart_requested": "Yeniden başlatma talebi {user_first_name} - @{username} {process_id}",
+        "restart_requested": "Yeniden başlatma talebi {user_full_name} - @{username} {process_id}",
         "shutdown_declined": "Uzgunum, sadece adminler botu kapatabilir. (İzin reddedildi)",
-        "shutdown_requested": "Kapatma talebi {user_first_name} - @{username} {process_id}",
+        "shutdown_requested": "Kapatma talebi {user_full_name} - @{username} {process_id}",
         "restart_awaiting": "⚠️ {web_path} Temizlenme tamamlanana kadar bekleniyor...\n⌛️ Gecen sure: {time_elapsed}.",
         "restart_in_progress": "🔁 Bot Yeniden başlatiliyor...\n⌛️ Toplam süre: {time_elapsed}."
     },
     "ru": {
         "restart_declined": "Извините, только администраторы могут перезапустить бота. (Отказано в доступе)",
-        "restart_requested": "Перезапуск запрошен {user_first_name} - @{username} {process_id}",
+        "restart_requested": "Перезапуск запрошен {user_full_name} - @{username} {process_id}",
         "shutdown_declined": "Извините, только администраторы могут отключить бота. (Отказано в доступе)",
-        "shutdown_requested": "Отключение запрошено {user_first_name} - @{username} {process_id}",
+        "shutdown_requested": "Отключение запрошено {user_full_name} - @{username} {process_id}",
         "restart_awaiting": "⚠️ Некоторые директории остаются в {web_path}.\nОжидание завершения очистки...\n⌛️ Прошло времени: {time_elapsed}.",
         "restart_in_progress": "🔁 Бот перезапускается...\n⌛️ Общее время: {time_elapsed}."
     },
     "de": {
         "restart_declined": "Entschuldigung, nur Administratoren können den Bot neustarten. (Zugriff verweigert)",
-        "restart_requested": "Neustart angefordert von {user_first_name} - @{username} {process_id}",
+        "restart_requested": "Neustart angefordert von {user_full_name} - @{username} {process_id}",
         "shutdown_declined": "Entschuldigung, nur Administratoren können den Bot herunterfahren. (Zugriff verweigert)",
-        "shutdown_requested": "Herunterfahren angefordert von {user_first_name} - @{username} {process_id}",
+        "shutdown_requested": "Herunterfahren angefordert von {user_full_name} - @{username} {process_id}",
         "restart_awaiting": "⚠️ Einige Verzeichnisse bleiben noch in {web_path}.\nWarte auf Abschluss der Bereinigung...\n⌛️ Vergangen: {time_elapsed}.",
         "restart_in_progress": "🔁 Bot wird neugestartet...\n⌛️ Gesamtzeit vergangen: {time_elapsed}."
     }
