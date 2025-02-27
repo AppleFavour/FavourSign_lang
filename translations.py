@@ -989,37 +989,45 @@ main_helper_strings = {
 }
 # utils/restart.py
 restart_strings = {
-    "en": {
-        "restart_declined": "Sorry, only admins can restart bot. (Permission denied)",
-        "restart_requested": "Restart requested by {user_full_name} - @{username} {process_id}",
-        "shutdown_declined": "Sorry, only admins can shutdown bot. (Permission denied)",
-        "shutdown_requested": "Shutdown requested by {user_full_name} - @{username} {process_id}",
-        "restart_awaiting": "⚠️ Some directories still remain in {web_path}.\nWaiting for cleanup to complete...\n⌛️ Elapsed: {time_elapsed}.",
-        "restart_in_progress": "🔁 Bot is restarting...\n⌛️ Total elapsed: {time_elapsed}."
+    "EN": {
+        "restart_requested": "🔄 **Restart Requested**\nUser: {user_first_name} (@{username})\nPID: `{process_id}`",
+        "restart_canceled": "🔄 Restart canceled",
+        "restart_aborted": "❌ Restart aborted",
+        "restart_awaiting": "⏳ Awaiting cleanup: {web_path}\nElapsed: {time_elapsed}",
+        "restart_in_progress": "♻️ Restarting... ({time_elapsed})",
+        "shutdown_requested": "🛑 **Shutdown Requested**\nUser: {user_first_name} (@{username})\nPID: `{process_id}`",
+        "shutdown_aborted": "🛑 Shutdown aborted",
+        "permission_declined": "⛔ Permission denied"
     },
-    "tr": {
-        "restart_declined": "Uzgunum, sadece adminler botu yeniden baslatabilir. (İzin reddedildi)",
-        "restart_requested": "Yeniden başlatma talebi {user_full_name} - @{username} {process_id}",
-        "shutdown_declined": "Uzgunum, sadece adminler botu kapatabilir. (İzin reddedildi)",
-        "shutdown_requested": "Kapatma talebi {user_full_name} - @{username} {process_id}",
-        "restart_awaiting": "⚠️ {web_path} Temizlenme tamamlanana kadar bekleniyor...\n⌛️ Gecen sure: {time_elapsed}.",
-        "restart_in_progress": "🔁 Bot Yeniden başlatiliyor...\n⌛️ Toplam süre: {time_elapsed}."
+    "TR": {
+        "restart_requested": "🔄 **Yeniden Başlatma İsteği**\nKullanıcı: {user_first_name} (@{username})\nPID: `{process_id}`",
+        "restart_canceled": "🔄 Yeniden başlatma iptal edildi",
+        "restart_aborted": "❌ Yeniden başlatma durduruldu",
+        "restart_awaiting": "⏳ Temizlik bekleniyor: {web_path}\nGeçen süre: {time_elapsed}",
+        "restart_in_progress": "♻️ Yeniden başlatılıyor... ({time_elapsed})",
+        "shutdown_requested": "🛑 **Kapatma İsteği**\nKullanıcı: {user_first_name} (@{username})\nPID: `{process_id}`",
+        "shutdown_aborted": "🛑 Kapatma iptal edildi",
+        "permission_declined": "⛔ İzin reddedildi"
     },
-    "ru": {
-        "restart_declined": "Извините, только администраторы могут перезапустить бота. (Отказано в доступе)",
-        "restart_requested": "Перезапуск запрошен {user_full_name} - @{username} {process_id}",
-        "shutdown_declined": "Извините, только администраторы могут отключить бота. (Отказано в доступе)",
-        "shutdown_requested": "Отключение запрошено {user_full_name} - @{username} {process_id}",
-        "restart_awaiting": "⚠️ Некоторые директории остаются в {web_path}.\nОжидание завершения очистки...\n⌛️ Прошло времени: {time_elapsed}.",
-        "restart_in_progress": "🔁 Бот перезапускается...\n⌛️ Общее время: {time_elapsed}."
+    "RU": {
+        "restart_requested": "🔄 **Перезагрузка запрошена**\nПользователь: {user_first_name} (@{username})\nPID: `{process_id}`",
+        "restart_canceled": "🔄 Перезагрузка отменена",
+        "restart_aborted": "❌ Перезагрузка прервана",
+        "restart_awaiting": "⏳ Ожидание очистки: {web_path}\nПрошло времени: {time_elapsed}",
+        "restart_in_progress": "♻️ Перезагрузка... ({time_elapsed})",
+        "shutdown_requested": "🛑 **Выключение запрошено**\nПользователь: {user_first_name} (@{username})\nPID: `{process_id}`",
+        "shutdown_aborted": "🛑 Выключение отменено",
+        "permission_declined": "⛔ Доступ запрещен"
     },
-    "de": {
-        "restart_declined": "Entschuldigung, nur Administratoren können den Bot neustarten. (Zugriff verweigert)",
-        "restart_requested": "Neustart angefordert von {user_full_name} - @{username} {process_id}",
-        "shutdown_declined": "Entschuldigung, nur Administratoren können den Bot herunterfahren. (Zugriff verweigert)",
-        "shutdown_requested": "Herunterfahren angefordert von {user_full_name} - @{username} {process_id}",
-        "restart_awaiting": "⚠️ Einige Verzeichnisse bleiben noch in {web_path}.\nWarte auf Abschluss der Bereinigung...\n⌛️ Vergangen: {time_elapsed}.",
-        "restart_in_progress": "🔁 Bot wird neugestartet...\n⌛️ Gesamtzeit vergangen: {time_elapsed}."
+    "DE": {
+        "restart_requested": "🔄 **Neustart angefordert**\nBenutzer: {user_first_name} (@{username})\nPID: `{process_id}`",
+        "restart_canceled": "🔄 Neustart abgebrochen",
+        "restart_aborted": "❌ Neustart abgebrochen",
+        "restart_awaiting": "⏳ Warte auf Bereinigung: {web_path}\nVerstrichene Zeit: {time_elapsed}",
+        "restart_in_progress": "♻️ Neustart läuft... ({time_elapsed})",
+        "shutdown_requested": "🛑 **Herunterfahren angefordert**\nBenutzer: {user_first_name} (@{username})\nPID: `{process_id}`",
+        "shutdown_aborted": "🛑 Herunterfahren abgebrochen",
+        "permission_declined": "⛔ Zugriff verweigert"
     }
 }
 # utils/run_cmd.py
