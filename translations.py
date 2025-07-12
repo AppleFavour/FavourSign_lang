@@ -33,6 +33,7 @@ certificate_select_strings = {
         "certificate_selected": "📌 Selected certificate: {selected}",
         "cert_saved": "📌 Certificate selected: {cert_name}",
         "already_selected": "⚠️ Already selected",
+        "no_selection": "None",
         "back_button": "Go Back 🔙",
         "saving_error": "A database error occurred. Please try again later.",
         "callback_error": "⚠️ An error occurred.",
@@ -43,6 +44,7 @@ certificate_select_strings = {
         "certificate_selected": "📌 Seçilen: {selected}",
         "cert_saved": "📌 Seçilen sertifika: {cert_name}",
         "already_selected": "⚠️ Sertifika zaten seçilmiş.",
+        "no_selection": "Hiçbiri",
         "back_button": "Geri Dön 🔙",
         "saving_error": "Bir veritabanı hatası oluştu. Lütfen daha sonra tekrar deneyin.",
         "callback_error": "⚠️ Bir hata oluştu.",
@@ -53,6 +55,7 @@ certificate_select_strings = {
         "certificate_selected": "📌 Выбран: {selected}",
         "cert_saved": "📌 Сертификат выбран: {cert_name}",
         "already_selected": "⚠️ Уже выбрано",
+        "no_selection": "Ничего",
         "back_button": "Назад 🔙",
         "saving_error": "Произошла ошибка с базой данных. Пожалуйста, попробуйте снова позже.",
         "callback_error": "⚠️ Произошла ошибка.",
@@ -63,6 +66,7 @@ certificate_select_strings = {
         "certificate_selected": "📌 Ausgewählt: {selected}",
         "cert_saved": "📌 Zertifikat ausgewählt: {cert_name}",
         "already_selected": "⚠️ Bereits ausgewählt",
+        "no_selection": "Keine",
         "back_button": "Zurück 🔙",
         "saving_error": "Ein Datenbankfehler ist aufgetreten. Bitte versuche es später erneut.",
         "callback_error": "⚠️ Ein Fehler ist aufgetreten.",
@@ -80,6 +84,7 @@ compression_level_strings = {
         ),
         "already_selected": "⚠️ Already selected.",
         "save_error": "Compression level could not be saved.",
+        "db_error": "Database error, please try again later.",
         "compression_selected": (
             "📌 Compression level selected: {selected}\n\n"
             "This setting determines the bot's speed and the size of the signed file.\n\n"
@@ -100,6 +105,7 @@ compression_level_strings = {
         ),
         "already_selected": "⚠️ Zaten seçilmiş.",
         "save_error": "Sıkıştırma seviyesi kaydedilemedi.",
+        "db_error": "Veritabanı hatası, lütfen daha sonra tekrar deneyin.",
         "compression_selected": (
             "📌 Seçilen sıkıştırma seviyesi: {selected}\n\n"
             "Bu ayar, botun hızını ve imzalanmış dosyanın boyutunu belirler.\n\n"
@@ -120,6 +126,7 @@ compression_level_strings = {
         ),
         "already_selected": "⚠️ Уже выбрано.",
         "save_error": "Не удалось сохранить уровень сжатия.",
+        "db_error": "Ошибка базы данных, пожалуйста, попробуйте позже.",
         "compression_selected": (
             "📌 Выбран уровень сжатия: {selected}\n\n"
             "Эта настройка определяет скорость бота и размер подписанного файла.\n\n"
@@ -140,6 +147,7 @@ compression_level_strings = {
         ),
         "already_selected": "⚠️ Bereits ausgewählt.",
         "save_error": "Komprimierungsstufe konnte nicht gespeichert werden.",
+        "db_error": "Datenbankfehler, bitte versuchen Sie es später erneut.",
         "compression_selected": (
             "📌 Komprimierungsstufe ausgewählt: {selected}\n\n"
             "Diese Einstellung bestimmt die Geschwindigkeit des Bots und die Größe der signierten Datei.\n\n"
@@ -685,6 +693,7 @@ start_strings = {
         "select_language": "Select Language 🌐",
         "approval_purchase": "Get Approval / Purchase",
         "settings_button": "Settings ⚙️",
+        "settings_text": "Please choose a setting:",
         "back_button": "Go Back 🔙",
 
     },
@@ -696,6 +705,7 @@ start_strings = {
         "select_language": "Dil Seçin 🌐",
         "approval_purchase": "Onay / Satın Al",
         "settings_button": "Ayarlar ⚙️",
+        "settings_text": "Lütfen bir ayar seçin:",
         "back_button": "Geri Dön 🔙",
     },
     "ru": {
@@ -706,6 +716,7 @@ start_strings = {
         "select_language": "Выбрать язык 🌐",
         "approval_purchase": "Получить одобрение / Купить",
         "settings_button": "Настройки ⚙️",
+        "settings_text": "Пожалуйста, выберите настройку:",
         "back_button": "Назад 🔙",
     },
     "de": {
@@ -716,6 +727,7 @@ start_strings = {
         "select_language": "Sprache auswählen 🌐",
         "approval_purchase": "Genehmigung / Kauf",
         "settings_button": "Einstellungen ⚙️",
+        "settings_text": "Bitte wähle eine Einstellung:",
         "back_button": "Zurück 🔙",
     }
 }
@@ -729,6 +741,7 @@ user_management_strings = {
         "user_removed": "User `{user_id}` removed.",
         "premium_added": "User `{user_id}` upgraded to premium, expires on {expiry_date}.",
         "premium_removed": "User `{user_id}` removed from premium plan.",
+        "premium_error": "An error occurred during the premium operation. Please try again.",
         "premium_reg_error": "Error occurred during premium registration. Please try again.",
         "premium_unreg_error": "Error occurred during premium removal. Please try again.",
         "not_enough_arguments": "Not enough arguments, You need to provide a user ID(s). /user user1.ID ..."
@@ -741,6 +754,7 @@ user_management_strings = {
         "user_removed": "Kullanıcı `{user_id}` silindi.",
         "premium_added": "Kullanıcı `{user_id}` premium'a yükseltildi, {expiry_date} tarihinde sona erecek.",
         "premium_removed": "Kullanıcı `{user_id}` premium planindan cikartildi.",
+        "premium_error": "Premium işlemi sırasında bir hata oluştu. Lütfen tekrar deneyin.",
         "premium_reg_error": "Premium üyelik kaydında bir hata oluştu. Lütfen tekrar deneyin.",
         "premium_unreg_error": "Premium üyelik iptali sırasında bir hata oluştu. Lütfen tekrar deneyin.",
         "not_enough_arguments": "Yetersiz argüman, Kullanıcı ID(leri) sağlamalısınız. /user user1.ID ..."
@@ -753,6 +767,7 @@ user_management_strings = {
         "user_removed": "Пользователь `{user_id}` удален.",
         "premium_added": "Пользователь `{user_id}` был переведен в премиум, срок действия истекает {expiry_date}.",
         "premium_removed": "Пользователь `{user_id}` удален из премиум-плана.",
+        "premium_error": "Произошла ошибка во время операции с премиум. Пожалуйста, попробуйте снова.",
         "premium_reg_error": "Произошла ошибка при регистрации премиум. Пожалуйста, попробуйте снова.",
         "premium_unreg_error": "Произошла ошибка при удалении премиум. Пожалуйста, попробуйте снова.",
         "not_enough_arguments": "Недостаточно аргументов. Нужно указать ID пользователя(ей). /user user1.ID ..."
@@ -765,6 +780,7 @@ user_management_strings = {
         "user_removed": "Benutzer `{user_id}` entfernt.",
         "premium_added": "Benutzer `{user_id}` auf Premium hochgestuft, läuft am {expiry_date} ab.",
         "premium_removed": "Benutzer `{user_id}` aus dem Premium-Plan entfernt.",
+        "premium_error": "Bei der Premium-Operation ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
         "premium_reg_error": "Fehler bei der Premium-Registrierung. Bitte versuchen Sie es erneut.",
         "premium_unreg_error": "Fehler bei der Premium-Entfernung. Bitte versuchen Sie es erneut.",
         "not_enough_arguments": "Nicht genügend Argumente. Sie müssen Benutzer-ID(s) angeben. /user user1.ID ..."
@@ -927,46 +943,62 @@ main_helper_strings = {
         "reply_or_send_ipa_prompt": "Bitte antworten Sie auf eine Nachricht oder senden Sie eine IPA-Datei oder eine URL mit einer IPA."
     }
 }
-# utils/restart.py
+# utils/power_manager.py
 restart_strings = {
-    "EN": {
+    "en": {
         "restart_requested": "🔄 **Restart Requested**\nUser: {user_first_name} (@{username})\nPID: `{process_id}`",
         "restart_canceled": "🔄 Restart canceled",
         "restart_aborted": "❌ Restart aborted",
         "restart_awaiting": "⏳ Awaiting cleanup: {web_path}\nElapsed: {time_elapsed}",
         "restart_in_progress": "♻️ Restarting... ({time_elapsed})",
+        "restart_declined": "⛔ Permission denied",
         "shutdown_requested": "🛑 **Shutdown Requested**\nUser: {user_first_name} (@{username})\nPID: `{process_id}`",
         "shutdown_aborted": "🛑 Shutdown aborted",
+        "shutdown_awaiting": "⏳ Shutdown cancellation is possible in: {time_elapsed}",
+        "shutdown_in_progress": "♻️ Shutting down... ({time_elapsed})",
+        "shutdown_declined": "⛔ Permission denied",
         "permission_declined": "⛔ Permission denied"
     },
-    "TR": {
+    "tr": {
         "restart_requested": "🔄 **Yeniden Başlatma İsteği**\nKullanıcı: {user_first_name} (@{username})\nPID: `{process_id}`",
         "restart_canceled": "🔄 Yeniden başlatma iptal edildi",
         "restart_aborted": "❌ Yeniden başlatma durduruldu",
         "restart_awaiting": "⏳ Temizlik bekleniyor: {web_path}\nGeçen süre: {time_elapsed}",
         "restart_in_progress": "♻️ Yeniden başlatılıyor... ({time_elapsed})",
+        "restart_declined": "⛔ İzin reddedildi",
         "shutdown_requested": "🛑 **Kapatma İsteği**\nKullanıcı: {user_first_name} (@{username})\nPID: `{process_id}`",
         "shutdown_aborted": "🛑 Kapatma iptal edildi",
+        "shutdown_awaiting": "⏳ Kapatma iptali için kalan süre: {time_elapsed}",
+        "shutdown_in_progress": "♻️ Kapatılıyor... ({time_elapsed})",
+        "shutdown_declined": "⛔ İzin reddedildi",
         "permission_declined": "⛔ İzin reddedildi"
     },
-    "RU": {
+    "ru": {
         "restart_requested": "🔄 **Перезагрузка запрошена**\nПользователь: {user_first_name} (@{username})\nPID: `{process_id}`",
         "restart_canceled": "🔄 Перезагрузка отменена",
         "restart_aborted": "❌ Перезагрузка прервана",
         "restart_awaiting": "⏳ Ожидание очистки: {web_path}\nПрошло времени: {time_elapsed}",
         "restart_in_progress": "♻️ Перезагрузка... ({time_elapsed})",
+        "restart_declined": "⛔ Доступ запрещен",
         "shutdown_requested": "🛑 **Выключение запрошено**\nПользователь: {user_first_name} (@{username})\nPID: `{process_id}`",
         "shutdown_aborted": "🛑 Выключение отменено",
+        "shutdown_awaiting": "⏳ Отмена выключения возможна в течение: {time_elapsed}",
+        "shutdown_in_progress": "♻️ Выключение... ({time_elapsed})",
+        "shutdown_declined": "⛔ Доступ запрещен",
         "permission_declined": "⛔ Доступ запрещен"
     },
-    "DE": {
+    "de": {
         "restart_requested": "🔄 **Neustart angefordert**\nBenutzer: {user_first_name} (@{username})\nPID: `{process_id}`",
         "restart_canceled": "🔄 Neustart abgebrochen",
         "restart_aborted": "❌ Neustart abgebrochen",
         "restart_awaiting": "⏳ Warte auf Bereinigung: {web_path}\nVerstrichene Zeit: {time_elapsed}",
         "restart_in_progress": "♻️ Neustart läuft... ({time_elapsed})",
+        "restart_declined": "⛔ Zugriff verweigert",
         "shutdown_requested": "🛑 **Herunterfahren angefordert**\nBenutzer: {user_first_name} (@{username})\nPID: `{process_id}`",
         "shutdown_aborted": "🛑 Herunterfahren abgebrochen",
+        "shutdown_awaiting": "⏳ Herunterfahren kann abgebrochen werden in: {time_elapsed}",
+        "shutdown_in_progress": "♻️ Herunterfahren... ({time_elapsed})",
+        "shutdown_declined": "⛔ Zugriff verweigert",
         "permission_declined": "⛔ Zugriff verweigert"
     }
 }
