@@ -211,7 +211,7 @@ power_manager_strings = {
         "permission_declined": "⛔ Izin ditolak."
     },
     "pl": {
-        "restart_requested": "🔄 **Żądanie ponownego uruchomienia** przez {user_first_name} (@{username})\nPID: `{process_id}`",
+        "restart_requested": "🔄 **Żądanie ponownego uruchomienia** przez {user_full_name} (@{username})\nPID: `{process_id}`"
         "restart_canceled": "🔄 Ponowne uruchomienie zostało anulowane.",
         "restart_aborted": "❌ Ponowne uruchomienie przerwane.",
         "restart_awaiting": "⏳ Oczekiwanie na zakończenie aktywnych zadań...\nUpłynęło: {time_elapsed}",
