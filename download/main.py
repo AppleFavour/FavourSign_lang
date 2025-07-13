@@ -34,11 +34,3 @@ download_strings = {
     "id": Indonesian.strings,
     "pl": Polish.strings,
 }
-
-
-class Download:
-    def __init__(self, lang_code):
-        self.strings = download_strings.get(lang_code, English.strings)
-
-    def get_string(self, key):
-        return self.strings.get(key)

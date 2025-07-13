@@ -34,11 +34,3 @@ countdown_strings = {
     "id": Indonesian.strings,
     "pl": Polish.strings,
 }
-
-
-class Countdown:
-    def __init__(self, lang_code):
-        self.strings = countdown_strings.get(lang_code, English.strings)
-
-    def get_string(self, key):
-        return self.strings.get(key)

@@ -17,6 +17,3 @@ from .sign.main import sign_strings
 from .speedtest.main import speedtest_strings
 from .start.main import start_strings
 from .user_management.main import user_management_strings
-
-import sys
-sys.dont_write_bytecode = True

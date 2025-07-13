@@ -34,11 +34,3 @@ help_strings = {
     "id": Indonesian.strings,
     "pl": Polish.strings,
 }
-
-
-class Help:
-    def __init__(self, lang_code):
-        self.strings = help_strings.get(lang_code, English.strings)
-
-    def get_string(self, key):
-        return self.strings.get(key)

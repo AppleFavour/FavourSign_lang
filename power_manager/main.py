@@ -34,11 +34,3 @@ power_manager_strings = {
     "id": Indonesian.strings,
     "pl": Polish.strings,
 }
-
-
-class PowerManager:
-    def __init__(self, lang_code):
-        self.strings = power_manager_strings.get(lang_code, English.strings)
-
-    def get_string(self, key):
-        return self.strings.get(key)

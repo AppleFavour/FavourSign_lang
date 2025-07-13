@@ -34,11 +34,3 @@ language_select_strings = {
     "id": Indonesian.strings,
     "pl": Polish.strings,
 }
-
-
-class LanguageSelect:
-    def __init__(self, lang_code):
-        self.strings = language_select_strings.get(lang_code, English.strings)
-
-    def get_string(self, key):
-        return self.strings.get(key)
