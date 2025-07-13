@@ -5,4 +5,3 @@ class German:
         "permission_denied": "🚫 Du bist nicht berechtigt, diesen Befehl zu verwenden.",
         "announcement_complete": "✅ Ankündigung erfolgreich gesendet.\n\nGesamtempfänger: {total}\nZugestellt: {sent}\nNicht zugestellt: {failed}"
     }
-

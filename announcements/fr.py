@@ -5,4 +5,3 @@ class French:
         "permission_denied": "🚫 Vous n'êtes pas autorisé à utiliser cette commande.",
         "announcement_complete": "✅ Annonce envoyée avec succès.\n\nTotal des destinataires: {total}\nLivrés: {sent}\nÉchoués: {failed}",
     }
-

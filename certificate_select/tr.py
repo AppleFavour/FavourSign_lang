@@ -8,5 +8,5 @@ class Turkish:
         "no_selection": "Hiçbiri",
         "back_button": "🔙 Geri Dön",
         "saving_error": "Bir veritabanı hatası oluştu. Lütfen tekrar deneyin.",
-        "callback_error": "⚠️ Beklenmedik bir hata oluştu.",
+        "callback_error": "⚠️ Beklenmedik bir hata oluştu."
     }

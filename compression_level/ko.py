@@ -3,7 +3,7 @@ class Korean:
         "compression_prompt": (
             "📁 **Select Compression Level**\n\n"
             "This setting affects the signing speed and the final file size.\n\n"
-            "**0**: Fastest signing, largest file size.\n"
+            "**0**: Fastest signing, largest file size.\n\n"
             "**9**: Slowest signing, smallest file size.\n\n"
             "Currently selected: **{selected}**"
         ),

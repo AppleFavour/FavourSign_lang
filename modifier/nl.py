@@ -20,27 +20,4 @@ class Polish:
         "set_profile_removal": "Osadzony profil zostanie usunięty.",
         "tweak_added_expecting_ipa": "Dodano Tweak: {file_name}. Teraz wyślij plik IPA, aby go zastosować.",
         "error_while_resetting": "Wystąpił błąd podczas resetowania opcji: {error}."
-    },
-    "nl": {
-        "save_error": "Kon {options} niet opslaan. Fout: {error}.",
-        "update_error": "Kon {options} niet bijwerken. Fout: {error}.",
-        "app_name_usage": "Gebruik: /name [nieuwe appnaam]",
-        "unset_app_name": "Appnaamwijziging is gereset.",
-        "set_app_name": "Appnaam wordt gewijzigd naar **{name}**.",
-        "app_version_usage": "Gebruik: /version [nieuwe versie]",
-        "invalid_app_version": "Ongeldig versieformaat. Gebruik alleen cijfers en punten (bijv. 1.2.3).",
-        "unset_app_version": "Appversiewijziging is gereset.",
-        "set_app_version": "Appversie wordt gewijzigd naar **{version}**.",
-        "app_id_usage": "Gebruik: /id [nieuwe bundel-ID]",
-        "unset_app_id": "Bundel-ID wijziging is gereset.",
-        "set_app_id": "Bundel-ID wordt gewijzigd naar **{id}**.",
-        "min_os_usage": "Gebruik: /minos [versie]",
-        "invalid_min_os": "Ongeldig OS-versieformaat. Gebruik alleen cijfers en punten (bijv. 15.0).",
-        "unset_min_os": "Minimale OS-versiewijziging is gereset.",
-        "set_min_os": "Minimale OS-versie wordt ingesteld op **{os_version}**.",
-        "unset_profile_removal": "Ingebed profiel wordt niet langer verwijderd.",
-        "set_profile_removal": "Ingebed profiel wordt verwijderd.",
-        "tweak_added_expecting_ipa": "Tweak toegevoegd: {file_name}. Stuur nu het IPA-bestand om het toe te passen.",
-        "error_while_resetting": "Er is een fout opgetreden bij het resetten van opties: {error}."
     }
-}
