@@ -1,0 +1,26 @@
+class Polish:
+    strings = {
+        "user_not_registered": "Nie jesteś zarejestrowany, aby korzystać z tego bota.",
+        "available_cmds": "**Dostępne polecenia**",
+        "user_cmds": "**Polecenia użytkownika**",
+        "cmd_prefixes": "Aktywne prefiksy poleceń: {prefixes}",
+        "admin_cmds": "**Polecenia administratora**",
+        "help_cmd": "Wyświetla tę wiadomość pomocy.",
+        "speedtest_cmd": "Mierzy prędkość połączenia.",
+        "info_cmd": "Wyświetla informacje o bocie.",
+        "sign_cmd": "Podpisuje odpowiedni plik IPA.",
+        "clear_cmd": "Resetuje wszystkie opcje modyfikacji.",
+        "profile_cmd": "Usuwa osadzony plik profilu mobilnego.",
+        "minos_cmd": "Ustawia minimalną wymaganą wersję systemu operacyjnego.",
+        "id_cmd": "Zmienia identyfikator pakietu aplikacji.",
+        "version_cmd": "Zmienia wersję aplikacji.",
+        "name_cmd": "Zmienia nazwę aplikacji.",
+        "update_cmd": "Aktualizuje bota z repozytorium.",
+        "duyur_cmd": "Wysyła ogłoszenie do wszystkich użytkowników.",
+        "exec_cmd": "Wykonuje polecenie powłoki.",
+        "restart_cmd": "Ponownie uruchamia bota.",
+        "shutdown_cmd": "Wyłącza bota.",
+        "user_cmd": "Zarządza rejestracjami użytkowników.",
+        "premium_cmd": "Zarządza statusem użytkownika premium.",
+        "unknown_exception": "Wystąpił błąd podczas przetwarzania żądania pomocy od @{username} ({userID}): {error}"
+    }

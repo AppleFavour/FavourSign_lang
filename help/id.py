@@ -1,0 +1,26 @@
+class Indonesian:
+    strings = {
+        "user_not_registered": "Anda belum terdaftar untuk menggunakan bot ini.",
+        "available_cmds": "**Perintah yang Tersedia**",
+        "user_cmds": "**Perintah Pengguna**",
+        "cmd_prefixes": "Awalan perintah aktif: {prefixes}",
+        "admin_cmds": "**Perintah Admin**",
+        "help_cmd": "Menampilkan pesan bantuan ini.",
+        "speedtest_cmd": "Mengukur kecepatan koneksi.",
+        "info_cmd": "Menampilkan informasi tentang bot.",
+        "sign_cmd": "Menandatangani file IPA yang dibalas.",
+        "clear_cmd": "Mengatur ulang semua opsi modifikasi.",
+        "profile_cmd": "Menghapus file provisi seluler yang disematkan.",
+        "minos_cmd": "Mengatur versi OS minimum yang diperlukan.",
+        "id_cmd": "Mengubah ID bundel aplikasi.",
+        "version_cmd": "Mengubah versi aplikasi.",
+        "name_cmd": "Mengubah nama aplikasi.",
+        "update_cmd": "Memperbarui bot dari repositori.",
+        "duyur_cmd": "Mengirim pengumuman ke semua pengguna.",
+        "exec_cmd": "Mengeksekusi perintah shell.",
+        "restart_cmd": "Memulai ulang bot.",
+        "shutdown_cmd": "Mematikan bot.",
+        "user_cmd": "Mengelola pendaftaran pengguna.",
+        "premium_cmd": "Mengelola status pengguna premium.",
+        "unknown_exception": "Terjadi kesalahan saat memproses permintaan bantuan dari @{username} ({userID}): {error}"
+    }

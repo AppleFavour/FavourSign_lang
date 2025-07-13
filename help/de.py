@@ -1,0 +1,26 @@
+class German:
+    strings = {
+        "user_not_registered": "Du bist nicht registriert, um diesen Bot zu verwenden.",
+        "available_cmds": "**Verfügbare Befehle**",
+        "user_cmds": "**Benutzerbefehle**",
+        "cmd_prefixes": "Aktive Befehlspräfixe: {prefixes}",
+        "admin_cmds": "**Admin-Befehle**",
+        "help_cmd": "Zeigt diese Hilfenachricht an.",
+        "speedtest_cmd": "Misst die Verbindungsgeschwindigkeit.",
+        "info_cmd": "Zeigt Informationen über den Bot an.",
+        "sign_cmd": "Signiert die beantwortete IPA-Datei.",
+        "clear_cmd": "Setzt alle Änderungsoptionen zurück.",
+        "profile_cmd": "Entfernt die eingebettete mobile Bereitstellungsdatei.",
+        "minos_cmd": "Legt die erforderliche Mindest-Betriebssystemversion fest.",
+        "id_cmd": "Ändert die Bundle-ID der Anwendung.",
+        "version_cmd": "Ändert die Version der Anwendung.",
+        "name_cmd": "Ändert den Namen der Anwendung.",
+        "update_cmd": "Aktualisiert den Bot aus dem Repository.",
+        "duyur_cmd": "Sendet eine Ankündigung an alle Benutzer.",
+        "exec_cmd": "Führt einen Shell-Befehl aus.",
+        "restart_cmd": "Startet den Bot neu.",
+        "shutdown_cmd": "Fährt den Bot herunter.",
+        "user_cmd": "Verwaltet Benutzerregistrierungen.",
+        "premium_cmd": "Verwaltet den Premium-Benutzerstatus.",
+        "unknown_exception": "Bei der Verarbeitung der Hilfeanfrage von @{username} ({userID}) ist ein Fehler aufgetreten: {error}"
+    }

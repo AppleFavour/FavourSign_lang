@@ -1,0 +1,26 @@
+class Turkish:
+    strings = {
+        "user_not_registered": "Bu botu kullanmak için kayıtlı değilsiniz.",
+        "available_cmds": "**Mevcut Komutlar**",
+        "user_cmds": "**Kullanıcı Komutları**",
+        "cmd_prefixes": "Aktif komut önekleri: {prefixes}",
+        "admin_cmds": "**Yönetici Komutları**",
+        "help_cmd": "Bu yardım mesajını gösterir.",
+        "speedtest_cmd": "Bağlantı hızını ölçer.",
+        "info_cmd": "Bot hakkında bilgi görüntüler.",
+        "sign_cmd": "Yanıtlanan IPA dosyasını imzalar.",
+        "clear_cmd": "Tüm düzenleme seçeneklerini sıfırlar.",
+        "profile_cmd": "Gömülü mobil provizyon dosyasını kaldırır.",
+        "minos_cmd": "Gerekli minimum işletim sistemi sürümünü ayarlar.",
+        "id_cmd": "Uygulamanın paket kimliğini değiştirir.",
+        "version_cmd": "Uygulamanın sürümünü değiştirir.",
+        "name_cmd": "Uygulamanın adını değiştirir.",
+        "update_cmd": "Botu depodan günceller.",
+        "duyur_cmd": "Tüm kullanıcılara bir duyuru gönderir.",
+        "exec_cmd": "Bir kabuk komutu çalıştırır.",
+        "restart_cmd": "Botu yeniden başlatır.",
+        "shutdown_cmd": "Botu kapatır.",
+        "user_cmd": "Kullanıcı kayıtlarını yönetir.",
+        "premium_cmd": "Premium kullanıcı durumunu yönetir.",
+        "unknown_exception": "@{username} ({userID}) kullanıcısından yardım isteği işlenirken bir hata oluştu: {error}"
+    }
