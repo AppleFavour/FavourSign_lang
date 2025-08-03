@@ -1,20 +1,19 @@
-from .en import English
-from .tr import Turkish
-from .ru import Russian
+from .ar import Arabic
 from .de import German
+from .en import English
 from .es import Spanish
 from .fr import French
-from .zh_cn import Chinese
-from .ar import Arabic
-from .pt import Portuguese
+from .hi import Hindi
+from .id import Indonesian
 from .it import Italian
 from .ja import Japanese
 from .ko import Korean
-from .hi import Hindi
-from .vi import Vietnamese
-from .id import Indonesian
 from .pl import Polish
-
+from .pt import Portuguese
+from .ru import Russian
+from .tr import Turkish
+from .vi import Vietnamese
+from .zh_cn import Chinese
 
 modifier_strings = {
     "en": English.strings,
