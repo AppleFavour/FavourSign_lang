@@ -10,6 +10,7 @@ from .ja import Japanese
 from .ko import Korean
 from .pl import Polish
 from .pt import Portuguese
+from .nl import Dutch
 from .ru import Russian
 from .tr import Turkish
 from .vi import Vietnamese
@@ -17,12 +18,13 @@ from .zh_cn import Chinese
 
 announcements_strings = {
     "en": English.strings,
+    "nl": Dutch.strings,
     "tr": Turkish.strings,
     "ru": Russian.strings,
     "de": German.strings,
     "es": Spanish.strings,
     "fr": French.strings,
-    "zh-cn": Chinese.strings,
+    "zh_cn": Chinese.strings,
     "ar": Arabic.strings,
     "pt": Portuguese.strings,
     "it": Italian.strings,

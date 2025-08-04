@@ -22,7 +22,7 @@ certificate_handler_strings = {
     "de": German.strings,
     "es": Spanish.strings,
     "fr": French.strings,
-    "zh-cn": Chinese.strings,
+    "zh_cn": Chinese.strings,
     "ar": Arabic.strings,
     "pt": Portuguese.strings,
     "it": Italian.strings,
