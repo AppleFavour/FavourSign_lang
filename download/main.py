@@ -1,4 +1,5 @@
 from .ar import Arabic
+from .cn import Chinese
 from .de import German
 from .en import English
 from .es import Spanish
@@ -8,30 +9,29 @@ from .id import Indonesian
 from .it import Italian
 from .ja import Japanese
 from .ko import Korean
+from .nl import Dutch
 from .pl import Polish
 from .pt import Portuguese
-from .nl import Dutch
 from .ru import Russian
 from .tr import Turkish
 from .vi import Vietnamese
-from .cn import Chinese
 
 download_strings = {
-    "en": English.strings,
-    "nl": Dutch.strings,
-    "tr": Turkish.strings,
-    "ru": Russian.strings,
+    "ar": Arabic.strings,
+    "cn": Chinese.strings,
     "de": German.strings,
+    "en": English.strings,
     "es": Spanish.strings,
     "fr": French.strings,
-    "cn": Chinese.strings,
-    "ar": Arabic.strings,
-    "pt": Portuguese.strings,
+    "hi": Hindi.strings,
+    "id": Indonesian.strings,
     "it": Italian.strings,
     "ja": Japanese.strings,
     "ko": Korean.strings,
-    "hi": Hindi.strings,
-    "vi": Vietnamese.strings,
-    "id": Indonesian.strings,
+    "nl": Dutch.strings,
     "pl": Polish.strings,
+    "pt": Portuguese.strings,
+    "ru": Russian.strings,
+    "tr": Turkish.strings,
+    "vi": Vietnamese.strings,
 }
