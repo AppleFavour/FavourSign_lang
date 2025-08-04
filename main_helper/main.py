@@ -14,7 +14,7 @@ from .nl import Dutch
 from .ru import Russian
 from .tr import Turkish
 from .vi import Vietnamese
-from .zh_cn import Chinese
+from .cn import Chinese
 
 main_helper_strings = {
     "en": English.strings,
@@ -24,7 +24,7 @@ main_helper_strings = {
     "de": German.strings,
     "es": Spanish.strings,
     "fr": French.strings,
-    "zh_cn": Chinese.strings,
+    "cn": Chinese.strings,
     "ar": Arabic.strings,
     "pt": Portuguese.strings,
     "it": Italian.strings,

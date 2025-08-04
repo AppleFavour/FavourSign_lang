@@ -1,4 +1,4 @@
-class Polish:
+class Dutch:
     strings = {
         "save_error": "Nie można zapisać {options}. Błąd: {error}.",
         "update_error": "Nie można zaktualizować {options}. Błąd: {error}.",
