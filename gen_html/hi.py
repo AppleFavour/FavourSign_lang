@@ -5,7 +5,10 @@ class Hindi:
         "download_button": "डाउनलोड करें",
         "selected_certificate": "चयनित प्रमाणपत्र",
         "unsupported_system": "असमर्थित सिस्टम",
-        "credits": "AppleFavour द्वारा <i class=\"fa-solid fa-heart fa-beat\"></i> के साथ बनाया गया",
-        "system_info": "सिस्टम जानकारी",
         "requires_newer_OS": "iOS {requiredOSVersion} या नए की आवश्यकता है।",
+        "chkconnection": "कृपया अपना इंटरनेट कनेक्शन जांचें।",
+        "connected": "इंटरनेट से कनेक्टेड।",
+        "not_connected": "कोई इंटरनेट कनेक्शन नहीं।",
+        "download_started": "डाउनलोड शुरू हो गया है।",
+        "install_started": "इंस्टॉल शुरू हो गया है।"
     }

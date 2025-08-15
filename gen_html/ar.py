@@ -5,7 +5,10 @@ class Arabic:
         "download_button": "تنزيل",
         "selected_certificate": "الشهادة المحددة",
         "unsupported_system": "نظام غير مدعوم",
-        "credits": "صنع بـ <i class=\"fa-solid fa-heart fa-beat\"></i> بواسطة AppleFavour",
-        "system_info": "معلومات النظام",
-        "requires_newer_OS": "يتطلب iOS {requiredOSVersion} أو أحدث."
+        "requires_newer_OS": "يتطلب iOS {requiredOSVersion} أو أحدث.",
+        "chkconnection": "يرجى التحقق من اتصالك بالإنترنت.",
+        "connected": "متصل بالإنترنت.",
+        "not_connected": "لا يوجد اتصال بالإنترنت.",
+        "download_started": "بدأ التنزيل...",
+        "install_started": "بدأ التثبيت..."
     }

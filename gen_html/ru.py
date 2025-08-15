@@ -5,7 +5,10 @@ class Russian:
         "download_button": "Скачать",
         "selected_certificate": "Выбранный сертификат",
         "unsupported_system": "Не поддерживается",
-        "credits": "Сделано с <i class=\"fa-solid fa-heart fa-beat\"></i> от AppleFavour",
-        "system_info": "Информация о системе",
         "requires_newer_OS": "Требуется iOS {requiredOSVersion} или новее.",
+        "chkconnection": "Пожалуйста, проверьте ваше интернет-соединение.",
+        "connected": "Подключено к интернету.",
+        "not_connected": "Нет интернет-соединения.",
+        "download_started": "Загрузка начата",
+        "install_started": "Установка начата"
     }

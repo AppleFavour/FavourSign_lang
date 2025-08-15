@@ -5,7 +5,10 @@ class English:
         "download_button": "Download",
         "selected_certificate": "Selected Certificate",
         "unsupported_system": "Unsupported System",
-        "credits": "Made with <i class=\"fa-solid fa-heart fa-beat\"></i> by AppleFavour",
-        "system_info": "System Information",
         "requires_newer_OS": "Requires iOS {requiredOSVersion} or newer.",
+        "chkconnection": "Please check your internet connection.",
+        "connected": "Connected to the internet.",
+        "not_connected": "No internet connection.",
+        "download_started": "Download Started",
+        "install_started": "Install Started"
     }
