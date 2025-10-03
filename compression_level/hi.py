@@ -1,17 +1,17 @@
 class Hindi:
     strings = {
         "compression_prompt": (
-            "📁 **Select Compression Level**\n\n"
-            "This setting affects the signing speed and the final file size.\n\n"
-            "**0**: Fastest signing, largest file size.\n"
-            "**9**: Slowest signing, smallest file size.\n\n"
-            "Currently selected: **{selected}**"
+            "📁 **संपीड़न स्तर चुनें**\n\n"
+            "यह सेटिंग हस्ताक्षर गति और अंतिम फ़ाइल आकार को प्रभावित करती है।\n\n"
+            "**0**: सबसे तेज़ हस्ताक्षर, सबसे बड़ा फ़ाइल आकार।\n"
+            "**9**: सबसे धीमा हस्ताक्षर, सबसे छोटा फ़ाइल आकार।\n\n"
+            "वर्तमान में चयनित: **{selected}**"
         ),
-        "already_selected": "⚠️ This level is already selected.",
-        "save_error": "Could not save the compression level.",
-        "db_error": "A database error occurred. Please try again.",
-        "compression_selected": "📌 Compression level set to **{selected}**.",
-        "selected_notification": "📌 Selected: {selected}",
-        "generic_error": "⚠️ An unexpected error occurred.",
-        "back_button": "🔙 Go Back",
+        "already_selected": "⚠️ यह स्तर पहले से ही चुना गया है।",
+        "save_error": "संपीडन स्तर को सहेजा नहीं जा सका।",
+        "db_error": "डेटाबेस में त्रुटि हुई। कृपया पुनः प्रयास करें।",
+        "compression_selected": "📌 संपीड़न स्तर **{selected}** पर सेट किया गया है।",
+        "selected_notification": "📌 चयनित: {selected}",
+        "generic_error": "⚠️ एक अप्रत्याशित त्रुटि हुई।",
+        "back_button": "🔙 वापस जाएं",
     }
