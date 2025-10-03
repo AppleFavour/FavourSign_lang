@@ -15,6 +15,7 @@ class Korean:
         "id_cmd": "애플리케이션의 번들 ID를 변경합니다.",
         "version_cmd": "애플리케이션의 버전을 변경합니다.",
         "name_cmd": "애플리케이션의 이름을 변경합니다.",
+        "watch_cmd": "iPA에서 Watch 앱을 제거합니다",
         "update_cmd": "저장소에서 봇을 업데이트합니다.",
         "duyur_cmd": "모든 사용자에게 공지를 보냅니다.",
         "exec_cmd": "셸 명령을 실행합니다.",
