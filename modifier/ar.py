@@ -19,5 +19,7 @@ class Arabic:
         "unset_profile_removal": "لن يتم إزالة ملف التعريف المضمن بعد الآن.",
         "set_profile_removal": "سيتم إزالة ملف التعريف المضمن.",
         "tweak_added_expecting_ipa": "تمت إضافة التعديل: {file_name}. الآن أرسل ملف IPA لتطبيقه.",
+        "unset_remove_watch": "تمت إعادة تعيين تعديل حزمة الساعة.",
+        "set_remove_watch": "سيتم تعيين إزالة حزمة الساعة.",
         "error_while_resetting": "حدث خطأ أثناء إعادة تعيين الخيارات: {error}."
     }
