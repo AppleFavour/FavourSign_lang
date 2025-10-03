@@ -1,17 +1,17 @@
 class Dutch:
     strings = {
         "compression_prompt": (
-            "📁 **Select Compression Level**\n\n"
-            "This setting affects the signing speed and the final file size.\n\n"
-            "**0**: Fastest signing, largest file size.\n"
-            "**9**: Slowest signing, smallest file size.\n\n"
-            "Currently selected: **{selected}**"
+            "📁 **Selecteer compressieniveau**\n\n"
+            "Deze instelling beïnvloedt de ondertekeningssnelheid en de uiteindelijke bestandsgrootte.\n\n"
+            "**0**: Snelste ondertekening, grootste bestandsgrootte.\n"
+            "**9**: Langzaamste ondertekening, kleinste bestandsgrootte.\n\n"
+            "Huidig geselecteerd: **{selected}**"
         ),
-        "already_selected": "⚠️ This level is already selected.",
-        "save_error": "Could not save the compression level.",
-        "db_error": "A database error occurred. Please try again.",
-        "compression_selected": "📌 Compression level set to **{selected}**.",
-        "selected_notification": "📌 Selected: {selected}",
-        "generic_error": "⚠️ An unexpected error occurred.",
-        "back_button": "🔙 Go Back",
+        "already_selected": "⚠️ Dit niveau is al geselecteerd.",
+        "save_error": "Kon het compressieniveau niet opslaan.",
+        "db_error": "Er is een databasefout opgetreden. Probeer het opnieuw.",
+        "compression_selected": "📌 Compressieniveau ingesteld op **{selected}**.",
+        "selected_notification": "📌 Geselecteerd: {selected}",
+        "generic_error": "⚠️ Er is een onverwachte fout opgetreden.",
+        "back_button": "🔙 Ga terug",
     }
