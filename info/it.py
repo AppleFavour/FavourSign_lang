@@ -1,9 +1,9 @@
 class Italian:
     strings = {
-        "greeting": "👋 Hello, {name}!",
-        "system_info": "**System Information**",
-        "bot_info": "**Bot Information**",
-        "bot_stats": "Uptime: {uptime}Usage: {usage}",
-        "total_users": "Total Users: {count}",
-        "active_users": "Active Users: {count}",
+        "greeting": "👋 Ciao, {name}!",
+        "system_info": "**Informazioni di sistema**",
+        "bot_info": "**Informazioni sul Bot**",
+        "bot_stats": "Tempo di attività: {uptime}Utilizzo: {usage}",
+        "total_users": "Utenti totali: {count}",
+        "active_users": "Utenti attivi: {count}",
     }
