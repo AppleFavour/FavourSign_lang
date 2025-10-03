@@ -16,4 +16,6 @@ jobs:
       with:
         python-version: '3.13'
     - name: Run tests
-      run: python test.py
+      run: |
+        cd ${{ github.workspace }}
+        python test.py
