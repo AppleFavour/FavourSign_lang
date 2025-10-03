@@ -19,5 +19,10 @@ class English:
         "unset_profile_removal": "Embedded profile will no longer be removed.",
         "set_profile_removal": "Embedded profile will be removed.",
         "tweak_added_expecting_ipa": "Tweak added: {file_name}. Now send the IPA file to apply it.",
+        "unset_profile_removal": "Embedded profile will no longer be removed.",
+        "set_profile_removal": "Embedded profile will be removed.",
+        "tweak_added_expecting_ipa": "Tweak added: {file_name}. Now send the IPA file to apply it.",
+        "unset_remove_watch": "Remove Watch Bundle modification has been reset.",
+        "set_remove_watch": "Remove Watch Bundle will be set.",
         "error_while_resetting": "An error occurred while resetting options: {error}."
     }
