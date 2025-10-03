@@ -19,5 +19,7 @@ class Russian:
         "unset_profile_removal": "Встроенный профиль больше не будет удаляться.",
         "set_profile_removal": "Встроенный профиль будет удален.",
         "tweak_added_expecting_ipa": "Твик добавлен: {file_name}. Теперь отправьте IPA-файл, чтобы применить его.",
+        "unset_remove_watch": "Изменение Watch Bundle сброшено.",
+        "set_remove_watch": "Удаление Watch Bundle будет установлено.",
         "error_while_resetting": "Произошла ошибка при сбросе настроек: {error}."
     }
