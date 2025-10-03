@@ -1,4 +1,5 @@
-name: Run Python Tests
+name: Test Languages
+# This workflow runs tests on the language files to ensure they are functioning correctly.
 
 on:
   push:
@@ -6,7 +7,7 @@ on:
       - main
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
