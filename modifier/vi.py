@@ -19,5 +19,7 @@ class Vietnamese:
         "unset_profile_removal": "Hồ sơ nhúng sẽ không còn bị xóa.",
         "set_profile_removal": "Hồ sơ nhúng sẽ bị xóa.",
         "tweak_added_expecting_ipa": "Đã thêm Tweak: {file_name}. Bây giờ hãy gửi tệp IPA để áp dụng.",
+        "unset_remove_watch": "Việc sửa đổi Watch Bundle đã được đặt lại.",
+        "set_remove_watch": "Watch Bundle sẽ được đặt để xóa.",
         "error_while_resetting": "Đã xảy ra lỗi khi đặt lại các tùy chọn: {error}."
     }
