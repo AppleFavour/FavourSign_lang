@@ -32,7 +32,7 @@ class TestTranslations(unittest.TestCase):
             'cn': 'Chinese',
         }
 
-        lang_categories = [d for d in os.listdir(os.path.dirname(__file__)) if os.path.isdir(os.path.join(os.path.dirname(__file__), d)) and d not in ['__pycache__', '.vscode']]
+        lang_categories = [d for d in os.listdir(os.path.dirname(__file__)) if os.path.isdir(os.path.join(os.path.dirname(__file__), d)) and d not in ['__pycache__', '.vscode', '.github']]
 
         for category in lang_categories:
             category_path = os.path.join(os.path.dirname(__file__), category)
