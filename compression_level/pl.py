@@ -1,17 +1,17 @@
 class Polish:
     strings = {
         "compression_prompt": (
-            "📁 **Select Compression Level**\n\n"
-            "This setting affects the signing speed and the final file size.\n\n"
-            "**0**: Fastest signing, largest file size.\n"
-            "**9**: Slowest signing, smallest file size.\n\n"
-            "Currently selected: **{selected}**"
+            "📁 **Wybierz poziom kompresji**\n\n"
+            "To ustawienie wpływa na prędkość podpisywania i końcowy rozmiar pliku.\n\n"
+            "**0**: Najszybsze podpisywanie, największy rozmiar pliku.\n"
+            "**9**: Najwolniejsze podpisywanie, najmniejszy rozmiar pliku.\n\n"
+            "Aktualnie wybrane: **{selected}**"
         ),
-        "already_selected": "⚠️ This level is already selected.",
-        "save_error": "Could not save the compression level.",
-        "db_error": "A database error occurred. Please try again.",
-        "compression_selected": "📌 Compression level set to **{selected}**.",
-        "selected_notification": "📌 Selected: {selected}",
-        "generic_error": "⚠️ An unexpected error occurred.",
-        "back_button": "🔙 Go Back",
+        "already_selected": "⚠️ Ten poziom jest już wybrany.",
+        "save_error": "Nie można zapisać poziomu kompresji.",
+        "db_error": "Wystąpił błąd bazy danych. Proszę spróbować ponownie.",
+        "compression_selected": "📌 Poziom kompresji ustawiony na **{selected}**.",
+        "selected_notification": "📌 Wybrany: {selected}",
+        "generic_error": "⚠️ Wystąpił nieoczekiwany błąd.",
+        "back_button": "🔙 Wróć",
     }
