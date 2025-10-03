@@ -19,5 +19,7 @@ class Turkish:
         "unset_profile_removal": "Gömülü profil artık kaldırılmayacak.",
         "set_profile_removal": "Gömülü profil kaldırılacak.",
         "tweak_added_expecting_ipa": "Tweak eklendi: {file_name}. Şimdi uygulamak için IPA dosyasını gönderin.",
+        "unset_remove_watch": "Watch Bundle değişikliği sıfırlandı.",
+        "set_remove_watch": "Watch Bundle kaldırma ayarlanacak.",
         "error_while_resetting": "Seçenekler sıfırlanırken bir hata oluştu: {error}."
     }
