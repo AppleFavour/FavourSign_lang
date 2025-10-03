@@ -15,6 +15,7 @@ class Dutch:
         "id_cmd": "Wijzigt de bundel-ID van de applicatie.",
         "version_cmd": "Wijzigt de versie van de applicatie.",
         "name_cmd": "Wijzigt de naam van de applicatie.",
+        "watch_cmd": "Verwijdert de Watch-app uit iPA",
         "update_cmd": "Werkt de bot bij vanuit de repository.",
         "duyur_cmd": "Verzendt een aankondiging naar alle gebruikers.",
         "exec_cmd": "Voert een shell-commando uit.",
