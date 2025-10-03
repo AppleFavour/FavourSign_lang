@@ -19,5 +19,7 @@ class Hindi:
         "unset_profile_removal": "एम्बेडेड प्रोफ़ाइल अब नहीं हटाई जाएगी।",
         "set_profile_removal": "एम्बेडेड प्रोफ़ाइल हटा दी जाएगी।",
         "tweak_added_expecting_ipa": "ट्वीक जोड़ा गया: {file_name}. अब इसे लागू करने के लिए IPA फ़ाइल भेजें।",
+        "unset_remove_watch": "वॉच बंडल संशोधन रीसेट कर दिया गया है।",
+        "set_remove_watch": "वॉच बंडल हटाने के लिए सेट किया जाएगा।",
         "error_while_resetting": "विकल्पों को रीसेट करते समय एक त्रुटि हुई: {error}."
     }
