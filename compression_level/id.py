@@ -1,17 +1,17 @@
 class Indonesian:
     strings = {
         "compression_prompt": (
-            "📁 **Select Compression Level**\n\n"
-            "This setting affects the signing speed and the final file size.\n\n"
-            "**0**: Fastest signing, largest file size.\n"
-            "**9**: Slowest signing, smallest file size.\n\n"
-            "Currently selected: **{selected}**"
+            "📁 **Pilih Tingkat Kompresi**\n\n"
+            "Pengaturan ini memengaruhi kecepatan penandatanganan dan ukuran file akhir.\n\n"
+            "**0**: Penandatanganan tercepat, ukuran file terbesar.\n"
+            "**9**: Penandatanganan terlambat, ukuran file terkecil.\n\n"
+            "Saat ini terpilih: **{selected}**"
         ),
-        "already_selected": "⚠️ This level is already selected.",
-        "save_error": "Could not save the compression level.",
-        "db_error": "A database error occurred. Please try again.",
-        "compression_selected": "📌 Compression level set to **{selected}**.",
-        "selected_notification": "📌 Selected: {selected}",
-        "generic_error": "⚠️ An unexpected error occurred.",
-        "back_button": "🔙 Go Back",
+        "already_selected": "⚠️ Level ini sudah terpilih.",
+        "save_error": "Tidak dapat menyimpan tingkat kompresi.",
+        "db_error": "Terjadi kesalahan database. Silakan coba lagi.",
+        "compression_selected": "📌 Tingkat kompresi diatur ke **{selected}**.",
+        "selected_notification": "📌 Dipilih: {selected}",
+        "generic_error": "⚠️ Terjadi kesalahan tak terduga.",
+        "back_button": "🔙 Kembali",
     }
