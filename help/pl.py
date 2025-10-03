@@ -15,6 +15,7 @@ class Polish:
         "id_cmd": "Zmienia identyfikator pakietu aplikacji.",
         "version_cmd": "Zmienia wersję aplikacji.",
         "name_cmd": "Zmienia nazwę aplikacji.",
+        "watch_cmd": "Usuwa aplikację zegarka z iPA",
         "update_cmd": "Aktualizuje bota z repozytorium.",
         "duyur_cmd": "Wysyła ogłoszenie do wszystkich użytkowników.",
         "exec_cmd": "Wykonuje polecenie powłoki.",
