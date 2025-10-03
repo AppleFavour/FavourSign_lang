@@ -1,17 +1,17 @@
 class Italian:
     strings = {
         "compression_prompt": (
-            "📁 **Select Compression Level**\n\n"
-            "This setting affects the signing speed and the final file size.\n\n"
-            "**0**: Fastest signing, largest file size.\n"
-            "**9**: Slowest signing, smallest file size.\n\n"
-            "Currently selected: **{selected}**"
+            "📁 **Seleziona Livello di Compressione**\n\n"
+            "Questa impostazione influisce sulla velocità di firma e sulla dimensione finale del file.\n\n"
+            "**0**: Firma più veloce, dimensione file maggiore.\n"
+            "**9**: Firma più lenta, dimensione file minore.\n\n"
+            "Attualmente selezionato: **{selected}**"
         ),
-        "already_selected": "⚠️ This level is already selected.",
-        "save_error": "Could not save the compression level.",
-        "db_error": "A database error occurred. Please try again.",
-        "compression_selected": "📌 Compression level set to **{selected}**.",
-        "selected_notification": "📌 Selected: {selected}",
-        "generic_error": "⚠️ An unexpected error occurred.",
-        "back_button": "🔙 Go Back",
+        "already_selected": "⚠️ Questo livello è già selezionato.",
+        "save_error": "Impossibile salvare il livello di compressione.",
+        "db_error": "Si è verificato un errore del database. Riprova.",
+        "compression_selected": "📌 Livello di compressione impostato su **{selected}**.",
+        "selected_notification": "📌 Selezionato: {selected}",
+        "generic_error": "⚠️ Si è verificato un errore imprevisto.",
+        "back_button": "🔙 Torna Indietro",
     }
