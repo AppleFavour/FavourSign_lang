@@ -19,7 +19,5 @@ class German:
         "unset_profile_removal": "Eingebettetes Profil wird nicht mehr entfernt.",
         "set_profile_removal": "Eingebettetes Profil wird entfernt.",
         "tweak_added_expecting_ipa": "Tweak hinzugefügt: {file_name}. Senden Sie jetzt die IPA-Datei, um ihn anzuwenden.",
-        "unset_remove_watch": "Die Änderung des Watch-Bundles wurde zurückgesetzt.",
-        "set_remove_watch": "Das Entfernen des Watch-Bundles wird eingestellt.",
         "error_while_resetting": "Beim Zurücksetzen der Optionen ist ein Fehler aufgetreten: {error}."
     }

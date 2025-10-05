@@ -15,7 +15,6 @@ class French:
         "id_cmd": "Modifie l'ID de bundle de l'application.",
         "version_cmd": "Modifie la version de l'application.",
         "name_cmd": "Modifie le nom de l'application.",
-        "watch_cmd": "Supprime l'application Watch de l'iPA",
         "update_cmd": "Met à jour le bot depuis le dépôt.",
         "duyur_cmd": "Envoie une annonce à tous les utilisateurs.",
         "exec_cmd": "Exécute une commande shell.",

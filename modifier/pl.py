@@ -19,7 +19,5 @@ class Polish:
         "unset_profile_removal": "Osadzony profil nie będzie już usuwany.",
         "set_profile_removal": "Osadzony profil zostanie usunięty.",
         "tweak_added_expecting_ipa": "Tweak dodany: {file_name}. Teraz wyślij plik IPA, aby go zastosować.",
-        "unset_remove_watch": "Modyfikacja usunięcia pakietu Watch została zresetowana.",
-        "set_remove_watch": "Usunięcie pakietu Watch Bundle zostanie ustawione.",
         "error_while_resetting": "Wystąpił błąd podczas resetowania opcji: {error}."
     }

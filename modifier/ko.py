@@ -19,7 +19,5 @@ class Korean:
         "unset_profile_removal": "내장 프로필이 더 이상 제거되지 않습니다.",
         "set_profile_removal": "내장 프로필이 제거됩니다.",
         "tweak_added_expecting_ipa": "트윅 추가됨: {file_name}. 이제 IPA 파일을 보내 적용하십시오.",
-        "unset_remove_watch": "Watch Bundle 수정이 초기화되었습니다.",
-        "set_remove_watch": "Watch Bundle 제거가 설정됩니다.",
         "error_while_resetting": "옵션 초기화 중 오류가 발생했습니다: {error}."
     }

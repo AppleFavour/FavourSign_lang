@@ -19,7 +19,5 @@ class Portuguese:
         "unset_profile_removal": "O perfil incorporado não será mais removido.",
         "set_profile_removal": "O perfil incorporado será removido.",
         "tweak_added_expecting_ipa": "Tweak adicionado: {file_name}. Agora envie o arquivo IPA para aplicá-lo.",
-        "unset_remove_watch": "A modificação do Watch Bundle foi redefinida.",
-        "set_remove_watch": "A remoção do Watch Bundle será definida.",
         "error_while_resetting": "Ocorreu um erro ao redefinir as opções: {error}."
     }

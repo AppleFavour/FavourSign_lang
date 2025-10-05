@@ -15,7 +15,6 @@ class Chinese:
         "id_cmd": "更改应用程序的 Bundle ID。",
         "version_cmd": "更改应用程序的版本。",
         "name_cmd": "更改应用程序的名称。",
-        "watch_cmd": "从 iPA 中移除 Watch 应用程序",
         "update_cmd": "从仓库更新机器人。",
         "duyur_cmd": "向所有用户发送公告。",
         "exec_cmd": "执行 shell 命令。",

@@ -15,7 +15,6 @@ class Portuguese:
         "id_cmd": "Changes the application's bundle ID.",
         "version_cmd": "Changes the application's version.",
         "name_cmd": "Changes the application's name.",
-        "watch_cmd": "Remove o aplicativo de relógio do iPA",
         "update_cmd": "Updates the bot from the repository.",
         "duyur_cmd": "Sends an announcement to all users.",
         "exec_cmd": "Executes a shell command.",

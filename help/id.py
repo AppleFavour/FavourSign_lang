@@ -15,7 +15,6 @@ class Indonesian:
         "id_cmd": "Mengubah ID bundel aplikasi.",
         "version_cmd": "Mengubah versi aplikasi.",
         "name_cmd": "Mengubah nama aplikasi.",
-        "watch_cmd": "Menghapus aplikasi jam tangan dari iPA",
         "update_cmd": "Memperbarui bot dari repositori.",
         "duyur_cmd": "Mengirim pengumuman ke semua pengguna.",
         "exec_cmd": "Mengeksekusi perintah shell.",

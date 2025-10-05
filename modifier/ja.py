@@ -19,7 +19,5 @@ class Japanese:
         "unset_profile_removal": "埋め込みプロファイルは削除されなくなります。",
         "set_profile_removal": "埋め込みプロファイルは削除されます。",
         "tweak_added_expecting_ipa": "Tweak が追加されました: {file_name}。IPA ファイルを送信して適用してください。",
-        "unset_remove_watch": "Watch Bundle の変更がリセットされました。",
-        "set_remove_watch": "Watch Bundle の削除が設定されます。",
         "error_while_resetting": "オプションのリセット中にエラーが発生しました: {error}。"
     }

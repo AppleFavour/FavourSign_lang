@@ -19,7 +19,5 @@ class Indonesian:
         "unset_profile_removal": "Profil tertanam tidak akan lagi dihapus.",
         "set_profile_removal": "Profil tertanam akan dihapus.",
         "tweak_added_expecting_ipa": "Tweak ditambahkan: {file_name}. Sekarang kirim file IPA untuk menerapkannya.",
-        "unset_remove_watch": "Modifikasi Watch Bundle telah diatur ulang.",
-        "set_remove_watch": "Watch Bundle akan diatur untuk dihapus.",
         "error_while_resetting": "Terjadi kesalahan saat mengatur ulang opsi: {error}."
     }

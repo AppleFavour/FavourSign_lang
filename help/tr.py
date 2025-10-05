@@ -15,7 +15,6 @@ class Turkish:
         "id_cmd": "Uygulamanın paket kimliğini değiştirir.",
         "version_cmd": "Uygulamanın sürümünü değiştirir.",
         "name_cmd": "Uygulamanın adını değiştirir.",
-        "watch_cmd": "iPA'dan Watch uygulamasını kaldırır",
         "update_cmd": "Botu depodan günceller.",
         "duyur_cmd": "Tüm kullanıcılara bir duyuru gönderir.",
         "exec_cmd": "Bir kabuk komutu çalıştırır.",

@@ -19,7 +19,5 @@ class Chinese:
         "unset_profile_removal": "嵌入式配置文件将不再被移除。",
         "set_profile_removal": "嵌入式配置文件将被移除。",
         "tweak_added_expecting_ipa": "已添加 Tweak: {file_name}。现在发送 IPA 文件以应用它。",
-        "unset_remove_watch": "移除 Watch Bundle 修改已重置。",
-        "set_remove_watch": "将设置移除 Watch Bundle。",
         "error_while_resetting": "重置选项时发生错误: {error}。"
     }

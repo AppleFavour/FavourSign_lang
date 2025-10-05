@@ -15,7 +15,6 @@ class Vietnamese:
         "id_cmd": "Thay đổi ID gói của ứng dụng.",
         "version_cmd": "Thay đổi phiên bản của ứng dụng.",
         "name_cmd": "Thay đổi tên của ứng dụng.",
-        "watch_cmd": "Xóa ứng dụng đồng hồ khỏi iPA",
         "update_cmd": "Cập nhật bot từ kho lưu trữ.",
         "duyur_cmd": "Gửi thông báo cho tất cả người dùng.",
         "exec_cmd": "Thực thi lệnh shell.",

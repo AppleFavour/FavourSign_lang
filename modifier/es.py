@@ -19,7 +19,5 @@ class Spanish:
         "unset_profile_removal": "El perfil incrustado ya no se eliminará.",
         "set_profile_removal": "El perfil incrustado se eliminará.",
         "tweak_added_expecting_ipa": "Tweak añadido: {file_name}. Ahora envía el archivo IPA para aplicarlo.",
-        "unset_remove_watch": "La modificación del paquete de reloj ha sido restablecida.",
-        "set_remove_watch": "Se establecerá la eliminación del paquete de reloj.",
         "error_while_resetting": "Ocurrió un error al restablecer las opciones: {error}."
     }

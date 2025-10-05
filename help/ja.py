@@ -15,7 +15,6 @@ class Japanese:
         "id_cmd": "Changes the application's bundle ID.",
         "version_cmd": "Changes the application's version.",
         "name_cmd": "Changes the application's name.",
-        "watch_cmd": "iPA から Watch アプリを削除します",
         "update_cmd": "Updates the bot from the repository.",
         "duyur_cmd": "Sends an announcement to all users.",
         "exec_cmd": "Executes a shell command.",

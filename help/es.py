@@ -15,7 +15,6 @@ class Spanish:
         "id_cmd": "Cambia el ID de paquete de la aplicación.",
         "version_cmd": "Cambia la versión de la aplicación.",
         "name_cmd": "Cambia el nombre de la aplicación.",
-        "watch_cmd": "Elimina la aplicación de reloj de iPA",
         "update_cmd": "Actualiza el bot desde el repositorio.",
         "duyur_cmd": "Envía un anuncio a todos los usuarios.",
         "exec_cmd": "Ejecuta un comando de shell.",
