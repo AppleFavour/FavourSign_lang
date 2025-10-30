@@ -19,5 +19,6 @@ class English:
         "fnfe_err": "The file could not be found during the signing process.",
         "ve_err": "A value error occurred during the signing process.",
         "pe_err": "A permission error occurred during the signing process.",
-        "unknown_sign_err": "An unknown error occurred during the signing process."
+        "unknown_sign_err": "An unknown error occurred during the signing process.",
+        "revoked_certificate": "Your certificate has been revoked. Please select a new certificate."
     }

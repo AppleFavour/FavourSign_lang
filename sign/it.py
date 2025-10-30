@@ -19,5 +19,6 @@ class Italian:
         "fnfe_err": "Il file non è stato trovato durante il processo di firma.",
         "ve_err": "Si è verificato un errore di valore durante il processo di firma.",
         "pe_err": "Si è verificato un errore di permesso durante il processo di firma.",
-        "unknown_sign_err": "Si è verificato un errore sconosciuto durante il processo di firma."
+        "unknown_sign_err": "Si è verificato un errore sconosciuto durante il processo di firma.",
+        "revoked_certificate": "Il tuo certificato è stato revocato. Seleziona un nuovo certificato."
     }

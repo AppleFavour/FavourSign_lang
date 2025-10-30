@@ -19,5 +19,6 @@ class Chinese:
         "fnfe_err": "在签名过程中找不到文件。",
         "ve_err": "签署过程中发生值错误。",
         "pe_err": "签署过程中发生权限错误。",
-        "unknown_sign_err": "签署过程中发生未知错误。"
+        "unknown_sign_err": "签署过程中发生未知错误。",
+        "revoked_certificate": "您的证书已被吊销。请选择新证书。"
     }

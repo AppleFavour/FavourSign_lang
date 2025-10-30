@@ -19,5 +19,6 @@ class Polish:
         "fnfe_err": "Nie znaleziono pliku podczas procesu podpisywania.",
         "ve_err": "Wystąpił błąd wartości podczas procesu podpisywania.",
         "pe_err": "Wystąpił błąd uprawnień podczas procesu podpisywania.",
-        "unknown_sign_err": "Wystąpił nieznany błąd podczas procesu podpisywania."
+        "unknown_sign_err": "Wystąpił nieznany błąd podczas procesu podpisywania.",
+        "revoked_certificate": "Twój certyfikat został odwołany. Wybierz nowy certyfikat."
     }

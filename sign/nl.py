@@ -19,5 +19,6 @@ class Dutch:
         "fnfe_err": "Het bestand kon niet worden gevonden tijdens het ondertekeningsproces.",
         "ve_err": "Er is een waardefout opgetreden tijdens het ondertekeningsproces.",
         "pe_err": "Er is een toestemmingsfout opgetreden tijdens het ondertekeningsproces.",
-        "unknown_sign_err": "Er is een onbekende fout opgetreden tijdens het ondertekeningsproces."
+        "unknown_sign_err": "Er is een onbekende fout opgetreden tijdens het ondertekeningsproces.",
+        "revoked_certificate": "Uw certificaat is ingetrokken. Selecteer een nieuw certificaat."
     }
