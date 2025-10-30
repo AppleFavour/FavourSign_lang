@@ -5,7 +5,7 @@ class Italian:
         "download_button": "Scarica",
         "selected_certificate": "Certificato Selezionato",
         "unsupported_system": "Sistema non supportato",
-        "requires_newer_OS": "Richiede iOS {requiredOSVersion} o versioni successive.",
+        "requiresNewerOSVersion": "Richiede iOS {requiredOSVersion} o versioni successive.",
         "chkconnection": "Si prega di controllare la connessione internet.",
         "connected": "Connesso a internet.",
         "not_connected": "Nessuna connessione internet.",

@@ -5,7 +5,7 @@ class Korean:
         "download_button": "다운로드",
         "selected_certificate": "선택된 인증서",
         "unsupported_system": "지원되지 않는 시스템",
-        "requires_newer_OS": "iOS {requiredOSVersion} 이상이 필요합니다.",
+        "requiresNewerOSVersion": "iOS {requiredOSVersion} 이상이 필요합니다.",
         "chkconnection": "인터넷 연결을 확인해주세요.",
         "connected": "인터넷에 연결되었습니다.",
         "not_connected": "인터넷 연결 없음.",

@@ -6,4 +6,5 @@ class Spanish:
         "bot_stats": "Tiempo de actividad: {uptime}\nUso: {usage}",
         "total_users": "Usuarios totales: {count}",
         "active_users": "Usuarios activos: {count}",
+        "error_message": "An error occurred: {error}",
     }

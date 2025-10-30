@@ -5,7 +5,7 @@ class Indonesian:
         "download_button": "Unduh",
         "selected_certificate": "Sertifikat Terpilih",
         "unsupported_system": "Sistem Tidak Didukung",
-        "requires_newer_OS": "Membutuhkan iOS {requiredOSVersion} atau yang lebih baru.",
+        "requiresNewerOSVersion": "Membutuhkan iOS {requiredOSVersion} atau yang lebih baru.",
         "chkconnection": "Silakan periksa koneksi internet Anda.",
         "connected": "Terhubung ke internet.",
         "not_connected": "Tidak ada koneksi internet.",

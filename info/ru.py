@@ -6,4 +6,5 @@ class Russian:
         "bot_stats": "Время работы: {uptime}\nИспользование: {usage}",
         "total_users": "Всего пользователей: {count}",
         "active_users": "Активные пользователи: {count}",
+        "error_message": "An error occurred: {error}",
     }

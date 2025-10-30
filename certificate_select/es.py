@@ -1,5 +1,7 @@
 class Spanish:
     strings = {
+        "permission_denied": "You are not authorized to do that.",
+        "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ No se pudo cargar la información del certificado.",
         "certificate_prompt": "📃 Por favor, selecciona un certificado.\nSeleccionado actualmente: {selected}",
         "certificate_selected": "📌 Certificado seleccionado: {selected}",
@@ -7,6 +9,6 @@ class Spanish:
         "already_selected": "⚠️ Este certificado ya está seleccionado.",
         "no_selection": "Ninguno",
         "back_button": "🔙 Volver",
-        "saving_error": "Ocurrió un error en la base de datos. Por favor, inténtalo de nuevo.",
-        "callback_error": "⚠️ Ocurrió un error inesperado."
+        "save_error": "Ocurrió un error en la base de datos. Por favor, inténtalo de nuevo.",
+        "generic_error": "⚠️ Ocurrió un error inesperado."
     }

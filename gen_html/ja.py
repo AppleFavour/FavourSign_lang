@@ -5,7 +5,7 @@ class Japanese:
         "download_button": "ダウンロード",
         "selected_certificate": "選択された証明書",
         "unsupported_system": "サポートされていないシステム",
-        "requires_newer_OS": "iOS {requiredOSVersion}以降が必要です。",
+        "requiresNewerOSVersion": "iOS {requiredOSVersion}以降が必要です。",
         "chkconnection": "インターネット接続を確認してください。",
         "connected": "インターネットに接続されています。",
         "not_connected": "インターネットに接続されていません。",

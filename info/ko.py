@@ -6,4 +6,5 @@ class Korean:
         "bot_stats": "업타임: {uptime}\n사용량: {usage}",
         "total_users": "총 사용자: {count}",
         "active_users": "활성 사용자: {count}",
+        "error_message": "An error occurred: {error}",
     }

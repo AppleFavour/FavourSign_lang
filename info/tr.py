@@ -6,4 +6,5 @@ class Turkish:
         "bot_stats": "Çalışma Süresi: {uptime}\nKullanım: {usage}",
         "total_users": "Toplam Kullanıcı: {count}",
         "active_users": "Aktif Kullanıcı: {count}",
+        "error_message": "Bir hata oluştu: {error}",
     }

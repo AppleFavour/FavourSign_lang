@@ -6,4 +6,5 @@ class Chinese:
         "bot_stats": "运行时间: {uptime}\n使用情况: {usage}",
         "total_users": "总用户: {count}",
         "active_users": "活跃用户: {count}",
+        "error_message": "An error occurred: {error}",
     }

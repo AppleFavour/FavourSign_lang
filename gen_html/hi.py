@@ -5,7 +5,7 @@ class Hindi:
         "download_button": "डाउनलोड करें",
         "selected_certificate": "चयनित प्रमाणपत्र",
         "unsupported_system": "असमर्थित सिस्टम",
-        "requires_newer_OS": "iOS {requiredOSVersion} या नए की आवश्यकता है।",
+        "requiresNewerOSVersion": "iOS {requiredOSVersion} या नए की आवश्यकता है।",,
         "chkconnection": "कृपया अपना इंटरनेट कनेक्शन जांचें।",
         "connected": "इंटरनेट से कनेक्टेड।",
         "not_connected": "कोई इंटरनेट कनेक्शन नहीं।",

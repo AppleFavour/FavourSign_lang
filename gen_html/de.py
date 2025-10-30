@@ -5,7 +5,7 @@ class German:
         "download_button": "Herunterladen",
         "selected_certificate": "Ausgewähltes Zertifikat",
         "unsupported_system": "Nicht unterstützt",
-        "requires_newer_OS": "Erfordert iOS {requiredOSVersion} oder neuer.",
+        "requiresNewerOSVersion": "Erfordert iOS {requiredOSVersion} oder neuer.",
         "chkconnection": "Bitte überprüfen Sie Ihre Internetverbindung.",
         "connected": "Mit dem Internet verbunden.",
         "not_connected": "Keine Internetverbindung.",

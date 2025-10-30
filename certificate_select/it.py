@@ -1,5 +1,7 @@
 class Italian:
     strings = {
+        "permission_denied": "You are not authorized to do that.",
+        "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ Impossibile caricare le informazioni del certificato.",
         "certificate_prompt": "📃 Si prega di selezionare un certificato.\nAttualmente selezionato: {selected}",
         "certificate_selected": "📌 Certificato selezionato: {selected}",
@@ -7,6 +9,6 @@ class Italian:
         "already_selected": "⚠️ Questo certificato è già selezionato.",
         "no_selection": "Nessuno",
         "back_button": "🔙 Indietro",
-        "saving_error": "Si è verificato un errore nel database. Si prega di riprovare.",
-        "callback_error": "⚠️ Si è verificato un errore imprevisto."
+        "save_error": "Si è verificato un errore nel database. Si prega di riprovare.",
+        "generic_error": "⚠️ Si è verificato un errore imprevisto."
     }

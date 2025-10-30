@@ -6,7 +6,7 @@ class Turkish:
         "download_button": "İndir",
         "selected_certificate": "Seçili Sertifika",
         "unsupported_system": "Desteklenmiyor",
-        "requires_newer_OS": "iOS {requiredOSVersion} veya daha yenisini gerektirir.",
+        "requiresNewerOSVersion": "iOS {requiredOSVersion} veya daha yenisini gerektirir.",
         "chkconnection": "Lütfen internet bağlantınızı kontrol edin.",
         "connected": "İnternete bağlı.",
         "not_connected": "İnternet bağlantısı yok.",

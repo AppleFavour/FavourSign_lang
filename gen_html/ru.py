@@ -5,7 +5,7 @@ class Russian:
         "download_button": "Скачать",
         "selected_certificate": "Выбранный сертификат",
         "unsupported_system": "Не поддерживается",
-        "requires_newer_OS": "Требуется iOS {requiredOSVersion} или новее.",
+        "requiresNewerOSVersion": "Требуется iOS {requiredOSVersion} или новее.",
         "chkconnection": "Пожалуйста, проверьте ваше интернет-соединение.",
         "connected": "Подключено к интернету.",
         "not_connected": "Нет интернет-соединения.",

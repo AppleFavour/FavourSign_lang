@@ -1,5 +1,7 @@
 class Turkish:
     strings = {
+        "permission_denied": "Bunu yapmaya yetkiniz yok.",
+        "no_certificate_found": "Sertifika bulunamadı.",
         "cert_loading_error": "⚠️ Sertifika bilgileri yüklenemedi.",
         "certificate_prompt": "📃 Lütfen bir sertifika seçin.\nMevcut seçim: {selected}",
         "certificate_selected": "📌 Sertifika seçildi: {selected}",
@@ -7,6 +9,6 @@ class Turkish:
         "already_selected": "⚠️ Bu sertifika zaten seçili.",
         "no_selection": "Hiçbiri",
         "back_button": "🔙 Geri Dön",
-        "saving_error": "Bir veritabanı hatası oluştu. Lütfen tekrar deneyin.",
-        "callback_error": "⚠️ Beklenmedik bir hata oluştu."
+        "save_error": "Bir veritabanı hatası oluştu. Lütfen tekrar deneyin.",
+        "generic_error": "⚠️ Beklenmedik bir hata oluştu."
     }
