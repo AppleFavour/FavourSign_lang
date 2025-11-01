@@ -22,5 +22,6 @@ class English:
         "shutdown_cmd": "Shuts down the bot.",
         "user_cmd": "Manages user registrations.",
         "premium_cmd": "Manages premium user status.",
+        "admin_cmd": "Manages admin status.",
         "unknown_exception": "An error occurred while processing the help request from @{username} ({userID}): {error}"
     }

@@ -10,5 +10,12 @@ class English:
         "premium_error": "An error occurred during the premium operation.",
         "premium_reg_error": "An error occurred while registering the premium user.",
         "premium_unreg_error": "An error occurred while unregistering the premium user.",
-        "not_enough_arguments": "Please provide at least one user ID."
+        "not_enough_arguments": "Please provide at least one user ID.",
+        "admin_status_toggled": "Admin status for user {userID} is now {status}.",
+        "admin_error": "An error occurred during the admin operation.",
+        "user_not_found_or_no_premium": "User {userID} not found or not a premium user.",
+        "invalid_premium_date": "Invalid premium expiration date for user {userID}.",
+        "premium_extended": "Premium extended for user {userID}. New expiry: {expiry_date}.",
+        "ppq_toggled": "PPQ Protection for user {userID} is now {status}.",
+        "ppq_error": "An error occurred during the PPQ operation."
     }

@@ -1,8 +1,8 @@
 class Turkish:
     strings = {
         "create_folder_error": "Klasör oluşturulurken hata: {error}",
-        "hour_ETA": "{remaining_time}s",
-        "minute_ETA": "{remaining_time}d",
+        "hour_ETA": "{remaining_time}sa",
+        "minute_ETA": "{remaining_time}dk",
         "second_ETA": "{remaining_time}sn",
         "ETA": "Tahmini Süre: {estimated_remaining_download_time}",
         "file_is_lost": "Dosya işlem sırasında kaybolmuş gibi görünüyor.",

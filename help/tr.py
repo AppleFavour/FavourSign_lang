@@ -22,5 +22,6 @@ class Turkish:
         "shutdown_cmd": "Botu kapatır.",
         "user_cmd": "Kullanıcı kayıtlarını yönetir.",
         "premium_cmd": "Premium kullanıcı durumunu yönetir.",
+        "admin_cmd": "Yönetici durumunu yönetir.",
         "unknown_exception": "@{username} ({userID}) kullanıcısından yardım isteği işlenirken bir hata oluştu: {error}"
     }
