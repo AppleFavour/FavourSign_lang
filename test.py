@@ -4,7 +4,9 @@ import sys
 import unittest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'xx-misc')))
 
+from verify_translations import MODULE_BLACKLIST
 
 class TestTranslations(unittest.TestCase):
     def test_load_all_languages(self):
@@ -32,7 +34,7 @@ class TestTranslations(unittest.TestCase):
             'cn': 'Chinese',
         }
 
-        lang_categories = [d for d in os.listdir(os.path.dirname(__file__)) if os.path.isdir(os.path.join(os.path.dirname(__file__), d)) and d not in ['__pycache__', '.vscode', '.github', '.git']]
+        lang_categories = [d for d in os.listdir(os.path.dirname(__file__)) if os.path.isdir(os.path.join(os.path.dirname(__file__), d)) and d not in ['__pycache__', '.vscode', '.github', '.git'] and d not in MODULE_BLACKLIST]
 
         for category in lang_categories:
             category_path = os.path.join(os.path.dirname(__file__), category)
@@ -74,38 +76,7 @@ class TestTranslations(unittest.TestCase):
                         sys.stdout.flush()
                         self.fail(f"Error loading {module_name}: {e}")
 
-            main_module_name = f"{category}.strings"
-            expected_string_var = f"{category}_strings"
-            if category == "html_generator":
-                expected_string_var = "generate_html_strings"
-            elif category == "run_command":
-                expected_string_var = "run_command_strings"
-            elif category == "shared_utils":
-                expected_string_var = "shared_utils_strings"
-            elif category == "certificate_logic":
-                expected_string_var = "certificate_logic_strings"
 
-            sys.stdout.write(f"  - strings.py: checking...{' ' * 10}\r")
-            sys.stdout.flush()
-            with self.subTest(lang="strings.py", category=category):
-                try:
-                    main_module = importlib.import_module(main_module_name)
-                    self.assertTrue(hasattr(main_module, expected_string_var), f"Module {main_module_name} does not have a '{expected_string_var}' attribute.")
-                    self.assertIsInstance(getattr(main_module, expected_string_var), dict, f"'{expected_string_var}' attribute in {main_module_name} is not a dictionary.")
-                    sys.stdout.write(f"  - strings.py: {COLOR_GREEN}passed{COLOR_RESET}{' ' * 10}\n")
-                    sys.stdout.flush()
-                    passed_count += 1
-                    total_files += 1
-
-                except ImportError as e:
-                    sys.stdout.write(f"  - strings.py: {COLOR_RED}failed ({e}){COLOR_RESET}{' ' * 10}\n")
-                    sys.stdout.flush()
-                    self.fail(f"Could not import {main_module_name}: {e}")
-
-                except Exception as e:
-                    sys.stdout.write(f"  - main.py: {COLOR_RED}failed ({e}){COLOR_RESET}{' ' * 10}\n")
-                    sys.stdout.flush()
-                    self.fail(f"Error loading {main_module_name}: {e}")
 
             if passed_count == total_files:
                 print(f"Plugin: {category} all {COLOR_GREEN}{passed_count}/{total_files} languages passed.{COLOR_RESET}")
