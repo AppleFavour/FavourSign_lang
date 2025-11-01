@@ -10,5 +10,6 @@ class Chinese:
         "connected": "已连接到互联网。",
         "not_connected": "没有互联网连接。",
         "download_started": "下载已开始...",
-        "install_started": "安装已开始..."
+        "install_started": "安装已开始...",
+        "revoked_warning_string": "该证书已被撤销。"
     }
