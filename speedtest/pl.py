@@ -4,4 +4,5 @@ class Polish:
         "network_error": "Wystąpił błąd sieci. Sprawdź połączenie i spróbuj ponownie.",
         "timeout_error": "Limit czasu żądania został przekroczony. Spróbuj ponownie.",
         "unknown_error": "Wystąpił nieoczekiwany błąd. Spróbuj ponownie.",
+        "speedtest_error": "",
     }

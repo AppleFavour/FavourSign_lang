@@ -7,5 +7,12 @@ class Portuguese:
         "user_removed": "Usuário `{userID}` foi desregistrado.",
         "premium_added": "Usuário `{userID}` foi atualizado para premium. Expira em {expiry_date}.",
         "premium_error": "Ocorreu um erro durante a operação premium.",
-        "not_enough_arguments": "Por favor, forneça pelo menos um ID de usuário."
+        "not_enough_arguments": "Por favor, forneça pelo menos um ID de usuário.",
+        "user_not_found_or_no_premium": "",
+        "premium_extended": "",
+        "ppq_toggled": "",
+        "ppq_error": "",
+        "invalid_premium_date": "",
+        "admin_status_toggled": "",
+        "admin_error": "",
     }

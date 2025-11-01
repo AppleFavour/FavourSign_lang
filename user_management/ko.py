@@ -7,5 +7,12 @@ class Korean:
         "user_removed": "사용자 `{userID}`가 등록 해제되었습니다.",
         "premium_added": "사용자 `{userID}`가 프리미엄으로 업그레이드되었습니다. {expiry_date}에 만료됩니다.",
         "premium_error": "프리미엄 작업 중 오류가 발생했습니다.",
-        "not_enough_arguments": "하나 이상의 사용자 ID를 제공하십시오."
+        "not_enough_arguments": "하나 이상의 사용자 ID를 제공하십시오.",
+        "user_not_found_or_no_premium": "",
+        "premium_extended": "",
+        "ppq_toggled": "",
+        "ppq_error": "",
+        "invalid_premium_date": "",
+        "admin_status_toggled": "",
+        "admin_error": "",
     }

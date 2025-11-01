@@ -7,5 +7,12 @@ class Japanese:
         "user_removed": "ユーザー `{userID}` の登録が解除されました。",
         "premium_added": "ユーザー `{userID}` はプレミアムにアップグレードされました。{expiry_date} に期限切れになります。",
         "premium_error": "プレミアム操作中にエラーが発生しました。",
-        "not_enough_arguments": "少なくとも1つのユーザーIDを指定してください。"
+        "not_enough_arguments": "少なくとも1つのユーザーIDを指定してください。",
+        "user_not_found_or_no_premium": "",
+        "premium_extended": "",
+        "ppq_toggled": "",
+        "ppq_error": "",
+        "invalid_premium_date": "",
+        "admin_status_toggled": "",
+        "admin_error": "",
     }

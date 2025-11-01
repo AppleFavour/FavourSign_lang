@@ -7,5 +7,12 @@ class Spanish:
         "user_removed": "El usuario `{userID}` ha sido dado de baja.",
         "premium_added": "El usuario `{userID}` ha sido actualizado a premium. Expira el {expiry_date}.",
         "premium_error": "Ocurrió un error durante la operación premium.",
-        "not_enough_arguments": "Por favor, proporciona al menos un ID de usuario."
+        "not_enough_arguments": "Por favor, proporciona al menos un ID de usuario.",
+        "user_not_found_or_no_premium": "",
+        "premium_extended": "",
+        "ppq_toggled": "",
+        "ppq_error": "",
+        "invalid_premium_date": "",
+        "admin_status_toggled": "",
+        "admin_error": "",
     }
