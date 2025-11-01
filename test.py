@@ -29,7 +29,7 @@ class TestTranslations(unittest.TestCase):
             'nl': 'Dutch',
             'pl': 'Polish',
             'pt': 'Portuguese',
-            'ru': 'Russian
+            'ru': 'Russian',
             'tr': 'Turkish',
             'vi': 'Vietnamese',
             'cn': 'Chinese',
@@ -39,7 +39,7 @@ class TestTranslations(unittest.TestCase):
 
         for category in lang_categories:
             category_path = os.path.join(os.path.dirname(__file__), category)
-            lang_files = [f for f in os.path.listdir(category_path) if f.endswith('.py') and f not in ['__init__.py', 'strings.py']]
+            lang_files = [f for f in os.listdir(category_path) if f.endswith('.py') and f not in ['__init__.py', 'strings.py']]
             print(f"\n{category} testing languages...")
             passed_count = 0
             total_files = len(lang_files)
