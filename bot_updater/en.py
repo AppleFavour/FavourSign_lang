@@ -4,4 +4,3 @@ class English:
         "no_updates": "No updates available.",
         "update_error": "An error occurred during the update:\n`{error}`",
     }
-

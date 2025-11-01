@@ -4,4 +4,3 @@ class Turkish:
         "no_updates": "Güncellenecek bir şey yok.",
         "update_error": "Güncelleme sırasında bir hata oluştu:\n`{error}`",
     }
-

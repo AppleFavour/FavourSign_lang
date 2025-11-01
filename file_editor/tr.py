@@ -11,4 +11,3 @@ class Turkish:
         "rename_success_thumbnail_added": "Dosya yeniden adlandırıldı ve küçük resim eklendi.",
         "thumbnail_failed": "Küçük resim işlenemedi.",
     }
-

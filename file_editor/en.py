@@ -11,4 +11,3 @@ class English:
         "rename_success_thumbnail_added": "File has been renamed and thumbnail added.",
         "thumbnail_failed": "Failed to process thumbnail.",
     }
-
