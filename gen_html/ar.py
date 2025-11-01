@@ -10,5 +10,6 @@ class Arabic:
         "connected": "متصل بالإنترنت.",
         "not_connected": "لا يوجد اتصال بالإنترنت.",
         "download_started": "بدأ التنزيل...",
-        "install_started": "بدأ التثبيت..."
+        "install_started": "بدأ التثبيت...",
+        "revoked_warning_string": "الشهادة تم ازالتها."
     }
