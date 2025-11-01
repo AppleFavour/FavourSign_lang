@@ -8,6 +8,7 @@ MODULE_BLACKLIST = ["file_editor", "bot_updater"]
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+
 class TestTranslations(unittest.TestCase):
     def test_load_all_languages(self):
         COLOR_GREEN = '\033[92m'
@@ -28,7 +29,7 @@ class TestTranslations(unittest.TestCase):
             'nl': 'Dutch',
             'pl': 'Polish',
             'pt': 'Portuguese',
-            'ru': 'Russian',
+            'ru': 'Russian
             'tr': 'Turkish',
             'vi': 'Vietnamese',
             'cn': 'Chinese',
@@ -38,7 +39,7 @@ class TestTranslations(unittest.TestCase):
 
         for category in lang_categories:
             category_path = os.path.join(os.path.dirname(__file__), category)
-            lang_files = [f for f in os.listdir(category_path) if f.endswith('.py') and f not in ['__init__.py', 'strings.py']]
+            lang_files = [f for f in os.path.listdir(category_path) if f.endswith('.py') and f not in ['__init__.py', 'strings.py']]
             print(f"\n{category} testing languages...")
             passed_count = 0
             total_files = len(lang_files)
@@ -75,8 +76,6 @@ class TestTranslations(unittest.TestCase):
                         sys.stdout.write(f"  - {lang_code}: {COLOR_RED}failed ({e}){COLOR_RESET}{' ' * 10}\n")
                         sys.stdout.flush()
                         self.fail(f"Error loading {module_name}: {e}")
-
-
 
             if passed_count == total_files:
                 print(f"Plugin: {category} all {COLOR_GREEN}{passed_count}/{total_files} languages passed.{COLOR_RESET}")
