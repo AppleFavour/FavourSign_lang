@@ -4,11 +4,11 @@ from .certificate_select import certificate_select_strings
 from .compression_level import compression_level_strings
 from .countdown import countdown_strings
 from .download import download_strings
+from .general_utils import general_utils_strings
 from .help import help_strings
 from .html_generator import generate_html_strings
 from .info import info_strings
 from .language_select import language_select_strings
-from .general_utils import general_utils_strings
 from .modifier import modifier_strings
 from .power_manager import power_manager_strings
 from .run_command import run_command_strings
