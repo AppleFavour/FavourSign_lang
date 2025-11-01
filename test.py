@@ -36,14 +36,14 @@ class TestTranslations(unittest.TestCase):
 
         for category in lang_categories:
             category_path = os.path.join(os.path.dirname(__file__), category)
-            lang_files = [f for f in os.listdir(category_path) if f.endswith('.py') and f != '__init__.py' and f != 'main.py']
+            lang_files = [f for f in os.listdir(category_path) if f.endswith('.py') and f not in ['__init__.py', 'strings.py']]
             print(f"\n{category} testing languages...")
             passed_count = 0
             total_files = len(lang_files)
 
             for lang_file in lang_files:
                 lang_code = lang_file[:-3]
-                module_name = f"{category}.{lang_code}"
+                module_name = f"lang.{category}.{lang_code}"
                 sys.stdout.write(f"  - {lang_code}: checking...{' ' * 10}\r")
                 sys.stdout.flush()
 
@@ -74,25 +74,31 @@ class TestTranslations(unittest.TestCase):
                         sys.stdout.flush()
                         self.fail(f"Error loading {module_name}: {e}")
 
-            main_module_name = f"{category}.main"
+            main_module_name = f"lang.{category}.strings"
             expected_string_var = f"{category}_strings"
             if category == "html_generator":
                 expected_string_var = "generate_html_strings"
+            elif category == "run_command":
+                expected_string_var = "run_command_strings"
+            elif category == "shared_utils":
+                expected_string_var = "shared_utils_strings"
+            elif category == "certificate_logic":
+                expected_string_var = "certificate_logic_strings"
 
-            sys.stdout.write(f"  - main.py: checking...{' ' * 10}\r")
+            sys.stdout.write(f"  - strings.py: checking...{' ' * 10}\r")
             sys.stdout.flush()
-            with self.subTest(lang="main.py", category=category):
+            with self.subTest(lang="strings.py", category=category):
                 try:
                     main_module = importlib.import_module(main_module_name)
                     self.assertTrue(hasattr(main_module, expected_string_var), f"Module {main_module_name} does not have a '{expected_string_var}' attribute.")
                     self.assertIsInstance(getattr(main_module, expected_string_var), dict, f"'{expected_string_var}' attribute in {main_module_name} is not a dictionary.")
-                    sys.stdout.write(f"  - main.py: {COLOR_GREEN}passed{COLOR_RESET}{' ' * 10}\n")
+                    sys.stdout.write(f"  - strings.py: {COLOR_GREEN}passed{COLOR_RESET}{' ' * 10}\n")
                     sys.stdout.flush()
                     passed_count += 1
                     total_files += 1
 
                 except ImportError as e:
-                    sys.stdout.write(f"  - main.py: {COLOR_RED}failed ({e}){COLOR_RESET}{' ' * 10}\n")
+                    sys.stdout.write(f"  - strings.py: {COLOR_RED}failed ({e}){COLOR_RESET}{' ' * 10}\n")
                     sys.stdout.flush()
                     self.fail(f"Could not import {main_module_name}: {e}")
 
