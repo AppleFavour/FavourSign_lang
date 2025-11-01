@@ -1,9 +1,9 @@
 class Portuguese:
     strings = {
-        "signed": "Assinado",
-        "app_name": "Nome do Aplicativo",
-        "bundle_id": "ID do Pacote",
-        "certificate": "Certificado",
-        "install_button": "📲 Instalar",
-        "explore_button": "🔎 Descobrir Mais",
+        "signed": "",
+        "install_button": "",
+        "explore_button": "",
+        "certificate": "",
+        "bundle_id": "",
+        "app_name": "",
     }

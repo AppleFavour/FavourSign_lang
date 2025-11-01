@@ -1,9 +1,9 @@
 class Russian:
     strings = {
-        "signed": "Подписано",
-        "app_name": "Название приложения",
-        "bundle_id": "Идентификатор пакета",
-        "certificate": "Сертификат",
-        "install_button": "📲 Установить",
-        "explore_button": "🔎 Узнать больше",
+        "signed": "",
+        "install_button": "",
+        "explore_button": "",
+        "certificate": "",
+        "bundle_id": "",
+        "app_name": "",
     }

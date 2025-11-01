@@ -1,8 +1,8 @@
 class Vietnamese:
     strings = {
-        "restart_requested": "🔄 **Yêu cầu khởi động lại** bởi {user_full_name} (@{username})\nPID: `{process_id}`",
-        "restart_in_progress": "♻️ Đang khởi động lại...",
-        "shutdown_requested": "🛑 **Yêu cầu tắt máy** bởi {user_full_name} (@{username})\nPID: `{process_id}`",
-        "shutdown_in_progress": "♻️ Đang tắt máy...",
+        "shutdown_requested": "",
+        "shutdown_in_progress": "",
+        "restart_requested": "",
+        "restart_in_progress": "",
         "admin_only_msg": "",
     }

@@ -1,3 +1,0 @@
-class Hindi:
-    strings = {
-    }

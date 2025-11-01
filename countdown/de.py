@@ -1,9 +1,9 @@
 class German:
     strings = {
-        "signed": "Signiert",
-        "app_name": "App-Name",
-        "bundle_id": "Bundle-ID",
-        "certificate": "Zertifikat",
-        "install_button": "📲 Installieren",
-        "explore_button": "🔎 Mehr entdecken",
+        "signed": "",
+        "install_button": "",
+        "explore_button": "",
+        "certificate": "",
+        "bundle_id": "",
+        "app_name": "",
     }

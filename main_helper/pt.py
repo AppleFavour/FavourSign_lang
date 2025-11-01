@@ -1,3 +1,0 @@
-class Portuguese:
-    strings = {
-    }

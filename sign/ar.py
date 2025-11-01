@@ -1,15 +1,15 @@
 class Arabic:
     strings = {
-        "no_cert_selected": "مرحباً، {user_first_name}! الرجاء اختيار شهادة من قائمة /start وحاول مرة أخرى. 🚀",
-        "sign_error_retry": "حدث خطأ أثناء التوقيع، تتم إعادة المحاولة... ({failed_sign_attempt}/{max_sign_attempt})",
-        "signing_failed": "❌ فشل التوقيع للملف {file_name}.",
-        "ipa_ready": "✅ تم توقيع IPA الخاص بك وهو جاهز.",
-        "select_certificate_button": "📝️ تحديد الشهادة",
-        "signing_in_progress": "📝 توقيع...",
-        "modifying_in_progress": "🔧 تعديل...",
-        "fnfe_err": "تعذر العثور على الملف أثناء عملية التوقيع.",
-        "ve_err": "حدث خطأ في القيمة أثناء عملية التوقيع.",
-        "pe_err": "حدث خطأ في الإذن أثناء عملية التوقيع.",
-        "unknown_sign_err": "حدث خطأ غير معروف أثناء عملية التوقيع.",
-        "revoked_certificate": "تم إلغاء شهادتك. الرجاء تحديد شهادة جديدة."
+        "ve_err": "",
+        "unknown_sign_err": "",
+        "signing_in_progress": "",
+        "signing_failed": "",
+        "sign_error_retry": "",
+        "select_certificate_button": "",
+        "revoked_certificate": "",
+        "pe_err": "",
+        "no_cert_selected": "",
+        "modifying_in_progress": "",
+        "ipa_ready": "",
+        "fnfe_err": "",
     }

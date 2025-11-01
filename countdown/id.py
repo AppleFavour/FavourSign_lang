@@ -1,9 +1,9 @@
 class Indonesian:
     strings = {
-        "signed": "Ditandatangani",
-        "app_name": "Nama Aplikasi",
-        "bundle_id": "ID Bundel",
-        "certificate": "Sertifikat",
-        "install_button": "📲 Instal",
-        "explore_button": "🔎 Temukan Lebih Banyak",
+        "signed": "",
+        "install_button": "",
+        "explore_button": "",
+        "certificate": "",
+        "bundle_id": "",
+        "app_name": "",
     }
