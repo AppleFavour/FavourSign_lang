@@ -76,7 +76,7 @@ class TestTranslations(unittest.TestCase):
 
             main_module_name = f"{category}.main"
             expected_string_var = f"{category}_strings"
-            if category == "gen_html":
+            if category == "html_generator":
                 expected_string_var = "generate_html_strings"
 
             sys.stdout.write(f"  - main.py: checking...{' ' * 10}\r")

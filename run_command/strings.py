@@ -16,7 +16,7 @@ from .ru import Russian
 from .tr import Turkish
 from .vi import Vietnamese
 
-run_cmd_strings = {
+run_command_strings = {
     "ar": Arabic.strings,
     "cn": Chinese.strings,
     "de": German.strings,

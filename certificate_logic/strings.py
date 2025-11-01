@@ -16,7 +16,7 @@ from .ru import Russian
 from .tr import Turkish
 from .vi import Vietnamese
 
-certificate_handler_strings = {
+certificate_logic_strings = {
     "ar": Arabic.strings,
     "cn": Chinese.strings,
     "de": German.strings,
