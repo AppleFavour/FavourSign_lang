@@ -43,7 +43,7 @@ class TestTranslations(unittest.TestCase):
 
             for lang_file in lang_files:
                 lang_code = lang_file[:-3]
-                module_name = f"lang.{category}.{lang_code}"
+                module_name = f"{category}.{lang_code}"
                 sys.stdout.write(f"  - {lang_code}: checking...{' ' * 10}\r")
                 sys.stdout.flush()
 
@@ -74,7 +74,7 @@ class TestTranslations(unittest.TestCase):
                         sys.stdout.flush()
                         self.fail(f"Error loading {module_name}: {e}")
 
-            main_module_name = f"lang.{category}.strings"
+            main_module_name = f"{category}.strings"
             expected_string_var = f"{category}_strings"
             if category == "html_generator":
                 expected_string_var = "generate_html_strings"
