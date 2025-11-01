@@ -6,5 +6,4 @@ class Dutch:
         "certificate": "Certificaat",
         "install_button": "📲 Installeren",
         "explore_button": "🔎 Ontdek Meer",
-        "mnm_notify": "Bericht kon niet worden bewerkt."
     }

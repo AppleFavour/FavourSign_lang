@@ -1,6 +1,5 @@
 class Turkish:
     strings = {
-        "permission_denied": "Bunu yapmaya yetkiniz yok.",
         "no_certificate_found": "Sertifika bulunamadı.",
         "cert_loading_error": "⚠️ Sertifika bilgileri yüklenemedi.",
         "certificate_prompt": "📃 Lütfen bir sertifika seçin.\nMevcut seçim: {selected}",

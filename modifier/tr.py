@@ -1,6 +1,5 @@
 class Turkish:
     strings = {
-        "save_error": "{options} kaydedilemedi. Hata: {error}.",
         "update_error": "{options} güncellenemedi. Hata: {error}.",
         "app_name_usage": "Kullanım: /name [yeni uygulama adı]",
         "unset_app_name": "Uygulama adı değişikliği sıfırlandı.",
@@ -16,8 +15,6 @@ class Turkish:
         "invalid_min_os": "Geçersiz işletim sistemi sürüm formatı. Lütfen sadece rakam ve nokta kullanın (örn. 15.0).",
         "unset_min_os": "Minimum işletim sistemi sürümü değişikliği sıfırlandı.",
         "set_min_os": "Minimum işletim sistemi sürümü **{os_version}** olarak ayarlanacak.",
-        "unset_profile_removal": "Gömülü profil artık kaldırılmayacak.",
-        "set_profile_removal": "Gömülü profil kaldırılacak.",
         "tweak_added_expecting_ipa": "Tweak eklendi: {file_name}. Şimdi uygulamak için IPA dosyasını gönderin.",
         "error_while_resetting": "Seçenekler sıfırlanırken bir hata oluştu: {error}."
     }

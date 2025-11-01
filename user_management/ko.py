@@ -6,9 +6,6 @@ class Korean:
         "user_added": "사용자 `{userID}`가 등록되었습니다.",
         "user_removed": "사용자 `{userID}`가 등록 해제되었습니다.",
         "premium_added": "사용자 `{userID}`가 프리미엄으로 업그레이드되었습니다. {expiry_date}에 만료됩니다.",
-        "premium_removed": "사용자 `{userID}`의 프리미엄 상태가 제거되었습니다.",
         "premium_error": "프리미엄 작업 중 오류가 발생했습니다.",
-        "premium_reg_error": "프리미엄 사용자 등록 중 오류가 발생했습니다.",
-        "premium_unreg_error": "프리미엄 사용자 등록 해제 중 오류가 발생했습니다.",
         "not_enough_arguments": "하나 이상의 사용자 ID를 제공하십시오."
     }

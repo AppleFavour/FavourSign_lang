@@ -1,6 +1,5 @@
 class Dutch:
     strings = {
-        "permission_denied": "You are not authorized to do that.",
         "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ Kon certificaatinformatie niet laden.",
         "certificate_prompt": "📃 Selecteer een certificaat.\nMomenteel geselecteerd: {selected}",

@@ -1,6 +1,5 @@
 class Spanish:
     strings = {
-        "save_error": "No se pudo guardar {options}. Error: {error}.",
         "update_error": "No se pudo actualizar {options}. Error: {error}.",
         "app_name_usage": "Uso: /name [nuevo nombre de la aplicación]",
         "unset_app_name": "La modificación del nombre de la aplicación ha sido restablecida.",
@@ -16,8 +15,6 @@ class Spanish:
         "invalid_min_os": "Formato de versión de SO no válido. Utilice solo números y puntos (por ejemplo, 15.0).",
         "unset_min_os": "La modificación de la versión mínima de SO ha sido restablecida.",
         "set_min_os": "La versión mínima de SO se establecerá en **{os_version}**.",
-        "unset_profile_removal": "El perfil incrustado ya no se eliminará.",
-        "set_profile_removal": "El perfil incrustado se eliminará.",
         "tweak_added_expecting_ipa": "Tweak añadido: {file_name}. Ahora envía el archivo IPA para aplicarlo.",
         "error_while_resetting": "Ocurrió un error al restablecer las opciones: {error}."
     }

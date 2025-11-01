@@ -1,6 +1,5 @@
 class Chinese:
     strings = {
-        "save_error": "无法保存 {options}。错误: {error}。",
         "update_error": "无法更新 {options}。错误: {error}。",
         "app_name_usage": "用法: /name [新应用名称]",
         "unset_app_name": "应用名称修改已重置。",
@@ -16,8 +15,6 @@ class Chinese:
         "invalid_min_os": "操作系统版本格式无效。请仅使用数字和点（例如，15.0）。",
         "unset_min_os": "最低操作系统版本修改已重置。",
         "set_min_os": "最低操作系统版本将设置为 **{os_version}**。",
-        "unset_profile_removal": "嵌入式配置文件将不再被移除。",
-        "set_profile_removal": "嵌入式配置文件将被移除。",
         "tweak_added_expecting_ipa": "已添加 Tweak: {file_name}。现在发送 IPA 文件以应用它。",
         "error_while_resetting": "重置选项时发生错误: {error}。"
     }

@@ -10,7 +10,6 @@ class Vietnamese:
         "info_cmd": "Hiển thị thông tin về bot.",
         "sign_cmd": "Ký tệp IPA đã trả lời.",
         "clear_cmd": "Đặt lại tất cả các tùy chọn sửa đổi.",
-        "profile_cmd": "Xóa tệp cấu hình di động được nhúng.",
         "minos_cmd": "Đặt phiên bản OS tối thiểu được yêu cầu.",
         "id_cmd": "Thay đổi ID gói của ứng dụng.",
         "version_cmd": "Thay đổi phiên bản của ứng dụng.",
@@ -21,6 +20,5 @@ class Vietnamese:
         "restart_cmd": "Khởi động lại bot.",
         "shutdown_cmd": "Tắt bot.",
         "user_cmd": "Quản lý đăng ký người dùng.",
-        "premium_cmd": "Quản lý trạng thái người dùng cao cấp.",
         "unknown_exception": "Đã xảy ra lỗi khi xử lý yêu cầu trợ giúp từ @{username} ({userID}): {error}"
     }

@@ -1,9 +1,6 @@
 class Vietnamese:
     strings = {
         "permission_denied": "Bạn không được phép thêm chứng chỉ mới.",
-        "certificate_updated": "Chứng chỉ đã được cập nhật thành công: {file_name}",
-        "unexpected_git_error": "Đã xảy ra lỗi Git không mong muốn: {error}",
-        "unexpected_error": "Đã xảy ra lỗi không mong muốn: {error}",
         "upload_certificate": "Please start by uploading your .mobileprovision or .p12 file.",
         "invalid_file_type": "Invalid file type. Please upload a .p12 or .mobileprovision file.",
         "upload_p12": "Please upload your .p12 file.",

@@ -10,7 +10,6 @@ class Turkish:
         "info_cmd": "Bot hakkında bilgi görüntüler.",
         "sign_cmd": "Yanıtlanan IPA dosyasını imzalar.",
         "clear_cmd": "Tüm düzenleme seçeneklerini sıfırlar.",
-        "profile_cmd": "Gömülü mobil provizyon dosyasını kaldırır.",
         "minos_cmd": "Gerekli minimum işletim sistemi sürümünü ayarlar.",
         "id_cmd": "Uygulamanın paket kimliğini değiştirir.",
         "version_cmd": "Uygulamanın sürümünü değiştirir.",
@@ -21,7 +20,5 @@ class Turkish:
         "restart_cmd": "Botu yeniden başlatır.",
         "shutdown_cmd": "Botu kapatır.",
         "user_cmd": "Kullanıcı kayıtlarını yönetir.",
-        "premium_cmd": "Premium kullanıcı durumunu yönetir.",
-        "admin_cmd": "Yönetici durumunu yönetir.",
         "unknown_exception": "@{username} ({userID}) kullanıcısından yardım isteği işlenirken bir hata oluştu: {error}"
     }

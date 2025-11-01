@@ -10,7 +10,6 @@ class Chinese:
         "info_cmd": "显示有关机器人的信息。",
         "sign_cmd": "签名回复的 IPA 文件。",
         "clear_cmd": "重置所有修改选项。",
-        "profile_cmd": "删除嵌入式移动配置文件。",
         "minos_cmd": "设置所需的最低操作系统版本。",
         "id_cmd": "更改应用程序的 Bundle ID。",
         "version_cmd": "更改应用程序的版本。",
@@ -21,6 +20,5 @@ class Chinese:
         "restart_cmd": "重启机器人。",
         "shutdown_cmd": "关闭机器人。",
         "user_cmd": "管理用户注册。",
-        "premium_cmd": "管理高级用户状态。",
         "unknown_exception": "处理来自 @{username} ({userID}) 的帮助请求时发生错误: {error}"
     }

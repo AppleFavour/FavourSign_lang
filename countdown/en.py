@@ -6,5 +6,4 @@ class English:
         "certificate": "Certificate",
         "install_button": "📲 Install",
         "explore_button": "🔎 Discover More",
-        "mnm_notify": "Message could not be edited."
     }

@@ -6,5 +6,4 @@ class Arabic:
         "certificate": "الشهادة",
         "install_button": "📲 تثبيت",
         "explore_button": "🔎 اكتشف المزيد",
-        "mnm_notify": "تعذر تعديل الرسالة.",
     }

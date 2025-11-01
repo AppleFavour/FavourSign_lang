@@ -1,6 +1,5 @@
 class Indonesian:
     strings = {
-        "save_error": "Tidak dapat menyimpan {options}. Kesalahan: {error}.",
         "update_error": "Tidak dapat memperbarui {options}. Kesalahan: {error}.",
         "app_name_usage": "Penggunaan: /name [nama aplikasi baru]",
         "unset_app_name": "Modifikasi nama aplikasi telah diatur ulang.",
@@ -16,8 +15,6 @@ class Indonesian:
         "invalid_min_os": "Format versi OS tidak valid. Harap gunakan angka dan titik saja (misalnya, 15.0).",
         "unset_min_os": "Modifikasi versi OS minimum telah diatur ulang.",
         "set_min_os": "Versi OS minimum akan diatur ke **{os_version}**.",
-        "unset_profile_removal": "Profil tertanam tidak akan lagi dihapus.",
-        "set_profile_removal": "Profil tertanam akan dihapus.",
         "tweak_added_expecting_ipa": "Tweak ditambahkan: {file_name}. Sekarang kirim file IPA untuk menerapkannya.",
         "error_while_resetting": "Terjadi kesalahan saat mengatur ulang opsi: {error}."
     }

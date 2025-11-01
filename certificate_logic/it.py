@@ -1,9 +1,6 @@
 class Italian:
     strings = {
         "permission_denied": "Non sei autorizzato ad aggiungere nuovi certificati.",
-        "certificate_updated": "Certificato aggiornato con successo: {file_name}",
-        "unexpected_git_error": "Si è verificato un errore Git imprevisto: {error}",
-        "unexpected_error": "Si è verificato un errore imprevisto: {error}",
         "upload_certificate": "Please start by uploading your .mobileprovision or .p12 file.",
         "invalid_file_type": "Invalid file type. Please upload a .p12 or .mobileprovision file.",
         "upload_p12": "Please upload your .p12 file.",

@@ -1,6 +1,5 @@
 class Arabic:
     strings = {
-        "save_error": "تعذر حفظ {options}. خطأ: {error}.",
         "update_error": "تعذر تحديث {options}. خطأ: {error}.",
         "app_name_usage": "الاستخدام: /name [اسم التطبيق الجديد]",
         "unset_app_name": "تمت إعادة تعيين تعديل اسم التطبيق.",
@@ -16,7 +15,5 @@ class Arabic:
         "invalid_min_os": "تنسيق إصدار نظام التشغيل غير صالح. الرجاء استخدام الأرقام والنقاط فقط (مثال: 15.0).",
         "unset_min_os": "تمت إعادة تعيين تعديل الحد الأدنى لإصدار نظام التشغيل.",
         "set_min_os": "سيتم تعيين الحد الأدنى لإصدار نظام التشغيل إلى **{os_version}**.",
-        "unset_profile_removal": "لن يتم إزالة ملف التعريف المضمن بعد الآن.",
-        "set_profile_removal": "سيتم إزالة ملف التعريف المضمن.",
         "error_while_resetting": "حدث خطأ أثناء إعادة تعيين الخيارات: {error}."
     }

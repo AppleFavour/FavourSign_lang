@@ -6,5 +6,4 @@ class Turkish:
         "certificate": "Sertifika",
         "install_button": "📲 Yükle",
         "explore_button": "🔎 Daha Fazlasını Keşfet",
-        "mnm_notify": "Mesaj düzenlenemedi."
     }

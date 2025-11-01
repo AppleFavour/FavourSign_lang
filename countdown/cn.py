@@ -6,5 +6,4 @@ class Chinese:
         "certificate": "证书",
         "install_button": "📲 安装",
         "explore_button": "🔎 发现更多",
-        "mnm_notify": "消息无法编辑。",
     }

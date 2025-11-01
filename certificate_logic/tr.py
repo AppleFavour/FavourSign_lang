@@ -1,9 +1,6 @@
 class Turkish:
     strings = {
         "permission_denied": "Yeni sertifika ekleme yetkiniz yok.",
-        "certificate_updated": "Sertifika başarıyla güncellendi: {file_name}",
-        "unexpected_git_error": "Beklenmedik bir Git hatası oluştu: {error}",
-        "unexpected_error": "Beklenmedik bir hata oluştu: {error}",
         "upload_certificate": "Lütfen .mobileprovision veya .p12 dosyanızı yükleyerek başlayın.",
         "invalid_file_type": "Geçersiz dosya türü. Lütfen bir .p12 veya .mobileprovision dosyası yükleyin.",
         "upload_p12": "Lütfen .p12 dosyanızı yükleyin.",

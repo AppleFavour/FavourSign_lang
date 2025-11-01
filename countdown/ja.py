@@ -6,5 +6,4 @@ class Japanese:
         "certificate": "証明書",
         "install_button": "📲 インストール",
         "explore_button": "🔎 さらに発見",
-        "mnm_notify": "メッセージを編集できませんでした。"
     }

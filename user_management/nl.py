@@ -6,9 +6,6 @@ class Dutch:
         "user_added": "Gebruiker `{userID}` is geregistreerd.",
         "user_removed": "Gebruiker `{userID}` is uitgeschreven.",
         "premium_added": "Gebruiker `{userID}` is geüpgraded naar premium. Verloopt op {expiry_date}.",
-        "premium_removed": "Premiumstatus is verwijderd voor gebruiker `{userID}`.",
         "premium_error": "Er is een fout opgetreden tijdens de premium-bewerking.",
-        "premium_reg_error": "Er is een fout opgetreden bij het registreren van de premium-gebruiker.",
-        "premium_unreg_error": "Er is een fout opgetreden bij het uitschrijven van de premium-gebruiker.",
         "not_enough_arguments": "Geef ten minste één gebruikers-ID op."
     }

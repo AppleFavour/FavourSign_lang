@@ -1,6 +1,5 @@
 class Korean:
     strings = {
-        "permission_denied": "You are not authorized to do that.",
         "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ 인증서 정보를 로드할 수 없습니다.",
         "certificate_prompt": "📃 인증서를 선택하십시오.\n현재 선택됨: {selected}",

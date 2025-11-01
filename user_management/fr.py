@@ -6,9 +6,6 @@ class French:
         "user_added": "L'utilisateur `{userID}` a été enregistré.",
         "user_removed": "L'utilisateur `{userID}` a été désenregistré.",
         "premium_added": "L'utilisateur `{userID}` a été mis à niveau vers premium. Expire le {expiry_date}.",
-        "premium_removed": "Le statut premium a été supprimé pour l'utilisateur `{userID}`.",
         "premium_error": "Une erreur est survenue lors de l'opération premium.",
-        "premium_reg_error": "Une erreur est survenue lors de l'enregistrement de l'utilisateur premium.",
-        "premium_unreg_error": "Une erreur est survenue lors de la désinscription de l'utilisateur premium.",
         "not_enough_arguments": "Veuillez fournir au moins un ID utilisateur."
     }

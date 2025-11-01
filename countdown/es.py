@@ -6,5 +6,4 @@ class Spanish:
         "certificate": "Certificado",
         "install_button": "📲 Instalar",
         "explore_button": "🔎 Descubrir más",
-        "mnm_notify": "No se pudo editar el mensaje.",
     }
