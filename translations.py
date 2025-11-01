@@ -4,15 +4,15 @@ from .certificate_select.strings import certificate_select_strings
 from .compression_level.strings import compression_level_strings
 from .countdown.strings import countdown_strings
 from .download.strings import download_strings
-from .html_generator.strings import generate_html_strings
 from .help.strings import help_strings
-from .shared_utils.strings import shared_utils_strings
+from .html_generator.strings import generate_html_strings
 from .info.strings import info_strings
 from .language_select.strings import language_select_strings
 from .main_helper.strings import main_helper_strings
 from .modifier.strings import modifier_strings
 from .power_manager.strings import power_manager_strings
 from .run_command.strings import run_command_strings
+from .shared_utils.strings import shared_utils_strings
 from .sign.strings import sign_strings
 from .speedtest.strings import speedtest_strings
 from .start.strings import start_strings
