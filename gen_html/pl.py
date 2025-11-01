@@ -10,5 +10,6 @@ class Polish:
         "connected": "Połączono z internetem.",
         "not_connected": "Brak połączenia internetowego.",
         "download_started": "Pobieranie rozpoczęte",
-        "install_started": "Instalacja rozpoczęta"
+        "install_started": "Instalacja rozpoczęta",
+        "revoked_warning_string": "Certyfikat został wycofany."
     }

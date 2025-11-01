@@ -10,5 +10,6 @@ class English:
         "connected": "Connected to the internet.",
         "not_connected": "No internet connection.",
         "download_started": "Download Started",
-        "install_started": "Install Started"
+        "install_started": "Install Started",
+        "revoked_warning_string": "The certificate has been revoked."
     }

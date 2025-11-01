@@ -10,5 +10,6 @@ class Hindi:
         "connected": "इंटरनेट से कनेक्टेड।",
         "not_connected": "कोई इंटरनेट कनेक्शन नहीं।",
         "download_started": "डाउनलोड शुरू हो गया है।",
-        "install_started": "इंस्टॉल शुरू हो गया है।"
+        "install_started": "इंस्टॉल शुरू हो गया है।",
+        "revoked_warning_string": "प्रमाणपत्र निकाला गया है।"
     }

@@ -10,5 +10,6 @@ class Indonesian:
         "connected": "Terhubung ke internet.",
         "not_connected": "Tidak ada koneksi internet.",
         "download_started": "Unduhan Dimulai",
-        "install_started": "Instalasi Dimulai"
+        "install_started": "Instalasi Dimulai",
+        "revoked_warning_string": "Sertifikat telah dibatalkan."
     }

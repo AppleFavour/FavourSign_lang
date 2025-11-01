@@ -10,5 +10,6 @@ class Dutch:
         "connected": "Verbonden met het internet.",
         "not_connected": "Geen internetverbinding.",
         "download_started": "Download gestart",
-        "install_started": "Installatie gestart"
+        "install_started": "Installatie gestart",
+        "revoked_warning_string": "Het certificaat is geweigerd."
     }

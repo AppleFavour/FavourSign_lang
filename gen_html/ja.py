@@ -10,5 +10,6 @@ class Japanese:
         "connected": "インターネットに接続されています。",
         "not_connected": "インターネットに接続されていません。",
         "download_started": "ダウンロード開始",
-        "install_started": "インストール開始"
+        "install_started": "インストール開始",
+        "revoked_warning_string": "証明書は撤廃されました。"
     }

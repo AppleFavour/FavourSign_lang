@@ -10,5 +10,6 @@ class Portuguese:
         "connected": "Conectado à internet.",
         "not_connected": "Sem conexão com a internet.",
         "download_started": "Download Iniciado",
-        "install_started": "Instalação Iniciada"
+        "install_started": "Instalação Iniciada",
+        "revoked_warning_string": "O certificado foi revogado."
     }

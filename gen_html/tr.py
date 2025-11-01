@@ -11,5 +11,6 @@ class Turkish:
         "connected": "İnternete bağlı.",
         "not_connected": "İnternet bağlantısı yok.",
         "download_started": "İndirme Başlatıldı",
-        "install_started": "Yükleme Başlatıldı"
+        "install_started": "Yükleme Başlatıldı",
+        "revoked_warning_string": "Sertifika geçersiz, Uygulama yüklenemeyebilir"
     }

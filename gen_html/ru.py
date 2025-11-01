@@ -10,5 +10,6 @@ class Russian:
         "connected": "Подключено к интернету.",
         "not_connected": "Нет интернет-соединения.",
         "download_started": "Загрузка начата",
-        "install_started": "Установка начата"
+        "install_started": "Установка начата",
+        "revoked_warning_string": "Сертификат был отозван."
     }

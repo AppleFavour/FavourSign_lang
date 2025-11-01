@@ -10,5 +10,6 @@ class Korean:
         "connected": "인터넷에 연결되었습니다.",
         "not_connected": "인터넷 연결 없음.",
         "download_started": "다운로드 시작됨",
-        "install_started": "설치 시작됨"
+        "install_started": "설치 시작됨",
+        "revoked_warning_string": "인증서가 리쇼되었습니다."
     }

@@ -10,5 +10,6 @@ class Vietnamese:
         "connected": "Đã kết nối internet.",
         "not_connected": "Không có kết nối internet.",
         "download_started": "Tải xuống đã bắt đầu",
-        "install_started": "Cài đặt đã bắt đầu"
+        "install_started": "Cài đặt đã bắt đầu",
+        "revoked_warning_string": "Chứng tính đã biệt lý."
     }
