@@ -10,5 +10,6 @@ class German:
         "connected": "Mit dem Internet verbunden.",
         "not_connected": "Keine Internetverbindung.",
         "download_started": "Download gestartet...",
-        "install_started": "Installation gestartet..."
+        "install_started": "Installation gestartet...",
+        "revoked_warning_string": "Das Zertifikat wurde widerrufen."
     }
