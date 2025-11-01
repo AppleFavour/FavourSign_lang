@@ -8,7 +8,7 @@ from .help import help_strings
 from .html_generator import generate_html_strings
 from .info import info_strings
 from .language_select import language_select_strings
-from .main_helper import main_helper_strings
+from .general_utils import general_utils_strings
 from .modifier import modifier_strings
 from .power_manager import power_manager_strings
 from .run_command import run_command_strings
