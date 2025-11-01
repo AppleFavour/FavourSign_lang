@@ -3,10 +3,10 @@ import os
 import sys
 import unittest
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'xx-misc')))
+# Define MODULE_BLACKLIST directly for this submodule's test
+MODULE_BLACKLIST = ["file_editor", "bot_updater"]
 
-from verify_translations import MODULE_BLACKLIST
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class TestTranslations(unittest.TestCase):
     def test_load_all_languages(self):
