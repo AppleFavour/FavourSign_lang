@@ -2,7 +2,7 @@ class French:
     strings = {
         "select_language": "🌐 **Sélectionner une langue**",
         "selected": "Sélectionné:",
-        "already_selected": "⚠️ Cette langue is already selected.",
+        "already_selected": "⚠️ Cette langue est déjà sélectionnée.",
         "save_failed": "⚠️ Impossible d'enregistrer le paramètre de langue.",
         "new_language_selected": "🌐 Langue changée avec succès.",
         "error_in_language_selection": "⚠️ Une erreur est survenue lors de la sélection de la langue.",

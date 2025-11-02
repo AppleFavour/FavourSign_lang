@@ -8,11 +8,11 @@ class Vietnamese:
         "premium_added": "Người dùng `{userID}` đã được nâng cấp lên premium. Hết hạn vào {expiry_date}.",
         "premium_error": "Đã xảy ra lỗi trong quá trình hoạt động premium.",
         "not_enough_arguments": "Vui lòng cung cấp ít nhất một ID người dùng.",
-        "user_not_found_or_no_premium": "",
-        "premium_extended": "",
-        "ppq_toggled": "",
-        "ppq_error": "",
-        "invalid_premium_date": "",
-        "admin_status_toggled": "",
-        "admin_error": "",
+        "admin_status_toggled": "Trạng thái quản trị viên cho người dùng {userID} hiện là {status}.",
+        "admin_error": "Đã xảy ra lỗi trong quá trình hoạt động quản trị viên.",
+        "user_not_found_or_no_premium": "Không tìm thấy người dùng {userID} hoặc không phải là người dùng premium.",
+        "invalid_premium_date": "Ngày hết hạn premium không hợp lệ cho người dùng {userID}.",
+        "premium_extended": "Premium đã được gia hạn cho người dùng {userID}. Hết hạn mới: {expiry_date}.",
+        "ppq_toggled": "Bảo vệ PPQ cho người dùng {userID} hiện là {status}.",
+        "ppq_error": "Đã xảy ra lỗi trong quá trình hoạt động PPQ."
     }

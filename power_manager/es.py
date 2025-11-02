@@ -4,5 +4,5 @@ class Spanish:
         "restart_in_progress": "♻️ Reiniciando ahora...",
         "shutdown_requested": "🛑 **Apagado solicitado** por {user_full_name} (@{username})\nPID: `{process_id}`",
         "shutdown_in_progress": "♻️ Apagando ahora...",
-        "admin_only_msg": "",
+        "admin_only_msg": "No tienes permiso para ejecutar este comando (ID de usuario: {userID}, Nombre de usuario: @{username})"
     }

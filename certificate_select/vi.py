@@ -1,6 +1,6 @@
 class Vietnamese:
     strings = {
-        "no_certificate_found": "No certificates found.",
+        "no_certificate_found": "Không tìm thấy chứng chỉ nào.",
         "cert_loading_error": "⚠️ Không thể tải thông tin chứng chỉ.",
         "certificate_prompt": "📃 Vui lòng chọn một chứng chỉ.\nHiện đang chọn: {selected}",
         "certificate_selected": "📌 Chứng chỉ đã chọn: {selected}",

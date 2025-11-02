@@ -8,11 +8,11 @@ class Indonesian:
         "premium_added": "Pengguna `{userID}` telah ditingkatkan ke premium. Kedaluwarsa pada {expiry_date}.",
         "premium_error": "Terjadi kesalahan selama operasi premium.",
         "not_enough_arguments": "Harap berikan setidaknya satu ID pengguna.",
-        "user_not_found_or_no_premium": "",
-        "premium_extended": "",
-        "ppq_toggled": "",
-        "ppq_error": "",
-        "invalid_premium_date": "",
-        "admin_status_toggled": "",
-        "admin_error": "",
+        "admin_status_toggled": "Status admin untuk pengguna {userID} sekarang {status}.",
+        "admin_error": "Terjadi kesalahan selama operasi admin.",
+        "user_not_found_or_no_premium": "Pengguna {userID} tidak ditemukan atau bukan pengguna premium.",
+        "invalid_premium_date": "Tanggal kedaluwarsa premium tidak valid untuk pengguna {userID}.",
+        "premium_extended": "Premium diperpanjang untuk pengguna {userID}. Kedaluwarsa baru: {expiry_date}.",
+        "ppq_toggled": "Perlindungan PPQ untuk pengguna {userID} sekarang {status}.",
+        "ppq_error": "Terjadi kesalahan selama operasi PPQ."
     }

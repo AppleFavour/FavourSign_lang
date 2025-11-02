@@ -6,5 +6,5 @@ class Indonesian:
         "bot_stats": "Waktu Aktif: {uptime}\nPenggunaan: {usage}",
         "total_users": "Total Pengguna: {count}",
         "active_users": "Pengguna Aktif: {count}",
-        "error_message": "An error occurred: {error}",
+        "error_message": "Terjadi kesalahan: {error}",
     }

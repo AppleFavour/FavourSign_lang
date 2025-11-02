@@ -4,5 +4,5 @@ class Italian:
         "restart_in_progress": "♻️ Riavvio in corso...",
         "shutdown_requested": "🛑 **Spegnimento richiesto** da {user_full_name} (@{username})\nPID: `{process_id}`",
         "shutdown_in_progress": "♻️ Spegnimento in corso...",
-        "admin_only_msg": "",
+        "admin_only_msg": "Non hai il permesso di eseguire questo comando (ID utente: {userID}, Username: @{username})"
     }

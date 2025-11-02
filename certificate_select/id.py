@@ -1,6 +1,6 @@
 class Indonesian:
     strings = {
-        "no_certificate_found": "No certificates found.",
+        "no_certificate_found": "Tidak ada sertifikat yang ditemukan.",
         "cert_loading_error": "⚠️ Tidak dapat memuat informasi sertifikat.",
         "certificate_prompt": "📃 Silakan pilih sertifikat.\nSaat ini dipilih: {selected}",
         "certificate_selected": "📌 Sertifikat dipilih: {selected}",

@@ -1,6 +1,6 @@
 class German:
     strings = {
-        "no_certificate_found": "No certificates found.",
+        "no_certificate_found": "Keine Zertifikate gefunden.",
         "cert_loading_error": "⚠️ Zertifikatinformationen konnten nicht geladen werden.",
         "certificate_prompt": "📃 Bitte wähle ein Zertifikat aus.\nAktuell ausgewählt: {selected}",
         "certificate_selected": "📌 Zertifikat ausgewählt: {selected}",

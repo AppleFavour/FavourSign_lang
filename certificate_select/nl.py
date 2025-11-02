@@ -1,6 +1,6 @@
 class Dutch:
     strings = {
-        "no_certificate_found": "No certificates found.",
+        "no_certificate_found": "Geen certificaten gevonden.",
         "cert_loading_error": "⚠️ Kon certificaatinformatie niet laden.",
         "certificate_prompt": "📃 Selecteer een certificaat.\nMomenteel geselecteerd: {selected}",
         "certificate_selected": "📌 Certificaat geselecteerd: {selected}",

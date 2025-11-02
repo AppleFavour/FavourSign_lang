@@ -1,6 +1,6 @@
 class Japanese:
     strings = {
-        "no_certificate_found": "No certificates found.",
+        "no_certificate_found": "証明書が見つかりません。",
         "cert_loading_error": "⚠️ 証明書情報を読み込めませんでした。",
         "certificate_prompt": "📃 証明書を選択してください。現在選択中: {selected}",
         "certificate_selected": "📌 証明書が選択されました: {selected}",

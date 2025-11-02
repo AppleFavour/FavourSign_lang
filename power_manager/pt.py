@@ -4,5 +4,5 @@ class Portuguese:
         "restart_in_progress": "♻️ Reiniciando agora...",
         "shutdown_requested": "🛑 **Desligamento Solicitado** por {user_full_name} (@{username})\nPID: `{process_id}`",
         "shutdown_in_progress": "♻️ Desligando agora...",
-        "admin_only_msg": "",
+        "admin_only_msg": "Você não tem permissão para executar este comando (ID de Usuário: {userID}, Nome de Usuário: @{username})"
     }

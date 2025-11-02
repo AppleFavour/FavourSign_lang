@@ -1,6 +1,6 @@
 class Korean:
     strings = {
-        "no_certificate_found": "No certificates found.",
+        "no_certificate_found": "인증서를 찾을 수 없습니다.",
         "cert_loading_error": "⚠️ 인증서 정보를 로드할 수 없습니다.",
         "certificate_prompt": "📃 인증서를 선택하십시오.\n현재 선택됨: {selected}",
         "certificate_selected": "📌 인증서 선택됨: {selected}",

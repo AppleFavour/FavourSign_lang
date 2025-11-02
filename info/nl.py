@@ -6,5 +6,5 @@ class Dutch:
         "bot_stats": "Uptime: {uptime}\nGebruik: {usage}",
         "total_users": "Totaal aantal gebruikers: {count}",
         "active_users": "Actieve gebruikers: {count}",
-        "error_message": "An error occurred: {error}",
+        "error_message": "Er is een fout opgetreden: {error}",
     }

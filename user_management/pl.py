@@ -8,11 +8,11 @@ class Polish:
         "premium_added": "Użytkownik `{userID}` został ulepszony do wersji premium. Wygasa dnia {expiry_date}.",
         "premium_error": "Wystąpił błąd podczas operacji premium.",
         "not_enough_arguments": "Proszę podać co najmniej jeden identyfikator użytkownika.",
-        "user_not_found_or_no_premium": "",
-        "premium_extended": "",
-        "ppq_toggled": "",
-        "ppq_error": "",
-        "invalid_premium_date": "",
-        "admin_status_toggled": "",
-        "admin_error": "",
+        "admin_status_toggled": "Status administratora dla użytkownika {userID} to teraz {status}.",
+        "admin_error": "Wystąpił błąd podczas operacji administratora.",
+        "user_not_found_or_no_premium": "Użytkownik {userID} nie znaleziony lub nie jest użytkownikiem premium.",
+        "invalid_premium_date": "Nieprawidłowa data wygaśnięcia premium dla użytkownika {userID}.",
+        "premium_extended": "Premium przedłużone dla użytkownika {userID}. Nowa data wygaśnięcia: {expiry_date}.",
+        "ppq_toggled": "Ochrona PPQ dla użytkownika {userID} jest teraz {status}.",
+        "ppq_error": "Wystąpił błąd podczas operacji PPQ."
     }

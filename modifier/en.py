@@ -16,6 +16,5 @@ class English:
         "unset_min_os": "Minimum OS version modification has been reset.",
         "set_min_os": "Minimum OS version will be set to **{os_version}**.",
         "tweak_added_expecting_ipa": "Tweak added: {file_name}. Now send the IPA file to apply it.",
-        "tweak_added_expecting_ipa": "Tweak added: {file_name}. Now send the IPA file to apply it.",
         "error_while_resetting": "An error occurred while resetting options: {error}."
     }

@@ -8,11 +8,11 @@ class Russian:
         "premium_added": "Пользователь `{userID}` повышен до премиума. Истекает {expiry_date}.",
         "premium_error": "Произошла ошибка во время операции с премиум.",
         "not_enough_arguments": "Пожалуйста, укажите хотя бы один идентификатор пользователя.",
-        "user_not_found_or_no_premium": "",
-        "premium_extended": "",
-        "ppq_toggled": "",
-        "ppq_error": "",
-        "invalid_premium_date": "",
-        "admin_status_toggled": "",
-        "admin_error": "",
+        "admin_status_toggled": "Статус администратора для пользователя {userID} теперь {status}.",
+        "admin_error": "Произошла ошибка во время операции администратора.",
+        "user_not_found_or_no_premium": "Пользователь {userID} не найден или не является премиум-пользователем.",
+        "invalid_premium_date": "Неверная дата истечения срока действия премиума для пользователя {userID}.",
+        "premium_extended": "Премиум продлен для пользователя {userID}. Новая дата истечения: {expiry_date}.",
+        "ppq_toggled": "Защита PPQ для пользователя {userID} теперь {status}.",
+        "ppq_error": "Произошла ошибка во время операции PPQ."
     }

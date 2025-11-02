@@ -8,11 +8,11 @@ class Arabic:
         "premium_added": "تمت ترقية المستخدم `{userID}` إلى بريميوم. ينتهي في {expiry_date}.",
         "premium_error": "حدث خطأ أثناء عملية البريميوم.",
         "not_enough_arguments": "الرجاء تقديم معرف مستخدم واحد على الأقل.",
-        "user_not_found_or_no_premium": "",
-        "premium_extended": "",
-        "ppq_toggled": "",
-        "ppq_error": "",
-        "invalid_premium_date": "",
-        "admin_status_toggled": "",
-        "admin_error": "",
+        "admin_status_toggled": "حالة المسؤول للمستخدم {userID} هي الآن {status}.",
+        "admin_error": "حدث خطأ أثناء عملية المسؤول.",
+        "user_not_found_or_no_premium": "المستخدم {userID} غير موجود أو ليس مستخدمًا مميزًا.",
+        "invalid_premium_date": "تاريخ انتهاء صلاحية البريميوم غير صالح للمستخدم {userID}.",
+        "premium_extended": "تم تمديد البريميوم للمستخدم {userID}. الانتهاء الجديد: {expiry_date}.",
+        "ppq_toggled": "حماية PPQ للمستخدم {userID} هي الآن {status}.",
+        "ppq_error": "حدث خطأ أثناء عملية PPQ."
     }

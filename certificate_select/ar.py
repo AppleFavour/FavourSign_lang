@@ -1,6 +1,6 @@
 class Arabic:
     strings = {
-        "no_certificate_found": "No certificates found.",
+        "no_certificate_found": "لم يتم العثور على شهادات.",
         "cert_loading_error": "⚠️ تعذر تحميل معلومات الشهادة.",
         "certificate_prompt": "📃 الرجاء تحديد شهادة.\nالمحدد حاليا: {selected}",
         "certificate_selected": "📌 تم تحديد الشهادة: {selected}",

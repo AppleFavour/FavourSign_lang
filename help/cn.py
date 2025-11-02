@@ -20,5 +20,5 @@ class Chinese:
         "restart_cmd": "重启机器人。",
         "shutdown_cmd": "关闭机器人。",
         "user_cmd": "管理用户注册。",
-        "unknown_exception": "处理来自 @{username} ({userID}) 的帮助请求时发生错误: {error}"
+        "unknown_exception": "为 @{username} ({userID}) 处理帮助请求时发生错误: {error}"
     }

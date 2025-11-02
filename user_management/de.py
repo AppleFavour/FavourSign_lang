@@ -8,11 +8,11 @@ class German:
         "premium_added": "Benutzer `{userID}` wurde auf Premium hochgestuft. Läuft am {expiry_date} ab.",
         "premium_error": "Bei der Premium-Operation ist ein Fehler aufgetreten.",
         "not_enough_arguments": "Bitte gib mindestens eine Benutzer-ID an.",
-        "user_not_found_or_no_premium": "",
-        "premium_extended": "",
-        "ppq_toggled": "",
-        "ppq_error": "",
-        "invalid_premium_date": "",
-        "admin_status_toggled": "",
-        "admin_error": "",
+        "admin_status_toggled": "Admin-Status für Benutzer {userID} ist jetzt {status}.",
+        "admin_error": "Bei der Admin-Operation ist ein Fehler aufgetreten.",
+        "user_not_found_or_no_premium": "Benutzer {userID} nicht gefunden oder kein Premium-Benutzer.",
+        "invalid_premium_date": "Ungültiges Premium-Ablaufdatum für Benutzer {userID}.",
+        "premium_extended": "Premium für Benutzer {userID} verlängert. Neues Ablaufdatum: {expiry_date}.",
+        "ppq_toggled": "PPQ-Schutz für Benutzer {userID} ist jetzt {status}.",
+        "ppq_error": "Bei der PPQ-Operation ist ein Fehler aufgetreten."
     }

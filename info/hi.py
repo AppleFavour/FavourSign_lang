@@ -6,5 +6,5 @@ class Hindi:
         "bot_stats": "अपटाइम: {uptime}\nउपयोग: {usage}",
         "total_users": "कुल उपयोगकर्ता: {count}",
         "active_users": "सक्रिय उपयोगकर्ता: {count}",
-        "error_message": "An error occurred: {error}",
+        "error_message": "एक त्रुटि हुई: {error}",
     }

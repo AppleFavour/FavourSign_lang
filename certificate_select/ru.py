@@ -1,6 +1,6 @@
 class Russian:
     strings = {
-        "no_certificate_found": "No certificates found.",
+        "no_certificate_found": "Сертификаты не найдены.",
         "cert_loading_error": "⚠️ Не удалось загрузить информацию о сертификате.",
         "certificate_prompt": "📃 Пожалуйста, выберите сертификат.\nТекущий выбор: {selected}",
         "certificate_selected": "📌 Сертификат выбран: {selected}",

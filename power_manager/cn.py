@@ -4,5 +4,5 @@ class Chinese:
         "restart_in_progress": "♻️ 正在重启...",
         "shutdown_requested": "🛑 **关机请求** 由 {user_full_name} (@{username})\nPID: `{process_id}`",
         "shutdown_in_progress": "♻️ 正在关机...",
-        "admin_only_msg": "",
+        "admin_only_msg": "您无权执行此命令 (用户ID: {userID}, 用户名: @{username})"
     }

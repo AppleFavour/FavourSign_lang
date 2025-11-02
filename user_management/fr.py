@@ -8,11 +8,11 @@ class French:
         "premium_added": "L'utilisateur `{userID}` a été mis à niveau vers premium. Expire le {expiry_date}.",
         "premium_error": "Une erreur est survenue lors de l'opération premium.",
         "not_enough_arguments": "Veuillez fournir au moins un ID utilisateur.",
-        "user_not_found_or_no_premium": "",
-        "premium_extended": "",
-        "ppq_toggled": "",
-        "ppq_error": "",
-        "invalid_premium_date": "",
-        "admin_status_toggled": "",
-        "admin_error": "",
+        "admin_status_toggled": "Le statut d'administrateur pour l'utilisateur {userID} est maintenant {status}.",
+        "admin_error": "Une erreur est survenue lors de l'opération d'administration.",
+        "user_not_found_or_no_premium": "Utilisateur {userID} introuvable ou n'est pas un utilisateur premium.",
+        "invalid_premium_date": "Date d'expiration premium invalide pour l'utilisateur {userID}.",
+        "premium_extended": "Premium prolongé pour l'utilisateur {userID}. Nouvelle expiration: {expiry_date}.",
+        "ppq_toggled": "La protection PPQ pour l'utilisateur {userID} est maintenant {status}.",
+        "ppq_error": "Une erreur est survenue lors de l'opération PPQ."
     }

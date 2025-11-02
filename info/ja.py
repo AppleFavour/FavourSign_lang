@@ -6,5 +6,5 @@ class Japanese:
         "bot_stats": "稼働時間: {uptime}\n使用状況: {usage}",
         "total_users": "総ユーザー数: {count}",
         "active_users": "アクティブユーザー: {count}",
-        "error_message": "An error occurred: {error}",
+        "error_message": "エラーが発生しました: {error}",
     }
