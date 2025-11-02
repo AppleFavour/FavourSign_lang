@@ -6,9 +6,6 @@ class Chinese:
         "user_added": "用户 `{userID}` 已注册。",
         "user_removed": "用户 `{userID}` 已注销。",
         "premium_added": "用户 `{userID}` 已升级为高级用户。{expiry_date} 到期。",
-        "premium_removed": "用户 `{userID}` 的高级状态已移除。",
         "premium_error": "高级操作期间发生错误。",
-        "premium_reg_error": "注册高级用户时发生错误。",
-        "premium_unreg_error": "注销高级用户时发生错误。",
         "not_enough_arguments": "请提供至少一个用户 ID。"
     }

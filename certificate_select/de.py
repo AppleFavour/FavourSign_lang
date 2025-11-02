@@ -1,6 +1,5 @@
 class German:
     strings = {
-        "permission_denied": "You are not authorized to do that.",
         "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ Zertifikatinformationen konnten nicht geladen werden.",
         "certificate_prompt": "📃 Bitte wähle ein Zertifikat aus.\nAktuell ausgewählt: {selected}",

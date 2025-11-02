@@ -6,5 +6,4 @@ class Korean:
         "certificate": "인증서",
         "install_button": "📲 설치",
         "explore_button": "🔎 더 알아보기",
-        "mnm_notify": "메시지를 편집할 수 없습니다."
     }

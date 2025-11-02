@@ -10,7 +10,6 @@ class Indonesian:
         "info_cmd": "Menampilkan informasi tentang bot.",
         "sign_cmd": "Menandatangani file IPA yang dibalas.",
         "clear_cmd": "Mengatur ulang semua opsi modifikasi.",
-        "profile_cmd": "Menghapus file provisi seluler yang disematkan.",
         "minos_cmd": "Mengatur versi OS minimum yang diperlukan.",
         "id_cmd": "Mengubah ID bundel aplikasi.",
         "version_cmd": "Mengubah versi aplikasi.",
@@ -21,6 +20,5 @@ class Indonesian:
         "restart_cmd": "Memulai ulang bot.",
         "shutdown_cmd": "Mematikan bot.",
         "user_cmd": "Mengelola pendaftaran pengguna.",
-        "premium_cmd": "Mengelola status pengguna premium.",
         "unknown_exception": "Terjadi kesalahan saat memproses permintaan bantuan dari @{username} ({userID}): {error}"
     }

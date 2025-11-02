@@ -1,6 +1,5 @@
 class Polish:
     strings = {
-        "permission_denied": "You are not authorized to do that.",
         "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ Nie można załadować informacji o certyfikacie.",
         "certificate_prompt": "📃 Proszę wybrać certyfikat.\nAktualnie wybrany: {selected}",

@@ -10,7 +10,6 @@ class English:
         "info_cmd": "Displays information about the bot.",
         "sign_cmd": "Signs the replied IPA file.",
         "clear_cmd": "Resets all modification options.",
-        "profile_cmd": "Removes the embedded mobile provision file.",
         "minos_cmd": "Sets the minimum OS version required.",
         "id_cmd": "Changes the application's bundle ID.",
         "version_cmd": "Changes the application's version.",
@@ -21,7 +20,5 @@ class English:
         "restart_cmd": "Restarts the bot.",
         "shutdown_cmd": "Shuts down the bot.",
         "user_cmd": "Manages user registrations.",
-        "premium_cmd": "Manages premium user status.",
-        "admin_cmd": "Manages admin status.",
         "unknown_exception": "An error occurred while processing the help request from @{username} ({userID}): {error}"
     }

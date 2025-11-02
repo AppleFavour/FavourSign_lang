@@ -1,6 +1,5 @@
 class Hindi:
     strings = {
-        "permission_denied": "You are not authorized to do that.",
         "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ प्रमाणपत्र जानकारी लोड नहीं की जा सकी।",
         "certificate_prompt": "📃 कृपया एक प्रमाणपत्र चुनें।\nवर्तमान में चयनित: {selected}",

@@ -6,5 +6,4 @@ class German:
         "certificate": "Zertifikat",
         "install_button": "📲 Installieren",
         "explore_button": "🔎 Mehr entdecken",
-        "mnm_notify": "Nachricht konnte nicht bearbeitet werden."
     }

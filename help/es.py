@@ -10,7 +10,6 @@ class Spanish:
         "info_cmd": "Muestra información sobre el bot.",
         "sign_cmd": "Firma el archivo IPA respondido.",
         "clear_cmd": "Restablece todas las opciones de modificación.",
-        "profile_cmd": "Elimina el archivo de aprovisionamiento móvil incrustado.",
         "minos_cmd": "Establece la versión mínima de SO requerida.",
         "id_cmd": "Cambia el ID de paquete de la aplicación.",
         "version_cmd": "Cambia la versión de la aplicación.",
@@ -21,6 +20,5 @@ class Spanish:
         "restart_cmd": "Reinicia el bot.",
         "shutdown_cmd": "Apaga el bot.",
         "user_cmd": "Gestiona los registros de usuarios.",
-        "premium_cmd": "Gestiona el estado de usuario premium.",
         "unknown_exception": "Ocurrió un error al procesar la solicitud de ayuda de @{username} ({userID}): {error}"
     }

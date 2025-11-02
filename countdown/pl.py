@@ -6,5 +6,4 @@ class Polish:
         "certificate": "Certyfikat",
         "install_button": "📲 Zainstaluj",
         "explore_button": "🔎 Odkryj więcej",
-        "mnm_notify": "Nie można było edytować wiadomości."
     }

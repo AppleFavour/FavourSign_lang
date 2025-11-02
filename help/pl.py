@@ -10,7 +10,6 @@ class Polish:
         "info_cmd": "Wyświetla informacje o bocie.",
         "sign_cmd": "Podpisuje odpowiedni plik IPA.",
         "clear_cmd": "Resetuje wszystkie opcje modyfikacji.",
-        "profile_cmd": "Usuwa osadzony plik profilu mobilnego.",
         "minos_cmd": "Ustawia minimalną wymaganą wersję systemu operacyjnego.",
         "id_cmd": "Zmienia identyfikator pakietu aplikacji.",
         "version_cmd": "Zmienia wersję aplikacji.",
@@ -21,6 +20,5 @@ class Polish:
         "restart_cmd": "Ponownie uruchamia bota.",
         "shutdown_cmd": "Wyłącza bota.",
         "user_cmd": "Zarządza rejestracjami użytkowników.",
-        "premium_cmd": "Zarządza statusem użytkownika premium.",
         "unknown_exception": "Wystąpił błąd podczas przetwarzania żądania pomocy od @{username} ({userID}): {error}"
     }

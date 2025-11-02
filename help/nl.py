@@ -10,7 +10,6 @@ class Dutch:
         "info_cmd": "Toont informatie over de bot.",
         "sign_cmd": "Ondertekent het beantwoorde IPA-bestand.",
         "clear_cmd": "Reset alle modificatie-opties.",
-        "profile_cmd": "Verwijdert het ingebedde mobiele provisioneringsbestand.",
         "minos_cmd": "Stelt de minimaal vereiste OS-versie in.",
         "id_cmd": "Wijzigt de bundel-ID van de applicatie.",
         "version_cmd": "Wijzigt de versie van de applicatie.",
@@ -21,6 +20,5 @@ class Dutch:
         "restart_cmd": "Herstart de bot.",
         "shutdown_cmd": "Sluit de bot af.",
         "user_cmd": "Beheert gebruikersregistraties.",
-        "premium_cmd": "Beheert de premium gebruikersstatus.",
         "unknown_exception": "Er is een fout opgetreden bij het verwerken van het helpverzoek van @{username} ({userID}): {error}"
     }

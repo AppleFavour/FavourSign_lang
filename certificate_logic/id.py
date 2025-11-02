@@ -1,9 +1,6 @@
 class Indonesian:
     strings = {
         "permission_denied": "Anda tidak diizinkan untuk menambahkan sertifikat baru.",
-        "certificate_updated": "Sertifikat berhasil diperbarui: {file_name}",
-        "unexpected_git_error": "Terjadi kesalahan Git yang tidak terduga: {error}",
-        "unexpected_error": "Terjadi kesalahan yang tidak terduga: {error}",
         "upload_certificate": "Please start by uploading your .mobileprovision or .p12 file.",
         "invalid_file_type": "Invalid file type. Please upload a .p12 or .mobileprovision file.",
         "upload_p12": "Please upload your .p12 file.",

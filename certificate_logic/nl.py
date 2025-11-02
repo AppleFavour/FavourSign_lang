@@ -1,9 +1,6 @@
 class Dutch:
     strings = {
         "permission_denied": "U bent niet gemachtigd om nieuwe certificaten toe te voegen.",
-        "certificate_updated": "Certificaat succesvol bijgewerkt: {file_name}",
-        "unexpected_git_error": "Er is een onverwachte Git-fout opgetreden: {error}",
-        "unexpected_error": "Er is een onverwachte fout opgetreden: {error}",
         "upload_certificate": "Please start by uploading your .mobileprovision or .p12 file.",
         "invalid_file_type": "Invalid file type. Please upload a .p12 or .mobileprovision file.",
         "upload_p12": "Please upload your .p12 file.",

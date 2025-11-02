@@ -1,9 +1,6 @@
 class Arabic:
     strings = {
         "permission_denied": "غير مصرح لك بإضافة شهادات جديدة.",
-        "certificate_updated": "تم تحديث الشهادة بنجاح: {file_name}",
-        "unexpected_git_error": "حدث خطأ غير متوقع في Git: {error}",
-        "unexpected_error": "حدث خطأ غير متوقع: {error}",
         "upload_certificate": "Please start by uploading your .mobileprovision or .p12 file.",
         "invalid_file_type": "Invalid file type. Please upload a .p12 or .mobileprovision file.",
         "upload_p12": "Please upload your .p12 file.",

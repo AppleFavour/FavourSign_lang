@@ -1,9 +1,6 @@
 class Chinese:
     strings = {
         "permission_denied": "您无权添加新证书。",
-        "certificate_updated": "证书更新成功: {file_name}",
-        "unexpected_git_error": "发生意外的 Git 错误: {error}",
-        "unexpected_error": "发生意外错误: {error}",
         "upload_certificate": "Please start by uploading your .mobileprovision or .p12 file.",
         "invalid_file_type": "Invalid file type. Please upload a .p12 or .mobileprovision file.",
         "upload_p12": "Please upload your .p12 file.",

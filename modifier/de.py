@@ -1,6 +1,5 @@
 class German:
     strings = {
-        "save_error": "Konnte {options} nicht speichern. Fehler: {error}.",
         "update_error": "Konnte {options} nicht aktualisieren. Fehler: {error}.",
         "app_name_usage": "Verwendung: /name [neuer App-Name]",
         "unset_app_name": "Änderung des App-Namens wurde zurückgesetzt.",
@@ -16,8 +15,6 @@ class German:
         "invalid_min_os": "Ungültiges Betriebssystem-Versionsformat. Bitte nur Zahlen und Punkte verwenden (z.B. 15.0).",
         "unset_min_os": "Änderung der Mindest-Betriebssystemversion wurde zurückgesetzt.",
         "set_min_os": "Die Mindest-Betriebssystemversion wird auf **{os_version}** gesetzt.",
-        "unset_profile_removal": "Eingebettetes Profil wird nicht mehr entfernt.",
-        "set_profile_removal": "Eingebettetes Profil wird entfernt.",
         "tweak_added_expecting_ipa": "Tweak hinzugefügt: {file_name}. Senden Sie jetzt die IPA-Datei, um ihn anzuwenden.",
         "error_while_resetting": "Beim Zurücksetzen der Optionen ist ein Fehler aufgetreten: {error}."
     }

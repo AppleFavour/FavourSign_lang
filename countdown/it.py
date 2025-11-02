@@ -6,5 +6,4 @@ class Italian:
         "certificate": "Certificato",
         "install_button": "📲 Installa",
         "explore_button": "🔎 Scopri di più",
-        "mnm_notify": "Impossibile modificare il messaggio."
     }

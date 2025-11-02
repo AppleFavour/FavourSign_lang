@@ -1,6 +1,5 @@
 class Italian:
     strings = {
-        "save_error": "Impossibile salvare {options}. Errore: {error}.",
         "update_error": "Impossibile aggiornare {options}. Errore: {error}.",
         "app_name_usage": "Uso: /name [nuovo nome app]",
         "unset_app_name": "La modifica del nome dell'app è stata reimpostata.",
@@ -16,8 +15,6 @@ class Italian:
         "invalid_min_os": "Formato versione OS non valido. Utilizzare solo numeri e punti (es. 15.0).",
         "unset_min_os": "La modifica della versione minima del sistema operativo è stata reimpostata.",
         "set_min_os": "La versione minima del sistema operativo verrà impostata su **{os_version}**.",
-        "unset_profile_removal": "Il profilo incorporato non verrà più rimosso.",
-        "set_profile_removal": "Il profilo incorporato verrà rimosso.",
         "tweak_added_expecting_ipa": "Tweak aggiunto: {file_name}. Ora invia il file IPA per applicarlo.",
         "error_while_resetting": "Si è verificato un errore durante il ripristino delle opzioni: {error}."
     }

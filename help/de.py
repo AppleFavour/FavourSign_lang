@@ -10,7 +10,6 @@ class German:
         "info_cmd": "Zeigt Informationen über den Bot an.",
         "sign_cmd": "Signiert die beantwortete IPA-Datei.",
         "clear_cmd": "Setzt alle Änderungsoptionen zurück.",
-        "profile_cmd": "Entfernt die eingebettete mobile Bereitstellungsdatei.",
         "minos_cmd": "Legt die erforderliche Mindest-Betriebssystemversion fest.",
         "id_cmd": "Ändert die Bundle-ID der Anwendung.",
         "version_cmd": "Ändert die Version der Anwendung.",
@@ -21,6 +20,5 @@ class German:
         "restart_cmd": "Startet den Bot neu.",
         "shutdown_cmd": "Fährt den Bot herunter.",
         "user_cmd": "Verwaltet Benutzerregistrierungen.",
-        "premium_cmd": "Verwaltet den Premium-Benutzerstatus.",
         "unknown_exception": "Bei der Verarbeitung der Hilfeanfrage von @{username} ({userID}) ist ein Fehler aufgetreten: {error}"
     }

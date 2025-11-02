@@ -1,6 +1,5 @@
 class Indonesian:
     strings = {
-        "permission_denied": "You are not authorized to do that.",
         "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ Tidak dapat memuat informasi sertifikat.",
         "certificate_prompt": "📃 Silakan pilih sertifikat.\nSaat ini dipilih: {selected}",

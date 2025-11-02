@@ -1,6 +1,5 @@
 class English:
     strings = {
-        "save_error": "Could not save {options}. Error: {error}.",
         "update_error": "Could not update {options}. Error: {error}.",
         "app_name_usage": "Usage: /name [new app name]",
         "unset_app_name": "App name modification has been reset.",
@@ -16,11 +15,7 @@ class English:
         "invalid_min_os": "Invalid OS version format. Please use numbers and dots only (e.g., 15.0).",
         "unset_min_os": "Minimum OS version modification has been reset.",
         "set_min_os": "Minimum OS version will be set to **{os_version}**.",
-        "unset_profile_removal": "Embedded profile will no longer be removed.",
-        "set_profile_removal": "Embedded profile will be removed.",
         "tweak_added_expecting_ipa": "Tweak added: {file_name}. Now send the IPA file to apply it.",
-        "unset_profile_removal": "Embedded profile will no longer be removed.",
-        "set_profile_removal": "Embedded profile will be removed.",
         "tweak_added_expecting_ipa": "Tweak added: {file_name}. Now send the IPA file to apply it.",
         "error_while_resetting": "An error occurred while resetting options: {error}."
     }

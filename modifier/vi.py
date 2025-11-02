@@ -1,6 +1,5 @@
 class Vietnamese:
     strings = {
-        "save_error": "Không thể lưu {options}. Lỗi: {error}.",
         "update_error": "Không thể cập nhật {options}. Lỗi: {error}.",
         "app_name_usage": "Cách dùng: /name [tên ứng dụng mới]",
         "unset_app_name": "Việc sửa đổi tên ứng dụng đã được đặt lại.",
@@ -16,8 +15,6 @@ class Vietnamese:
         "invalid_min_os": "Định dạng phiên bản hệ điều hành không hợp lệ. Vui lòng chỉ sử dụng số và dấu chấm (ví dụ: 15.0).",
         "unset_min_os": "Việc sửa đổi phiên bản hệ điều hành tối thiểu đã được đặt lại.",
         "set_min_os": "Phiên bản hệ điều hành tối thiểu sẽ được đặt thành **{os_version}**.",
-        "unset_profile_removal": "Hồ sơ nhúng sẽ không còn bị xóa.",
-        "set_profile_removal": "Hồ sơ nhúng sẽ bị xóa.",
         "tweak_added_expecting_ipa": "Đã thêm Tweak: {file_name}. Bây giờ hãy gửi tệp IPA để áp dụng.",
         "error_while_resetting": "Đã xảy ra lỗi khi đặt lại các tùy chọn: {error}."
     }

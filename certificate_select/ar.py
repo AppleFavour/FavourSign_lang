@@ -1,6 +1,5 @@
 class Arabic:
     strings = {
-        "permission_denied": "You are not authorized to do that.",
         "no_certificate_found": "No certificates found.",
         "cert_loading_error": "⚠️ تعذر تحميل معلومات الشهادة.",
         "certificate_prompt": "📃 الرجاء تحديد شهادة.\nالمحدد حاليا: {selected}",
