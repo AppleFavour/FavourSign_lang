@@ -7,5 +7,12 @@ class Hindi:
         "user_removed": "उपयोगकर्ता `{userID}` अपंजीकृत हो गया है।",
         "premium_added": "उपयोगकर्ता `{userID}` को प्रीमियम में अपग्रेड कर दिया गया है। {expiry_date} को समाप्त होता है।",
         "premium_error": "प्रीमियम ऑपरेशन के दौरान एक त्रुटि हुई।",
-        "not_enough_arguments": "कृपया कम से कम एक उपयोगकर्ता आईडी प्रदान करें।"
+        "not_enough_arguments": "कृपया कम से कम एक उपयोगकर्ता आईडी प्रदान करें।",
+        "user_not_found_or_no_premium": "",
+        "premium_extended": "",
+        "ppq_toggled": "",
+        "ppq_error": "",
+        "invalid_premium_date": "",
+        "admin_status_toggled": "",
+        "admin_error": "",
     }

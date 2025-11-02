@@ -7,5 +7,12 @@ class Russian:
         "user_removed": "Пользователь `{userID}` снят с регистрации.",
         "premium_added": "Пользователь `{userID}` повышен до премиума. Истекает {expiry_date}.",
         "premium_error": "Произошла ошибка во время операции с премиум.",
-        "not_enough_arguments": "Пожалуйста, укажите хотя бы один идентификатор пользователя."
+        "not_enough_arguments": "Пожалуйста, укажите хотя бы один идентификатор пользователя.",
+        "user_not_found_or_no_premium": "",
+        "premium_extended": "",
+        "ppq_toggled": "",
+        "ppq_error": "",
+        "invalid_premium_date": "",
+        "admin_status_toggled": "",
+        "admin_error": "",
     }

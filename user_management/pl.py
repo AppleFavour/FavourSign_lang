@@ -7,5 +7,12 @@ class Polish:
         "user_removed": "Użytkownik `{userID}` został wyrejestrowany.",
         "premium_added": "Użytkownik `{userID}` został ulepszony do wersji premium. Wygasa dnia {expiry_date}.",
         "premium_error": "Wystąpił błąd podczas operacji premium.",
-        "not_enough_arguments": "Proszę podać co najmniej jeden identyfikator użytkownika."
+        "not_enough_arguments": "Proszę podać co najmniej jeden identyfikator użytkownika.",
+        "user_not_found_or_no_premium": "",
+        "premium_extended": "",
+        "ppq_toggled": "",
+        "ppq_error": "",
+        "invalid_premium_date": "",
+        "admin_status_toggled": "",
+        "admin_error": "",
     }

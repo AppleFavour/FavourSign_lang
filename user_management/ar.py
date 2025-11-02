@@ -7,5 +7,12 @@ class Arabic:
         "user_removed": "تم إلغاء تسجيل المستخدم `{userID}`.",
         "premium_added": "تمت ترقية المستخدم `{userID}` إلى بريميوم. ينتهي في {expiry_date}.",
         "premium_error": "حدث خطأ أثناء عملية البريميوم.",
-        "not_enough_arguments": "الرجاء تقديم معرف مستخدم واحد على الأقل."
+        "not_enough_arguments": "الرجاء تقديم معرف مستخدم واحد على الأقل.",
+        "user_not_found_or_no_premium": "",
+        "premium_extended": "",
+        "ppq_toggled": "",
+        "ppq_error": "",
+        "invalid_premium_date": "",
+        "admin_status_toggled": "",
+        "admin_error": "",
     }
