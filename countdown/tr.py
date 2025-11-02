@@ -1,9 +1,10 @@
 class Turkish:
     strings = {
-        "signed": "",
-        "install_button": "",
-        "explore_button": "",
-        "certificate": "",
-        "bundle_id": "",
-        "app_name": "",
+        "signed": "İmzalandı",
+        "app_name": "Uygulama Adı",
+        "bundle_id": "Paket Kimliği",
+        "certificate": "Sertifika",
+        "install_button": "📲 Yükle",
+        "explore_button": "🔎 Daha Fazlasını Keşfet",
+        "mnm_notify": "Mesaj düzenlenemedi."
     }

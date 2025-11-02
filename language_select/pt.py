@@ -1,14 +1,14 @@
 class Portuguese:
     strings = {
-        "selected": "",
-        "select_language": "",
-        "save_failed": "",
-        "new_language_selected": "",
-        "language_clear_success": "",
-        "language_clear_failed": "",
-        "error_in_language_selection": "",
-        "database_error": "",
-        "clear_button": "",
-        "back_button": "",
-        "already_selected": "",
+        "select_language": "🌐 **Selecionar um idioma**",
+        "selected": "Selecionado:",
+        "already_selected": "⚠️ Este idioma já está selecionado.",
+        "save_failed": "⚠️ Não foi possível salvar a configuração de idioma.",
+        "new_language_selected": "🌐 Idioma alterado com sucesso.",
+        "error_in_language_selection": "⚠️ Ocorreu um erro durante a seleção do idioma.",
+        "database_error": "Ocorreu um erro no banco de dados. Por favor, tente novamente.",
+        "language_clear_success": "Preferência de idioma limpa. O bot agora usará o idioma do seu cliente.",
+        "language_clear_failed": "Nenhuma preferência de idioma foi definida.",
+        "back_button": "🔙 Voltar",
+        "clear_button": "🧹 Limpar Seleção"
     }

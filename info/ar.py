@@ -1,10 +1,10 @@
 class Arabic:
     strings = {
-        "total_users": "",
-        "system_info": "",
-        "greeting": "",
-        "error_message": "",
-        "bot_stats": "",
-        "bot_info": "",
-        "active_users": "",
+        "greeting": "👋 مرحبًا، {name}!",
+        "system_info": "**معلومات النظام**",
+        "bot_info": "**معلومات البوت**",
+        "bot_stats": "وقت التشغيل: {uptime}\nالاستخدام: {usage}",
+        "total_users": "إجمالي المستخدمين: {count}",
+        "active_users": "المستخدمون النشطون: {count}",
+        "error_message": "An error occurred: {error}",
     }

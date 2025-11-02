@@ -1,12 +1,12 @@
 class Turkish:
     strings = {
-        "second_ETA": "",
-        "minute_ETA": "",
-        "hour_ETA": "",
-        "file_size_unexpected": "",
-        "file_is_lost": "",
-        "file_format_error": "",
-        "exception_context": "",
-        "create_folder_error": "",
-        "ETA": "",
+        "create_folder_error": "Klasör oluşturulurken hata: {error}",
+        "hour_ETA": "{remaining_time}sa",
+        "minute_ETA": "{remaining_time}dk",
+        "second_ETA": "{remaining_time}sn",
+        "ETA": "Tahmini Süre: {estimated_remaining_download_time}",
+        "file_is_lost": "Dosya işlem sırasında kaybolmuş gibi görünüyor.",
+        "file_format_error": "IPA dosya formatı geçersiz veya bozuk.",
+        "file_size_unexpected": "İndirilen dosya boyutu ({downloaded}), beklenen boyutla ({expected}) eşleşmiyor.",
+        "exception_context": "Hata: {exception}",
     }

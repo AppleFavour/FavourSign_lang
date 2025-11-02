@@ -1,9 +1,10 @@
 class Arabic:
     strings = {
-        "signed": "",
-        "install_button": "",
-        "explore_button": "",
-        "certificate": "",
-        "bundle_id": "",
-        "app_name": "",
+        "signed": "موقع",
+        "app_name": "اسم التطبيق",
+        "bundle_id": "معرف الحزمة",
+        "certificate": "الشهادة",
+        "install_button": "📲 تثبيت",
+        "explore_button": "🔎 اكتشف المزيد",
+        "mnm_notify": "تعذر تعديل الرسالة.",
     }

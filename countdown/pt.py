@@ -1,9 +1,10 @@
 class Portuguese:
     strings = {
-        "signed": "",
-        "install_button": "",
-        "explore_button": "",
-        "certificate": "",
-        "bundle_id": "",
-        "app_name": "",
+        "signed": "Assinado",
+        "app_name": "Nome do Aplicativo",
+        "bundle_id": "ID do Pacote",
+        "certificate": "Certificado",
+        "install_button": "📲 Instalar",
+        "explore_button": "🔎 Descobrir Mais",
+        "mnm_notify": "A mensagem não pôde ser editada."
     }

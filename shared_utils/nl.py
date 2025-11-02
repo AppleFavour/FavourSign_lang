@@ -1,12 +1,12 @@
 class Dutch:
     strings = {
-        "second_ETA": "",
-        "minute_ETA": "",
-        "hour_ETA": "",
-        "file_size_unexpected": "",
-        "file_is_lost": "",
-        "file_format_error": "",
-        "exception_context": "",
-        "create_folder_error": "",
-        "ETA": "",
+        "create_folder_error": "Fout bij het maken van map: {error}",
+        "hour_ETA": "{remaining_time}u",
+        "minute_ETA": "{remaining_time}m",
+        "second_ETA": "{remaining_time}s",
+        "ETA": "ETA: {estimated_remaining_download_time}",
+        "file_is_lost": "Het bestand lijkt te zijn verdwenen tijdens het proces.",
+        "file_format_error": "Het IPA-bestandsformaat is ongeldig of beschadigd.",
+        "file_size_unexpected": "Gedownloade bestandsgrootte ({downloaded}) komt niet overeen met de verwachte grootte ({expected}).",
+        "exception_context": "Fout: {exception}"
     }

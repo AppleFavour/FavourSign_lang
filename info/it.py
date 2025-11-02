@@ -1,10 +1,10 @@
 class Italian:
     strings = {
-        "total_users": "",
-        "system_info": "",
-        "greeting": "",
-        "error_message": "",
-        "bot_stats": "",
-        "bot_info": "",
-        "active_users": "",
+        "greeting": "👋 Ciao, {name}!",
+        "system_info": "**Informazioni di sistema**",
+        "bot_info": "**Informazioni sul Bot**",
+        "bot_stats": "Tempo di attività: {uptime}\nUtilizzo: {usage}",
+        "total_users": "Utenti totali: {count}",
+        "active_users": "Utenti attivi: {count}",
+        "error_message": "An error occurred: {error}",
     }
