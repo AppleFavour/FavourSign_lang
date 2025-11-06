@@ -2,7 +2,7 @@ class Korean:
     strings = {
         "unsupported_system": "지원되지 않는 시스템",
         "selected_certificate": "선택된 인증서",
-        "revoked_warning_string": "해지된 인증서 경고",
+        "revoked_warning_string": "인증서가 해지되었으므로 설치에 실패할 수 있습니다.",
         "requiresNewerOSVersion": "최신 OS 버전이 필요합니다",
         "not_connected": "연결되지 않음",
         "installing": "설치 중...",

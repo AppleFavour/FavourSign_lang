@@ -2,7 +2,7 @@ class Vietnamese:
     strings = {
         "unsupported_system": "Hệ thống không được hỗ trợ",
         "selected_certificate": "Chứng chỉ đã chọn",
-        "revoked_warning_string": "Cảnh báo chứng chỉ bị thu hồi",
+        "revoked_warning_string": "Chứng chỉ của bạn đã bị thu hồi, việc cài đặt có thể thất bại.",
         "requiresNewerOSVersion": "Yêu cầu phiên bản hệ điều hành mới hơn",
         "not_connected": "Không kết nối",
         "installing": "Đang cài đặt...",

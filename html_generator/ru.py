@@ -2,7 +2,7 @@ class Russian:
     strings = {
         "unsupported_system": "Неподдерживаемая система",
         "selected_certificate": "Выбранный сертификат",
-        "revoked_warning_string": "Предупреждение об отозванном сертификате",
+        "revoked_warning_string": "Ваш сертификат отозван, установка может завершиться неудачей.",
         "requiresNewerOSVersion": "Требуется более новая версия ОС",
         "not_connected": "Нет подключения",
         "installing": "Установка...",

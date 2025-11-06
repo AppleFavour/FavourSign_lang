@@ -2,7 +2,7 @@ class Japanese:
     strings = {
         "unsupported_system": "サポートされていないシステム",
         "selected_certificate": "選択された証明書",
-        "revoked_warning_string": "失効した証明書の警告",
+        "revoked_warning_string": "あなたの証明書は失効しており、インストールが失敗する可能性があります。",
         "requiresNewerOSVersion": "より新しいOSバージョンが必要です",
         "not_connected": "接続されていません",
         "installing": "インストール中...",

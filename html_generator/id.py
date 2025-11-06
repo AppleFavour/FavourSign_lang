@@ -2,7 +2,7 @@ class Indonesian:
     strings = {
         "unsupported_system": "Sistem tidak didukung",
         "selected_certificate": "Sertifikat yang dipilih",
-        "revoked_warning_string": "Peringatan Sertifikat yang Dicabut",
+        "revoked_warning_string": "Sertifikat Anda dicabut, Instalasi mungkin gagal.",
         "requiresNewerOSVersion": "Membutuhkan Versi OS yang Lebih Baru",
         "not_connected": "Tidak terhubung",
         "installing": "Memasang...",

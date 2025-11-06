@@ -2,7 +2,7 @@ class Spanish:
     strings = {
         "unsupported_system": "Sistema no compatible",
         "selected_certificate": "Certificado seleccionado",
-        "revoked_warning_string": "Advertencia de certificado revocado",
+        "revoked_warning_string": "Su certificado está revocado, la instalación puede fallar.",
         "requiresNewerOSVersion": "Requiere una versión más reciente del sistema operativo",
         "not_connected": "No conectado",
         "installing": "Instalando...",

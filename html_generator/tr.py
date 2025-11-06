@@ -2,7 +2,7 @@ class Turkish:
     strings = {
         "unsupported_system": "Desteklenmeyen Sistem",
         "selected_certificate": "Seçili Sertifika",
-        "revoked_warning_string": "İptal Edilmiş Sertifika Uyarısı",
+        "revoked_warning_string": "Sertifikanız iptal edildi, Kurulum başarısız olabilir.",
         "requiresNewerOSVersion": "Daha Yeni İşletim Sistemi Sürümü Gerektirir",
         "not_connected": "Bağlı Değil",
         "installing": "Yükleniyor...",

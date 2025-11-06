@@ -2,7 +2,7 @@ class Polish:
     strings = {
         "unsupported_system": "Nieobsługiwany system",
         "selected_certificate": "Wybrany certyfikat",
-        "revoked_warning_string": "Ostrzeżenie o unieważnionym certyfikacie",
+        "revoked_warning_string": "Twój certyfikat został unieważniony, instalacja może się nie powaść.",
         "requiresNewerOSVersion": "Wymaga nowszej wersji systemu operacyjnego",
         "not_connected": "Nie połączono",
         "installing": "Instalowanie...",

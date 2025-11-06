@@ -2,7 +2,7 @@ class Arabic:
     strings = {
         "unsupported_system": "نظام غير مدعوم",
         "selected_certificate": "الشهادة المحددة",
-        "revoked_warning_string": "تحذير شهادة ملغاة",
+        "revoked_warning_string": "شهادتك ملغاة، قد يفشل التثبيت.",
         "requiresNewerOSVersion": "يتطلب إصدار نظام تشغيل أحدث",
         "not_connected": "غير متصل",
         "installing": "جاري التثبيت...",

@@ -2,7 +2,7 @@ class Hindi:
     strings = {
         "unsupported_system": "असमर्थित सिस्टम",
         "selected_certificate": "चयनित प्रमाणपत्र",
-        "revoked_warning_string": "रद्द प्रमाणपत्र चेतावनी",
+        "revoked_warning_string": "आपका प्रमाणपत्र रद्द कर दिया गया है, स्थापना विफल हो सकती है।",
         "requiresNewerOSVersion": "नए ओएस संस्करण की आवश्यकता है",
         "not_connected": "कनेक्ट नहीं है",
         "installing": "स्थापित हो रहा है...",

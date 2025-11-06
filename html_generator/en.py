@@ -2,7 +2,7 @@ class English:
     strings = {
         "unsupported_system": "Unsupported System",
         "selected_certificate": "Selected Certificate",
-        "revoked_warning_string": "Revoked Certificate Warning",
+        "revoked_warning_string": "Your Certificate is revoked, Installation may fail.",
         "requiresNewerOSVersion": "Requires Newer OS Version",
         "not_connected": "Not Connected",
         "installing": "Installing...",
