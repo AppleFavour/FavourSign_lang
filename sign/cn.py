@@ -11,5 +11,4 @@ class Chinese:
         "ve_err": "签署过程中发生值错误。",
         "pe_err": "签署过程中发生权限错误。",
         "unknown_sign_err": "签署过程中发生未知错误。",
-        "revoked_certificate": "您的证书已被吊销。请选择新证书。"
     }

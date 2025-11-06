@@ -11,5 +11,4 @@ class Spanish:
         "ve_err": "Se produjo un error de valor durante el proceso de firma.",
         "pe_err": "Se produjo un error de permiso durante el proceso de firma.",
         "unknown_sign_err": "Se produjo un error desconocido durante el proceso de firma.",
-        "revoked_certificate": "Su certificado ha sido revocado. Por favor, seleccione un nuevo certificado."
     }

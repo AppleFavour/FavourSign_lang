@@ -11,5 +11,4 @@ class German:
         "ve_err": "Ein Wertfehler ist während des Signiervorgangs aufgetreten.",
         "pe_err": "Ein Berechtigungsfehler ist während des Signiervorgangs aufgetreten.",
         "unknown_sign_err": "Ein unerwarteter Fehler ist während des Signiervorgangs aufgetreten.",
-        "revoked_certificate": "Ihr Zertifikat wurde widerrufen. Bitte wählen Sie ein neues Zertifikat aus."
     }

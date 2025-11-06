@@ -11,5 +11,4 @@ class Turkish:
         "ve_err": "İmzalama işlemi sırasında bir değer hatası oluştu.",
         "pe_err": "İmzalama işlemi sırasında bir izin hatası oluştu.",
         "unknown_sign_err": "İmzalama işlemi sırasında bilinmeyen bir hata oluştu.",
-        "revoked_certificate": "Sertifikanız iptal edildi. Lütfen yeni bir sertifika seçin."
     }

@@ -11,5 +11,4 @@ class Vietnamese:
         "ve_err": "Đã xảy ra lỗi giá trị trong quá trình ký kết.",
         "pe_err": "Đã xảy ra lỗi quyền trong quá trình ký.",
         "unknown_sign_err": "Đã xảy ra lỗi không xác định trong quá trình ký.",
-        "revoked_certificate": "Chứng chỉ của bạn đã bị thu hồi. Vui lòng chọn một chứng chỉ mới."
     }

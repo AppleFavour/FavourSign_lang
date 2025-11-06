@@ -11,5 +11,4 @@ class French:
         "ve_err": "Une erreur de valeur est survenue pendant le processus de signature.",
         "pe_err": "Une erreur d'autorisation est survenue pendant le processus de signature.",
         "unknown_sign_err": "Une erreur inconnue s'est produite lors du processus de signature.",
-        "revoked_certificate": "Votre certificat a été révoqué. Veuillez sélectionner un nouveau certificat."
     }

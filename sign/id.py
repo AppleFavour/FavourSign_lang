@@ -11,5 +11,4 @@ class Indonesian:
         "ve_err": "Terjadi kesalahan nilai selama proses penandatanganan.",
         "pe_err": "Terjadi kesalahan izin selama proses penandatanganan.",
         "unknown_sign_err": "Terjadi kesalahan tak terduga selama proses penandatanganan.",
-        "revoked_certificate": "Sertifikat Anda telah dicabut. Silakan pilih sertifikat baru."
     }

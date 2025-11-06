@@ -11,5 +11,4 @@ class Polish:
         "ve_err": "Wystąpił błąd wartości podczas procesu podpisywania.",
         "pe_err": "Wystąpił błąd uprawnień podczas procesu podpisywania.",
         "unknown_sign_err": "Wystąpił nieznany błąd podczas procesu podpisywania.",
-        "revoked_certificate": "Twój certyfikat został odwołany. Wybierz nowy certyfikat."
     }
