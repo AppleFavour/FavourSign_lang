@@ -21,4 +21,7 @@ class Russian:
         "password_incorrect": "Неверный пароль. Попробуйте еще раз.",
         "p12_path_not_found": "Ошибка: не найден путь к файлу p12. Пожалуйста, перезапустите.",
         "no_password_used": "Пароль не будет использоваться.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

@@ -21,4 +21,7 @@ class French:
         "password_incorrect": "Mot de passe incorrect. Veuillez réessayer.",
         "p12_path_not_found": "Erreur: Chemin du fichier p12 introuvable. Veuillez redémarrer.",
         "no_password_used": "Aucun mot de passe ne sera utilisé.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

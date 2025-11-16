@@ -21,4 +21,7 @@ class Portuguese:
         "password_incorrect": "Senha incorreta. Tente novamente.",
         "p12_path_not_found": "Erro: Caminho do arquivo p12 não encontrado. Reinicie.",
         "no_password_used": "Nenhuma senha será usada.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

@@ -21,4 +21,7 @@ class Polish:
         "password_incorrect": "Nieprawidłowe hasło. Spróbuj ponownie.",
         "p12_path_not_found": "Błąd: Nie znaleziono ścieżki do pliku p12. Uruchom ponownie.",
         "no_password_used": "Hasło nie będzie używane.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

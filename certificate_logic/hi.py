@@ -20,5 +20,8 @@ class Hindi:
         "password_correct": "पासवर्ड सही है!",
         "password_incorrect": "गलत पासवर्ड। कृपया पुनः प्रयास करें।",
         "p12_path_not_found": "त्रुटि: p12 फ़ाइल पथ नहीं मिला। कृपया पुनरारंभ करें।",
-        "no_password_used": "कोई पासवर्ड उपयोग नहीं किया जाएगा।"
+        "no_password_used": "कोई पासवर्ड उपयोग नहीं किया जाएगा।",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

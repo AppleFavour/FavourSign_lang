@@ -21,4 +21,7 @@ class Arabic:
         "password_incorrect": "كلمة المرور غير صحيحة. الرجاء المحاولة مرة أخرى.",
         "p12_path_not_found": "خطأ: مسار ملف p12 غير موجود. الرجاء إعادة التشغيل.",
         "no_password_used": "لن يتم استخدام كلمة مرور.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

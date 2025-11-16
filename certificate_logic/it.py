@@ -21,4 +21,7 @@ class Italian:
         "password_incorrect": "Password errata. Si prega di riprovare.",
         "p12_path_not_found": "Errore: Percorso del file p12 non trovato. Si prega di riavviare.",
         "no_password_used": "Nessuna password verrà utilizzata.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

@@ -21,4 +21,7 @@ class Dutch:
         "password_incorrect": "Onjuist wachtwoord. Probeer het opnieuw.",
         "p12_path_not_found": "Fout: p12-bestandspad niet gevonden. Start opnieuw.",
         "no_password_used": "Er wordt geen wachtwoord gebruikt.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

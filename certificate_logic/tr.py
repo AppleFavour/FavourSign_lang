@@ -21,4 +21,7 @@ class Turkish:
         "password_incorrect": "Yanlış parola. Lütfen tekrar deneyin.",
         "p12_path_not_found": "Hata: p12 dosya yolu bulunamadı. Lütfen yeniden başlatın.",
         "no_password_used": "Parola kullanılmayacak.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

@@ -20,5 +20,8 @@ class Vietnamese:
         "password_correct": "Mật khẩu chính xác!",
         "password_incorrect": "Mật khẩu không chính xác. Vui lòng thử lại.",
         "p12_path_not_found": "Lỗi: không tìm thấy đường dẫn tệp p12. Vui lòng khởi động lại.",
-        "no_password_used": "Sẽ không sử dụng mật khẩu."
+        "no_password_used": "Sẽ không sử dụng mật khẩu.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

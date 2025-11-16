@@ -21,4 +21,7 @@ class Korean:
         "password_incorrect": "비밀번호가 잘못되었습니다. 다시 시도하십시오.",
         "p12_path_not_found": "오류: p12 파일 경로를 찾을 수 없습니다. 다시 시작하십시오.",
         "no_password_used": "비밀번호가 사용되지 않습니다.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

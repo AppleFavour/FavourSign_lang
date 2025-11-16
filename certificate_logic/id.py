@@ -21,4 +21,7 @@ class Indonesian:
         "password_incorrect": "Kata sandi salah. Silakan coba lagi.",
         "p12_path_not_found": "Kesalahan: Jalur file p12 tidak ditemukan. Silakan mulai ulang.",
         "no_password_used": "Tidak ada kata sandi yang akan digunakan.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

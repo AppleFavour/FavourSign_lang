@@ -21,4 +21,7 @@ class German:
         "password_incorrect": "Falsches Passwort. Bitte versuchen Sie es erneut.",
         "p12_path_not_found": "Fehler: p12-Dateipfad nicht gefunden. Bitte neu starten.",
         "no_password_used": "Es wird kein Passwort verwendet.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

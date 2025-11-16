@@ -21,4 +21,7 @@ class Spanish:
         "password_incorrect": "Contraseña incorrecta. Por favor, inténtelo de nuevo.",
         "p12_path_not_found": "Error: No se encontró la ruta del archivo p12. Por favor, reinicie.",
         "no_password_used": "No se utilizará ninguna contraseña.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }

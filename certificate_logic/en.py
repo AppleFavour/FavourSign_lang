@@ -21,4 +21,7 @@ class English:
         "password_incorrect": "Incorrect password. Please try again.",
         "p12_path_not_found": "Error: p12 file path not found. Please restart.",
         "no_password_used": "No password will be used.",
+        "updating_mobileprovision": "",
+        "update_mp_failed": "",
+        "mobileprovision_updated_success": ""
     }
