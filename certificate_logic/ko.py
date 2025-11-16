@@ -19,7 +19,8 @@ class Korean:
         "password_incorrect": "비밀번호가 잘못되었습니다. 다시 시도하십시오.",
         "p12_path_not_found": "오류: p12 파일 경로를 찾을 수 없습니다. 다시 시작하십시오.",
         "no_password_used": "비밀번호가 사용되지 않습니다.",
-        "updating_mobileprovision": "",
-        "update_mp_failed": "",
-        "mobileprovision_updated_success": ""
+        "updating_mobileprovision": "Existing certificate found. Updating mobileprovision file...",
+        "update_mp_failed": "An error occurred while updating the mobileprovision file.",
+        "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
+        "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
     }

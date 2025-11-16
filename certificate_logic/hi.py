@@ -19,7 +19,8 @@ class Hindi:
         "password_incorrect": "गलत पासवर्ड। कृपया पुनः प्रयास करें।",
         "p12_path_not_found": "त्रुटि: p12 फ़ाइल पथ नहीं मिला। कृपया पुनरारंभ करें।",
         "no_password_used": "कोई पासवर्ड उपयोग नहीं किया जाएगा।",
-        "updating_mobileprovision": "",
-        "update_mp_failed": "",
-        "mobileprovision_updated_success": ""
+        "updating_mobileprovision": "Existing certificate found. Updating mobileprovision file...",
+        "update_mp_failed": "An error occurred while updating the mobileprovision file.",
+        "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
+        "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
     }

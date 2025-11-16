@@ -19,7 +19,8 @@ class Portuguese:
         "password_incorrect": "Senha incorreta. Tente novamente.",
         "p12_path_not_found": "Erro: Caminho do arquivo p12 não encontrado. Reinicie.",
         "no_password_used": "Nenhuma senha será usada.",
-        "updating_mobileprovision": "",
-        "update_mp_failed": "",
-        "mobileprovision_updated_success": ""
+        "updating_mobileprovision": "Existing certificate found. Updating mobileprovision file...",
+        "update_mp_failed": "An error occurred while updating the mobileprovision file.",
+        "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
+        "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
     }

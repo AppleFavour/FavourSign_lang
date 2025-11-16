@@ -19,7 +19,8 @@ class Dutch:
         "password_incorrect": "Onjuist wachtwoord. Probeer het opnieuw.",
         "p12_path_not_found": "Fout: p12-bestandspad niet gevonden. Start opnieuw.",
         "no_password_used": "Er wordt geen wachtwoord gebruikt.",
-        "updating_mobileprovision": "",
-        "update_mp_failed": "",
-        "mobileprovision_updated_success": ""
+        "updating_mobileprovision": "Existing certificate found. Updating mobileprovision file...",
+        "update_mp_failed": "An error occurred while updating the mobileprovision file.",
+        "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
+        "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
     }
