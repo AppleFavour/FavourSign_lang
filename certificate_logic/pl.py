@@ -22,10 +22,9 @@ class Polish:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
-        "ocsp_status_valid": "",
-        "ocsp_status_unknown": "",
         "ocsp_status_title": "",
-        "ocsp_status_revoked": "",
-        "ocsp_status_label": "",
         "ocsp_reason": "",
+        "certificate_status_label": "",
+        "certificate_revoke_time": "",
+        "certificate_is_valid": "",
     }
