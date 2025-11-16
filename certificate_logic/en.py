@@ -14,7 +14,6 @@ class English:
         "no_password": "No Password",
         "enter_password": "Please enter the password for your .p12 file. If your certificate has no password, use the button below.",
         "ocsp_check_error": "An error occurred during OCSP check: {e}",
-        "ocsp_check_failed": "Certificate is not valid (revoked or unknown status).",
         "password_correct": "Password correct!",
         "password_incorrect": "Incorrect password. Please try again.",
         "p12_path_not_found": "Error: p12 file path not found. Please restart.",
@@ -23,4 +22,6 @@ class English:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

@@ -14,7 +14,6 @@ class Vietnamese:
         "no_password": "Không có mật khẩu",
         "enter_password": "Vui lòng nhập mật khẩu cho tệp .p12 của bạn. Nếu chứng chỉ của bạn không có mật khẩu, hãy sử dụng nút bên dưới.",
         "ocsp_check_error": "Đã xảy ra lỗi trong quá trình kiểm tra OCSP: {e}",
-        "ocsp_check_failed": "Chứng chỉ không hợp lệ (đã bị thu hồi hoặc trạng thái không xác định).",
         "password_correct": "Mật khẩu chính xác!",
         "password_incorrect": "Mật khẩu không chính xác. Vui lòng thử lại.",
         "p12_path_not_found": "Lỗi: không tìm thấy đường dẫn tệp p12. Vui lòng khởi động lại.",
@@ -23,4 +22,6 @@ class Vietnamese:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

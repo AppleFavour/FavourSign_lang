@@ -14,7 +14,6 @@ class Arabic:
         "no_password": "لا توجد كلمة مرور",
         "enter_password": "الرجاء إدخال كلمة المرور لملف .p12 الخاص بك. إذا لم يكن لشهادتك كلمة مرور، استخدم الزر أدناه.",
         "ocsp_check_error": "حدث خطأ أثناء التحقق من OCSP: {e}",
-        "ocsp_check_failed": "الشهادة غير صالحة (ملغاة أو حالة غير معروفة).",
         "password_correct": "كلمة المرور صحيحة!",
         "password_incorrect": "كلمة المرور غير صحيحة. الرجاء المحاولة مرة أخرى.",
         "p12_path_not_found": "خطأ: مسار ملف p12 غير موجود. الرجاء إعادة التشغيل.",
@@ -23,4 +22,6 @@ class Arabic:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": "\n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

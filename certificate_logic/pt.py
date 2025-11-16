@@ -14,7 +14,6 @@ class Portuguese:
         "no_password": "Sem senha",
         "enter_password": "Digite a senha do seu arquivo .p12. Se o seu certificado não tiver senha, use o botão abaixo.",
         "ocsp_check_error": "Ocorreu um erro durante a verificação OCSP: {e}",
-        "ocsp_check_failed": "O certificado não é válido (revogado ou status desconhecido).",
         "password_correct": "Senha correta!",
         "password_incorrect": "Senha incorreta. Tente novamente.",
         "p12_path_not_found": "Erro: Caminho do arquivo p12 não encontrado. Reinicie.",
@@ -23,4 +22,6 @@ class Portuguese:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

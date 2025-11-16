@@ -14,7 +14,6 @@ class Polish:
         "no_password": "Brak hasła",
         "enter_password": "Wprowadź hasło do pliku .p12. Jeśli certyfikat nie ma hasła, użyj przycisku poniżej.",
         "ocsp_check_error": "Wystąpił błąd podczas sprawdzania OCSP: {e}",
-        "ocsp_check_failed": "Certyfikat jest nieprawidłowy (unieważniony lub nieznany stan).",
         "password_correct": "Hasło prawidłowe!",
         "password_incorrect": "Nieprawidłowe hasło. Spróbuj ponownie.",
         "p12_path_not_found": "Błąd: Nie znaleziono ścieżki do pliku p12. Uruchom ponownie.",
@@ -23,4 +22,6 @@ class Polish:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

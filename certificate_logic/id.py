@@ -14,7 +14,6 @@ class Indonesian:
         "no_password": "Tidak Ada Kata Sandi",
         "enter_password": "Silakan masukkan kata sandi untuk file .p12 Anda. Jika sertifikat Anda tidak memiliki kata sandi, gunakan tombol di bawah ini.",
         "ocsp_check_error": "Terjadi kesalahan selama pemeriksaan OCSP: {e}",
-        "ocsp_check_failed": "Sertifikat tidak valid (dicabut atau status tidak diketahui).",
         "password_correct": "Kata sandi benar!",
         "password_incorrect": "Kata sandi salah. Silakan coba lagi.",
         "p12_path_not_found": "Kesalahan: Jalur file p12 tidak ditemukan. Silakan mulai ulang.",
@@ -23,4 +22,6 @@ class Indonesian:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

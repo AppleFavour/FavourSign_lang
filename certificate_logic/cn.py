@@ -14,7 +14,6 @@ class Chinese:
         "no_password": "无密码",
         "enter_password": "请输入您的 .p12 文件的密码。如果您的证书没有密码，请使用下面的按钮。",
         "ocsp_check_error": "OCSP 检查期间发生错误：{e}",
-        "ocsp_check_failed": "证书无效（已吊销或状态未知）。",
         "password_correct": "密码正确！",
         "password_incorrect": "密码不正确。请重试。",
         "p12_path_not_found": "错误：找不到 p12 文件路径。请重新开始。",
@@ -23,4 +22,6 @@ class Chinese:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

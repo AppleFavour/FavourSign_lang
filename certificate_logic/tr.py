@@ -14,7 +14,6 @@ class Turkish:
         "no_password": "Parola Yok",
         "enter_password": ".p12 dosyanızın parolasını girin. Sertifikanızın parolası yoksa, aşağıdaki düğmeyi kullanın.",
         "ocsp_check_error": "OCSP kontrolü sırasında bir hata oluştu: {e}",
-        "ocsp_check_failed": "Sertifika geçerli değil (iptal edilmiş veya bilinmeyen durum).",
         "password_correct": "Parola doğru!",
         "password_incorrect": "Yanlış parola. Lütfen tekrar deneyin.",
         "p12_path_not_found": "Hata: p12 dosya yolu bulunamadı. Lütfen yeniden başlatın.",
@@ -23,4 +22,6 @@ class Turkish:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

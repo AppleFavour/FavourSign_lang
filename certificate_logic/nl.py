@@ -14,7 +14,6 @@ class Dutch:
         "no_password": "Geen wachtwoord",
         "enter_password": "Voer het wachtwoord voor uw .p12-bestand in. Als uw certificaat geen wachtwoord heeft, gebruik dan de onderstaande knop.",
         "ocsp_check_error": "Er is een fout opgetreden tijdens de OCSP-controle: {e}",
-        "ocsp_check_failed": "Certificaat is niet geldig (ingetrokken of onbekende status).",
         "password_correct": "Wachtwoord correct!",
         "password_incorrect": "Onjuist wachtwoord. Probeer het opnieuw.",
         "p12_path_not_found": "Fout: p12-bestandspad niet gevonden. Start opnieuw.",
@@ -23,4 +22,6 @@ class Dutch:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

@@ -14,7 +14,6 @@ class Russian:
         "no_password": "Нет пароля",
         "enter_password": "Введите пароль для файла .p12. Если у вашего сертификата нет пароля, используйте кнопку ниже.",
         "ocsp_check_error": "Произошла ошибка во время проверки OCSP: {e}",
-        "ocsp_check_failed": "Сертификат недействителен (отозван или неизвестен статус).",
         "password_correct": "Пароль верный!",
         "password_incorrect": "Неверный пароль. Попробуйте еще раз.",
         "p12_path_not_found": "Ошибка: не найден путь к файлу p12. Пожалуйста, перезапустите.",
@@ -23,4 +22,6 @@ class Russian:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

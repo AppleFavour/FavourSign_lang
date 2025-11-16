@@ -3,7 +3,7 @@ class Korean:
         "permission_denied": "새 인증서를 추가할 권한이 없습니다.",
         "upload_certificate": "먼저 .mobileprovision 또는 .p12 파일을 업로드하여 시작하십시오.",
         "invalid_file_type": "잘못된 파일 형식입니다. .p12 또는 .mobileprovision 파일을 업로드하십시오.",
-        "upload_p12": ".p12 파일을 업로드하십시오.",
+        "upload_p12": ".p12 파일을 업로드하십시오。",
         "invalid_mobileprovision": "잘못된 .mobileprovision 파일입니다.",
         "upload_unexpected_error": "업로드 과정에서 예기치 않은 오류가 발생했습니다.",
         "cert_data_missing": "오류: 인증서 데이터가 없습니다. 다시 시작하십시오.",
@@ -14,7 +14,6 @@ class Korean:
         "no_password": "비밀번호 없음",
         "enter_password": ".p12 파일의 비밀번호를 입력하십시오. 인증서에 비밀번호가 없는 경우 아래 버튼을 사용하십시오.",
         "ocsp_check_error": "OCSP 확인 중 오류가 발생했습니다: {e}",
-        "ocsp_check_failed": "인증서가 유효하지 않습니다(해지되었거나 알 수 없는 상태).",
         "password_correct": "비밀번호가 정확합니다!",
         "password_incorrect": "비밀번호가 잘못되었습니다. 다시 시도하십시오.",
         "p12_path_not_found": "오류: p12 파일 경로를 찾을 수 없습니다. 다시 시작하십시오.",
@@ -23,4 +22,6 @@ class Korean:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

@@ -14,7 +14,6 @@ class Hindi:
         "no_password": "कोई पासवर्ड नहीं",
         "enter_password": "कृपया अपनी .p12 फ़ाइल के लिए पासवर्ड दर्ज करें। यदि आपके प्रमाणपत्र में कोई पासवर्ड नहीं है, तो नीचे दिए गए बटन का उपयोग करें।",
         "ocsp_check_error": "OCSP जाँच के दौरान एक त्रुटि हुई: {e}",
-        "ocsp_check_failed": "प्रमाणपत्र वैध नहीं है (रद्द या अज्ञात स्थिति)।",
         "password_correct": "पासवर्ड सही है!",
         "password_incorrect": "गलत पासवर्ड। कृपया पुनः प्रयास करें।",
         "p12_path_not_found": "त्रुटि: p12 फ़ाइल पथ नहीं मिला। कृपया पुनरारंभ करें।",
@@ -23,4 +22,6 @@ class Hindi:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }

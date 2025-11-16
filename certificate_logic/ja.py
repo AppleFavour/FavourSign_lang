@@ -14,7 +14,6 @@ class Japanese:
         "no_password": "パスワードなし",
         "enter_password": ".p12 ファイルのパスワードを入力してください。証明書にパスワードがない場合は、下のボタンを使用してください。",
         "ocsp_check_error": "OCSPチェック中にエラーが発生しました: {e}",
-        "ocsp_check_failed": "証明書は無効です（失効または不明なステータス）。",
         "password_correct": "パスワードが正しいです！",
         "password_incorrect": "パスワードが間違っています。もう一度お試しください。",
         "p12_path_not_found": "エラー: p12ファイルパスが見つかりません。再起動してください。",
@@ -23,4 +22,6 @@ class Japanese:
         "update_mp_failed": "An error occurred while updating the mobileprovision file.",
         "mobileprovision_updated_success": "Mobileprovision file updated successfully for certificate '{cert_name}'!",
         "password_incorrect_repeated": "Incorrect password. Please try again. (Attempt: {attempts})",
+        "ocsp_reason_format": " \n{reason}",
+        "ocsp_status_check_message": "**Certificate Status Check**\n\n∙ **Status:** {status_icon} {status_text}",
     }
